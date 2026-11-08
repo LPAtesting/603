@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAW301 Block Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf6ee; --card: #ffffff; --ink: #2a2a2a; --ink2: #444; --muted: #77736b;
+  --line: #e7e0d2; --line2: #d9d1c1; --teal: #2e6f7e; --teal-d: #245a66; --teal-soft: #e4f0f3; --teal-line: #8fbcc6;
+  --amber: #b5761b; --amber-soft: #fbefd6; --amber-line: #efd29a; --green: #2f7d4f; --green-soft: #e5f3ea; --green-line: #a9d5b9;
+  --red: #b83b2e; --red-soft: #fbe9e6; --red-line: #eab3aa; --grey-soft: #efebe3; --sheet-bg: #fffdf8;
+  --shadow: 0 1px 2px rgba(60,50,30,.06), 0 2px 8px rgba(60,50,30,.05); --radius: 14px; --on-accent: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1d1f; --card: #24272a; --ink: #ebe7df; --ink2: #d6d1c7; --muted: #a29d93;
+    --line: #363a3e; --line2: #44494e; --teal: #6fb3c2; --teal-d: #8ccad8; --teal-soft: #1f3338; --teal-line: #3c6873;
+    --amber: #e0a849; --amber-soft: #3a3020; --amber-line: #6b5426; --green: #6cc28e; --green-soft: #1e3427; --green-line: #2f5c40;
+    --red: #ec8476; --red-soft: #3d2420; --red-line: #6b3a33; --grey-soft: #2d3033; --sheet-bg: #202326; --shadow: none; --on-accent: #15181a;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1d1f; --card: #24272a; --ink: #ebe7df; --ink2: #d6d1c7; --muted: #a29d93;
+  --line: #363a3e; --line2: #44494e; --teal: #6fb3c2; --teal-d: #8ccad8; --teal-soft: #1f3338; --teal-line: #3c6873;
+  --amber: #e0a849; --amber-soft: #3a3020; --amber-line: #6b5426; --green: #6cc28e; --green-soft: #1e3427; --green-line: #2f5c40;
+  --red: #ec8476; --red-soft: #3d2420; --red-line: #6b3a33; --grey-soft: #2d3033; --sheet-bg: #202326; --shadow: none; --on-accent: #15181a;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 0 16px 80px; }
+.top { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+.top .in { max-width: 860px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+.brand { font-weight: 800; color: var(--teal); text-decoration: none; }
+.brand small { color: var(--muted); font-weight: 700; margin-left: 6px; }
+.sp { flex: 1; }
+.pill { font-size: .78rem; font-weight: 800; color: var(--teal); background: var(--teal-soft); border: 1px solid var(--teal-line); border-radius: 999px; padding: 2px 10px; }
+h1 { font-size: 1.7rem; line-height: 1.25; margin: 28px 0 4px; font-weight: 800; }
+.meta { color: var(--muted); font-weight: 700; font-size: .92rem; margin-bottom: 18px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px 22px; margin: 18px 0; }
+@media (max-width: 640px) { .card { padding: 16px 14px; } }
+.qcard { background: var(--sheet-bg); border-left: 5px solid var(--teal); }
+.qcard .stmt { font-family: Georgia, "Times New Roman", serif; font-size: 1.08rem; line-height: 1.7; margin: 0 0 .8em; }
+.qcard .instr { margin: 0; color: var(--ink2); font-weight: 600; font-size: .95rem; }
+details.how { margin: 14px 0; }
+details.how > summary { cursor: pointer; font-weight: 800; color: var(--teal); }
+details.how .card { margin-top: 10px; font-size: .95rem; }
+h2 { font-size: 1.2rem; margin: 0 0 2px; font-weight: 800; }
+.hint { color: var(--muted); font-size: .9rem; margin: 2px 0 14px; font-weight: 600; }
+.opts { display: grid; gap: 12px; }
+.opt { display: block; text-align: left; width: 100%; color: var(--ink); background: var(--card); border: 1.5px solid var(--line2); border-bottom-width: 3px;
+  border-radius: 12px; padding: 12px 14px; cursor: pointer; transition: border-color .12s, background .12s; }
+.opt:hover { border-color: var(--teal-line); }
+.opt:focus-visible { outline: 3px solid var(--teal-line); outline-offset: 2px; }
+.oh { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-bottom: 6px; }
+.lt { width: 28px; height: 28px; flex: none; border-radius: 8px; border: 1.5px solid var(--line2); display: grid; place-items: center; font-size: .8rem; font-weight: 800; color: var(--muted); }
+.t { font-weight: 800; font-size: .98rem; line-height: 1.35; }
+.code { color: var(--teal); margin-right: 4px; }
+.ar { font-size: .72rem; font-weight: 800; color: var(--teal); background: var(--teal-soft); border: 1px solid var(--teal-line); border-radius: 5px; padding: 0 6px; white-space: nowrap; }
+.opt.sel { border-color: var(--teal); background: var(--teal-soft); }
+.opt.sel .lt { background: var(--teal); border-color: var(--teal); color: var(--on-accent); }
+.opt.full:not(.sel) { opacity: .6; }
+.done .opt { cursor: default; }
+.done .opt.full:not(.sel) { opacity: 1; }
+ul.blk { list-style: none; margin: 0; padding: 8px 12px; background: var(--sheet-bg); border: 1px solid var(--line); border-radius: 10px;
+  font-family: Georgia, "Times New Roman", serif; font-size: .95rem; line-height: 1.7; }
+ul.blk li { display: grid; grid-template-columns: auto 1fr; gap: 8px; margin: 3px 0; }
+ul.blk li > .tx:only-child { grid-column: 1 / -1; }
+.blk .n { font-family: "Nunito", system-ui, sans-serif; font-weight: 800; color: var(--teal); min-width: 1.2em; }
+.lbl { font-family: "Nunito", system-ui, sans-serif; font-size: .7rem; font-weight: 800; letter-spacing: .04em; color: var(--teal); background: var(--teal-soft);
+  border: 1px solid var(--teal-line); border-radius: 5px; padding: 0 6px; height: fit-content; margin-top: 5px; white-space: nowrap; }
+mark { color: inherit; border-radius: 3px; padding: 0 2px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+mark.same { background: var(--green-soft); box-shadow: inset 0 -2px 0 var(--green-line); }
+mark.new { background: var(--amber-soft); box-shadow: inset 0 -2px 0 var(--amber-line); font-weight: 700; }
+.gap { color: var(--muted); font-weight: 700; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: .86rem; color: var(--ink2); font-weight: 700; margin: 0 0 14px; }
+.res { display: none; margin-top: 8px; font-size: .92rem; }
+.done .res { display: block; }
+.rhead { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-weight: 800; font-size: .86rem; }
+.badge { font-size: .72rem; font-weight: 800; letter-spacing: .04em; border-radius: 6px; padding: 1px 8px; border: 1px solid; }
+.b-BEST { color: var(--green); background: var(--green-soft); border-color: var(--green-line); }
+.b-CLOSE { color: var(--amber); background: var(--amber-soft); border-color: var(--amber-line); }
+.b-WRONG { color: var(--red); background: var(--red-soft); border-color: var(--red-line); }
+.outcome { color: var(--ink2); }
+.short { margin: 4px 0 0; color: var(--ink2); }
+.opt.r-hit { border-color: var(--green); background: var(--green-soft); }
+.opt.r-hit .lt { background: var(--green); border-color: var(--green); color: var(--on-accent); }
+.opt.r-miss { border-color: var(--green); border-style: dashed; }
+.opt.r-miss .lt { color: var(--green); border-color: var(--green); }
+.opt.r-close { border-color: var(--amber); background: var(--amber-soft); }
+.opt.r-close .lt { background: var(--amber); border-color: var(--amber); color: var(--on-accent); }
+.opt.r-bad { border-color: var(--red); background: var(--red-soft); }
+.opt.r-bad .lt { background: var(--red); border-color: var(--red); color: var(--on-accent); }
+.opt.r-ok { border-color: var(--line); }
+.checkrow { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-top: 16px; }
+.btn { font: inherit; font-weight: 800; font-size: .95rem; border-radius: 10px; padding: 9px 18px; cursor: pointer; border: 1.5px solid var(--teal);
+  background: var(--teal); color: var(--on-accent); border-bottom-width: 3px; border-bottom-color: var(--teal-d); }
+.btn:hover { background: var(--teal-d); }
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn:disabled:hover { background: var(--teal); }
+a.btn { display: inline-block; text-decoration: none; }
+.btn.ghost { background: transparent; color: var(--teal); }
+.btn.ghost:hover { background: var(--teal-soft); }
+.btn[hidden] { display: none; }
+.count { font-weight: 800; color: var(--ink2); font-size: .92rem; }
+.count.nudge { color: var(--red); }
+.score .big { font-size: 1.15rem; color: var(--teal); font-weight: 800; }
+.score .sub { display: block; font-weight: 600; color: var(--ink2); font-size: .9rem; }
+.why { font-size: .97rem; }
+.why ul { padding-left: 1.2em; }
+.vl-h { font-weight: 800; margin-bottom: 4px; }
+blockquote { margin: 6px 0 0; padding: 10px 14px; border-left: 4px solid var(--teal-line); background: var(--sheet-bg); border-radius: 0 8px 8px 0;
+  font-family: Georgia, "Times New Roman", serif; }
+.foot { color: var(--muted); font-size: .82rem; margin-top: 30px; text-align: center; }
+.pn { display: flex; justify-content: space-between; gap: 10px; margin-top: 26px; }
+.pn a { font-weight: 800; color: var(--teal); text-decoration: none; padding: 8px 14px; border: 1.5px solid var(--teal-line); border-radius: 10px; background: var(--card); }
+.pn a:hover { background: var(--teal-soft); }
+.pn span { flex: 0 0 80px; }
+</style>
+<style>
+.lead { font-size: 1.02rem; color: var(--ink2); margin: 0 0 6px; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; font-weight: 800; color: var(--ink2); }
+.stats .big { color: var(--teal); font-size: 1.1rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 6px; }
+.chip { font: inherit; font-weight: 800; font-size: .86rem; color: var(--teal); background: var(--card); border: 1.5px solid var(--teal-line); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.chip.on { background: var(--teal); border-color: var(--teal); color: var(--on-accent); }
+.paper h2 { margin: 26px 0 10px; }
+.qgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+.qc { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; gap: 2px 10px; align-items: start; text-decoration: none; color: var(--ink);
+  background: var(--card); border: 1.5px solid var(--line2); border-bottom-width: 3px; border-radius: 12px; padding: 10px 12px; }
+.qc:hover { border-color: var(--teal-line); background: var(--teal-soft); }
+.qn { grid-row: 1 / 3; font-weight: 800; color: var(--teal); min-width: 2.4em; }
+.qt { font-weight: 700; line-height: 1.35; font-size: .95rem; }
+.qs { grid-column: 2; font-size: .78rem; font-weight: 700; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+.sc { grid-column: 2; justify-self: start; font-size: .74rem; font-weight: 800; border-radius: 6px; padding: 0 8px; border: 1px solid transparent; }
+.sc:empty { display: none; }
+.sc.s3 { color: var(--green); background: var(--green-soft); border-color: var(--green-line); }
+.sc.s2, .sc.s1 { color: var(--amber); background: var(--amber-soft); border-color: var(--amber-line); }
+.sc.s0 { color: var(--red); background: var(--red-soft); border-color: var(--red-line); }
+.qc[hidden], .paper[hidden] { display: none; }
+.linkbtn { font: inherit; font-weight: 800; font-size: .86rem; color: var(--muted); background: none; border: 0; cursor: pointer; text-decoration: underline; padding: 0; }
+</style>
+</head>
+<body><div style="display:flex;flex-wrap:wrap;gap:6px 16px;padding:8px 16px;background:#1f2937;color:#fff;font:600 13px/1.4 system-ui,sans-serif"><a style="color:#fff" href="../../index.html">Lessons</a><a style="color:#fff" href="../../practice.html">Hypos</a><a style="color:#fff" href="../../block-test/conflict.html">Block test: Conflict</a><a style="color:#fff" href="../../block-test/ltp/index.html">Block test: LTP</a></div>
+<div class="top"><div class="in"><a class="brand" href="index.html">LAW301 Block Finder</a><span class="sp"></span><span class="pill" id="prog">60 questions</span></div></div>
+<main class="wrap">
+  <h1>Which blocks would you open first?</h1>
+  <p class="lead">One game for each of the 60 mock exam questions. Each question shows seven blocks from your exam sheet, already partly filled in for that question. Pick the best three, then check.</p>
+  <details class="how"><summary>How it works</summary><div class="card"><ul><li><strong>Seven options, pick the best 3.</strong> Each option is a sheet block already filled in for this question, about 50 words, labelled with its code and archetype number. The options are deliberately close: most are blocks you could use, but only three are the best, usually one for each main limb of the question.</li><li><strong>Colours.</strong> <em>Italic</em> (green on the page) is copied unchanged from the sheet; <strong>bold</strong> (amber on the page) is changed for this question; "…" marks sheet text left out. Nothing is crossed out.</li><li><strong>Check.</strong> Your score is out of 3. Each option you did not need is marked <strong>Close</strong> (usable for a line, but not top 3) or <strong>Wrong</strong> (a lure: it looks relevant but answers something else), with a short reason. One <strong>compiled reason</strong> explains the best three, ending with the answer guide's verdict line.</li><li><strong>Scores</strong> are saved in your browser, and the question list shows your best score for each question.</li></ul></div></details>
+  <section class="card">
+    <div class="stats"><span class="big" id="done">0 of 60 done</span><span id="avg"></span><a class="btn" id="next" href="q01.html">Start</a><button class="linkbtn" id="reset" hidden>Clear my scores</button></div>
+    <div class="chips" id="chips"><button class="chip on" data-f="">All</button><button class="chip" data-f="Statement">Statement</button><button class="chip" data-f="Ruritania problem">Ruritania problem</button><button class="chip" data-f="TSH style">TSH style</button><button class="chip" data-f="Chng style">Chng style</button></div>
+  </section>
+  <section class="paper"><h2>Paper 1</h2><div class="qgrid"><a class="qc" href="q01.html" data-style="Statement" data-key="bf-q01"><span class="qn">Q1</span><span class="qt">LP v NLT only matters in wicked regimes</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q02.html" data-style="Ruritania problem" data-key="bf-q02"><span class="qn">Q2</span><span class="qt">Ruritania: retrospective crime and sentence</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q03.html" data-style="TSH style" data-key="bf-q03"><span class="qn">Q3</span><span class="qt">Punish v promote</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q04.html" data-style="TSH style" data-key="bf-q04"><span class="qn">Q4</span><span class="qt">Officer of the court, zealous within the law</span><span class="qs">TSH style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 2</h2><div class="qgrid"><a class="qc" href="q05.html" data-style="Statement" data-key="bf-q05"><span class="qn">Q5</span><span class="qt">Punishment should match the community&#x27;s condemnation</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q06.html" data-style="Ruritania problem" data-key="bf-q06"><span class="qn">Q6</span><span class="qt">Ruritania: assisted dying</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q07.html" data-style="TSH style" data-key="bf-q07"><span class="qn">Q7</span><span class="qt">Dworkin&#x27;s best light is conservatism</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q08.html" data-style="Chng style" data-key="bf-q08"><span class="qn">Q8</span><span class="qt">&quot;Freestanding&quot; yet overriding?</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 3</h2><div class="qgrid"><a class="qc" href="q09.html" data-style="Statement" data-key="bf-q09"><span class="qn">Q9</span><span class="qt">No moral truth, so follow community feeling</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q10.html" data-style="Ruritania problem" data-key="bf-q10"><span class="qn">Q10</span><span class="qt">Ruritania: lax enforcement, lawyer then judge</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q11.html" data-style="TSH style" data-key="bf-q11"><span class="qn">Q11</span><span class="qt">&quot;Who decides?&quot; matters more than &quot;what is right?&quot;</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q12.html" data-style="Chng style" data-key="bf-q12"><span class="qn">Q12</span><span class="qt">Legal positivism has nothing to say to a legislator</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 4</h2><div class="qgrid"><a class="qc" href="q13.html" data-style="Statement" data-key="bf-q13"><span class="qn">Q13</span><span class="qt">Only Rawls can justify laws in a pluralist democracy</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q14.html" data-style="Ruritania problem" data-key="bf-q14"><span class="qn">Q14</span><span class="qt">Ruritania: stripping citizenship by descent</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q15.html" data-style="TSH style" data-key="bf-q15"><span class="qn">Q15</span><span class="qt">Easy cases make theory unnecessary</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q16.html" data-style="TSH style" data-key="bf-q16"><span class="qn">Q16</span><span class="qt">Rules for certainty, discretion for mercy</span><span class="qs">TSH style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 5</h2><div class="qgrid"><a class="qc" href="q17.html" data-style="Statement" data-key="bf-q17"><span class="qn">Q17</span><span class="qt">Enforce shared morality only with an overwhelming majority</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q18.html" data-style="Ruritania problem" data-key="bf-q18"><span class="qn">Q18</span><span class="qt">Ruritania: terror confessions and a reverse burden</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q19.html" data-style="TSH style" data-key="bf-q19"><span class="qn">Q19</span><span class="qt">Hart&#x27;s minimum content v Finnis&#x27;s basic goods</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q20.html" data-style="Chng style" data-key="bf-q20"><span class="qn">Q20</span><span class="qt">Equality means treating everyone the same</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 6</h2><div class="qgrid"><a class="qc" href="q21.html" data-style="Statement" data-key="bf-q21"><span class="qn">Q21</span><span class="qt">Victors&#x27; justice and the grudge informer</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q22.html" data-style="Ruritania problem" data-key="bf-q22"><span class="qn">Q22</span><span class="qt">Ruritania: commercial surrogacy and adoption</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q23.html" data-style="TSH style" data-key="bf-q23"><span class="qn">Q23</span><span class="qt">Four walls and no rights out of whole cloth</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q24.html" data-style="Chng style" data-key="bf-q24"><span class="qn">Q24</span><span class="qt">&quot;We are all realists now&quot;</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 7</h2><div class="qgrid"><a class="qc" href="q25.html" data-style="Statement" data-key="bf-q25"><span class="qn">Q25</span><span class="qt">Hard cases are decided by the judge&#x27;s politics</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q26.html" data-style="Ruritania problem" data-key="bf-q26"><span class="qn">Q26</span><span class="qt">Ruritania: abortion limit and two Art 9 challenges</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q27.html" data-style="TSH style" data-key="bf-q27"><span class="qn">Q27</span><span class="qt">The rule of law is a matter of degree</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q28.html" data-style="Chng style" data-key="bf-q28"><span class="qn">Q28</span><span class="qt">The harm principle is the only principle needed</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 8</h2><div class="qgrid"><a class="qc" href="q29.html" data-style="Statement" data-key="bf-q29"><span class="qn">Q29</span><span class="qt">Tax minimisation is admirable; lawfulness is the only question</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q30.html" data-style="Ruritania problem" data-key="bf-q30"><span class="qn">Q30</span><span class="qt">Ruritania: mandatory death penalty for a new drug</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q31.html" data-style="TSH style" data-key="bf-q31"><span class="qn">Q31</span><span class="qt">Disagreement shows no one may act on moral truth</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q32.html" data-style="Statement" data-key="bf-q32"><span class="qn">Q32</span><span class="qt">Rawls&#x27;s supreme court should settle divisive questions</span><span class="qs">Statement</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 9</h2><div class="qgrid"><a class="qc" href="q33.html" data-style="Statement" data-key="bf-q33"><span class="qn">Q33</span><span class="qt">The Constitution&#x27;s authority rests on adoption and acceptance</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q34.html" data-style="Ruritania problem" data-key="bf-q34"><span class="qn">Q34</span><span class="qt">Ruritania: opt-out organ donation without exceptions</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q35.html" data-style="TSH style" data-key="bf-q35"><span class="qn">Q35</span><span class="qt">Fidelity means obeying whatever is validly enacted</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q36.html" data-style="TSH style" data-key="bf-q36"><span class="qn">Q36</span><span class="qt">Singapore&#x27;s legislators are pragmatists, not philosophers</span><span class="qs">TSH style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 10</h2><div class="qgrid"><a class="qc" href="q37.html" data-style="Statement" data-key="bf-q37"><span class="qn">Q37</span><span class="qt">Leave religious convictions outside Parliament</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q38.html" data-style="Ruritania problem" data-key="bf-q38"><span class="qn">Q38</span><span class="qt">Ruritania: ousting review of security detention</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q39.html" data-style="TSH style" data-key="bf-q39"><span class="qn">Q39</span><span class="qt">The duty to obey lapses only when law ceases to be law</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q40.html" data-style="Chng style" data-key="bf-q40"><span class="qn">Q40</span><span class="qt">Law is only as good as the people who administer it</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 11</h2><div class="qgrid"><a class="qc" href="q41.html" data-style="Statement" data-key="bf-q41"><span class="qn">Q41</span><span class="qt">Only consequences count; intended v foreseen is religious</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q42.html" data-style="Ruritania problem" data-key="bf-q42"><span class="qn">Q42</span><span class="qt">Ruritania: an Online Truth Bill</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q43.html" data-style="TSH style" data-key="bf-q43"><span class="qn">Q43</span><span class="qt">Legitimacy for legislators, legality for judges, correctness for neither</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q44.html" data-style="Statement" data-key="bf-q44"><span class="qn">Q44</span><span class="qt">Whatever officials accept is law, so Nazi decrees were law</span><span class="qs">Statement</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 12</h2><div class="qgrid"><a class="qc" href="q45.html" data-style="Statement" data-key="bf-q45"><span class="qn">Q45</span><span class="qt">Lives can&#x27;t be planned; satisfy preferences; let him take the pill</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q46.html" data-style="Ruritania problem" data-key="bf-q46"><span class="qn">Q46</span><span class="qt">Ruritania: a Religious Harmony Bill</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q47.html" data-style="TSH style" data-key="bf-q47"><span class="qn">Q47</span><span class="qt">Hard choices are between rival moral values, never law and morality</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q48.html" data-style="Chng style" data-key="bf-q48"><span class="qn">Q48</span><span class="qt">The Constitution is whatever the judges say it is</span><span class="qs">Chng style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 13</h2><div class="qgrid"><a class="qc" href="q49.html" data-style="Statement" data-key="bf-q49"><span class="qn">Q49</span><span class="qt">Legislators should defer to what most citizens believe</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q50.html" data-style="Ruritania problem" data-key="bf-q50"><span class="qn">Q50</span><span class="qt">Ruritania: casino levy, age bar and Art 12</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q51.html" data-style="TSH style" data-key="bf-q51"><span class="qn">Q51</span><span class="qt">Law is a purposive enterprise</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q52.html" data-style="TSH style" data-key="bf-q52"><span class="qn">Q52</span><span class="qt">Evidence-based policy; no unmeasurable goods or rights</span><span class="qs">TSH style</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 14</h2><div class="qgrid"><a class="qc" href="q53.html" data-style="Statement" data-key="bf-q53"><span class="qn">Q53</span><span class="qt">Only two honest choices: apply and denounce, or resign</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q54.html" data-style="Ruritania problem" data-key="bf-q54"><span class="qn">Q54</span><span class="qt">Ruritania: abolishing civil marriage; the registrar&#x27;s conscience</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q55.html" data-style="TSH style" data-key="bf-q55"><span class="qn">Q55</span><span class="qt">Trust ordinary people&#x27;s moral judgment</span><span class="qs">TSH style</span><span class="sc"></span></a><a class="qc" href="q56.html" data-style="Statement" data-key="bf-q56"><span class="qn">Q56</span><span class="qt">Every society is entitled to its own morality</span><span class="qs">Statement</span><span class="sc"></span></a></div></section><section class="paper"><h2>Paper 15</h2><div class="qgrid"><a class="qc" href="q57.html" data-style="Statement" data-key="bf-q57"><span class="qn">Q57</span><span class="qt">Roles exist so that people can do what would otherwise be wrong</span><span class="qs">Statement</span><span class="sc"></span></a><a class="qc" href="q58.html" data-style="Ruritania problem" data-key="bf-q58"><span class="qn">Q58</span><span class="qt">Ruritania: a Public Decency Bill</span><span class="qs">Ruritania problem</span><span class="sc"></span></a><a class="qc" href="q59.html" data-style="Chng style" data-key="bf-q59"><span class="qn">Q59</span><span class="qt">&quot;An unjust law is no law at all&quot;: dangerous or empty</span><span class="qs">Chng style</span><span class="sc"></span></a><a class="qc" href="q60.html" data-style="Statement" data-key="bf-q60"><span class="qn">Q60</span><span class="qt">A law binds because it coordinates, whatever its content</span><span class="qs">Statement</span><span class="sc"></span></a></div></section>
+  <p class="foot">Scores are kept in this browser only.</p>
+</main>
+<script>
+const cards = [...document.querySelectorAll(".qc")];
+function load(k) { try { return JSON.parse(localStorage.getItem(k) || "null"); } catch (e) { return null; } }
+function paint() {
+  let done = 0, sum = 0, firstTodo = null;
+  cards.forEach(c => {
+    const r = load(c.dataset.key), sc = c.querySelector(".sc");
+    sc.className = "sc"; sc.textContent = "";
+    if (r) { done++; sum += r.best; sc.classList.add("s" + r.best); sc.textContent = `Best ${r.best} / 3`; }
+    else if (!firstTodo) firstTodo = c;
+  });
+  document.getElementById("done").textContent = `${done} of ${cards.length} done`;
+  document.getElementById("avg").textContent = done ? `average best ${(sum / done).toFixed(1)} / 3` : "";
+  const nx = document.getElementById("next");
+  nx.href = (firstTodo || cards[0]).getAttribute("href");
+  nx.textContent = done === 0 ? "Start with Q1" : firstTodo ? `Next: ${firstTodo.querySelector(".qn").textContent}` : "All done: start again";
+  document.getElementById("reset").hidden = done === 0;
+}
+document.getElementById("chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  document.querySelectorAll(".chip").forEach(x => x.classList.toggle("on", x === b));
+  cards.forEach(c => c.hidden = !!b.dataset.f && c.dataset.style !== b.dataset.f);
+  document.querySelectorAll(".paper").forEach(p => p.hidden = ![...p.querySelectorAll(".qc")].some(c => !c.hidden));
+});
+document.getElementById("reset").onclick = () => {
+  if (!confirm("Clear all your Block Finder scores in this browser?")) return;
+  cards.forEach(c => { try { localStorage.removeItem(c.dataset.key); } catch (e) {} });
+  paint();
+};
+paint();
+</script>
+</body>
+</html>
