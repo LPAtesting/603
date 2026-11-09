@@ -249,7 +249,7 @@
     tbtn = el("button", "cm-ui cm-float", '<span aria-hidden="true">💬</span><span class="cm-lbl">Comments</span><span class="cm-n" hidden></span>');
     tbtn.type = "button"; document.body.appendChild(tbtn);
   }
-  tbtn.title = "Comments: select text, then double right-click it or press " + (isMac ? "⇧⌘M" : "Ctrl+Shift+M") + " to add one";
+  tbtn.title = "Comments: select text, then double-click it or press " + (isMac ? "⇧⌘M" : "Ctrl+Shift+M") + " to add one";
   tbtn.addEventListener("click", function () { openPanel(panel.hidden); });
 
   var toastT;
@@ -651,30 +651,34 @@
     } else if (e.key === "Escape" && !panel.hidden && !panel.contains(e.target)) openPanel(false);
   }, true);
 
-  /* double right-click on selected text starts a comment at once (one right-click still
-     opens the browser's normal menu). The selection is remembered from the first click,
-     because a right-click can change or clear it. */
-  var rc = { t: 0 }, swallowUntil = 0;
-  function nearLast(e) { return Date.now() - rc.t < 600 && Math.abs(e.clientX - rc.x) < 24 && Math.abs(e.clientY - rc.y) < 24; }
-  function startFromRight(e) {
-    e.preventDefault();
-    var s = window.getSelection();
-    try { s.removeAllRanges(); s.addRange(rc.range); } catch (err) { /* ignore */ }
-    rc = { t: 0 };
-    startComment();
+  /* double left-click inside highlighted (selected) text starts a comment at once.
+     The first click would normally clear the selection and the second would select a
+     word, so the selection is remembered on the first click and put back. A double-click
+     on text that isn't already selected still just selects a word, as usual. */
+  var dc = { t: 0 };
+  function insideRange(r, x, y) {
+    var rects = r.getClientRects();
+    for (var i = 0; i < rects.length; i++) {
+      var q = rects[i];
+      if (x >= q.left - 2 && x <= q.right + 2 && y >= q.top - 2 && y <= q.bottom + 2) return true;
+    }
+    return false;
   }
   document.addEventListener("mousedown", function (e) {
-    if (e.button !== 2 || (e.target.closest && e.target.closest(".cm-ui"))) return;
-    if (rc.range && rc.menu && nearLast(e)) { swallowUntil = Date.now() + 700; startFromRight(e); return; }
-    var r = selectionInfo();
-    rc = { t: Date.now(), range: r ? r.cloneRange() : null, x: e.clientX, y: e.clientY, menu: false };
-  }, true);
-  document.addEventListener("contextmenu", function (e) {
-    if (Date.now() < swallowUntil) { e.preventDefault(); swallowUntil = 0; return; } // no menu after the second click
-    if (e.target.closest && e.target.closest(".cm-ui")) return;
-    // some browsers don't pass the second mousedown through while their menu is open
-    if (rc.range && rc.menu && nearLast(e)) { startFromRight(e); return; }
-    if (rc.range && nearLast(e)) rc.menu = true;
+    if (e.button !== 0 || (e.target.closest && e.target.closest(".cm-ui"))) return;
+    var now = Date.now();
+    if (e.detail >= 2 && dc.range && now - dc.t < 700 && Math.abs(e.clientX - dc.x) < 12 && Math.abs(e.clientY - dc.y) < 12) {
+      e.preventDefault(); // stop the browser selecting a single word instead
+      var s = window.getSelection();
+      try { s.removeAllRanges(); s.addRange(dc.range); } catch (err) { /* ignore */ }
+      dc = { t: 0 };
+      startComment();
+      return;
+    }
+    if (e.detail === 1) {
+      var r = selectionInfo();
+      dc = r && insideRange(r, e.clientX, e.clientY) ? { t: now, range: r.cloneRange(), x: e.clientX, y: e.clientY } : { t: 0 };
+    }
   }, true);
 
   /* clicking highlighted text opens its comment */
