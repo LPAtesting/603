@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Law Games</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
+<style>
+:root{--paper:#faf6ee;--sheet:#fff;--ink:#2a2a2a;--soft:#6f6b63;--rule:#e7e0d2;--teal:#2e6f7e;--teal-soft:#e4f0f3;--violet:#5f4b8b;--violet-soft:#ece7f5;--shadow:0 1px 2px rgba(60,50,30,.06),0 2px 8px rgba(60,50,30,.05)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#1b1d1f;--sheet:#24272a;--ink:#ebe7df;--soft:#a29d93;--rule:#363a3e;--teal:#6fb3c2;--teal-soft:#1f3338;--violet:#b5a4e3;--violet-soft:#2c2740;--shadow:none;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#1b1d1f;--sheet:#24272a;--ink:#ebe7df;--soft:#a29d93;--rule:#363a3e;--teal:#6fb3c2;--teal-soft:#1f3338;--violet:#b5a4e3;--violet-soft:#2c2740;--shadow:none;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.5 "Nunito",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:880px;margin:0 auto;padding:clamp(28px,7vw,72px) 16px 48px}
+h1{margin:0;font-size:clamp(30px,5vw,40px);font-weight:800;line-height:1.1}
+.lede{margin:10px 0 28px;color:var(--soft);max-width:60ch}
+.games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:640px){.games{grid-template-columns:minmax(0,1fr)}}
+a.game{display:flex;flex-direction:column;gap:8px;padding:22px;background:var(--sheet);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);color:inherit;text-decoration:none;transition:transform .15s,border-color .15s}
+a.game:hover,a.game:focus-visible{transform:translateY(-2px);border-color:var(--c)}
+a.game:focus-visible{outline:2px solid var(--c);outline-offset:2px}
+.tag{align-self:flex-start;padding:1px 9px;border-radius:7px;background:var(--c-soft);color:var(--c);font-size:13px;font-weight:800;letter-spacing:.04em}
+.game h2{margin:0;font-size:24px;font-weight:800;line-height:1.2}
+.game p{margin:0;color:var(--soft);font-size:16px}
+.go{margin-top:auto;padding-top:8px;color:var(--c);font-weight:800}
+.note{margin:26px 0 0;color:var(--soft);font-size:15px}
+@media (prefers-reduced-motion:reduce){a.game{transition:none}}
+</style>
+<div style="display:flex;flex-wrap:wrap;gap:6px 16px;padding:8px 16px;background:#1f2937;color:#fff;font:600 13px/1.4 system-ui,sans-serif"><a style="color:#fff" href="../index.html">Lessons</a><a style="color:#fff" href="../practice.html">Hypos</a><a style="color:#fff" href="../block-test/conflict.html">Block test: Conflict</a><a style="color:#fff" href="../block-test/ltp/index.html">Block test: LTP</a><a style="color:#fff" href="../games/index.html">Games</a></div><main>
+  <h1>Law Games</h1>
+  <p class="lede">Play the exam material instead of re-reading it. Drag each card to where it belongs, watch the machine run, and finish each lesson with what to write in the exam.</p>
+  <div class="games">
+    <a class="game" href="forum-machine.html" style="--c:var(--teal);--c-soft:var(--teal-soft)">
+      <span class="tag">LAW302</span>
+      <h2>The Forum Machine</h2>
+      <p>Commercial Conflict of Laws: J1 to J7, C1 to C3 and two whole hypos.</p>
+      <span class="go">Play →</span>
+    </a>
+    <a class="game" href="ought-machine.html" style="--c:var(--violet);--c-soft:var(--violet-soft)">
+      <span class="tag">LAW301</span>
+      <h2>The Ought Machine</h2>
+      <p>Legal Theory and Philosophy: archetypes 2 to 12, the first five minutes and four whole-question drills.</p>
+      <span class="go">Play →</span>
+    </a>
+  </div>
+  <p class="note">Progress is saved in this browser, separately for each game.</p>
+</main>
+</html>
+<script src="../comments/comments.js" defer data-lpa-comments></script>
