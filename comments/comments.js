@@ -166,8 +166,8 @@
     ".cm-on.split-on .main{margin-right:calc(var(--pane-w) + var(--cm-w) + 28px)}",
     ".cm-on .fb{right:calc(var(--cm-w) + 40px)}",
     ".cm-on.split-on .fb{right:calc(var(--pane-w) + var(--cm-w) + 40px)}",
-    ".cm-col{position:absolute;top:0;right:18px;width:var(--cm-w);z-index:20}",
-    ".split-on .cm-col{right:calc(var(--pane-w) + 18px)}",
+    ".cm-col{position:absolute;top:0;right:44px;width:var(--cm-w);z-index:20}",
+    ".split-on .cm-col{right:calc(var(--pane-w) + 44px)}",
     ".cm-col .cm-card{position:absolute;left:0;right:0;transition:top .16s ease}",
     /* cards */
     ".cm-card{background:var(--card,#fff);border:1px solid var(--line,#e7e0d2);border-radius:12px;padding:11px 13px;box-shadow:0 1px 2px rgba(0,0,0,.04)}",
@@ -194,6 +194,7 @@
     ".cm-card>.cm-comp:first-child{margin-top:0}",
     ".cm-comp .cm-av{margin-top:5px}",
     ".cm-field{flex:1;min-width:0}",
+    ".cm-field textarea{overflow:hidden}",
     ".cm-field input,.cm-field textarea{width:100%;font:inherit;font-size:14px;color:var(--ink,#222);background:transparent;border:0;outline:0;resize:none;padding:5px 0;line-height:1.45}",
     ".cm-field input.cm-who{font-size:12.5px;font-weight:700;border-bottom:1px dashed var(--line2,#ddd);margin-bottom:2px}",
     ".cm-send{flex:none;width:28px;height:28px;margin-top:2px;border-radius:50%;border:0;background:var(--cm-blue);color:#fff;font-size:15px;font-weight:800;cursor:pointer;display:flex;align-items:center;justify-content:center}",
@@ -618,7 +619,7 @@
       }
     });
   });
-  function autosize(t) { t.style.height = "auto"; t.style.height = Math.min(t.scrollHeight, 320) + "px"; }
+  function autosize(t) { t.style.height = "auto"; t.style.height = t.scrollHeight + "px"; }
   function autosizeAll(box) { $$("textarea", box).forEach(autosize); }
 
   /* ------------------------------------------------------------ selection bubble */
