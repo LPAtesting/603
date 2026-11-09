@@ -337,11 +337,9 @@
     return '<div class="cm-msg" data-id="' + c.id + '"><div class="cm-tools">' + tools + '</div><div class="cm-head"><span class="cm-av">' + initial(c.author) + '</span><span class="cm-name">' + esc(c.author || "Me") + '</span><span class="cm-time" title="' + esc(new Date(c.created).toLocaleString()) + '">' + ago(c.created) + (c.edited ? " · edited" : "") + "</span></div>" + body + "</div>";
   }
   function composerHTML(kind, id) {
-    var needName = !(prefs.name || "").trim();
     var ph = kind === "reply" ? "Reply…" : "Add a comment…";
     var d = drafts[kind === "reply" ? id : "new"] || "";
     return '<div class="cm-comp" data-kind="' + kind + '"' + (id ? ' data-for="' + id + '"' : "") + '><span class="cm-av">' + initial(who()) + '</span><div class="cm-field">' +
-      (needName && kind === "new" ? '<input class="cm-who" type="text" placeholder="Your name" maxlength="40">' : "") +
       '<textarea rows="1" placeholder="' + ph + '">' + esc(d) + '</textarea></div><button type="button" class="cm-send" data-act="send" title="Comment (Enter)" aria-label="Send"' + (d.trim() ? "" : " disabled") + ">↑</button></div>";
   }
   function cardHTML(c, opts) {
