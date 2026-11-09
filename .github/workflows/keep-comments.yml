@@ -1,0 +1,41 @@
+# Keeps the reading-comments feature attached to every page.
+# Course updates replace the HTML files, which drops the one <script> line that loads
+# comments/comments.js. After every push this puts that line back and commits it.
+# Comments themselves are stored in the reader's browser and GitHub gist, never in the HTML.
+name: Keep comments attached
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: keep-comments
+  cancel-in-progress: false
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Re-attach comments to any page missing them
+        run: python3 comments/attach.py
+      - name: Commit and publish if anything changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "Every page already loads the comments feature."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Re-attach reading comments to updated pages"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          # commits pushed with the workflow token may not start a Pages build on their own
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
