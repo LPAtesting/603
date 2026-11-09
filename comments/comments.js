@@ -249,7 +249,7 @@
     tbtn = el("button", "cm-ui cm-float", '<span aria-hidden="true">💬</span><span class="cm-lbl">Comments</span><span class="cm-n" hidden></span>');
     tbtn.type = "button"; document.body.appendChild(tbtn);
   }
-  tbtn.title = "Comments: select text and press " + (isMac ? "⇧⌘M" : "Ctrl+Shift+M") + " to add one";
+  tbtn.title = "Comments: select text, then double right-click it or press " + (isMac ? "⇧⌘M" : "Ctrl+Shift+M") + " to add one";
   tbtn.addEventListener("click", function () { openPanel(panel.hidden); });
 
   var toastT;
@@ -649,6 +649,32 @@
     if ((e.metaKey || e.ctrlKey) && e.shiftKey && !e.altKey && (e.key === "m" || e.key === "M")) {
       if (startComment()) e.preventDefault();
     } else if (e.key === "Escape" && !panel.hidden && !panel.contains(e.target)) openPanel(false);
+  }, true);
+
+  /* double right-click on selected text starts a comment at once (one right-click still
+     opens the browser's normal menu). The selection is remembered from the first click,
+     because a right-click can change or clear it. */
+  var rc = { t: 0 }, swallowUntil = 0;
+  function nearLast(e) { return Date.now() - rc.t < 600 && Math.abs(e.clientX - rc.x) < 24 && Math.abs(e.clientY - rc.y) < 24; }
+  function startFromRight(e) {
+    e.preventDefault();
+    var s = window.getSelection();
+    try { s.removeAllRanges(); s.addRange(rc.range); } catch (err) { /* ignore */ }
+    rc = { t: 0 };
+    startComment();
+  }
+  document.addEventListener("mousedown", function (e) {
+    if (e.button !== 2 || (e.target.closest && e.target.closest(".cm-ui"))) return;
+    if (rc.range && rc.menu && nearLast(e)) { swallowUntil = Date.now() + 700; startFromRight(e); return; }
+    var r = selectionInfo();
+    rc = { t: Date.now(), range: r ? r.cloneRange() : null, x: e.clientX, y: e.clientY, menu: false };
+  }, true);
+  document.addEventListener("contextmenu", function (e) {
+    if (Date.now() < swallowUntil) { e.preventDefault(); swallowUntil = 0; return; } // no menu after the second click
+    if (e.target.closest && e.target.closest(".cm-ui")) return;
+    // some browsers don't pass the second mousedown through while their menu is open
+    if (rc.range && rc.menu && nearLast(e)) { startFromRight(e); return; }
+    if (rc.range && nearLast(e)) rc.menu = true;
   }, true);
 
   /* clicking highlighted text opens its comment */
