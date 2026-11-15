@@ -1,0 +1,218 @@
+@sec law302-hj7--hx-J7-0-3
+Q: A German court ordered specific performance of a share transfer. There is no jurisdiction clause, and Germany is not a gazetted REFJA country. How can the successful party use the German judgment in Singapore?
+H: Common law enforcement needs money.
+- Sue on it at common law as a judgment debt, since any final foreign order can be enforced || A non-money judgment cannot be enforced by common law action.
+- Register it under REFJA, which covers non-money judgments || Germany is not gazetted under REFJA, so registration is unavailable.
+- Enforce it under the CCAA, which covers all civil and commercial judgments || The CCAA needs an exclusive choice of court agreement, and there is none.
+* Sue afresh on the share transfer obligation and plead the German judgment as res judicata || Correct: recognition works as a shield even where enforcement as a debt is unavailable (J7.3.1).
+
+Q: Villagers hold an Ecuadorian US$500m judgment against Petro Andes (Delaware), which has no Singapore assets and no prospect of any. They want a Singapore judgment only so they can register it in Malaysia and Brunei, whose reciprocal schemes do not cover Ecuador. Can they serve out under factor (m)?
+H: Real prospect of legitimate benefit.
+- Yes: factor (m) needs only a foreign judgment enforceable by common law action || The claimant must also show a real prospect of a legitimate benefit (Demirel).
+- Yes, because forum conveniens is irrelevant to enforcement actions (Licea) || Even without a forum filter, the legitimate benefit requirement applies.
+* Doubtful: unlocking other regimes is not a legitimate benefit || Correct: contrast Version 2, where a future dividend from a Singapore subsidiary gives a real prospect of benefit.
+- No, because a judgment of over US$100m needs the Attorney-General's consent || There is no such rule. The problem is the lack of legitimate benefit.
+
+@sec law302-hj7--hx-J7-1-2
+Q: A Hong Kong judgment declares a Las Vegas casino's Nevada judgment enforceable in Hong Kong. The casino sues on the Hong Kong judgment in Singapore. Is it enforceable at common law?
+H: Sang Cheol Woo.
+* No: it is a judgment on a judgment, not on the merits || Correct: enforcing it would "launder" the Nevada judgment through Hong Kong (declining Morgan Stanley v Pilot Lead).
+- Yes: it is a final Hong Kong money judgment, and Hong Kong had jurisdiction || The Hong Kong judgment only fixes the Nevada judgment's effect in Hong Kong. It is not on the merits.
+- Yes, following Desert Palace, which enforced such judgments || Per C&Y, Desert Palace did not engage with the theory, and Sang Cheol Woo declined to follow that approach.
+- No, but only because gambling debts are contrary to Singapore public policy || Public policy may arise on the Nevada judgment later; the first problem is that this is a judgment on a judgment.
+
+Q: Canadian sellers sued a Singapore investor in Ontario, which took jurisdiction because the contract had a "real and substantial connection" with Ontario. The investor was never in Ontario, did not appear, and never agreed to its jurisdiction. Is the default judgment enforceable in Singapore?
+H: Schibsby; India v Deutsche Telekom.
+- Yes: Singapore would itself take jurisdiction on service out in such a case || There is no "mirror image". International jurisdiction is tested by Singapore's closed list of grounds.
+- Yes, because the Ontario court itself held that it had jurisdiction || The foreign court's own finding on its jurisdiction raises no estoppel.
+* No: presence, submission or prior agreement is needed, and none exists here || Correct: the real-and-substantial-connection ground (Beals v Saldanha) is not part of Singapore law.
+- Yes, because Canada is a Commonwealth country with a similar legal system || Similarity of legal systems does not supply international jurisdiction.
+
+Q: Nusantara's products were sold in Texas through Lone Star Marketing, an independent company with its own premises, paid on commission, and needing Nusantara's approval for every contract. Was Nusantara present in Texas for a Texas judgment?
+H: Adams v Cape.
+- Yes: a Texas company selling only its products gave it a fixed place of business there || Like Cape's Illinois marketing companies, Lone Star carried on its own business.
+- Yes, because Lone Star had authority to receive service on Nusantara's behalf || Nothing suggests that, and in any event presence depends on Nusantara carrying on its own business there.
+- No, but it would be if Lone Star were a wholly owned subsidiary || Even a subsidiary is a separate company; ownership alone does not make the parent present.
+* No: Lone Star carried on its own business, with its own premises and no power to bind Nusantara || Correct: contrast a Houston warehouse staffed by Nusantara's own employees who could sign contracts.
+
+Q: Sinar Shipping, absent from X, applied in X to set aside service on the ground that X was forum non conveniens, and lost. It took no further part. Did it submit to X's jurisdiction?
+H: Henry v Geoprosco versus IGCF.
+- Yes, clearly: an FNC application asks the court to decline a jurisdiction it has || That is Henry v Geoprosco, which IGCF (PC 2025) called "unrealistic and irrational".
+* Arguably not: IGCF and C&Y treat a failed set-aside on any ground as a protest || Correct: Singapore's own REFJA s 5(3)(a)(i)(C) also reverses Henry. Submit no submission.
+- No, because ROC 2021 O 6 r 12(5) says an FNC challenge is not submission || There is no mirror image: Singapore procedural rules do not settle international jurisdiction.
+- Yes, because losing the application deemed it to submit under X's rules || Submission for recognition is decided by Singapore's conflict rules, not X's deeming rules.
+
+Q: A Singapore investor's Gibraltar brokerage terms say "governed by Gibraltar law", and it traded through Gibraltar daily, but there is no jurisdiction clause. The broker obtained a Gibraltar default judgment. Did the investor submit by agreement?
+H: Vizcaya Partners.
+- Yes: choosing Gibraltar law and trading there daily is implied consent to its courts || Per Vizcaya itself, choice of law plus doing business there is not enough, even on the wider view.
+- Yes, if Gibraltar's own rules would found jurisdiction on these facts || Gibraltar's procedural rules are not the test; Singapore's conflict rules are.
+- No, and an express clause would not help either, since the investor did not appear || Express advance agreement founds international jurisdiction despite default (United Malayan Banking).
+* No: even if implied submission is possible, choice of law plus business is not enough || Correct: whether Singapore adopts Vizcaya's implied route is open (C&Y); it fails here either way.
+
+@sec law302-hj7--hx-J7-1-5
+Q: A Chinese judgment ordered a Chinese seller to refund RMB 5m "upon the buyer making the generator sets available for collection", and to pay "reasonable costs to be assessed". The buyer has made the sets available, but costs are unassessed. What can it enforce at common law?
+H: Giant Light Metal: definite sum.
+- Both: the judgment as a whole is a final money judgment || Unassessed costs are not yet a definite sum.
+- Neither: a conditional order is never a definite sum || The condition has been met, so the refund is a definite sum (Giant Light Metal).
+* The refund only; the costs become enforceable once assessed || Correct: a definite-sum order among other orders founds an action in debt.
+- The costs only, as the refund was an order for return of goods || The refund is a money order; the return of goods is a separate order.
+
+Q: A Ruritanian creditor sues on a Ruritanian judgment. The Singapore debtor proves that Ruritanian courts have never enforced a Singapore judgment. Is that a defence?
+H: Merck left the point open.
+- Yes: comity requires reciprocity before Singapore enforces a foreign judgment || Merck left reciprocity open, and no later case has adopted it.
+- Yes, if the debtor shows a Singapore judgment was actually refused in Ruritania || Even that would not bar enforcement, as reciprocity is not part of the common law test.
+* No: reciprocity is not a requirement; one line on Merck suffices || Correct: if pressed, any requirement would be liberal (presumed reciprocity).
+- No, because reciprocity is relevant only under the CCAA || Reciprocity is not a CCAA requirement either; the point is that the common law has not adopted it.
+
+@sec law302-hj7--hx-J7-2-3
+Q: A Malaysian court, applying Singapore law, upheld a Singapore company's exclusion clause. Sued on the judgment in Singapore, the debtor says the Malaysian court got the delivery dates wrong. Is that a defence?
+H: Godard v Gray.
+* No: errors of fact are irrelevant; there is no review of the merits || Correct: Godard v Gray; Ralli v Angullia.
+- Yes, if the error is shown by clear documentary evidence || However clear, an error of fact does not reopen the merits.
+- Yes, because the Malaysian court was applying Singapore law, so Singapore may correct it || Applying Singapore law does not let Singapore review findings of fact.
+- Only if the debtor appealed in Malaysia and lost || An appeal is irrelevant. Errors of fact are not a defence at all.
+
+Q: The same debtor says the Malaysian court ignored a clear Singapore Court of Appeal ruling that such exclusion clauses fail the UCTA reasonableness test. Is that a defence?
+H: Merck: an open question.
+- No, plainly: misapplying any law is a mistake, which is never a defence || Per Merck it is open whether misapplying settled Singapore law offends Singapore's substantive public policy.
+- Yes, plainly: any error about Singapore law by a foreign court is a defence || If the ground exists at all, only a patent error would count (C&Y).
+* Arguably: if misapplying settled Singapore law is a ground at all, only a patent error counts || Correct: ignoring a clear CA ruling may qualify. A reasonable view on unsettled law later shown wrong would not.
+- No, because UCTA is a forum mandatory rule that a Malaysian court could not apply || The question is whether Singapore can refuse a judgment that patently misapplied Singapore law. That is open.
+
+Q: An Indonesian court approved a restructuring plan binding Mr Tan, a Singapore guarantor. The summons reached him two days after the creditors' meeting. He later attended a hearing under protest. Sued in Singapore on the plan, can he rely on natural justice?
+H: Jacobson v Frachon; Paulus Tannos.
+- No: by attending a later hearing he cured any defect in notice || Participation under protest does not cure the lack of timely notice (Paulus Tannos).
+- No: the Indonesian court held service proper, and Singapore is bound by that finding || Singapore decides for itself, unbound by the foreign court's view of service.
+* Yes: he had no timely notice, and attending under protest does not cure it || Correct: contrast a debtor properly served in good time who chose not to attend (Sang Cheol Woo).
+- Yes, but only if he can also show the plan was wrong on the merits || Natural justice is about the chance to be heard, not the merits.
+
+@sec law302-hj7--hx-J7-2-8
+Q: A Colombian judgment enforces a contract described as a "sale of agricultural products" that was in fact a cocaine shipment. Can it be enforced in Singapore?
+H: ED&F Man v Haryanto.
+- Yes: Singapore does not review the merits, so the true nature of the contract is irrelevant || Public policy can bar a judgment whose cause is egregious, whatever the merits.
+- Yes, unless Colombian law also treated the contract as illegal || Singapore's public policy applies whatever the foreign law says.
+* No: the cause is egregious, which infects the judgment and offends Singapore public policy || Correct: drug trafficking is the paradigm (ED&F Man v Haryanto).
+- No, but only because the debtor did not appear in Colombia || Non-appearance is not the ground. The egregious cause is.
+
+Q: The Republic of Ruritania obtains a "civil" judgment in its own courts forfeiting to the State a former minister's assets presumed to be ill-gotten, and seeks to enforce it against his Singapore bank account. What is the answer?
+H: Huntington v Attrill; Maler Foundation.
+- Enforceable: it is labelled civil and was given by a competent court || The civil label is not conclusive (Maler Foundation).
+- Enforceable, because forfeiture orders are in rem, and the exclusion covers only money judgments || The exclusion applies equally to in rem or forfeiture orders.
+- Enforceable only if Singapore would have forfeited the assets under its own law || Singapore does not enforce foreign penal laws at all, whatever its own law provides.
+* Not enforceable: State-pursued forfeiture in the State's favour is penal || Correct: a penalty in the Huntington v Attrill sense.
+
+Q: A Texas judgment awards a private claimant US$300,000 punitive damages for the defendant's repeated breach of the Texas court's own injunction. Is the award enforceable in Singapore?
+H: Schnabel v Lui.
+- Yes: punitive damages paid to a private party have no public element || That fits punitive damages for fraud. Punishing defiance of court orders has a public element.
+* No: punishing contempt of court is penal, even if paid to the claimant || Correct: contrast punitive damages for brazen fraud, which are arguably enforceable (Benefit Strategies).
+- Yes, as the claimant sued in its own interest, which is never penal || The public component of punishing contempt makes this part penal.
+- No, because all punitive damages are contrary to Singapore public policy || Singapore law itself allows punitive damages in some cases (ACB v Thomson Medical), so this is not the reason.
+
+Q: A Singapore court held in 2023 that no royalties were due under a licence. The licensor then obtained a Japanese judgment (2024) that royalties were due and seeks to enforce it in Singapore. What happens?
+H: Merck.
+- It is enforced, as the later judgment reflects the most recent view || A foreign judgment inconsistent with an earlier Singapore judgment is not recognised.
+- It is enforced unless the licensee shows the Japanese court was wrong || There is no review of the merits; the issue is inconsistency.
+- The court chooses whichever judgment is better reasoned || Coherence, not reasoning, decides. The Singapore judgment prevails.
+* It is refused, as inconsistent with the earlier Singapore judgment || Correct: per Merck. Between two recognisable foreign judgments, the earlier one prevails.
+
+Q: A 2018 Californian money judgment (final in 2018) is sued on in Singapore in 2025. The creditor says the 12-year period for judgments applies. Separately, it relies on a 2016 Californian in rem judgment declaring it owner of a painting now in Singapore. What is the position?
+H: Poh Soon Kiat; Murakami.
+- Both are in time: foreign judgments get the 12-year period, like Singapore judgments || The 12-year period is only for Singapore judgments; the action is on an implied debt with six years.
+- Both are out of time: six years has run since each judgment || The in rem judgment is not subject to the six-year bar (Murakami).
+* The money claim is out of time (six years from 2018), but the in rem judgment can still be recognised || Correct: per Poh Soon Kiat, the six-year period (s 6(1)(a)) applies to the action on the judgment.
+- The money claim is in time because the debtor part-paid, which restarts the 12-year period || The 12-year period does not apply; part-payment would only reduce the sum due.
+
+@sec law302-hj7--hx-J7-3-2
+Q: A Singapore buyer sued a German manufacturer in Munich for defective machinery and lost; the Munich court declared the manufacturer not liable under the contract. The buyer now sues in Singapore for breach of the same contract. What can the manufacturer do?
+H: Arnold.
+* Plead cause of action estoppel, an absolute bar || Correct: the Munich judgment is used as a shield. A representation not to rely on it could found a cross-estoppel (Showlag).
+- Nothing: a foreign judgment that awards no money cannot be recognised in Singapore || Recognition does not need a money judgment. Only enforcement as a debt does.
+- Rely on issue estoppel only, as cause of action estoppel needs a Singapore judgment || Cause of action estoppel applies to recognisable foreign judgments too.
+- Apply for a stay in favour of Germany under Spiliada || The point is res judicata, not forum. The claim is barred.
+
+Q: In a worldwide trade mark dispute, a US court said in passing that a co-existence agreement "probably" prohibited online use, but its decision turned on laches. Does that statement found an issue estoppel in Singapore?
+H: Carl Zeiss.
+- Yes: any finding by a competent foreign court on an issue between the same parties binds || Only findings necessary to the decision can found an issue estoppel.
+- Yes, if the US judgment is final and conclusive || Finality is needed, but so is necessity. This finding was collateral.
+* No: it was collateral, not necessary to the decision, which turned on laches || Correct: Carl Zeiss. Contrast an English finding on governing law that was a necessary step.
+- No, because US judgments can never found estoppels in Singapore || Recognisable US judgments can found estoppels. This statement was simply collateral.
+
+Q: A small Brazilian claim worth US$5,000 was not defended in detail by the defendant, which considered it trivial. The Brazilian court found against it on the meaning of a co-existence agreement. The claimant now relies on that finding in large Singapore proceedings. Is the defendant estopped?
+H: Merck's limit (iii).
+- Yes: it had the chance to contest the point in Brazil and chose not to || A foreign defendant with bona fide reasons for not contesting fully should not be estopped.
+- Yes, because the claimant bears no burden once a foreign finding exists || The party relying on the estoppel bears the burden, and special caution applies.
+- No, because a judgment under US$10,000 cannot be recognised in Singapore || There is no value threshold. The point is the defendant's rational choice to limit its defence.
+* No: it had bona fide reasons (triviality, cost) for not contesting fully || Correct: Merck; Carl Zeiss. The claimant chose Brazil, and the defendant rationally limited its defence.
+
+Q: A BVI court held that a Singapore defendant had "voluntarily submitted" to its jurisdiction. When the BVI judgment is sued on in Singapore, can the creditor rely on that ruling as an issue estoppel on submission?
+H: Desert Sun: no "sub-contracting".
+- Yes: the BVI court decided submission after argument, so the issue is res judicata || Whether there was submission is for Singapore's conflict rules. Estoppel would sub-contract the question.
+* No: submission for international jurisdiction is an issue Singapore decides for itself || Correct: per Desert Sun (Roch LJ), the foreign court's own finding raises no estoppel.
+- No, because the BVI is not a REFJA country || The point applies regardless of REFJA. Singapore always decides submission for itself.
+- Yes, unless the defendant appealed the ruling in the BVI || An appeal is beside the point. Singapore decides submission itself.
+
+Q: After a full trial, a Hong Kong court held a shipbuilding contract governed by English law, applying Hong Kong choice of law rules that differ slightly from Singapore's. Can one party estop the other on governing law in Singapore?
+H: First Laser; Merck.
+- No: governing law is an issue Singapore must always decide for itself || Governing law is not such an issue (Merck), and it was decided at the final trial.
+- No: Hong Kong applied different choice of law rules, so the issue is not the same || That the foreign rules differ is immaterial; estoppel never needed Singapore to reach the same result.
+* Yes, likely: it was decided at trial, and differences in choice of law rules are immaterial || Correct: contrast a governing law ruling made only on a good arguable case at the stay stage.
+- Yes, but only if Singapore's rules would also select English law || Estoppel does not require Singapore to reach the same result itself.
+
+@sec law302-hj7--hx-J7-4
+Q: In Jakarta, a Singapore creditor lost on the validity of a guarantee against an Indonesian group's parent. It now sues the parent in Singapore on a fresh argument (that the guarantee was varied) which it knew of during the Jakarta case but did not run. What is the likely result?
+H: Henderson v Henderson; Humpuss.
+- It may proceed, because the variation point was not decided in Jakarta || Henderson extends to points that could and should have been raised.
+* It is likely an abuse: the point could and should have been raised in Jakarta || Correct: weighing all the circumstances (Humpuss), it is a collateral attack. Fresh evidence found later would tell against abuse.
+- It may proceed, because Henderson applies only to local judgments || Humpuss applies the Henderson rule to foreign judgments too.
+- It is barred by cause of action estoppel, as the same guarantee is involved || The fresh argument is not the decided cause; the doctrine is abuse of process under Henderson.
+
+Q: A Hong Kong judgment (Hong Kong is gazetted under REFJA) was given against a debtor who was in Hong Kong for two days when served. He lives in Singapore. Comparing the regimes, which is right?
+H: REFJA s 5(3)(a)(iv) against Adams v Cape.
+- Temporary presence suffices under both REFJA and the common law || Under REFJA residence is required; temporary presence suffices only at common law.
+- Residence is required under both REFJA and the common law || At common law, voluntary temporary presence suffices (Adams v Cape).
+* REFJA needs residence; the common law accepts temporary presence || Correct: if the creditor registers under REFJA, it cannot also sue at common law (s 7(1)).
+- Neither regime looks at presence; both turn on submission || Both recognise presence-based jurisdiction, but they define it differently.
+
+@sec law302-hj7--hx-J7-5
+Q: Under a 2020 exclusive clause choosing the Paris Commercial Court, the Paris court made a final €5m damages judgment and an interim order freezing the distributor's stock. Which can be recognised and enforced under the CCAA?
+H: Section 10.
+- Both: each is an order of the chosen court || Interim relief is excluded from the CCAA (s 10; Motacus).
+- Neither: the CCAA covers only judgments given in Singapore || The CCAA governs recognition of chosen-court judgments of other Contracting States.
+* The final damages judgment; the interim freezing order is excluded || Correct: Singapore may grant its own interim relief in support (s 10(2)).
+- The interim order only, since damages judgments go under the common law || Final money judgments of the chosen court are squarely within the CCAA.
+
+Q: A Mexico City court chosen under a 2021 exclusive clause gave judgment against a Singapore distributor. The claim was served on the distributor's old address, which the claimant knew it had left; the distributor learned of the case only after judgment. What follows under the CCAA?
+H: Section 14.
+- Discretionary refusal under s 15, if the distributor shows prejudice || Lack of timely notice is a mandatory ground under s 14(a).
+* Mandatory refusal under s 14(a), and probably s 14(b) for procedural fraud || Correct: deliberately serving a known wrong address is close to extrinsic fraud (C&Y).
+- No refusal: findings of the chosen court bind, including on service || The binding-findings rule does not oust the mandatory notice ground.
+- No refusal, because the CCAA has no natural justice ground || Section 14(a) is precisely a notice ground.
+
+Q: A 2022 clause chose "the courts of England and Wales". Earlier, Orchid had sued in Singapore, and the Singapore court refused a s 12 stay because the clause was null and void, then gave judgment for Orchid. Now an English judgment against Orchid is sued on. What is Orchid's strongest ground?
+H: Section 15(1)(d).
+- Section 15(1)(a), because the English court got the validity of the clause wrong || Validity is for English law, and the English court's ruling binds, even in a default judgment.
+- Section 15(1)(c), because service by post was improper || That ground caters for States that treat service as a sovereign act, which Singapore does not.
+- Section 15(4), because the case was transferred within England over Orchid's objection || The clause names "the courts of England and Wales", so the transferee court is itself chosen.
+* Section 15(1)(d): the English judgment is inconsistent with a Singapore judgment || Correct: a strong ground. The £5m exemplary portion may also be refused under s 16 and the rest severed (s 19).
+
+Q: A 2021 exclusive clause chose the Paris Commercial Court. The French brand instead sued the Singapore distributor in Bangalore and won; the distributor appeared only to contest jurisdiction. Can the brand enforce the Bangalore judgment under the CCAA?
+H: Chosen court only.
+- Yes: the CCAA covers judgments of any Contracting State's court on the contract || It covers only judgments of the chosen court.
+- Yes, but the distributor may refuse under s 15(1)(e) || Not the right analysis: the Bangalore judgment is outside the CCAA altogether.
+- No, and the CCAA itself bars enforcement under any other regime || The CCAA does not itself bar enforcement under other regimes (C&Y).
+* No: a non-chosen court's judgment is outside the CCAA; other regimes then decide || Correct: at common law the distributor runs the breach defence and lack of international jurisdiction.
+
+@sec law302-hj7--hx-J7-6
+Q: Lotus Hotels never knew of a Maldivian suit until the owner obtained a US$30m judgment at a hearing two weeks after filing. The suit breached a Singapore-seated arbitration clause. Can Lotus get an anti-enforcement injunction?
+H: Sun Travels: exceptional circumstances.
+- No: once a foreign judgment exists, Singapore never restrains its enforcement || AEIs are available in exceptional circumstances (Sun Travels).
+- Yes, simply because the suit breached the arbitration agreement || Breach alone is not enough; party autonomy is no separate category (Arkhangelsky).
+* Likely yes: no knowledge until judgment is a recognised exceptional circumstance || Correct: its "delay" is not unconscionable. Contrast a party who knew, contested abroad for two years, and waited.
+- Only if it first applies to set aside the judgment in the Maldives || That is not a precondition. The question is whether exceptional circumstances exist.
+
+Q: The owner's Maldivian suit was merely vexatious (a duplicative claim), with no fraud and with Lotus fully aware of it. After judgment, Lotus seeks an AEI. Is vexation enough?
+H: Sun Travels.
+- Yes: vexation supports an ASI, so it supports an AEI too || An AEI needs exceptional circumstances on top of the ASI requirements.
+- Yes, if Singapore would have granted an ASI before judgment || The test after judgment is stricter: exceptional circumstances are required.
+* No: vexation alone is not an exceptional circumstance || Correct: fraud or lack of knowledge can be; vexation alone is not (Sun Travels).
+- No, because AEIs are available only against judgments of non-Contracting States || There is no such limit. The point is the lack of exceptional circumstances.

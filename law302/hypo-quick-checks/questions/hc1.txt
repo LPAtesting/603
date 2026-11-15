@@ -1,0 +1,153 @@
+@sec law302-hc1--hx-C1-1-1-c
+Q: Rossi, in Milan, promised in a signed letter to transfer Singapore shares to his nephew, with no consideration. The parties chose Italian law, under which such a written promise binds. His estate says that without consideration this is not a "contract", so the contract choice of law rule cannot apply. Is that right?
+H: Re Bonacina; Raiffeisen.
+- Yes: Singapore domestic law characterises, and it has no contract without consideration || The lex fori characterises, but in a broad internationalist spirit, unconstrained by domestic rules like consideration.
+- Yes, because Italian law must characterise the promise, as the chosen law || Using Italian law to characterise would be circular: we do not yet know Italian law governs.
+* No: the enlightened lex fori can treat it as contractual, so Italian law decides whether it binds || Correct: an agreement without consideration can still be contractual for choice of law (Re Bonacina).
+- No, because a promise about Singapore shares is governed by Singapore law anyway || Title may be for the lex situs, but whether Rossi is bound by his promise is contractual.
+
+Q: An English-law insurance policy's proceeds were assigned to Bank A. The debt is treated as situated in France, where the insurer's paying branch is. Bank B claims under a later French-law charge. Bank A says whether the assignment binds the insurer is a contract question for English law. What supports Bank A?
+H: Categories are man-made; the stages interact.
+- The lex situs rule for property, which applies to every assignment of a debt || That is Bank B's argument.
+- The rule that a debt is always situated where the creditor resides || That is not the reasoning, and it would not select English law.
+* Raiffeisen: a fortuitous situs is a poor reason to choose a law || Correct: as in Raiffeisen, the insurance contract's own law was preferred over the French lex situs.
+- Babcock v Jackson: Singapore should apply whichever law best serves its interests || Singapore's rules are jurisdiction-selecting; they do not weigh the content of laws or forum interests.
+
+@sec law302-hc1--hx-C1-1-5
+Q: Klaus, employed by a German company under a German-law employment contract, worked at its Singapore subsidiary and allegedly diverted business secrets. The company sues him in Singapore in equity for breach of fiduciary duty and confidence, hoping to escape German law. How are those claims characterised?
+H: Rickshaw.
+- As equitable claims for Singapore law, because equity follows the forum || Equitable claims have no fixed category; their legal foundation decides.
+* As contractual, so German law governs (Rickshaw) || Correct: as in Rickshaw itself. A tort claim for conspiracy could be framed separately, absent bad faith.
+- As torts, governed by double actionability, as any wrong is a tort || The fiduciary and confidence claims arise from the employment relationship, not a free-standing wrong.
+- As restitutionary claims, governed by the place of enrichment || The claims are about duties owed under the employment, not unjust enrichment.
+
+Q: Mr Lim died domiciled in Singapore, leaving a villa in Bali and a London bank account. Which law governs succession to each?
+H: Immovables and movables.
+- Singapore law for both, as the law of his domicile || Succession to immovables goes to the lex situs.
+- Indonesian law for both, as the most valuable asset is in Bali || Each asset is treated by its own category.
+* Indonesian law for the villa, Singapore law for the account || Correct: immovables follow the lex situs; movables follow the law of the domicile.
+- English law for the account (lex situs), Indonesian law for the villa || For succession, movables follow the lex domicilii, not the lex situs.
+
+Q: A Singapore tycoon's oral agreement with a Geneva wealth manager was documented in Swiss-law asset management agreements. The money was in Singapore accounts and a BVI company. He sues for breach of fiduciary duty and a constructive trust, arguing Singapore or BVI law governs. What governs?
+H: Perry; Rappo.
+- Singapore law, as the situs of the money || Per Perry, the quality of the contractual connection outweighs the number of other factors.
+- BVI law, as the place of incorporation of the holding company || Incorporation is one factor, outweighed by the contractual foundation.
+- Singapore law, because constructive trusts are equitable and follow the forum || The claims' legal foundation is contractual, so the AMAs' law governs.
+* Swiss law: the claims arise from the agreements, so they are contractual || Correct: and Swiss law may not recognise trusts, so those remedies may be unavailable even in Singapore.
+
+@sec law302-hc1--hx-C1-2
+Q: A Sydney casino sues a Singapore businessman for a NSW-law gambling debt. Section 5(2) Civil Law Act says "no action shall be brought or maintained in any court for recovering any sum ... won upon any wager". How is s 5(2) characterised?
+H: Star City.
+* Procedural, as it bars enforcement here (Star City) || Correct: this was Star City. The functional critique (Goh Suan Hee) is a fallback, but Star City remains law.
+- As substantive, so it applies only if Singapore law governs the debt || That is the functional critique. Star City characterised the "no action" wording as procedural.
+- As irrelevant, because NSW law governs and validates the debt || A procedural rule of the forum applies whatever the lex causae.
+- As substantive, because any rule denying recovery goes to the right || A "no action" provision goes to enforcement. A rule that "no obligation" is created would be substantive.
+
+@sec law302-hc1--hx-C1-4
+Q: A PRC contractor seeks in Singapore to restrain an Indonesian employer from calling an English-law on-demand performance bond. It argues that PRC law, governing the underlying contract, allows such injunctions on a lower "unconscionability" threshold. Which law decides whether the call can be restrained?
+H: Shanghai Electric.
+- PRC law, as the law of the underlying contract || The bond is a separate obligation with its own governing law.
+- Singapore law, because all injunctions are procedural || Restraining a bond call is substantive, because it deprives the beneficiary of immediate payment.
+* English law, the bond's law, as restraining a call is substantive || Correct: subject to the remedy being known to Singapore law. A Mareva, by contrast, is procedural.
+- Indonesian law, as the law of the beneficiary's residence || The beneficiary's residence is not the connecting factor for the bond.
+
+Q: Mr Goh is injured in Langkawi by a Malaysian operator's negligence. Malaysian law does not recognise damages for loss of "amenity of holiday", though Singapore law does. He sues in Singapore. Can he recover that head?
+H: Heads of damage are substantive.
+* No: heads of damage are for Malaysian law, the lex causae || Correct: Boys v Chaplin; Harding v Wealands.
+- Yes: damages are procedural, so Singapore's heads apply || Heads of damage are substantive; only quantum is (traditionally) procedural.
+- Yes, under the flexible exception, because he lives in Singapore || Residence alone does not displace the lex loci delicti on this issue.
+- Only if he can show Malaysian quantum is lower overall || Quantum and heads are separate questions.
+
+Q: Malaysian law caps Mr Goh's general damages and has a lower conventional scale than Singapore. On the traditional view, which applies, and what is the Goh Suan Hee critique?
+H: Quantum: procedure or substance?
+- Malaysian quantum on both views, because the lex causae always governs damages || Traditionally quantum is procedural, so Singapore scales apply.
+- Singapore scales on both views, because quantum is always procedural || Goh Suan Hee (obiter) called the split "wholly artificial", favouring Malaysian quantum.
+* Traditionally Singapore's; Goh Suan Hee hints at Malaysia's || Correct: the CA left the point open and cautioned against suing here for a bigger award.
+- The higher of the two, to compensate the claimant fully || There is no "higher of the two" rule.
+
+@sec law302-hc1--hx-C1-5
+Q: Before the FLPA, a Ruritanian-law contract was sued on in Singapore after 3 years. Ruritania's statute said "all actions on contracts shall be commenced within 2 years". Under the old common law, was the claim barred?
+H: Remedy or right?
+- Yes: the Ruritanian period applied, as the law governing the contract || Under the old common law a rule barring the remedy was procedural, so the forum's period applied.
+* No: barring the remedy made it procedural, so Singapore's 6 years applied || Correct: had it said the debtor "shall be absolved from liability", it would have been substantive and barred the claim.
+- Yes, because both periods applied cumulatively and the shorter one won || Cumulation arose only where both rules were classed in a way that made both apply. Here only Singapore's procedural period applied.
+- No, because limitation never applied to foreign contracts at common law || Limitation applied; the question was which period, by characterisation.
+
+Q: A Singapore claimant sues after 18 months for an accident in Ruritania (Ruritania: 1 year; Singapore: 3 years). Ruritanian conflict rules would refer limitation to the law of the forum. Under the FLPA, is the tort claim in time?
+H: FLPA s 3(2); no renvoi.
+- Yes: Ruritanian conflict rules refer limitation to Singapore law, which gives 3 years || Renvoi is excluded (ss 3(5), 6(2)), so only Ruritania's domestic period counts.
+- Yes: as in England, both periods apply, and the claim must only satisfy the longer || Singapore does not apply its own period cumulatively, unlike the UK FLPA (Metall).
+* No: Ruritania's 1-year period applies, unless the flexible exception selects Singapore law alone || Correct: s 3(2) applies the lex loci delicti's period, considered for actionability.
+- No, because the forum always applies the shorter of the two periods to torts || There is no "shorter period" rule; the statute picks the lex loci delicti's period.
+
+Q: A distressed-debt fund bought, at a steep discount, claims it knew were probably time-barred under the governing Thai law. They became barred because the assignor's former directors refused to sue. Can the fund disapply the Thai period for undue hardship under FLPA s 4(2)?
+H: Recovery Vehicle 1: causation and self-induced hardship.
+- Yes: losing the claims entirely is disproportionate whatever the cause || The hardship must flow from the foreign period itself, not from someone's refusal to sue.
+- Yes, because the Thai period is shorter than Singapore's || A shorter foreign period is not enough by itself.
+- Only if the directors' refusal was in bad faith || Bad faith of the directors does not change that the hardship was not caused by the Thai period.
+* No: the directors' refusal, not the Thai period, caused it || Correct: its hardship is self-induced. Contrast a claimant misled by the defendant's assurances.
+
+Q: A beneficiary's fiduciary claim is governed by Swiss law, which has a 10-year period. He waited 9 years, during which witnesses died and documents were lost. Singapore law's laches doctrine would bar the claim. Is it barred in Singapore?
+H: FLPA and equitable claims.
+- Yes: Singapore's laches doctrine is preserved for equitable claims || Unlike UK FLPA s 4(3), the Singapore FLPA has no carve-out for laches.
+* No: the Swiss 10-year period applies and has not run || Correct: per C&Y, an unacceptably long, prejudicial delay might engage public policy, but that needs strong facts.
+- Yes, because laches is procedural and so applies as lex fori || Under the FLPA, the lex causae's limitation law applies whatever its label.
+- No, because limitation never applies to equitable claims || The FLPA applies to equitable claims too; the Swiss period simply has not run.
+
+@sec law302-hc1--hx-C1-6
+Q: A French parent orally guaranteed its Singapore subsidiary's debts under French law, which enforces oral commercial guarantees. The bank sues in Singapore. Section 6 Civil Law Act says no "action" shall be brought on a guarantee without signed writing. What is the current position?
+H: Leroux v Brown.
+- The claim proceeds, because French law governs the guarantee || A procedural rule of the forum applies whatever the lex causae.
+- The claim proceeds, because writing requirements are always matters of form || On the current law, s 6's "no action" wording is procedural.
+- The guarantee is void under Singapore law, which governs all guarantees sued on here || It is not void; enforcement is barred in Singapore because the rule is procedural.
+* The claim is barred: per Leroux v Brown, s 6 is procedural and applies as lex fori || Correct: on the functional view the rule goes to substance and should follow French law, but Leroux reflects the current law.
+
+Q: In the same case, the parent wants to adduce pre-contract emails, first to vary the guarantee's cap, and second to interpret an ambiguous term. Which law decides each use?
+H: Korner v Witkowitzer; St Pierre.
+- French law for both, as the lex causae || Using evidence to vary the terms is a parol evidence question for the forum.
+- Singapore law for both, as the law of evidence is always procedural || Interpretation is substantive, for the lex causae.
+* Singapore law for varying the cap; French law for interpreting the term || Correct: C&Y find the split hard to justify, and the parent can exploit it by framing its evidence as interpretation.
+- French law for varying the cap; Singapore law for interpretation || It is the other way round.
+
+Q: A Singapore tourist is injured on an Egyptian hotel excursion. Neither party pleads Egyptian law. At trial the hotel argues Singapore law cannot apply because "the tort was in Egypt". What is the answer?
+H: Brownlie; EFT Holdings.
+* Singapore law applies in its own right, as no one pleaded Egyptian law || Correct: no conflicts issue arises unless foreign law is pleaded (EFT Holdings).
+- The court must apply Egyptian law of its own motion, as the lex loci delicti || Foreign law must be pleaded and proved; the court does not raise it itself.
+- The claim fails, because without proof of Egyptian law there is no applicable law || Unpleaded foreign law means Singapore law applies in its own right.
+- The presumption of similarity applies, so Egyptian law is deemed the same || The presumption arises once foreign law is pleaded but not proved. Here it was never pleaded.
+
+Q: Two experts flatly contradict each other on a novel point of NSW trust law in a Singapore trial. What can the court do?
+H: O 29 ROC 2021.
+- Nothing: it must choose between the experts as a matter of fact || The court has a further option for specified courts.
+- Apply Singapore law instead, as NSW law is unproved || NSW law has been proved, just disputedly. The court can seek a ruling from NSW.
+* Order the question decided in NSW under O 29 || Correct: as in Westacre. For the PRC, O 29A allows a court-to-court reference.
+- Refer the question to the SICC, which decides foreign law on submissions || Section 18L is an SICC power for SICC cases; it is not a referral route for the General Division.
+
+@sec law302-hc1--hx-C1-9
+Q: A Hong Kong firm, unlicensed in Singapore, advised Singapore clients here under a Hong Kong-law contract, contrary to the Financial Advisers Act. It sues for fees in Singapore. What is the effect of the Act?
+H: Skilling.
+- None: Hong Kong law governs the contract, so Singapore's licensing law is irrelevant || A Singapore licensing statute protecting its market is an overriding mandatory rule.
+- The whole contract is void, and Hong Kong law ceases to govern any part of it || The rule is superimposed: the contract is unenforceable only to the extent of the conflict.
+- The firm can recover if the contract was lawful in Hong Kong || Legality under the proper law does not displace an overriding Singapore rule.
+* The contract is unenforceable to the extent of the conflict; Hong Kong law governs the rest || Correct: only the international tier of mandatory rules overrides a foreign proper law, and this licensing regime is one.
+
+Q: A misrepresentation made in Jakarta induced a UAE-law contract. The claimant seeks damages under s 2(1) Misrepresentation Act in Singapore. Does the Act apply?
+H: JIO Minerals.
+- Yes: it is a forum mandatory rule that applies to any case heard here || The MA supplements common law remedies, and it applies only if Singapore law governs.
+- Yes, if the claimant is a Singapore company || The claimant's nationality is not the test.
+* No: the MA applies only where Singapore law governs the contract || Correct: by the choice of law aspect of the presumption, UAE law governs, so the MA does not apply.
+- No, because a misrepresentation made abroad is always governed by the place it was made || The point is the law governing the contract, not where the words were said.
+
+Q: A Greek-law charter was renegotiated under the shipowner's threat to withhold the vessel (economic duress). Greek law upholds it. Separately, a German-law contract is illegal under a Nazi-era racial law. Which does Singapore refuse to give effect to on fundamental public policy?
+H: Dimskal; Kahler.
+- The Greek charter: economic duress always offends Singapore public policy || Economic duress stays with the proper law (Dimskal); this is not a fundamental-policy case.
+* Only the racial law; the Greek charter stands || Correct: a racially discriminatory rule offends fundamental public policy (Kahler; Helbert Wagg).
+- Both, as each departs from what Singapore domestic law would decide || A rule merely contrary to domestic policy is not enough; only fundamental public policy counts.
+- Neither: the proper law always decides, and public policy is never applied || Fundamental public policy can override, as with the racial law.
+
+Q: A contract is governed by Malaysian law. Malaysian conflict rules would apply Singapore law to a particular issue. Does Singapore apply Singapore law through renvoi?
+H: Ong Ghee Soon; Amin Rasheed.
+- Yes: "Malaysian law" includes Malaysian conflict rules, which remit to Singapore || Renvoi is excluded in contract.
+- Yes, if it would avoid an unjust result on that issue || There is no case-by-case renvoi in contract.
+- It depends on whether Malaysia would itself accept the remission || That is total renvoi, which does not apply in contract.
+* No: in contract the proper law means Malaysian domestic law || Correct: as in Rome I art 20. Renvoi has never applied in tort either (Credit Suisse v Ivanishvili).

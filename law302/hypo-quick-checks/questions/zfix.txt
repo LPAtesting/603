@@ -1,0 +1,200 @@
+# Rebalance option lengths in the original 80 hypo-test questions so the right
+# answer is no longer simply the longest one. Only option texts change.
+@fix j1hx-869d679f
+2: The common law: Lionfish broke its England-only promise, so Lionfish itself must show strong cause
+@fix j1hx-6240dd98
+0: Plain Spiliada: no one is in breach, and the clause carries little weight
+3: The CCAA: Thailand is the chosen court, so Singapore must stay under s 12 unless an exception applies
+@fix j1hx-3e467ae0
+3: An express exclusive agreement under s 3(1); then check the other gateways
+@fix j1hx-5b78b22b
+1: The CCAA does not apply (not international), but at common law the claimant faces strong cause
+0: The CCAA applies because England is a Contracting State, so Singapore must stay unless an s 12(1) exception applies
+@fix j1hx-79d51d44
+2: A good arguable case of an exclusive non-Singapore clause, which context shows here
+@fix j1hx-9c0a736e
+1: Singapore construction by presumed similarity, so Fiona Trust's broad reading applies
+0: The court must dismiss the scope argument altogether, because the governing law of the clause is unproved
+@fix j1hx-92f4e282
+0: Clause 21 is supervisory, so the merits action breaches clause 20
+1: Clause 21 comes later in the contract, so it prevails over clause 20 and the court can hear the merits
+@fix j1hx-239a138d
+3: The clause stands, as the fraud and mistake do not touch it, so Raffles is in breach and bears strong cause
+0: The fraud plea suspends the clause until the fraud is tried, since fraud unravels everything
+@fix j2hx-549a72bf
+0: Jurisdiction exists as of right; the weak connection goes to a stay
+@fix j2hx-4049c7d7
+1: No: Sch 1 gives powers once jurisdiction exists under ss 16 to 17
+@fix j2hx-e729bc0f
+2: Under s 376(c) at its registered office in England, or under s 376(b) on its authorised representative
+0: Only by serving out under O 8, since it no longer has any place of business in Singapore
+@fix j2hx-041204fe
+3: No: Mei cannot bind the company, and the claim is outside her business
+0: Yes: she manages the Singapore office, which is enough for agent service on the company
+2: Yes, because the company is present under Adams v Cape through its liaison office
+@fix j2hx-a60771ff
+0: Submission on claim A only; the reservation on B holds, and the NEJC is not submission
+2: The NEJC alone means it "has submitted" under s 16(1)(b), so it is bound for all claims in the action
+@fix j2hx-5bb9994d
+1: The cargo interests: Aurora submitted to all incidents of the litigation
+2: Neither: the cargo interests must first serve Aurora out of Singapore, as it has discontinued
+@fix j2hx-21811d1c
+3: No: it is not submission, and the solicitors had no authority to accept service
+2: Yes: O 7 r 2(1)(d) applies automatically to any solicitors on record for the defendant in the action
+@fix j2hx-865a7c46
+1: On the narrow reading, no; it matters mainly for recognition abroad
+2: No, and because it has not submitted the Singapore court therefore loses jurisdiction over it
+@fix j3hx-e7439464
+1: It cannot be served here, so it must be served out under O 8 with approval
+@fix j3hx-7d0973e0
+2: It fails nexus, because its gateway case and merits case are inconsistent
+3: It succeeds if the claimant shows a prima facie case on the gateway, whatever it pleads on the merits
+@fix j3hx-7650ddc0
+0: Yes, but its relief is confined to the losses flowing from the Singapore non-delivery
+@fix j3hx-0e610ba9
+3: (p): the cause of action arose in Singapore through the Singapore platform
+@fix j3hx-9feb0978
+1: (r): it is an agreement to submit, which carries the tort claim within its scope
+@fix j3hx-6ce75018
+2: (e) subsumes the serious question; (d)(iii) needs it shown separately
+1: Neither needs any merits evidence at all, as long as the gateway itself is shown to the right standard
+@fix j3hx-266a47d4
+1: Consider forum "for good order", as Mr Fu is abroad and has not submitted
+@fix j3hx-93720b3a
+3: Apply to set aside, and argue forum inside that application
+@fix j4hx-2ab4b7fd
+0: Spiliada, with the defendant bearing stage 1, which was a tactical mistake
+@fix j4hx-296e2328
+2: The claimant must show strong cause, as the party in breach
+@fix j4hx-9e081d6e
+0: As an error of principle: weighty foreign law was wrongly treated as neutral
+2: As a disagreement with the weight given to each factor, which is the ground most likely to succeed
+@fix j4hx-0e4b4962
+1: A trust claim against a Swiss bank under Swiss law, which has no trust doctrine
+@fix j4hx-6dff3b70
+3: Likely refused: without funding the claim cannot be pursued abroad at all
+2: Granted, because Singapore is no more generous on legal aid than Malaysia, so nothing is lost
+@fix j4hx-3d837c55
+1: The claimant bears the burden and likely fails, as equal appropriateness is not enough
+2: The defendant must show Dubai is clearly more appropriate, as on any stay of a Singapore action
+@fix j4hx-11881b3d
+2: No: under s 3(1) FLPA the Philippine period applies here too
+0: Yes: losing a claim to a time bar abroad is substantial injustice, as Spiliada itself shows
+@fix j4hx-35bfaa81
+0: FNC first; if it fails, Mr Tan must elect
+@fix j5hx-10c77696
+2: No: both parties' places of business are in Singapore, so the presumption is rebutted
+0: Yes: the German parent's offices in 30 countries make the dispute international for the SICC
+@fix j5hx-57c9bd20
+1: Yes: s 18F makes the Singapore-law clause exclusive, so the Houston suit is a breach of it
+@fix j5hx-24ebf14c
+0: It is beside the point: FNC does not apply to SICC service
+@fix j5hx-6adcc61c
+3: Refused: Chilean connections alone cannot ground declining, and there is no Spiliada
+2: Refused only if Strait Metals shows that Singapore is the natural forum for the dispute
+@fix j5hx-0ff835f7
+1: Every party's consent; Aztec is deemed to consent, but its timely objection risks art 8(5)
+0: Nothing: the court may transfer on its own motion, as allocation is an internal matter
+@fix j5hx-07abfe68
+3: Transfer, on condition that the clause is varied to name the General Division
+2: Treat both parties as deemed to consent under O 2 r 4(7), and transfer without more
+@fix j6hx-659582c6
+1: Vexation: suing elsewhere is no breach of a Singapore NEJC
+3: None: Gulf is not amenable, because it was never served in Singapore, only defended there
+0: Contractual: suing in Dubai breaches the NEJC, so no vexation is needed
+@fix j6hx-dbd7eb6e
+2: As in substance an objection to Singapore's jurisdiction, arguably a breach of the narrow waiver
+0: As ordinary parallel litigation that Singapore must tolerate under a non-exclusive clause
+@fix j6hx-5999ab2b
+0: Refuse: Singapore has no sufficient interest
+@fix j6hx-98834400
+3: An ASI until the negotiation and mediation steps are completed
+2: None, because the beneficiary is not a party to the contract and so cannot be bound by its tiers
+@fix j6hx-cbc82e70
+1: The investor, in breach, must show strong reasons against the ASI
+3: Neither: an ASI can never touch a claim to property situated abroad, such as Shanghai shares
+@fix j6hx-d9bcd4d0
+2: Yes: it could and should have been raised in the Singapore suit
+0: No: the misrepresentation claim was never decided in Singapore, so there is nothing to protect
+@fix j6hx-4e6c709f
+1: An anti-enforcement injunction, which needs exceptional circumstances
+2: Nothing in Singapore: it can only resist enforcement in Dubai when the creditor applies there
+@fix j6hx-c021e3c6
+0: Sparingly, giving the respondent the benefit of real doubt
+@fix j7hx-5352ebd7
+3: Texas: a Texas state court served him while he was in a two-hour transit at Dallas airport
+@fix j7hx-72a24a79
+0: Yes: under Korean law it became final in 2020
+3: Yes, because foreign judgments have no limitation period at all in a common law action
+@fix j7hx-2304b9d5
+1: Perjury about delivery dates that Kopi's lawyers could have exposed
+@fix j7hx-54310359
+3: Lack of international jurisdiction: protest is not submission
+1: Breach of the clause is a complete defence, so nothing else need be argued in Singapore
+@fix j7hx-9742cc4b
+2: No: only the dispositif of a civil-law judgment may bind
+3: No, because foreign judgments never create issue estoppels in Singapore proceedings
+@fix j7hx-baecfdba
+1: Refused: Lotus knew and waited, so it should resist recognition instead
+2: Granted, because party autonomy is a separate category of exceptional circumstance
+@fix j7hx-2f674f3e
+3: No: it is no longer enforceable in France (s 13(2))
+0: Yes: no Singapore limitation period applies to CCAA judgments, so time is irrelevant
+@fix c1hx-9e287b9e
+1: (a) tort (C3); (b) contract, under the rental form's proper law (C2)
+@fix c1hx-7b36f602
+0: It fails: Singapore picks law by connecting factor, not content
+@fix c1hx-e6ac483a
+2: Only the German rule, so the daughter does not inherit
+3: There is a gap, so neither presumption applies and the court decides on the evidence
+@fix c1hx-e499a319
+3: No: Swiss law governs entitlement and does not recognise them
+1: Yes, because Singapore equity always protects a beneficiary whose assets are here
+@fix c1hx-0d71a10d
+1: Greek law decides entitlement; grant the closest Singapore equivalent
+0: Refuse outright, as in Phrantzes v Argenti, since the remedy is unknown here
+@fix c1hx-b3721826
+0: Likely yes: short bar, complex claim, good reason, harsh result
+@fix c1hx-1751c1e6
+2: Admissible, but of little weight on unclear points without an expert
+3: Irrelevant: Hong Kong law is presumed identical to Singapore law, so no proof is needed
+@fix c1hx-46a4521f
+3: The SICC can, under s 18L; the General Division has no equivalent power at all
+@fix c2hx-b0a21dd3
+0: English law, as the misrepresentation does not touch the clause
+1: Singapore law, as the lex fori, until the validity of the clause is decided
+@fix c2hx-87d5540f
+2: Yes, unless it is not bona fide
+@fix c2hx-43667e1e
+1: Singapore law, the place of business involved in this contract
+0: Hong Kong law, because the head office is the seller's principal place of business
+@fix c2hx-9fac7585
+3: No: go to Stage 3, where the option is a factor
+@fix c2hx-23677161
+0: The witnesses' homes and the patents' registry
+1: The place of performance, where the factory is built and run
+2: The references to the Singapore Companies Act and SGX listing rules
+3: The place of signing, which was Singapore
+@fix c2hx-635756c4
+1: A contract signed by only one of the two joint prokurists required by Swiss commercial law
+@fix c2hx-ce7f201a
+2: Yes: illegality there is irrelevant
+@fix c2hx-343ad69a
+1: No: forum and local policy both condemn it (Lemenda)
+@fix c3hx-dead3b77
+2: Plead and prove Indonesian law
+@fix c3hx-2c0da1d6
+0: It is fatal unless displaced
+@fix c3hx-0a9035a2
+3: Malaysia, where the negligent act and the physical damage occurred
+@fix c3hx-cc63d737
+0: Singapore law, as the tort is deemed committed in Singapore
+1: California law, as chosen in the platform's terms of use
+@fix c3hx-5bb1a5a2
+2: Refused: Singapore is not fortuitous
+@fix c3hx-698a7e27
+1: Yes, as both are fortuitous, though it rarely succeeds
+@fix c3hx-3a5ab063
+3: It fails both limbs
+@fix c3hx-e5820564
+2: No: renvoi has never applied in tort

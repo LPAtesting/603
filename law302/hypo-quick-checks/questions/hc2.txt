@@ -1,0 +1,154 @@
+@sec law302-hc2--hx-C2-1
+Q: In Golden Grain v Irrawaddy, English law is the proper law. Which law decides who bears the burden of proving that the rice was defective?
+H: Burden of proof.
+- English law, as the proper law governs performance and breach || The burden of proof is procedural, so the forum decides it.
+* Singapore law: the burden of proof is procedural || Correct: unlike Hague Principles art 9, the proper law does not cover it (C1.6.1).
+- Myanmar law, as the law of the place of shipment || The place of shipment is not the connecting factor for burden of proof.
+- English law, including English conflict rules, which may refer to another law || There is no renvoi in contract, and in any case burden is for the forum.
+
+Q: A murabaha facility says: "This Agreement shall be governed by the principles of the Glorious Sharia." Can that be the proper law in a Singapore court?
+H: Musawi.
+- Yes: parties may choose any body of rules, as Hague Principles art 3 allows || Singapore's common law requires the law of a country. It does not adopt art 3.
+- Yes, provided the parties are both from countries that apply Sharia || The problem is that Sharia is not the law of a country, whoever the parties are.
+* No: it is not the law of a country, so go to the implied or objective proper law || Correct: the parties can instead incorporate Sharia principles as terms of, say, a Singapore-law contract (Beximco).
+- No, and the whole facility is void for uncertainty || The choice fails, but the contract is not void; another proper law governs.
+
+Q: A contract says nothing about governing law. After a dispute arose, both parties' lawyers wrote letters referring to "the applicable Thai law", and the claimant spent heavily preparing a Thai-law case. Do the letters make Thai law the proper law?
+H: Las Vegas Hilton; James Miller.
+- Yes: a later agreement on governing law is an express choice at Stage 1 || The proper law is fixed at contracting, so later letters do not choose it.
+- Yes, because conduct after contracting is the best evidence of implied choice || Post-contract conduct is not used to find the proper law.
+* No, but the party who invited reliance may be estopped || Correct: Las Vegas Hilton on the fixed proper law; James Miller on estoppel.
+- No, and the letters can have no legal effect at all || They may found an estoppel by representation.
+
+@sec law302-hc2--hx-C2-2-6
+Q: A Malaysian moneylender, dealing entirely in Johor, inserts at the last minute, and only in its high-interest loans, a clause choosing the law of Vanuatu, which has no moneylending regulation. What happens to the clause?
+H: Bona fide? Sole purpose of evasion.
+* It is struck out completely, and the objective proper law (Malaysian law) governs || Correct: no connection with Vanuatu, and evasion of Malaysian moneylending law was the sole purpose.
+- It stands: a chosen law needs no connection with the contract || A choice made solely to evade the law that would otherwise apply is not bona fide.
+- It stands, but the court applies Malaysian moneylending law as a forum mandatory rule || Malaysian law is not Singapore's forum mandatory law; the remedy is to strike out the clause.
+- It stands for everything except the interest rate, which Malaysian law governs || Striking out is total, not partial, where the sole purpose was evasion.
+
+Q: A Swiss-law bond purchase is challenged in several ways. Which vitiating factor also takes down the Swiss choice of law clause, sending material validity to the objective proper law?
+H: CIMB.
+- A disputed fraudulent misdescription of the bonds' credit rating || A disputed misrepresentation about the subject matter does not touch consensus on the choice of law clause.
+- A common mistake about which bond series was being sold || Common mistake about the goods affects the contract, not the clause.
+* Non est factum by the elderly director || Correct: non est factum infects everything, including the clause.
+- Economic duress through threatening to withhold an unrelated delivery || Economic duress stays with the proper law (Dimskal).
+
+Q: A sale contract says: "If the Buyer repudiates, English law governs; if the Seller repudiates, Thai law governs." Is that a valid split proper law?
+H: Coherence.
+- Yes: parties may split the proper law however they wish || A split must be internally coherent.
+- Yes, as Hague Principles art 2(2) allows any split || Even under art 2(2), the split must be coherent.
+* No: it is internally incoherent || Correct: contrast a coherent split, such as payment under New York law and all else under Singapore law.
+- No, because a contract may never have more than one governing law || Splits are allowed (Libyan Arab Foreign Bank); this one fails for incoherence.
+
+Q: A 2019 distribution agreement governed by Indonesian law was varied in 2023 to be governed by Singapore law. A 2020 guarantor says the change cannot prejudice it. What is the better view?
+H: Hague Principles art 2(3), via the SAL Report.
+- The change is ineffective: the proper law is fixed forever at contracting || Parties may change the proper law (Kredietbank v Sinotani).
+* Effective between the parties, but not against the guarantor || Correct: nor can it undo formal validity already achieved, as with the 2021 mortgage.
+- The change binds the guarantor too, as the guarantee follows the main contract || A change should not worsen a third party's position.
+- The change is effective only if Indonesian law permits it || Whether a change is permitted is for the lex fori or the original proper law, and that is open; the third-party protection is the point here.
+
+@sec law302-hc2--hx-C2-2-9
+Q: A Singapore consumer, from home, buys a sofa online from a Danish retailer whose terms choose Danish law and exclude all liability for defects. What is the effect of UCTA?
+H: Section 27(2)(b): superimposition.
+- None: Danish law governs, and UCTA applies only to Singapore-law contracts || Section 27(2)(b) applies UCTA despite a foreign choice where the consumer contracted from here.
+- The Danish choice is struck out, so Singapore law governs the whole contract || That is the effect of a non-bona fide choice. Here UCTA is superimposed instead.
+* Danish law still governs, but the exclusion is subject to UCTA || Correct: superimposition, not striking out. The exclusion must pass UCTA or is void if s 6 applies.
+- The exclusion is void automatically, because any foreign choice evading UCTA fails || UCTA's own tests apply to the exclusion. The Danish choice is not struck out.
+
+Q: Contract A "incorporates the provisions of the Thai Civil and Commercial Code on sale, as at the date of this contract". Contract B is "governed by Thai law". Thailand amends its sale provisions two years later. Do the amendments apply?
+H: Choice versus incorporation.
+- Yes to both: Thai law applies as living law in each case || Incorporated provisions are terms that crystallise at formation.
+- No to both: the law at the date of contracting always governs || A choice of law applies the law as it stands from time to time.
+* Not to A, but yes to B || Correct: subject to any Thai transitional rules for Contract B.
+- Yes to A (incorporation tracks changes), but not to B || It is the other way round.
+
+@sec law302-hc2--hx-C2-5
+Q: A Singapore investor and a Chinese promoter sign in Shanghai, in English and priced in USD, a "Deed of Indemnity" with an SIAC arbitration clause seated in Singapore, but no choice of law. What is the implied choice?
+H: Pacific Recreation.
+* Singapore law, mainly because of the Singapore-seated SIAC clause || Correct: the SIAC clause is heavy. English language and USD carry little weight.
+- PRC law, as the contract was signed in Shanghai || The place of contracting matters little unless performance is also there.
+- English law, because the contract is in English and priced in USD || Language and currency carry little weight.
+- None: an arbitration clause can never imply a choice of law || Under Pacific Recreation a chosen seat is a heavy indicator, though Hague Principles art 4 says otherwise.
+
+Q: An insurance policy says "governed by NSW law; and each party promises not to commence proceedings in any forum that will not apply NSW law". The insured sues in California, which will apply Californian consumer statutes. What can the insurer do?
+H: Promissory clauses need very clear words.
+- Nothing: choice of law clauses are declaratory, as in Ace Insurance || That was true of the bare clause in Ace. This one has very clear promissory words.
+- Only seek a stay in California, as Singapore cannot react to a breach of a law clause || A promissory clause can found damages and a contractual ASI.
+- Treat the clause as a jurisdiction clause for NSW, and nothing more || It is a promise about where to sue and which law to seek, not a choice of court.
+* Claim damages or seek a contractual ASI for breach of the promise || Correct: and arguably resist recognition of any Californian judgment (J7.2.6).
+
+@sec law302-hc2--hx-C2-7
+Q: An Indian supplier's last email says: "This contract is governed by Utopian law. If you do not object within 3 days, the contract is concluded." Lew stays silent. Utopian law treats silence as acceptance; Singapore law does not. Was a contract formed?
+H: Lew v Nargolwala.
+- No: the lex fori decides formation where formation itself is disputed || Lew rejects the lex fori approach, even residually.
+* Yes, under the putative proper law, Utopian law || Correct: a very small "grave injustice" caveat was left open, and its effect would be no contract at all.
+- No: Singapore law applies as the law of Lew's habitual residence || That is Rome I art 10(2) and Hague Principles art 6(2), which are soft law only in Singapore.
+- Yes, because silence is acceptance under any law when a deadline is set || Singapore law does not treat silence as acceptance. The answer turns on the putative proper law.
+
+Q: A Singapore company executed a Thai-law deed signed by one director and not witnessed, in breach of s 41B Companies Act. Thai law requires no witness. Is the deed valid?
+H: AQCEL; alternative reference.
+- No: s 41B is a Singapore forum mandatory rule || A witnessing requirement is a matter of form, validated by the proper law or the place of contracting.
+- No: a company's execution formalities are always for its law of incorporation || That would be a capacity point. A missing witness has no relevance to the will to be bound, so it is form.
+- Yes, but only because the contract was concluded in Thailand || The proper law (Thai) alone suffices under the alternative reference rule.
+* Yes: a missing witness is form, and the deed complies with the proper law (Thai) || Correct: valid under either the proper law or the lex loci contractus (AQCEL).
+
+@sec law302-hc2--hx-C2-9
+Q: Ravi, 19 and domiciled in Ruritania (majority at 21), opens an online margin account with a Singapore broker whose terms choose Singapore law (majority at 18). The objective proper law is also Singapore law. He pleads minority. What is the best answer?
+H: Capacity of natural persons is unsettled.
+- He lacked capacity, as his domicile always governs a natural person's capacity || The lex domicilii is unfair to a broker unaware of his domicile; the modern trend is the proper law.
+- He lacked capacity, because he clicked "accept" in Bali, whose law governs || The lex loci contractus is fortuitous and hard to identify online.
+* He had capacity under the objective proper law, Singapore law || Correct: the rule is unsettled, but the proper law is the modern trend (Charron; Bodley Head).
+- He had capacity only because the broker chose Singapore law || C&Y prefer the objective proper law, which avoids letting the stronger party choose a favourable law.
+
+Q: A Norwegian municipality entered English-law swaps with a bank. A Norwegian statute forbids municipalities from entering speculative financial transactions, though Norway has no ultra vires doctrine. Does the municipality lack capacity, and with what effect?
+H: Haugesund Kommune.
+- No: without an ultra vires doctrine, Norwegian law cannot remove capacity || The majority read capacity broadly as the legal ability to exercise specific rights.
+- Yes, and the bank recovers nothing, as the swaps are void || English law decides the effect: void swaps, but the bank recovers in unjust enrichment.
+* Likely yes: void swaps, with restitution of sums advanced || Correct: capacity is tested under both the law of incorporation and the proper law; English law decides the consequences.
+- No, because capacity is tested only by the proper law, English law || Corporate capacity needs both the law of incorporation and the proper law.
+
+@sec law302-hc2--hx-C2-10-3
+Q: A broker sues for a fee for introducing buyers under a Singapore-law contract. The defendant argues at trial, without having pleaded it, that extraneous emails show an intention to bribe officials. Will the court refuse enforcement on that basis?
+H: Fan Ren Ray.
+- Yes: the court must always refuse an illegal contract of its own motion || The court acts of its own motion only where the contract is illegal on its face.
+* No: extraneous evidence of an illegal object must be pleaded || Correct: contrast a contract ex facie for the sale of human organs, which the court may refuse unprompted.
+- Yes, because bribery of officials is contrary to international public policy || The policy may be engaged, but the evidence must first be properly pleaded.
+- No, because illegality is never relevant to a Singapore-law contract || Illegality is relevant; it just has to be pleaded when it rests on extraneous evidence.
+
+Q: A agrees to sell B jute "CIF Genoa", but both know it will really go to South Africa, in breach of an Indian export ban. The plan is never carried out. Can the contract be enforced?
+H: Foster v Driscoll; Regazzoni.
+- Yes: the stipulated destination is Genoa, which breaks no law || The real object and intention at formation decide, not the stipulated place.
+- Yes, because the plan was never carried out || The wicked intention at formation is enough, even if never acted on (Waugh v Morris).
+* No: the real object at formation was to break a friendly State's law || Correct: Indian law is recognised, not enforced, and Singapore takes no side on South Africa.
+- No, but only if Indian law also governs the contract || Route C does not depend on the proper law; it turns on the parties' intention.
+
+Q: A Singapore seller sells cigarettes to a Thai buyer, knowing the buyer plans to smuggle them into Thailand without paying duty, but taking no part in the plan. Can the seller sue for the price?
+H: Dimplex Gems.
+- No: knowing of the illegal plan makes the seller a party to it || Mere knowledge does not disqualify the seller (Dimplex Gems, doubting Soetanto).
+- No, because the contract is void for both parties once either intends illegality || Unilateral intention bars only the party who holds it.
+- Yes, and it can also get an order compelling the buyer to accept delivery || It cannot get an order compelling illegal performance.
+* Yes: knowledge alone does not bar it, unlike active participation in hiding the goods || Correct: helping hide the cigarettes would bar the seller.
+
+@sec law302-hc2--hx-C2-10-7
+Q: A Singapore-law contract breaches a Ruritanian government purchasing directive, an internal ministry guideline requiring local partners. Does Lemenda make the contract unenforceable?
+H: Shaikh Faisal.
+- Yes: any breach of the place of performance's rules engages Lemenda || Lemenda concerns public policy shared by the forum and the place of performance.
+- Yes, because Singapore must respect a friendly State's government policy || A government directive is policy of the government, not public policy in law.
+* No: a ministry directive is government policy, not public policy in law || Correct: so it is no bar (Shaikh Faisal).
+- No, but only because Singapore law governs the contract || The proper law is not the reason; the directive is not public policy at all.
+
+Q: A Malaysian borrower's Singapore-law facility fixes no place of repayment and permits repayment anywhere. Malaysian exchange control forbids repayment from Malaysia. The bank demands repayment in Singapore. Does Ralli Brothers excuse the borrower?
+H: Peh Teck Quee.
+- Yes: repayment is illegal under the borrower's home law, which bars enforcement || Ralli concerns illegality at the contractual place of performance.
+* No: no place of repayment is fixed, so repayment demanded in Singapore is not illegal || Correct: Ralli bites only in so far as performance at the contractual place is unlawful.
+- Yes, because Malaysian law is the law of the place of contracting || The place of contracting is irrelevant to Ralli and to illegality generally.
+- No, because Ralli applies only to supervening, not existing, illegality || That is not the reason; repayment simply is not required in Malaysia.
+
+Q: A Russian investor transferred US$10m to a Singapore company under an arrangement to evade Russian currency controls, then claims it back in unjust enrichment. The company says the money was paid under the arrangement for services rendered outside Russia. Can it rely on the arrangement as a defence?
+H: Esben.
+- No: a party can never rely on an illegal arrangement in any way || Esben allows reliance as a defence unless the outcome would stultify comity.
+- No, because the claim is restitutionary and illegality does not apply to restitution || Illegality can matter in restitution; the question is whether reliance gives effect to the illegal performance.
+- Yes, and it could equally rely on a right to keep the money to fund smuggling || That would give effect to the illegal performance and stultify comity, so that defence fails.
+* Yes: reliance only explains why the payments were made, so it gives no effect to the illegality || Correct: illegality is a shield, not a sword.

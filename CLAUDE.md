@@ -17,3 +17,10 @@ shows on the right, level with the text). It is separate from the course content
   a secret gist (`lpa-lessons-comments.json`), keyed by page id (e.g. `/603/#law302-j1`)
   and anchored by quoted text. Don't rename page ids (`<article class="page" id="...">`)
   without a reason: comments on a renamed page show under "All pages" with the old id.
+
+## LAW302 hypo quick checks: re-apply after uploads
+
+The quick checks inside the LAW302 hypo pages of `practice.html` come from
+`law302/hypo-quick-checks/`. If an upload replaces `practice.html` with a version
+without them (the J1 page kicker says "8 QUESTIONS"), run
+`python3 law302/hypo-quick-checks/apply.py` and then `python3 comments/attach.py`.

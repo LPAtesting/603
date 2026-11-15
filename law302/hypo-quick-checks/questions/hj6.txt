@@ -1,0 +1,189 @@
+@sec law302-hj6--hx-J6-0-2
+Q: A director removed by the shareholders of Petro Nusantara keeps instructing Mexican lawyers to litigate in Petro's name in Mexico. Petro asks the Singapore court to restrain him from purporting to act for Petro. Is this an ASI governed by the Kirkham / Cooperative Muratori framework?
+H: Oro Negro.
+- Yes: its effect is to end the Mexican suit, so the full ASI framework applies || As in Oro Negro, the order stops someone acting for Petro; it does not restrain a party suing on its own account.
+* No: it stops him acting for Petro, not a party suing on its own account || Correct: it is not an ASI, even though the effect is to end the Mexican suit.
+- Yes, but only the vexation limb applies, since there is no clause || The framework does not apply at all, because no party is being restrained from suing.
+- No, because only a statutory moratorium under the IRDA can affect foreign proceedings || A moratorium is one statutory route; this order rests on the director's lack of authority, not the IRDA.
+
+Q: Gulf argues that UAE law, which governs the contract, does not recognise ASIs, so Singapore cannot grant one against its Dubai suit. Is that relevant?
+H: Lex fori.
+- Yes: the governing law of the contract decides whether a party may be restrained || Whether to restrain foreign proceedings is governed solely by Singapore law as the lex fori.
+- Yes, if UAE law is proved by expert evidence || Proof makes no difference: the question is not one for the governing law.
+- Partly: it is a factor at the undue injustice stage || The governing law's attitude to ASIs is not a factor; the lex fori decides.
+* No: whether to restrain foreign proceedings is for Singapore law alone || Correct: C&Y; C1.3. The UAE rule is irrelevant.
+
+Q: An estate litigating in Singapore asked the BVI court to stay the respondent's BVI suit over the BVI share. The BVI court refused, holding the BVI the natural forum. Three months after the BVI claim was filed, the estate seeks an ASI in Singapore. Does the BVI refusal bar it?
+H: Lakshmi; SNIA.
+- Yes: issue estoppel binds the estate to the BVI ruling on natural forum || There is no issue estoppel, because the ASI test also requires vexation.
+- Yes: comity requires Singapore to defer to the BVI court's view of its own forum || Comity is not breached where Singapore is clearly more appropriate and the respondent sued vexatiously.
+* No: the refusal does not bar an ASI, though the estate should have applied earlier || Correct: SNIA granted an ASI despite Texas refusing a stay. Three months is not fatal at an early stage.
+- No, and delay is irrelevant to ASIs, which turn only on the respondent's conduct || Comity weighs more the later the application (Sun Travels; Lakshmi).
+
+@sec law302-hj6--hx-J6-1
+Q: Merlion obtained approval to serve Jeddah Trading out under O 8 and served it in Jeddah. Jeddah has no Singapore presence or assets and appears only to oppose the ASI. Is Jeddah amenable?
+H: Akai versus the settled view.
+- No: like Akai, a party served out with no presence or assets is not amenable || That is Jeddah's argument, but the settled view (C&Y; Cooperative Muratori) is that valid service founds amenability.
+- No, because appearing only to oppose the ASI is not submission || Amenability can come from valid service, not only submission.
+* Yes, on the settled view: valid service founds amenability || Correct: contrast Kirkham. An ASI may bite little where there are no assets.
+- Yes, but only if Jeddah has assets here against which contempt could be enforced || Assets affect how effective an ASI will be, not whether the respondent is amenable.
+
+Q: Cairo Marine, in Egypt, has not been served and has not appeared. Its Egyptian suit against Merlion is plainly vexatious. Can Singapore grant an ASI against it now?
+H: Amenability comes first.
+- Yes: the more vexatious the suit, the less amenability matters || However vexatious the suit, no ASI can issue without amenability.
+- Yes, because a Singapore court can restrain anyone whose foreign suit affects a Singapore party || The court acts in personam, so the respondent must be amenable.
+- No, because Egypt does not recognise Singapore ASIs || Recognition abroad is not the test. The problem is amenability here.
+* No: Merlion must first obtain approval to serve it out under O 8 || Correct: without amenability no ASI can issue.
+
+@sec law302-hj6--hx-J6-2-3
+Q: An Indian buyer and a Brazilian seller, with no Singapore links, agree "exclusive jurisdiction of the Singapore courts". The buyer sues in Mumbai, and the seller seeks an ASI in Singapore. Does the seller need to show Singapore is the natural forum?
+H: Westbridge v Mittal.
+- Yes: with no Singapore links, sufficient interest requires Singapore to be the natural forum || The EJC itself supplies sufficient interest, even with no other Singapore connection.
+* No: the exclusive clause itself supplies sufficient interest || Correct: Cooperative Muratori, citing Turner v Grovit and UniCredit.
+- No, but it must show the Mumbai suit is vexatious or oppressive || Breach of an EJC gives a contractual basis. Vexation is needed only where there is no breach, as under a NEJC.
+- Yes, because an ASI can only protect a forum with real connections || The parties' choice of Singapore is the connection.
+
+Q: After the SICC held that shares were held on trust for BCS-Co, Baker added a new "judicial estoppel" claim in California, repackaging the trust issue, to an action he had begun there before the Singapore judgment. Must BCS-Co show Singapore is the natural forum for an ASI?
+H: When was the specific claim raised?
+- Yes: the California action began before the Singapore judgment, so the actions were concurrent || The question is when the specific claim was raised, not when the action began (BCS v Baker).
+- Yes, because no contract is involved, and natural forum is always needed outside contract cases || Protecting Singapore's own judgment from collateral attack gives interest without natural forum.
+* No: the claim was raised after the Singapore judgment, so protecting that judgment is interest enough || Correct: Singapore's interest in protecting its judgment from collateral attack is self-evident.
+- No, but only because the SICC is an international court || The same applies to any Singapore judgment, not only to SICC judgments.
+
+Q: Families of crash victims sue a French helicopter manufacturer in Texas. The manufacturer seeks a Singapore ASI. In Texas it cannot bring a contribution claim against the Singapore maintenance company, which will submit to Singapore but not Texas. What is the manufacturer's real ground?
+H: SNIA.
+- That Singapore is the natural forum, which is enough for an ASI || Natural forum is necessary but not sufficient. Singapore will not restrain merely because it disagrees with Texas.
+- That Texas offers contingency fees and early trials, which unfairly favour the families || Those are legitimate advantages to the families, not grounds for an ASI.
+- That the families have no connection with Singapore || The families' lack of connection is not a ground. The question is oppression.
+* That losing a contribution claim only available here makes the Texas suit oppressive || Correct: as in SNIA, subject to undertakings preserving the families' legitimate advantages (J6.4).
+
+@sec law302-hj6--hx-J6-2-7
+Q: Liquidators of a collapsed Singapore airline sue rival airlines in the US under the Sherman Act. The rivals had taken licences to fly US routes. They seek a Singapore ASI. What is the likely answer?
+H: British Airways v Laker.
+* Refused: by flying US routes they submitted to US antitrust law, so the suit is not unconscionable || Correct: in a single-forum case an ASI is especially harsh, as it removes the only redress.
+- Granted: Singapore is the natural forum for the liquidation of a Singapore airline || In a single-forum case Singapore can never be the natural forum, since only the US can hear the claim.
+- Granted: treble damages are penal, so the US suit is contrary to Singapore public policy || Treble damages alone do not make the suit unconscionable here.
+- Refused, because liquidators can never be restrained from suing abroad || A creditor suing abroad to jump the queue can be restrained. The rivals' position turns on their submission to US law.
+
+Q: A reinsurance contract has an exclusive English courts clause. The Indian reinsured sues in Mumbai. The reinsurer, which has substantial Singapore assets, seeks an ASI in Singapore rather than London. What will Singapore generally do?
+H: Akai.
+- Grant it, because the reinsurer's Singapore assets give Singapore sufficient interest || Protecting Singapore assets is a different matter, handled by resisting recognition of any Mumbai judgment later.
+- Grant it, because an exclusive clause always founds a contractual ASI wherever sought || The chosen court is London, which is the natural court to enforce the clause.
+* Decline: the reinsurer should apply in London, the chosen court || Correct: Chong says Akai is dated, but per C&Y Singapore has generally declined.
+- Decline, because Singapore cannot grant ASIs in support of foreign courts at all || It can in principle. Where a foreign court is chosen, it generally leaves the matter to that court.
+
+Q: A Russian buyer and a Singapore seller agreed to ICC arbitration seated in Paris, with the arbitration agreement governed by Singapore law. The buyer sues in Moscow. Paris courts do not grant ASIs. The buyer was validly served here. What is the seller's best argument for a permanent Singapore ASI?
+H: UniCredit (persuasive).
+- Section 12A IAA, which gives power to support any arbitration whatever its seat || Section 12A is for interim measures. A permanent ASI does not come from it.
+* A contractual ASI, as in UniCredit, since the Paris seat cannot act || Correct: UniCredit; Singapore governing law is a substantial connection, and the seat's inability is a strong reason (R1 International).
+- That Singapore is the natural forum for the dispute || The seat is Paris. The argument is contractual, not natural forum.
+- That Russian sanctions law is contrary to Singapore public policy || Public policy is not the route here; the arbitration agreement is.
+
+@sec law302-hj6--hx-J6-3-1
+Q: Counsel argues: "The respondent breached the Singapore EJC by suing in Seoul, which is vexatious and oppressive, and Singapore is the natural forum, so the ASI should issue." What is wrong with this?
+H: Cooperative Muratori.
+- Nothing: breach, vexation and natural forum are the three elements of every ASI || They belong to two distinct bases, contractual and equitable, each with its own elements.
+* It conflates two bases, each with its own elements || Correct: plead breach first and vexation in the alternative, analysing each separately (Sun Travels).
+- Vexation must be shown first, and only then can breach of the EJC be relied on || Breach is a free-standing contractual basis. Vexation is an alternative, not a precondition.
+- Natural forum is the only element that matters once there is an EJC || With an EJC natural forum is unnecessary; the respondent must show strong reasons.
+
+Q: A contract says: "Either party may refer a dispute to SIAC arbitration; until a party does so, either may sue in any competent court." One party sues in Hong Kong before anyone invokes arbitration. Is that a breach supporting a contractual ASI?
+H: BTN v BTP.
+- Yes: an arbitration clause always forbids suing in court on the same dispute || This clause expressly permits court proceedings until arbitration is invoked.
+- Yes, because Hong Kong is not the seat of the arbitration || The clause allows suit in any competent court until a party invokes arbitration.
+- No, because optional arbitration clauses are void for uncertainty || Optional clauses are valid; they just are not breached until invoked.
+* No: suing in court is not a breach until arbitration is invoked || Correct: BTN v BTP; C&Y.
+
+Q: A contract says only: "This Agreement is governed by Australian law." One party sues in California, arguing that California will apply Californian law. Is there a breach for a contractual ASI?
+H: Ace Insurance.
+* No: a choice of law clause is ordinarily declaratory, not a promise not to sue elsewhere || Correct: "very clear language" is needed. And if California would apply Australian law anyway, the premise fails.
+- Yes: suing where the chosen law will not be applied defeats the clause, so it is a breach || That is Briggs's view, to be argued only where the clause expressly promises not to sue in such a forum.
+- Yes, if California is shown to be a less appropriate forum than Australia || Forum appropriateness is not breach. The clause promises nothing about where to sue.
+- No, because ASIs are never available where there is no jurisdiction clause || ASIs can rest on vexation or abuse without any clause. There is just no contractual basis here.
+
+Q: Under an exclusive SICC clause, a Korean party sued in Seoul first. The Singapore party filed in the SICC but did not seek an ASI until Seoul had held two evidential hearings, explaining it wanted to see whether Seoul would dismiss the claim. How might the SICC view the delay?
+H: Strong reasons folding in O 2 r 3(2).
+- As irrelevant, because an exclusive SICC clause entitles the applicant to an ASI automatically || That is one view (C&Y), but on the modified view tactical delay may be refused.
+* As tactical "wait and see" conduct that an SICC respecting its character may refuse to reward || Correct: comity still matters because an ASI affects Seoul (Donohue).
+- As decisive in the applicant's favour, since Seoul has now shown its hand || Waiting to see how the foreign case goes is the kind of conduct that tells against relief.
+- As making the clause non-exclusive, since the applicant accepted Seoul's proceedings || Delay goes to discretion; it does not change the clause's exclusivity.
+
+Q: Sun Resorts was sued in the Maldives in breach of a Singapore arbitration agreement. It spent 18 months challenging the Maldivian court's jurisdiction, lost, and then sought an ASI in Singapore. The Maldivian trial is over and judgment is pending. What is the likely result?
+H: Sun Travels: no "two bites at the cherry".
+- Granted: contesting jurisdiction abroad shows the applicant never accepted the foreign court || Contesting jurisdiction abroad does not excuse delay in seeking an ASI.
+- Granted, because breach of an arbitration agreement is always enforced by ASI || Delay and comity can defeat even a contractual ASI.
+* Refused: the foreign proceedings are too far advanced, and comity weighs heavily || Correct: it should have objected abroad and applied here at the same time. After judgment, the relief would be an AEI.
+- Refused only if the Maldivian court has already given judgment || The proceedings are already too far advanced; judgment need not have been given.
+
+Q: ZenCo waited 10 months before seeking an ASI, but the foreign court has only received pleadings, and no merits hearing is scheduled. Does the delay defeat the application?
+H: ZHD v SQO.
+- Yes: any delay over six months is fatal to an ASI || There is no fixed limit. What matters is how far the foreign proceedings have progressed.
+- Yes, because delay always shows the applicant accepted the foreign forum || Delay must be weighed with the stage of the foreign case.
+* No: no merits hearing is imminent, so delay alone does not count || Correct: per ZHD v SQO, the early stage points to granting the ASI.
+- No, because delay is never relevant to a contractual ASI || Delay is relevant, either to strong reasons or to discretion. It just does not defeat this application.
+
+@sec law302-hj6--hx-J6-3-4
+Q: An estate is suing Mr J in Singapore under a Singapore NEJC. Years after the claim accrued, and one day after learning the estate would take over the Singapore suit, Mr J sues in the BVI on a claim that could have been a counterclaim there. Can the estate get an ASI on the vexation ground?
+H: Lakshmi.
+- No: under a NEJC parallel proceedings are always permitted, so nothing can be vexatious || Parallel proceedings alone are not enough, but bad-faith timing is "something more".
+- No: the estate must first show the BVI claim is bound to fail || Hopelessness is only a factor. Bad faith is the stronger point here.
+* Yes, likely: its bad-faith timing and lost counterclaim make it vexatious || Correct: like Lakshmi. The estate must still show the clearest of circumstances.
+- Yes, automatically, because any suit outside Singapore breaches a NEJC || Suing elsewhere is not a breach of a NEJC. The estate relies on vexation.
+
+Q: Mr J also sues the estate in Texas for treble damages under RICO, a claim Singapore law does not know, over transactions conducted mostly in Singapore. Is that vexatious or oppressive?
+H: British Airways v Laker; Midland Bank v Laker.
+- Yes: a claim unknown to Singapore law is vexatious in itself || Respect for foreign substantive law is part of comity, so novelty alone is not vexation.
+- No: foreign statutory claims can never be restrained, by comity || Midland Bank v Laker shows a foreign claim may be oppressive where the transaction is centred here.
+- No, because treble damages are compensatory in US law || The issue is not the measure of damages but where the transaction was centred.
+* Possibly, as the transaction was centred in Singapore || Correct: contrast British Airways v Laker with Midland Bank v Laker.
+
+Q: After Singapore's judgment for Lion Pharma, Sana sues in Jakarta over Lion's alleged bribery of a Sana employee, discovered a year after judgment, and separately opposes Lion's application to register the Singapore judgment in Indonesia. Should Singapore restrain either?
+H: Collateral attack versus new facts.
+* Neither: the bribery facts are new, and resisting enforcement is for Indonesia || Correct: contrast a Jakarta claim seeking the opposite declaration, which would be restrained (Masri (No 3)).
+- Both: any proceedings that undermine a Singapore judgment are an abuse of process || New facts not decided in the Singapore suit, and merely resisting enforcement, are not collateral attacks.
+- Only the bribery claim, which could have been raised in the Singapore suit || It was discovered a year after judgment, so it could not have been raised.
+- Only the opposition to registration, which is a direct attack on the judgment || Resisting enforcement abroad is for the foreign court to decide.
+
+Q: A Singapore employee's stock-option terms contain an exclusive Massachusetts clause. The foreign law sets a different limitation period for wage claims than Singapore law. He seeks a Singapore ASI on public policy grounds. Will it succeed?
+H: "So at variance".
+- Yes: Singapore public policy protects employees, which overrides any foreign clause || That can justify an ASI only very exceptionally, where the policies are so at variance that comity yields.
+- Yes, because employment disputes are excluded from foreign jurisdiction clauses || There is no such general exclusion. The question is public policy.
+* No: a different limitation period is nowhere near "so at variance" with Singapore policy || Correct: Stichting Shell / Barclays v Homan. Contrast a sweeping non-compete, which may be argued under Petter v EMC.
+- No, because public policy can never justify an ASI against a foreign EJC || It can, very exceptionally (C&Y), but not on these facts.
+
+@sec law302-hj6--hx-J6-4
+Q: Families suing a helicopter maker in Texas would lose contingency fees, US-style discovery, a jury, and a claim against a Texas component maker that cannot be sued in Singapore. The maker undertakes to fund their Singapore costs, give equivalent disclosure and waive limitation. Which loss still weighs against an ASI?
+H: SNIA; UBS v Telesto.
+- Contingency-fee funding, because no undertaking can replace it || The undertaking to fund reasonable legal costs neutralises it, as in SNIA.
+- The jury trial, as a constitutional right of the families || Procedural advantages count for less because Texas is not the natural forum.
+* The claim against the Texas component maker || Correct: if that party is central, the ASI may be refused or confined so the families can still sue it in Texas.
+- US-style discovery, as voluntary disclosure is never equivalent || The disclosure undertaking addresses it.
+
+Q: Sun Resorts' ASI was refused for delay. Which of these is NOT a fallback open to it?
+H: Damages, declaration, recognition defence, AEI.
+- Claiming damages in Singapore for breach of the arbitration agreement || Damages are available in principle, subject to Tradewaves.
+- Resisting recognition of any Maldivian judgment in Singapore as obtained in breach || That is a recognised fallback (J7.2.6; Nimbus-type public policy).
+* A second ASI application on the same facts once the Maldivian judgment is given || Correct: once judgment is given the relief is an AEI, which needs exceptional circumstances; a fresh ASI is not the answer.
+- Seeking an AEI in exceptional circumstances || That is a fallback, if exceptional circumstances are shown (J7.6).
+
+@sec law302-hj6--hx-J6-5
+Q: A Malaysian shipyard sues a Pakistani state entity on a guarantee in Singapore under a Singapore NEJC. The entity threatens to apply in Karachi for an injunction stopping the Singapore suit. What should the shipyard plead for an anti-anti-suit injunction?
+H: Sabah Shipyard, as read in UBS v Telesto.
+- Breach only: Sabah Shipyard settles that such a foreign injunction is a breach || Singapore reads Sabah as a vexation case (UBS v Telesto), so breach alone is risky.
+- Vexation only: a NEJC can never be breached by conduct abroad || The Karachi application arguably breaches the narrow waiver by objecting to Singapore's jurisdiction.
+* Breach of the NEJC's waiver, and vexation in the alternative || Correct: the Karachi application is designed to stop the shipyard enforcing its contractual rights.
+- Nothing yet: Singapore cannot act until the Karachi injunction is granted || Singapore may act to protect its own proceedings against a threatened application.
+
+Q: A 2022 contract has an exclusive English clause. The respondent sues in Mexico (a Contracting State), whose court took jurisdiction under an art 6 manifest injustice exception. The applicant asks Singapore for an ASI. What should Singapore do?
+H: The HCCCA's uniform scheme.
+- Grant it: an ASI makes the English clause effective where England will not act || That is the argument for, but Mexico acted within the Convention's own exceptions.
+- Grant it, because the CCAA requires non-chosen courts to enforce exclusive clauses || The CCAA does not make Singapore an enforcer for English clauses against Mexican courts.
+- Refuse it, because interim ASIs are outside the CCAA under s 10 || Section 10 concerns interim measures; the reason to refrain is the Convention scheme.
+* Generally refrain, as an ASI would undermine the HCCCA's uniform scheme || Correct: Mexico took jurisdiction under an art 6 exception, so a Singapore ASI would fragment States' responses.
+
+Q: A 2022 contract has an exclusive Mexican courts clause. The respondent sues in Mexico, the chosen court. The applicant asks Singapore, a non-chosen court, to restrain the Mexican proceedings. Should it?
+H: Who is supporting the agreement?
+- Yes, if Singapore is the natural forum || Natural forum cannot override an exclusive choice of Mexico.
+* No: that would never support the agreement || Correct: C&Y. Section 4(10A) CLA gives power, but no reason, to do this.
+- Yes, because s 4(10A) CLA allows Singapore to aid other proceedings || The power exists, but there is no reason to use it against the chosen court.
+- Only if Mexico would apply an art 6 exception || The respondent is suing in the chosen court, which is exactly what the clause requires.

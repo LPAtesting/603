@@ -1,0 +1,204 @@
+@sec law302-hj4--hx-J4-0
+Q: There is no jurisdiction clause. In Case A the Indonesian defendant is served in Singapore and seeks a stay. In Case B it is served in Jakarta and applies to set aside. Who bears the forum burden in each?
+H: Zoom: same test, different burden.
+- The defendant in both, as the party asking the court not to hear the case || On a set-aside of service out, the claimant must show Singapore is clearly more appropriate.
+- The claimant in both, as the party who chose to sue in Singapore || After service in, the defendant seeking a stay bears stage 1 of Spiliada.
+* Case A: the defendant at stage 1 (the claimant at stage 2); Case B: the claimant throughout || Correct: the Spiliada test is the same, but who carries it depends on service in or out and on the application made.
+- Case A: the claimant, as service in was a tactical choice; Case B: the defendant || It is the other way round. Serving in is what puts stage 1 on the defendant.
+
+@sec law302-hj4--hx-J4-1-1
+Q: Bali Bangun is served in Singapore as of right over a Bali resort collapse. The contract has an exclusive Denpasar courts clause. Bali Bangun seeks a stay. What test applies?
+H: Who is in breach?
+- Spiliada: Bali Bangun must show Indonesia is available and clearly more appropriate || With an exclusive foreign clause, the claimant who sued here is in breach, so strong cause applies.
+- A mandatory stay, as for an arbitration clause under s 6 IAA || The mandatory IAA stay is for arbitration agreements. A court clause leads to strong cause.
+* Strong cause, with the burden on Tropika, which breached the clause by suing here || Correct: the party in breach bears strong cause, even though the defendant made the application (J4.3).
+- Section 12 CCAA, because the clause designates a single foreign court || Indonesia is not an HCCCA Contracting State, so the common law applies.
+
+Q: Bali Bangun's defence, filed on 1 March, says Singapore should not exercise jurisdiction, but it does not apply for a stay until 1 November. Meanwhile the parties exchange documents and attend two case conferences. What effect does the delay have?
+H: Sun Jin.
+- It is fatal: by taking procedural steps for eight months, Bali Bangun submitted || A defence stating an exercise challenge is not submission (O 6 r 12(5)), and procedural steps do not change that here.
+- None: once the challenge is flagged in the defence, timing is irrelevant || Delay is relevant, considered with the steps taken.
+* Relevant but not decisive: it is weighed with the steps taken || Correct: per Sun Jin, the court asks whether a stay now serves the competing interests of the parties.
+- It reverses the burden, so Tropika must now show Singapore is the natural forum || Delay does not shift the stage 1 burden from the defendant.
+
+Q: A Singapore shipowner sues a Greek charterer here. The vessel was built in Korea, damaged in Brazil and repaired in Rotterdam, and English law governs the charter. The charterer seeks a stay in favour of Greece, arguing only that "Singapore has hardly any connection". Will it succeed?
+H: JIO.
+- Yes: if Singapore is weakly connected, the case should go somewhere better connected || Showing Singapore is weakly connected is not enough. The charterer must show a forum that is clearly more appropriate.
+- Yes, because English law governs, which makes Singapore no better than Greece || English law is neutral between Singapore and Greece. It does not make Greece clearly more appropriate.
+* No: it must show Greece is clearly more appropriate, and the factors are scattered elsewhere || Correct: per JIO the comparison is Singapore against Greece; weakness of Singapore alone does not justify a stay.
+- No, because a stay can only be granted in favour of the place where the damage occurred || There is no such rule. Any forum shown to be clearly more appropriate will do.
+
+Q: A Hong Kong defendant seeks a stay in favour of Hong Kong, but the Hong Kong court would need leave to serve a London-based co-defendant. Separately, the claimant's claim is now time-barred in Hong Kong. Is Hong Kong an "available" forum?
+H: Hindocha.
+- No: a time bar makes the foreign forum unavailable || A time bar does not make a forum unavailable. It is a stage 2 argument.
+- Yes: Hong Kong is available as long as the main defendant is resident there || Hong Kong is unavailable against any defendant that would need leave to be served there, unless it undertakes to submit.
+* Not against the co-defendant, unless it submits or leave would be granted || Correct: per Hindocha. The time bar goes to stage 2 instead.
+- Yes, because availability is presumed for any common law court || Availability must be shown. A need for leave to serve makes it uncertain.
+
+@sec law302-hj4--hx-J4-1-2
+Q: Mr Wijaya, a jet-setter with homes in four countries, holds Singapore directorships in five holding companies and has a Singapore bank account, but runs the family business from Jakarta. Sued in Singapore over misrepresentations made in Jakarta about an Indonesian mine, how are his Singapore links weighed?
+H: Quality over quantity.
+* They are tenuous and irrelevant to the dispute, so they are disregarded; the business "is" in Jakarta || Correct: no balance sheet is drawn (Rappo; JIO). His domicile carries little weight given his mobility (Mulacek).
+- They count heavily, as five directorships show a strong personal connection with Singapore || Connections irrelevant to the dispute carry little or no weight, however many there are.
+- They are added up against the Jakarta factors, and the longer list wins || Spiliada is not a balance sheet. Quality, not quantity, matters.
+- They are decisive, because a defendant with Singapore directorships cannot object to Singapore || Directorships here say little about where this dispute is best tried.
+
+Q: A Singapore insurer sues a Malaysian contractor over a Johor factory fire. Witnesses: (a) 10 of the contractor's own electricians in Johor; (b) 3 Johor fire investigators who will not come voluntarily; (c) 2 former maintenance staff in Kuala Lumpur, happy to testify by video. Which is the weighty witness factor for Malaysia?
+H: Compellability; JIO.
+- (a), because ten witnesses outnumber the rest || The contractor's own employees can be made available, so they raise no compellability problem.
+* (b), if the contractor shows their evidence is at least arguably relevant to its defence || Correct: non-compellable non-party witnesses favour Malaysia (JIO). The court must not be claimant-centric.
+- (c), because Kuala Lumpur witnesses can only be compelled in Malaysia || They are willing and will appear by video, so they carry reduced weight (Raffles Education).
+- None: Johor is a short drive from Singapore, so witness location is always neutral || Proximity reduces convenience points, but non-compellable witnesses still matter.
+
+Q: A Singapore seller's director, calling from Singapore, made misrepresentations to an Indonesian buyer's CEO in Jakarta, who relied on them there and signed a Singapore-law contract. The buyer sues in Singapore in tort and contract. How is the tort claim's place weighed?
+H: The Albaforth; The Peng Yan; Oro Negro.
+- The tort was committed in Singapore, where the words were spoken, so it points to Singapore || By the substance test a misrepresentation is committed where it is received and relied on.
+- The tort points firmly to Jakarta, and that decides the forum for both claims || The place of the tort is only a starting point (The Peng Yan).
+* Prima facie Jakarta, but a closely linked tort follows the contract claim || Correct: Oro Negro and Chen v BHNV; Singapore governing law points to Singapore for the contract.
+- The place of the tort is irrelevant at stage 1, which looks only at witnesses || The place of the tort is prima facie the natural forum for a tort claim (JIO).
+
+Q: A Singapore owner sues a Norwegian rig designer in Singapore, and also in Mexico to protect its position. The rig's insurers have sued the designer in Oslo, where trial on the same issues is well advanced. Which of these weighs towards Norway?
+H: Lakshmi; IM Skaugen (CA).
+- The owner's own Mexican suit, which shows multiple fora are in play || Self-created parallelism is disregarded. The owner can undertake to discontinue in Mexico.
+- An unrelated Norwegian lawsuit between the owner's parent and a bank || Unrelated proceedings are irrelevant (Oro Negro).
+- The fact that three other defendants can only be sued together in Singapore || That weighs against a stay, as staying would fragment the litigation.
+* The advanced Oslo trial on the same issues, risking inconsistent judgments || Correct: real overlap with advanced proceedings weighs towards Norway, as may the Cambridgeshire expertise factor if evidenced.
+
+@sec law302-hj4--hx-J4-1-4
+Q: A Singapore investor resists a stay to Kyrgyzstan, the clearly more appropriate forum. Its evidence: the defendants' associates were appointed to the regulator, its local manager was arrested on a pretext, the court refused time to translate, and its lawyer was disbarred mid-case. No single item proves corruption. Will a stay be refused?
+H: AK Investment.
+- No: it must prove justice will not be done, and no item proves corruption || The investor need only show a real risk of injustice in this case, and the items may be taken together.
+* Likely yes: it need show only a real risk in this case, and the items count cumulatively || Correct: refusing a stay after stage 1 is "unusual", but this is cogent, case-specific evidence.
+- No: comity forbids a Singapore court from criticising a foreign court system || Comity counsels caution, but case-specific evidence can still show a real risk.
+- Yes, because any allegation about a foreign judiciary reverses the burden to the defendant || The investor bears stage 2 and must produce cogent evidence.
+
+Q: A Singapore claimant injured on a ferry in Thai waters would recover about a third as much in Thailand, where there is no document discovery. It has arrested the defendant's vessel in Singapore as security. Thailand is clearly more appropriate. What is the likely result?
+H: Spiliada on juridical advantages.
+- No stay: losing two-thirds of the damages is substantial injustice || Lower damages and no discovery are ordinary differences between legal systems.
+- No stay, because the arrest gives Singapore exclusive jurisdiction over the claim || An arrest gives security, not exclusivity. The stay can preserve it.
+- A stay, but the claimant must release the vessel, as security goes with the forum || The stay can be conditional, so the claimant keeps its security.
+* A stay, made conditional so that the claimant keeps the vessel arrest as security || Correct: lower damages and no discovery are ordinary differences (Spiliada; Trendtex).
+
+Q: While the defendant's stay application was pending, the two-year Vietnamese limitation period expired. The claimant had sued in Singapore in good faith, with a Singapore office and a plausible case for Singapore. Vietnam is clearly more appropriate. What should the court do?
+H: Spiliada on time bars.
+- Refuse the stay, because a time-barred claim cannot be pursued abroad || Where the claimant acted reasonably, the answer is a conditional stay, not a refusal.
+- Grant an unconditional stay; the time bar is the claimant's own risk || That fits a claimant who knowingly let time run. This claimant acted reasonably.
+* Stay on condition that the defendant waives the Vietnamese time bar || Correct: per Spiliada, a claimant who acted reasonably should not lose its claim by the stay.
+- Stay only if the claimant undertakes to sue in Vietnam within 14 days || The concern is the expired limitation period, which only a waiver by the defendant can address.
+
+Q: A claimant resists a stay by citing street protests in the foreign capital. The courts there are open and hearing commercial cases. Is that substantial injustice?
+H: Shafeeg; Deripaska.
+- Yes: political unrest always makes a foreign forum unsafe || Political unrest while the courts still function is not enough (Shafeeg).
+- Yes, if the protests are reported in the international press || Press coverage is not cogent evidence of injustice to this claimant.
+- No, because stage 2 is limited to defects in the foreign court's procedure || Personal safety can count: cogent evidence of threats and trumped-up charges sufficed in Deripaska.
+* No: the courts still function, so unrest alone is not enough || Correct: contrast cogent, personal evidence of threats, which can suffice (Deripaska).
+
+Q: A Singapore claimant argues that Singapore should adopt the Australian Voth test, so a stay is refused because Singapore is not "clearly inappropriate", even though Malaysia is clearly more appropriate. What is the answer?
+H: JIO; Eng Liat Kiang.
+- Voth applies, as Singapore follows the test most protective of a local claimant || Singapore has rejected Voth.
+- The tests give the same result here, so the choice does not matter || This is exactly where they diverge: Malaysia more appropriate, Singapore not clearly inappropriate.
+* Singapore has rejected Voth, so a stay is granted under Spiliada || Correct: the choice of test is outcome-determinative on these facts.
+- Voth applies at stage 2 only, so the claimant can rely on it after stage 1 || Singapore uses Spiliada at both stages; Voth is not part of either.
+
+@sec law302-hj4--hx-J4-2
+Q: A Singapore owner serves a Vietnamese state-owned shipyard out, seeking a declaration that no shipbuilding contract was concluded. Negotiations were mostly in Singapore. Singapore choice of law would apply Singapore law; a Vietnamese court would apply Vietnamese law. How is governing law weighed at stage 1?
+H: Each court applies its own law.
+- It points to Singapore, as Singapore law is the putative proper law || A Vietnamese court would apply Vietnamese law, so per C&Y the factor is neutral.
+- It points to Vietnam, because the defendant is a Vietnamese state entity || State ownership is irrelevant at stage 1 in a civil commercial claim.
+* Neutral: each court would apply its own law || Correct: the yard's own employee witnesses are also neutral; state ownership may matter only at stage 2.
+- It is decisive for Singapore, as the negotiations took place here || The place of negotiations goes to the putative proper law, but the governing law factor is still neutral here.
+
+Q: The court finds Vietnam is the natural forum, so stage 1 fails for the owner on service out. The owner adds that it would lose in Vietnam because Vietnamese law requires formal approval for state enterprise contracts. Is that a stage 2 point?
+H: Vinmar; Chong.
+- Yes: losing on the merits abroad is the clearest form of substantial injustice || Whether the claimant would lose is a merits point, which the court does not engage with at this stage.
+* No: it is a merits point, and the court does not engage with the merits at this stage || Correct: stage 2 concerns injustice in the process, supported by cogent evidence, not the likely result.
+- Yes, but only if Vietnamese law is proved by expert evidence || Proof of the rule does not turn a merits point into a stage 2 argument.
+- No, because stage 2 is never available to a claimant after service out || Whether a second bite is available is open (Konamaneni against Spiliada, Yeo and C&Y). The problem here is that this is a merits point.
+
+Q: A Singapore company sues a Philippine company under a Philippine-law contract. The 1-year Philippine period has expired. The claimant let time run because the defendant's misleading assurances persuaded it that settlement was imminent. What can it argue?
+H: FLPA s 4(2).
+- That Singapore's 6-year period applies, since the claim was brought in Singapore || Under FLPA s 3(1), Singapore applies the Philippine period because Philippine law governs.
+- That the bar makes the Philippines unavailable, so no stay can be granted || The bar follows the claimant to Singapore too, so it does not favour Singapore.
+- Nothing: a foreign limitation period under the FLPA can never be disapplied || FLPA s 4(2) allows disapplication on public policy grounds for undue hardship.
+* Public policy under FLPA s 4(2), for undue hardship caused by the bar, citing the assurances || Correct: weigh the short period, the claim's complexity and the good reason for letting time run (Recovery Vehicle 1).
+
+Q: A Hong Kong buyer sued first in Hong Kong, which ruled itself the natural forum. The Singapore seller then sues in Singapore for the price, serving out. The buyer applies to set aside, saying Hong Kong was first seised and Singapore is bound by the Hong Kong ruling. What is right?
+H: Lakshmi.
+* Neither: no first-seised rule and no estoppel, only comity weight || Correct: the Hong Kong action is a stage 1 factor weighed by its progress and overlap.
+- The first-seised court has priority at common law, so Singapore must decline || There is no first-seised rule at common law.
+- Singapore is estopped by the Hong Kong ruling on the natural forum || The Hong Kong ruling does not estop Singapore (Lakshmi).
+- The buyer should also file a separate stay application to protect its position || That is "wholly unnecessary and likely counter-productive" (Zoom), and takes on the stage 1 burden.
+
+@sec law302-hj4--hx-J4-3-2
+Q: Vinyl Asia sues Siam Petro in Singapore under an exclusive Singapore clause. Siam Petro seeks a stay because its witnesses and documents are in Bangkok, Thai law governs, Singapore is slower and costlier, and it has related proceedings with its supplier in Bangkok. What is the likely result?
+H: Foreseeable at contracting?
+- A stay, because the connections to Thailand are overwhelming || Siam Petro is in breach and must show strong cause, not merely that Bangkok is more appropriate.
+- A stay, because related proceedings in Bangkok create a risk of inconsistent judgments || Related proceedings with different parties are not strong cause (Shanghai Turbo).
+* No stay: these grounds were all foreseeable at contracting || Correct: absent abuse or denial of justice, the stay is refused (Vinmar).
+- A Spiliada analysis, because a Singapore clause is only a factor for Singapore || An exclusive Singapore clause is breached by the objection, so strong cause applies.
+
+Q: A Thai defendant objects to an exclusive Singapore clause, arguing it would be prejudiced here because the claim is time-barred under Thai law but not Singapore law, and a Singapore judgment would not be enforceable in Thailand where its assets are. Is that strong cause?
+H: Flipped factor (e).
+- Yes: losing a limitation defence is a concrete, cogent prejudice || The defendant agreed to Singapore and so foresaw its limitation periods (Chong).
+- Yes: non-enforceability at home is the core of factor (e) || Factor (e)(ii) is really about the claimant's ability to enforce, and non-enforceability was foreseeable.
+* No: both were foreseeable when it chose Singapore || Correct: flipped (e) must be concrete and cogently evidenced.
+- No, because factor (e) can only ever be argued by a claimant || A defendant can run it in principle; it just fails on these facts.
+
+Q: A Singapore seller sues an Indian buyer here despite an exclusive Mumbai clause. It argues strong cause because the buyer has no defence (it signed an acknowledgment of debt). Does that help?
+H: Vinmar overruled The Jian He.
+- Yes: a hopeless defence means the clause serves no purpose || The court does not inquire into the merits. The parties chose Mumbai to win or lose there.
+- Yes, but only if the acknowledgment is in writing and signed || Form is not the issue. The merits are simply irrelevant to strong cause.
+- It depends on how strong the seller's case is shown to be || There is no sliding scale on the merits after Vinmar.
+* No: the court does not look at the merits (Vinmar) || Correct: a merits inquiry would breed uncertainty, cost and delay.
+
+Q: Which of these is most likely to be strong cause for a Singapore seller suing here despite an exclusive Mumbai clause?
+H: Unforeseeable unavailability.
+- Mumbai commercial courts take five years to reach trial || Notorious delay was foreseeable when the clause was agreed.
+- The Mumbai limitation period expired because a protective claim there seemed too expensive || A self-induced bar needs very good reasons, and cost is not one (Vinmar).
+* A disaster has destroyed the Mumbai court and commercial cases are suspended indefinitely || Correct: the chosen court is unavailable for unforeseeable reasons, akin to war or dissolution.
+- The Mumbai court applies stricter rules of evidence than Singapore || A known difference in procedure was foreseeable and is not strong cause.
+
+@sec law302-hj4--hx-J4-3-4
+Q: A Singapore bank sues a Chinese borrower here despite an exclusive Hong Kong clause, together with four non-parties to a fraud who can only be sued together in Singapore. When the facility was signed, the bank already knew its guarantors and directors were Singapore-based. Is fragmentation strong cause?
+H: Foreseeable fragmentation.
+- Yes: four non-parties who can only be sued here make splitting the case unjust || Fragmentation can be strong cause, but not where the bank foresaw it when agreeing to Hong Kong.
+* No: it was foreseeable when the bank agreed to Hong Kong || Correct: without that knowledge, fragmentation might have been strong cause (Vinmar, citing Donohue).
+- No, because fragmentation can never be strong cause where a clause is exclusive || Vinmar accepts that fragmentation may be strong cause in a suitable case.
+- Yes, provided the bank undertakes not to enforce any Hong Kong judgment || An undertaking does not change that the fragmentation was foreseeable.
+
+Q: The borrower's exclusive Hong Kong clause was in its own standard-form terms, not negotiated. Does strong cause still apply to the bank's suit in Singapore?
+H: Vinmar, tentatively citing ZI Pompey.
+- No: non-negotiated clauses are only factors in a Spiliada analysis || Per Vinmar (tentatively), strong cause still applies to standard forms for consistency.
+- No: a standard-form clause is void unless it passes UCTA reasonableness || UCTA is not the test here, and the bank is not a consumer needing forum mandatory protection.
+- Yes, and the bank's burden is higher because it accepted standard terms || The point is that the test stays the same. Party autonomy is weaker, not the burden higher.
+* Yes: strong cause applies to standard forms too, though autonomy is weaker there || Correct: for a Singapore NEJC in a standard form, Shanghai Turbo left the point open.
+
+@sec law302-hj4--hx-J4-4
+Q: A Singapore investor sues an Indian promoter in the General Division over an Indian-law shareholders' agreement. The promoter seeks a stay to India. The investor replies that the case can be transferred to the SICC, where Indian law can be argued by submission and an Indian-trained judge can sit. How much does this count?
+H: Rappo; IM Skaugen.
+- Nothing: the SICC is a division of the High Court, so it adds nothing to Spiliada || The court must not "shut its eyes" to the SICC (Rappo).
+- It is decisive, because foreign law issues disappear once the SICC can hear them || The SICC factor is relevant but never decisive, and transfer is a later question.
+* It is relevant, and discounts the Indian law factor significantly, but is not decisive || Correct: the investor named specific features suited to the dispute, and Indian law is a common law system like Singapore's.
+- It only counts if the promoter agrees in advance to transfer to the SICC || Agreement is not required. The investor must show transfer is prima facie available and suited to the case.
+
+Q: Same stay application, but the investor only says "the SICC is a world-class court", and the claim is a German-law fraud committed in Germany between German parties. Does the SICC factor help?
+H: Not "a free pass".
+* No: a bare assertion gets no weight, and the SICC cannot tip a German case to Singapore || Correct: Rappo; IM Skaugen. Germany "would virtually always" be the forum.
+- Yes: the SICC's international judges make Singapore appropriate for any commercial dispute || The SICC is not a free pass. The investor must name features that suit this dispute.
+- Yes, because foreign law can be argued by submission in the SICC, removing the governing law factor || For a civil-law system with complex issues, the discount is slight.
+- It depends on whether the German parties agreed to the SICC || With no agreement, the SICC is relevant only as a possible transfer, and here it cannot carry the case.
+
+@sec law302-hj4--hx-J4-5
+Q: Mr Tan sues his former partner in Singapore and in Geneva on the same issues. The partner applies for an FNC stay and, alternatively, an order that Mr Tan elect between the fora. FNC fails. What follows?
+H: Koh Kay Yew; Rappo.
+- Nothing: once FNC fails, Mr Tan may continue both actions || A claimant suing on the same issues in two systems must elect unless he justifies the multiplicity.
+- The Singapore action is dismissed, as Geneva was seised at the same time || Election is case management. If Mr Tan elects Singapore, the action continues.
+* Mr Tan must elect unless he can justify the multiplicity; election is case management only || Correct: if he elects Singapore, the partner may still seek a stay later if circumstances change.
+- The court picks the forum, since it has found Singapore not clearly inappropriate || Election is the claimant's choice, not the court's.
+
+Q: The partner, not Mr Tan, started the Geneva action, seeking a negative declaration. Mr Tan sues in Singapore. Can the partner ask the Singapore court to make Mr Tan elect?
+H: Who is the common claimant?
+- Yes: whenever the same issues are in two fora, the Singapore claimant must elect || Election applies to a claimant suing in two systems. Here the parties are reversed.
+- Yes, because a negative declaration abroad always obliges the other party to elect || There is no such rule. The Geneva action is related proceedings, not Mr Tan's suit.
+- No, and the Geneva action must be ignored altogether || It is not ignored: it is a stage 1 factor or a possible ground for an ASI.
+* No: the parties are reversed, so election does not apply || Correct: per Rappo, election is for a common claimant suing twice.

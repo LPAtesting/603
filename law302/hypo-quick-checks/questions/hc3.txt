@@ -1,0 +1,139 @@
+@sec law302-hc3--hx-C3-2
+Q: Mrs Lee, a Singapore resident, is killed in a bus crash in Ruritania. Singapore law gives dependency damages and funeral expenses; Ruritanian law (proved) gives only funeral expenses. Absent the flexible exception, what does her widower recover in Singapore?
+H: McElroy v McAllister.
+- Dependency damages and funeral expenses, as the forum's law governs damages || Double actionability gives the common denominator of both laws.
+* Only funeral expenses, the common denominator of both laws || Correct: as in McElroy. He must argue the flexible exception to escape the Ruritanian limit.
+- Dependency damages only, as funeral expenses are procedural || Funeral expenses are recoverable under both laws, so they are in the common denominator.
+- Nothing, because Ruritanian law calls the liability "delictual", not tort || Any civil liability satisfies limb 2, whatever it is called (Ong Ghee Soon).
+
+Q: The Ruritanian driver would be criminally liable under Ruritanian law, but Ruritanian law imposes no civil liability. Is limb 2 of double actionability satisfied?
+H: Boys v Chaplin corrected Machado v Fontes.
+- Yes: Phillips v Eyre only requires the act to be "not justifiable" there || That was the Machado v Fontes abuse, which Boys v Chaplin corrected to civil liability.
+- Yes, because criminal liability shows the conduct was wrongful || Wrongfulness is not enough; limb 2 needs civil liability.
+- It does not matter, as limb 2 can be waived where the claimant is a Singapore resident || Limb 2 is not waived for residents; only the flexible exception can displace it.
+* No: limb 2 needs civil liability, and criminal liability is not enough || Correct: limb 2 fails unless the exception displaces Ruritanian law.
+
+Q: A Japanese newspaper publishes in Japan a true but embarrassing story about a Singapore businessman. Japanese law recognises a privacy tort; Singapore law does not. He sues in Singapore. What is the problem?
+H: Limb 1: the IM Skaugen counterfactual.
+- None: Japanese law is the lex loci delicti, so it alone governs || Double actionability also requires actionability under the lex fori.
+- Limb 2, because Japan has no tort of defamation for true statements || The issue is that Singapore has no privacy tort, which is a limb 1 problem.
+* Limb 1 fails, as there is no privacy tort here, unless he displaces the lex fori || Correct: under Red Sea, which is hard where the Singapore connection is real.
+- None, because the presumption of similarity treats Singapore law as recognising privacy || The presumption fills gaps in proof of foreign law; it does not add torts to Singapore law.
+
+@sec law302-hc3--hx-C3-3-4
+Q: A Hong Kong auditor negligently audits, in Hong Kong, a Singapore-listed company's Hong Kong subsidiary. Singapore investors rely on the accounts and lose money in Singapore. Where is the tort located?
+H: Vibrant Group.
+* Hong Kong: in negligence the focus is the act, here the audit || Correct: reliance is only one route to a duty in negligence (NTUC Foodfare).
+- Singapore, where the investors relied and suffered loss || Reliance and loss in Singapore do not relocate a negligent act done in Hong Kong.
+- Wherever the investors chose to sue, as financial loss has no fixed place || Location turns on the substance of the tort, not the claimant's choice.
+- Both places, so both laws apply cumulatively under limb 2 || The tort is located in one place for limb 2.
+
+Q: A drug made in Germany is marketed in Singapore without a warning. The patient suffers injury in Malaysia. Where is the tort committed?
+H: Distillers; Castree v Squibb.
+- Germany, where the drug was designed and manufactured || The wrong is the failure to warn, which happened where the drug was marketed.
+- Malaysia, where the injury occurred || Damage can be fortuitous; the substance of the tort is the unwarned marketing.
+- Wherever the patient bought the drug online || The facts locate the marketing in Singapore.
+* Singapore, where it was marketed without the warning || Correct: Distillers; Castree v Squibb.
+
+Q: A Singapore investor sues a Georgian bank officer for a negligent misstatement made in Tbilisi. Georgian law imposes liability for such statements only on the bank, not the individual officer. Is limb 2 satisfied against the officer?
+H: Boys v Chaplin: liability between these parties.
+- Yes: Georgian law recognises liability for negligent misstatement || Limb 2 asks about liability between these parties, and there is none against the officer.
+- Yes, because the officer acted for the bank, which is liable || Liability of the bank does not make the officer liable under Georgian law.
+* No: there is no liability between these parties under Georgian law || Correct: the investor must displace Georgian law under the exception, or sue the bank.
+- No, but only because Georgian law is a civil law system || The system's tradition is irrelevant; the absence of liability between these parties is what matters.
+
+@sec law302-hc3--hx-C3-5
+Q: Two Australian rugby fans, flying home via Changi, fight in the transit lounge. One sues the other in Singapore for battery. Australian law gives a consent defence for "sporting-style scuffles"; Singapore law does not. Which law governs?
+H: Local torts and fortuity.
+- Singapore law alone, because a tort committed in Singapore is governed only by the lex fori || Rickshaw rejected Metall's lex fori-only rule for local torts; double actionability still runs.
+- Both laws cumulatively, so the consent defence under either defeats the claim || The exception can displace Singapore law where the locus is purely fortuitous.
+* Arguably Australian law, as Singapore is purely fortuitous, if the defendant proves Australian law || Correct: Briggs's classic example, but "a liberal approach must be eschewed".
+- Australian law automatically, because both parties are Australian || Nationality alone is not enough; fortuity must be shown and foreign law proved.
+
+Q: The directors in a Taiwanese conspiracy do not prove Taiwanese law. The Singapore company seeks an injunction restraining them from dealing with assets in Taiwan, relying on the presumption that Taiwanese law is the same as Singapore's. Will the court grant it?
+H: OMG Holdings, as explained in EFT.
+- Yes: the presumption makes Singapore law govern for all purposes || The court will not restrain foreign conduct on a bare presumption.
+- Yes, because Singapore law applies by default when foreign law is not proved || Default application supports damages, but not an injunction against foreign conduct.
+- No, and damages are also unavailable without proof of Taiwanese law || Damages or an account should still be available on the presumption (C&Y).
+* No injunction on a bare presumption, though damages may be available || Correct: the company should limit the relief it seeks.
+
+@sec law302-hc3--hx-C3-6
+Q: A Singapore-incorporated SPV built a hospital in Riyadh under Saudi-law contracts. Defects caused damage there. Its insurer, not having paid yet, wants to sue the head contractor directly in Singapore. Saudi law allows an insurer to sue before paying; Singapore law does not. Can it rely on Saudi law alone?
+H: Red Sea.
+- No: limb 1 requires actionability under Singapore law, which is never displaced || The exception can displace the lex fori (Red Sea).
+* Yes, if it proves Saudi law, as Singapore is purely fortuitous || Correct: all or virtually all factors point to Saudi Arabia, so Saudi law can govern the whole claim.
+- Yes, automatically, because the claim is unknown to Singapore law || That Singapore law gives no remedy is a factor, not the test; fortuity decides.
+- No, because only claimants deprived of a remedy can use the exception || The exception is not only for deprived claimants, but here the insurer does use it as claimant.
+
+Q: Two Singapore soldiers on a three-month exercise in Brunei collide in a jeep. Bruneian law allows only special damages; Singapore law also allows general damages. One sues the other in Singapore. What is the best analysis?
+H: Boys v Chaplin; the Rickshaw caveat.
+- Bruneian law governs everything, because the accident was in Brunei || The exception can displace the lex loci delicti on a particular issue.
+- Singapore law governs everything, as both parties are Singaporean || Displacement can be issue-specific; Bruneian law may still govern other issues.
+* Singapore law may govern heads of damage, but Rickshaw makes this harder || Correct: a road accident's place is rarely fortuitous, and three months is less transient than transit.
+- The exception cannot apply, because it is reserved for transit passengers || It is not limited to transit; the point is how fortuitous Brunei is.
+
+Q: A Swiss bank's mandate with Mr Ong says all relations are governed by Swiss law. Mr Ong sues the bank and its Singapore relationship manager (not a party to the mandate) in tort for negligent misstatements made in Singapore. Both say Swiss law governs the tort. What is right?
+H: Ong Ghee Soon.
+- Swiss law clearly governs the tort for both defendants, as party autonomy applies in tort || Whether a contractual choice can govern a tort is unresolved in Singapore.
+- Swiss law can never govern a tort, so the clause is irrelevant || It is an open question, described as "just a small step away" (C&Y).
+- The manager benefits from the clause because he acted for the bank || The manager is a non-party and cannot take its benefit absent a Swiss stipulation pour autrui.
+* Open as against the bank; the manager cannot rely on it anyway || Correct: and whether the clause covers torts is construed under Swiss law (Rickshaw).
+
+Q: Ruritania's occupying government decreed that a Singapore airline's aircraft at its airports belonged to its national carrier. The airline sues the carrier in Singapore for conversion. Under Ruritanian law, as modified by the decree, there is no tort. What is the better route?
+H: Kuwait Airways; Rickshaw's fortuity test.
+- Use the flexible exception to apply Singapore law, as Ruritania's law is unjust || After Rickshaw the exception requires fortuity, and Ruritania is not fortuitous.
+* Disregard the decree on public policy, then apply Ruritanian law || Correct: Lord Steyn's approach. If so, limb 2 is satisfied and the airline succeeds.
+- Apply the decree, as courts cannot question a foreign State's acts in its territory || A confiscatory decree offending fundamental public policy is disregarded (C1.8).
+- The claim fails, because the decree governs title under the lex situs || Title follows the lex situs only once the decree is disregarded for public policy.
+
+@sec law302-hc3--hx-C3-7
+Q: An article on a US news website (servers in New Jersey) accuses an Indonesian magnate of bribery. It is downloaded 5,000 times in Indonesia and 300 times in Singapore. He sues in Singapore for all publications. How are the publications treated?
+H: Low Tuck Kwong; Dow Jones v Gutnick.
+* Each download is a separate tort where it is accessed || Correct: the Indonesian downloads are foreign torts, for which the publisher must plead and prove Indonesian law.
+- There is one global publication, located at the New Jersey servers || Gutnick rejected the server-location rule; publication is where material is downloaded.
+- There is one publication, located where most readers are, in Indonesia || Each publication is a separate tort.
+- All publications are governed by Singapore law, as the forum || Double actionability applies to each publication separately.
+
+Q: A Singapore architect sues a Malaysian developer (which has a Singapore office) in Singapore for infringing her Malaysian copyright by building in Malaysia. Singapore copyright is not infringed. Can she succeed?
+H: Pearce v Ove Arup, by analogy.
+- No: limb 1 fails because Singapore copyright is not infringed, and that is the end || The exception may displace the lex fori where Singapore is fortuitous.
+- Yes, automatically, because copyright claims follow the law of the right || Double actionability still applies; she needs the exception to displace the lex fori.
+- No, because foreign IP rights can never be litigated in Singapore || Infringement of a foreign right can be litigated, subject to jurisdiction and not turning on validity.
+* Possibly: the exception may displace the fortuitous lex fori, so Malaysian law governs || Correct: provided the case does not turn on the validity of the Malaysian right (C&Y).
+
+@sec law302-hc3--hx-C3-9
+Q: A Greek-law employment contract lets Filipino crew stay on board until paid. In Singapore the owner purports to discharge them, and sues them for trespass when they stay. How are the issues split?
+H: Effect versus validity.
+- Greek law governs everything, as the crew's rights come from the contract || Whether a contractual right negates trespass is a tort question.
+- Singapore law governs everything, as the trespass is a local tort || Whether the crew were lawfully discharged is a contract question for Greek law.
+* Singapore law for the defence; Greek law for the discharge || Correct: as in Galaxias, if Greek law says they were lawfully discharged, the trespass claim succeeds.
+- Philippine law governs, as the crew's nationality || Nationality is not a connecting factor here.
+
+Q: Mr Tan claims losses from a cancelled business deal after the Batam ferry collision. Indonesian law says they are too remote; Singapore law says they are recoverable. Can he recover them?
+H: Remoteness under double actionability.
+- Yes: remoteness is procedural, so Singapore law applies || Remoteness is substantive.
+- Yes, because Singapore law is the lex fori and governs damages || Remoteness is governed by double actionability, not by the forum alone.
+- Only if quantum is treated as substantive || Remoteness is a separate question from quantum.
+* No: a remoteness defence under either law defeats it || Correct: absent displacement of Indonesian law (C&Y).
+
+Q: A tort in Ruritania (1-year period) is sued on after 2 years. Singapore's period is 6 years. The flexible exception displaces Singapore law, as in Red Sea, leaving Ruritanian law as the single lex causae. Is the claim in time?
+H: FLPA and the single lex causae.
+- Yes: Singapore's 6-year period applies as the forum's procedure || Under the FLPA, limitation follows the lex causae.
+* No: Ruritania's 1-year period, as the sole lex causae || Correct: had the exception displaced Ruritanian law instead, Singapore's period would apply.
+- Yes, because the longer period applies where two laws are in play || There is no "longer period" rule, and here only one law applies.
+- No, because the 1-year period always applies to foreign torts || If Ruritanian law were displaced, Singapore's period would apply.
+
+@sec law302-hc3--hx-C3-12
+Q: A BVI company's director, under a services agreement choosing English law, is sued for breach of fiduciary duty as director. Which law governs his duties?
+H: Focus Energy; Base Metal Trading.
+- English law, as the parties chose it in the services agreement || Party autonomy in the services agreement cannot vary the law governing directors' duties.
+- The law of the place where the director lives || Residence is not the connecting factor.
+* BVI law, the law of the place of incorporation || Correct: party autonomy cannot vary it. Knowing receipt, by contrast, goes to the law of the place of receipt (Thahir v Pertamina).
+- Double actionability, as breach of fiduciary duty is always a tort || Directors' duties have their own rule: the law of incorporation.
+
+Q: A Hong Kong fund manager emails a Singapore retiree in Singapore with false statements about a structured note. She buys through her Singapore bank and sues him in deceit in Singapore. Where is the tort, and what follows?
+H: Directed, received and relied on.
+- In Hong Kong, where the manager wrote the email, so Hong Kong law governs limb 2 || A representation directed at, received and relied on in Singapore locates the tort here.
+- Nowhere in particular, so the court applies whichever law favours the claimant || Location follows the substance test; Singapore's rules are not result-selecting.
+* In Singapore, as a local tort, so both limbs point to Singapore law || Correct: if the manager wants Hong Kong law, he must plead it and show Singapore is purely fortuitous, which it is not.
+- In Singapore, but Hong Kong law applies anyway because the manager is based there || The defendant's base does not override the location of the tort.

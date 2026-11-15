@@ -1,0 +1,111 @@
+@sec law302-hj5--hx-J5-1
+Q: Condor's general counsel says the SICC is "essentially arbitration in a courtroom", so its judgment should be enforced under the New York Convention and it cannot bring in Inca, a non-signatory. Is that right?
+H: Section 18A.
+- Yes on both: SICC judgments are treated as awards, and like a tribunal it cannot bind non-parties || The SICC is a division of the General Division. Its judgments are court judgments, and it can join non-parties.
+- Half right: its judgments are enforced as awards, but it can join Inca as a court || SICC judgments are Singapore High Court judgments, enforced abroad as court judgments, not awards.
+* Wrong on both: it is a court, so its judgments are court judgments and it can join Inca || Correct: s 18A. Appeals lie to the Court of Appeal, and joinder is a key advantage over arbitration.
+- Wrong on enforcement, but right that it cannot join non-signatories without their consent || As a court, the SICC can coerce a non-party into the proceedings by joinder (s 18D(3)).
+
+Q: Which of these cannot be brought in the SICC? (1) A Hong Kong lender's loan claim against a Malaysian borrower. (2) An application to set aside an SIAC award between Indian and Japanese parties. (3) A scheme of arrangement for a Singapore-listed group with foreign creditors. (4) Judicial review of a Singapore ministry's decision.
+H: Prerogative relief.
+- (2), because challenges to arbitral awards must go to the General Division || IAA proceedings are within s 18D(2), though serving a foreign party needs permission.
+- (3), because insolvency and restructuring are excluded from the SICC || International and commercial corporate restructuring is within scope.
+* (4): prerogative relief is excluded from the SICC || Correct: judicial review of a ministry's decision is outside the SICC's scope.
+- (1), because a loan claim with no SICC clause can never reach the SICC || A loan claim can reach the SICC by agreement or by transfer, as an international commercial claim.
+
+Q: Two Singapore residents put an SICC clause in a residential tenancy, adding: "The parties agree this dispute relates to more than one State and is commercial." One sues in the SICC. What is the position?
+H: O 2 r 1(3) and O 2 r 3(2).
+- It is outside the SICC's jurisdiction, because the parties cannot agree a case into scope || O 2 r 1(3)(a)(ii) and (b)(iii) let parties agree that a case is international and commercial.
+- It is within scope, and the SICC must hear it, since jurisdiction exists || Being within scope does not stop the SICC declining under O 2 r 3(2).
+- It is within scope, but the SICC must transfer it to the General Division || Transfer after declining needs all parties' consent; otherwise the SICC dismisses or stays.
+* Within scope, but the SICC may decline it under O 2 r 3(2) || Correct: per C&Y, a local residential tenancy is the sort of case the SICC may decline.
+
+@sec law302-hj5--hx-J5-2
+Q: PayLah's portal terms with Bytewise (India) say: "The parties submit to the non-exclusive jurisdiction of the SICC." PayLah sues in the SICC, naming Bytewise and also Bytewise's US parent, which never accepted the portal terms. What is the problem?
+H: O 2 r 1(1)(b).
+* Every named party must have submitted, and the parent did not || Correct: or sue in the General Division and seek a transfer. The parent can come in by joinder (J5.6).
+- A non-exclusive clause is not a written jurisdiction agreement for the SICC || A NEJC qualifies as much as an EJC (C&Y).
+- Portal terms in a downloadable PDF are not "in writing" for the SICC Rules || Terms in an accessible form usable for later reference qualify (O 2 r 1(7)).
+- None: a parent is bound by its subsidiary's jurisdiction clause || The parent did not submit, so O 2 r 1(1)(b) fails as filed.
+
+Q: A 2014 contract says: "The Singapore High Court shall have exclusive jurisdiction." The claimant files directly in the SICC. Can it rely on the clause?
+H: O 2 r 2(2).
+- Yes: a High Court clause always includes the SICC, which is part of the High Court || Only post-2016 clauses are read to include the SICC (O 2 r 2(1)).
+* No: it predates 2016, so sue in the General Division and seek transfer || Correct: O 2 r 2(2). There is no primary SICC jurisdiction from this clause (J5.4).
+- Yes, because s 18F presumes all High Court clauses to be SICC clauses || Section 18F concerns whether an SICC clause is exclusive, not whether a High Court clause names the SICC.
+- No, and it cannot reach the SICC at all, even by transfer || Transfer from the General Division under O 2 r 4 remains available.
+
+Q: A 2020 contract says: "The SICC shall have exclusive jurisdiction." The claimant files in the General Division instead, relying on the clause. Can it?
+H: O 2 r 2(3).
+- Yes: the SICC is part of the General Division, so a clause for one covers the other || An SICC-only clause is not of itself submission to the General Division.
+- Yes, because s 18F makes the SICC clause exclusive to the High Court as a whole || Section 18F makes the SICC clause exclusive of other courts; it does not extend it to the General Division.
+- No, and the General Division must strike the claim out at once || The point is that the clause alone does not found the claimant's choice of the General Division; the claim is not automatically struck out.
+* No: an SICC-only clause is not of itself submission to the General Division || Correct: O 2 r 2(3). The claimant cannot rely on the clause alone there.
+
+Q: Condor disputes the SICC's jurisdiction in time, arguing (1) the offtake agreement was induced by misrepresentation about smelter capacity, (2) the dispute is domestic because both parties' traders are in Singapore, and (3) its signatory lacked authority to sign any jurisdiction clause. Which ground is a proper attack?
+H: Which ground goes to the clause itself?
+- (1), because a contract induced by misrepresentation takes the clause down with it || The clause is separable. Misrepresentation inducing the contract does not touch consent to the clause.
+- (2), because a dispute handled by Singapore-based traders is not international || Place of business is fixed at contracting, and Condor's is in Chile.
+- All three, as any of them, if proved, removes the SICC's jurisdiction || Grounds (1) and (2) fail on the law, whatever the evidence.
+* (3), because lack of authority goes to the clause itself || Correct: it is decided under the CCAA validity rules (J1.2.5).
+
+Q: The clause read "the Singapore High Court shall have jurisdiction" (2019). The SICC upholds Condor's challenge and finds the case outside its jurisdiction. What must the SICC do?
+H: O 2 r 3(6).
+- Dismiss the action, since it has found it has no jurisdiction over the case || A High Court clause counts as consent to the General Division, so the SICC must transfer.
+- Stay the action until Condor consents to transfer || Consent is already given by the High Court clause (O 2 r 3(6)).
+* Transfer it: the clause is consent to the General Division || Correct: without such consent, the SICC could transfer only with all parties' consent, or else dismiss or stay.
+- Transfer it only if the General Division would be forum conveniens || Forum conveniens is not the test. The clause supplies the consent for transfer.
+
+@sec law302-hj5--hx-J5-3
+Q: A Thai company lost in the Bangkok courts after a five-year trial on a supply contract with an SICC non-exclusive clause. It now files in the SICC on the same issues, hoping for a different result. What can the SICC do?
+H: O 2 r 3(2).
+- Nothing: O 2 r 3(3) bars declining a case because of its foreign connections || The bar concerns connections. Relitigation is abuse of process, a separate ground.
+- Hear it, because a non-exclusive clause lets either party sue in the SICC at any time || The clause gives access, but the SICC may still decline for abuse.
+* Decline it as an abuse of process, as relitigation of an issue already decided abroad || Correct: so would filing just to delay advanced foreign proceedings.
+- Transfer it to the General Division, which can apply res judicata more strictly || The SICC can decline itself for abuse. Transfer is not the answer.
+
+@sec law302-hj5--hx-J5-4
+Q: Tropical Spice sues Kerala Exports (India) in the General Division under a 2014 "Singapore High Court" clause. The dispute turns on difficult Indian contract and competition law, and an SICC International Judge is a former Indian Supreme Court judge. Kerala consents to transfer; Tropical Spice opposes, saying the case is "simple". Is transfer likely?
+H: O 2 r 4(1): more appropriate?
+- No: the case is simple, so a General Division judge should keep it || The test turns on how international and commercial the dispute is, not on its complexity (Chong).
+- No: without both parties' consent, transfer to the SICC is impossible || Consent of all parties is needed in CCAA cases. This 2014 clause is outside the CCAA.
+* Yes: the Indian-law issues are central, and one party consents || Correct: Indian law can be argued by submission (s 18L), and an Indian International Judge favours the SICC.
+- Yes, automatically, because a High Court clause always includes the SICC || A pre-2016 clause does not of itself submit to the SICC (O 2 r 2(2)). Transfer is discretionary.
+
+Q: After transfer to the SICC with its consent, Kerala argues the SICC lacks jurisdiction because the General Division wrongly found a gateway for service out. Can it reopen the point?
+H: O 2 r 4(8)(b)(i).
+- Yes: the SICC must satisfy itself of its own jurisdiction afresh after any transfer || The SICC must not reconsider jurisdiction absent a material change in circumstances.
+- Yes, because Kerala's consent to transfer was not consent to jurisdiction || Its consent arguably also waives any objection, and in any case there is no material change.
+* No: absent a material change in circumstances the SICC does not reconsider jurisdiction || Correct: the gateway finding is not a change. A new, unserved defendant would be.
+- No, but Kerala may instead ask the SICC to apply Spiliada and stay in favour of India || The SICC does not apply Spiliada; O 2 r 3(2) asks a different question, and the stay will already have been dealt with.
+
+@sec law302-hj5--hx-J5-5
+Q: Two parties sued in the SICC over a S$200,000 Singapore warehouse lease between a Singapore company and the Singapore branch of a Hong Kong company. The Hong Kong parent is irrelevant to the issues. Both parties want to move to the General Division to save costs. Is transfer appropriate?
+H: O 2 r 4(5).
+* Yes: with all parties' consent the threshold is low, and the foreign element is not germane || Correct: a General Division judge can decide it quickly (C&Y).
+- No: once a case is in the SICC under a clause, it can never be transferred out || O 2 r 4(5) allows transfer to the General Division.
+- No: the Hong Kong parent makes the case international, so it must stay in the SICC || The international element is not germane to the issues, so it does not require the SICC.
+- Only if both parties first vary their clause to name the General Division || A variation may be a condition in CCAA cases (O 2 r 5(2)), but it is not required here.
+
+@sec law302-hj5--hx-J5-6
+Q: In Strait Metals v Condor in the SICC, Strait Metals wants to join Andes Bank (Chile). Its claim is that, two years before the offtake agreement, the bank's relationship manager made a negligent misstatement about Condor's creditworthiness. Is joinder likely?
+H: Common question of law or fact.
+- Yes: any party connected with the deal can be joined, since the SICC can coerce non-parties || Joinder needs a common question with the main dispute, not just a connection with the deal.
+- Yes, provided the bank is served in Chile with permission || Service is a separate step. The joinder test must be met first.
+* No: a pre-contract misstatement shares no common question with Condor's later short delivery || Correct: per Chong, joinder of Andes Bank likely fails.
+- No, because a bank can only be joined if it signed the SICC clause || Non-parties to the clause may be joined (O 10 r 5(2)). The problem is the lack of a common question.
+
+Q: Strait Metals also wants to join (1) the Chilean Ministry of Mining, alleged to have colluded in Condor's export restrictions, and (2) Lim, a Singapore broker whose own claim against Strait Metals is a purely domestic brokerage claim. What is the position?
+H: O 10 r 5(2); s 18D(3)–(4).
+- Both can be joined, as the SICC can join anyone connected with the dispute || A State party can only be joined if it submitted under a written jurisdiction agreement.
+- Neither: the Ministry is a State, and Lim's claim is domestic || Lim's own claim need not be international or commercial, if the action as a whole stays so.
+* Lim can be joined; the Ministry cannot, as it never submitted in writing || Correct: as a State party, the Ministry needs a written jurisdiction agreement (C&Y).
+- The Ministry can be joined, but Lim cannot, as his claim is purely domestic || It is the other way round.
+
+@sec law302-hj5--hx-J5-7
+Q: An SICC clause between Lone Star and Merlion is expressly non-exclusive. Lone Star sued in Houston before Merlion filed in the SICC. Merlion asks the SICC for an ASI against the Houston suit. What do C&Y suggest?
+H: Is the Houston suit a breach?
+- Grant it: an SICC agreement always gives a contractual basis for an ASI || Suing in Houston is no breach of a non-exclusive clause, so there is no contractual basis.
+* Refrain: suing first in Houston breaches nothing || Correct: C&Y suggest refraining here (J6.3.1.3).
+- Grant it, because the SICC has primary jurisdiction and Houston has none || Houston had jurisdiction first, and a non-exclusive clause does not exclude it.
+- Refuse it, because the SICC has no power to grant ASIs at all || The SICC can grant ASIs; the clause supplies sufficient interest. It should refrain on these facts.

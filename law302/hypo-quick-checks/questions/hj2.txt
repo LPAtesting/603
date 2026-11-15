@@ -1,0 +1,198 @@
+@sec law302-hj2--hx-J2-0
+Q: A claimant cannot serve a Thai defendant in Singapore and has not applied to serve out. It says the High Court has "inherent jurisdiction" because the claim matters to Singapore's financial sector. What follows?
+H: Allenger and Art 93.
+- The court may hear it if the public interest is strong enough, as its inherent jurisdiction is unlimited || The General Division is a creature of statute. Its in personam jurisdiction comes only from s 16 SCJA and other written law.
+- The court has jurisdiction, but should stay the case unless Singapore is the natural forum || Without service in, authorised service out, submission or other written law, there is no jurisdiction to stay.
+* There is no jurisdiction: the claimant must apply under O 8 r 1 to serve out || Correct: per Allenger, jurisdiction comes only from statute, whatever the case's importance.
+- The court's power to prevent abuse under O 3 r 2(2) supplies the missing jurisdiction || That power may let the court refuse jurisdiction in abusive cases. It does not create jurisdiction that statute does not give.
+
+Q: Bao, who lives in Vietnam, emails the claimant: "I'm happy for the Singapore court to decide this. No need to serve me." The claimant files a claim and does nothing else. Bao later ignores the proceedings. Does the court have jurisdiction?
+H: O 6 r 4.
+- Yes: Bao submitted in writing, and submission founds jurisdiction without service || Even a submitting defendant must be served. Service both founds jurisdiction and gives notice.
+* Not yet: service is still required, by an agreed mode or by serving out under O 8 || Correct: the claimant should agree a mode of service (O 7 r 2(1)(d)) or serve out, then pair the provision with the mode.
+- Yes, because an email consenting to jurisdiction is an exclusive Singapore jurisdiction agreement || Even a jurisdiction agreement needs service to found jurisdiction. And this email is consent, not a promise not to sue elsewhere.
+- No, and it never can, because a defendant abroad can only be brought in by service in Singapore || Service out under O 8, or agreed service, are both available. Jurisdiction can still be founded.
+
+Q: A shareholder wants to sue director B, who lives in Hong Kong, for breach of duty to a Hong Kong company. B is flying into Singapore next week for a conference. Why serve B while he is here?
+H: Zoom: who bears the burden?
+- Because service in avoids any forum challenge, since presence means Singapore must hear the case || B can still seek a Spiliada stay. Presence settles existence only.
+- Because service out is impossible for a claim about a foreign company's affairs || Service out may well be available. Serving in is a tactical choice about the burden.
+- Because a defendant served in Singapore cannot argue that Hong Kong is the natural forum || He can, on a stay application. He just bears the burden of showing it.
+* Because after service in, B must show Hong Kong is clearly more appropriate to obtain a stay || Correct: on service out, the claimant would have to show Singapore is forum conveniens if B challenged service, which is harder for the claimant.
+
+Q: A claimant serves the defendant in Singapore and asks the court to declare that it owns a villa in Bali. How much should you write on the court's power to hear this claim?
+H: Off-syllabus, one line.
+* One line: per Allenger the court hears any claim unless barred, and title to foreign land is barred by case law || Correct: in personam jurisdiction exists through service in, but there is a case-law prohibition. Do not develop it further.
+- A full analysis: service in founds jurisdiction, so the court must decide title wherever the land is || Service in does found in personam jurisdiction, but case law prohibits claims to title to foreign land.
+- A Spiliada analysis: the Bali connection makes Indonesia clearly more appropriate || The issue is that the court cannot hear a claim to foreign land at all, not where it is best heard.
+- Nothing: subject-matter jurisdiction is wholly off-syllabus, so the point should be left out || Off-syllabus, but one line is still expected if the defendant says the claim cannot be heard.
+
+Q: The claimant's agent tells a superyacht owner that a buyer wants to inspect the yacht in Singapore. The owner sails it in, and the claimant arrests it in a claim with no other Singapore connection. What can the owner argue?
+H: Emilia Shipping.
+- Nothing: once the statutory requirements are met, jurisdiction exists and only a Spiliada stay is left || Per Emilia Shipping it is arguable that the inherent power to prevent abuse survives s 16.
+- The arrest is void because the claimant's agent misled the owner, which is a criminal matter only || The civil answer is the court's inherent power to prevent abuse, which may lead to set-aside or a stay.
+* The inherent power to prevent abuse (O 3 r 2(2)) arguably survives s 16, so the case may be set aside or stayed || Correct: the court may refuse proceedings founded on property deceptively brought into the jurisdiction.
+- Strong cause, because the yacht's presence was not freely chosen by the owner || Strong cause concerns breach of a jurisdiction agreement. There is none here.
+
+@sec law302-hj2--hx-J2-1
+Q: Priya, an Indian art dealer, sold a painting in Paris to a French collector. She flies to Singapore for one afternoon at the Gold Cup and is handed the claim in the members' enclosure, flying home that night. Does Singapore have jurisdiction?
+H: Maharanee of Baroda v Wildenstein.
+- No: a same-day visit with no link to the Paris sale cannot found jurisdiction || Presence is judged at the moment of service. A brief visit is enough, as at Ascot in Wildenstein.
+- Only with the court's permission, as she was in transit and not resident || Personal service on a present defendant is as of right under O 7 r 2(1)(a). No permission is needed.
+- Only if the collector proves she came to Singapore for business || Purpose matters only if the claimant lured her here. A voluntary visit for pleasure is enough.
+* Yes, as of right: she was present when served, whatever the length of the visit || Correct: s 16(1)(a)(i) with O 7 r 2(1)(a). The weak connection goes to a stay, not to existence.
+
+Q: Version 1: the collector uses a front company to arrange a fake "investor meeting" in Singapore, then serves Priya in the hotel lobby. Version 2: Priya comes on holiday, and the collector, seeing it on Instagram, serves her at Sentosa. What is the position?
+H: Watkins v North American Land.
+- Service is good in both, as presence at the time of service is all that matters || Presence induced by fraud is an abuse of process, so service in Version 1 may be set aside.
+* Only Version 1 may be set aside; in Version 2 any unfairness goes to a stay || Correct: luring by a sham meeting is abuse; taking advantage of a voluntary visit is not.
+- Both may be set aside, because the collector deliberately targeted Priya in each case || Watching for a voluntary visit is not inducement. Only Version 1 involves luring.
+- Version 2 is the worse case, because the collector exploited Priya's private holiday || Exploiting a voluntary visit is legitimate. The abuse lies in inducing presence by a trick.
+
+Q: Mr Tanaka lives in Osaka and owns Singapore flats. His cousin here only forwards his emails to tenants and passes their complaints on to him. A tenant sues Mr Tanaka and seeks permission to serve the cousin under O 7 r 4. Will it be granted?
+H: Does the agent control or manage the affairs?
+- Yes: any relative who represents an absent defendant here qualifies as an agent || The agent must personally control or manage the defendant's affairs relating to the action. Relaying messages is not that.
+- Yes, provided the claimant posts the order and claim to Osaka within 14 days || Posting is a formality after permission. It cannot fix the failure of requirement (b).
+- No, because O 7 r 4 can never be used against an individual who lives abroad || O 7 r 4 is designed for absent defendants. It works where the agent manages the relevant affairs, as the property manager did.
+* No: the cousin manages nothing, so requirement (b) fails and the tenant must serve out || Correct: contrast the property manager who signed leases and decided repairs, who would satisfy O 7 r 4.
+
+Q: Mr Tanaka's property manager, Wendy, signs leases and decides on repairs. Mr Tanaka says permission to serve Wendy should be refused because he could easily be served in Osaka, and English practice treated agent service as a "rare case". What is the better view?
+H: C&Y on liberalisation.
+* Permission is likely: the rule has been liberalised, and service out being available is no bar as such || Correct: "affairs" replaced "business or work", O 8 has been liberalised, and permission itself is a safeguard.
+- Permission must be refused: O 7 r 4 cannot be used where service out under O 8 is possible || There is no rule that permission is withheld just because service out is available.
+- Permission is unnecessary: agent service is as of right once the agent manages the affairs || O 7 r 4 needs permission on a without-notice summons.
+- Permission turns on whether Japan is the more appropriate forum, decided at the same time || Forum arguments go to exercise. The O 7 r 4 question is whether its requirements are met.
+
+Q: Orchid Holdings Pte Ltd is a Singapore company with no staff or operations here; it is run from Jakarta. The claimant sends the claim by registered post to its registered office at a corporate secretarial firm. Is jurisdiction founded?
+H: Section 387 CA.
+- No: the claimant must show Orchid carries on business here under Adams v Cape || For a Singapore company, s 387 service founds jurisdiction without Adams v Cape.
+- No: registered post is not personal service, so the claimant must serve a director || Section 387 CA allows service by leaving the claim at, or posting it to, the registered office.
+- Yes, but only because the corporate secretarial firm is Orchid's agent under O 7 r 4 || The route is ss 16(2), 17(1)(c) SCJA with s 387 CA, not agent service.
+* Yes, via ss 16(2), 17(1)(c) SCJA and s 387 CA; Jakarta management goes only to a stay || Correct: state the pathway; there is no need to discuss Adams v Cape.
+
+Q: Which of these foreign companies must register in Singapore under s 368? (1) Board meetings at a Singapore hotel twice a year and a bank account. (2) Sales through an independent distributor, orders accepted in Geneva. (3) Administering Singapore properties as trustee. (4) One sale completed here over 20 days. (5) A leased Robinson Road office with six advisers.
+H: Section 366(1) and (2).
+- Only (5), because only a leased office with staff counts as carrying on business || Section 366(1) includes administering property as agent or trustee, so (3) is business too.
+- (1), (3) and (5), because regular board meetings in Singapore are carrying on business || Internal meetings and a bank account are excluded by s 366(2).
+* (3) and (5) only: the rest fall within the s 366(2) exclusions || Correct: s 366(2) excludes internal meetings and bank accounts, independent-contractor sales accepted abroad, and an isolated transaction within 31 days.
+- All except (2), as only sales through independent contractors are excluded || Section 366(2) also excludes (1) and (4), the isolated transaction completed within 31 days.
+
+Q: Thames Advisory registered under s 368, closed its Singapore office in 2023 and was deregistered in 2025. In 2026 a client sues over advice given in 2022. Can the client use s 376?
+H: Tao Commodity v C&Y.
+- Yes, plainly: s 376(c) expressly covers companies that have been deregistered || Section 376(c) covers companies that have ceased business. Whether it survives deregistration is contested.
+- No, plainly: s 376 can never be used once a company has stopped trading in Singapore || Section 376(c) exists precisely for companies that have ceased to maintain a place of business here.
+- Yes, but only on the authorised representative, as the registered office has gone || After deregistration the problem is whether s 376 applies at all. That is the contested point.
+* Contested (Tao v C&Y), so the client should also apply to serve out || Correct: Tao says the registration nexus is gone; C&Y say s 376(c)'s plain words and purpose still apply.
+
+Q: Kangaroo AI (Australia, unregistered) uses Raj, an independent consultant on commission. Raj works from his own office, represents three other companies, and must send every deal to Sydney for approval. Is Kangaroo AI present in Singapore?
+H: Okura.
+- Yes: Raj carries on its business from a fixed place in Singapore for more than a minimal period || The business carried on at Raj's office is Raj's own, not Kangaroo AI's.
+* No: Raj carries on his own business and cannot contract without approval || Correct: commission, his own office and several principals all point to Raj's own business (Okura).
+- Yes, because power to contract is not required, so any representative here makes it present || Power to contract is not conclusive, but here every indicator points against presence.
+- No, but only because Kangaroo AI is unregistered, and only registered companies can be present || Registration is not needed for presence. Adams v Cape asks about a fixed place and the company's own business.
+
+Q: Kangaroo AI has no Singapore presence, but its CEO is handed the claim while on holiday at Sentosa. Is that good service on the company?
+H: Whose presence founds jurisdiction?
+- Yes: O 7 r 2(1)(b) allows service on any officer found in Singapore || That mode works where the company itself is present. Its officer's presence does not make it present.
+- No, and the point is settled: no Singapore case has ever accepted service on a visiting officer || COSCO and B Atmaram accepted such service. The point is doubtful, not settled.
+- Yes, because a CEO is the company's directing mind, so the company is present with him || Per Yeo and Beranek, the company's own presence is what counts under s 16(1)(a)(i).
+* Doubtful: the company itself is not present (Yeo, Beranek), though COSCO and B Atmaram help the claimant || Correct: flag the doubt; the safer course is to serve out.
+
+Q: SoleKicks LLC (Delaware) sells sneakers to Singapore buyers through its website and ships from Oregon. A buyer receives fakes and sues. How should the buyer found jurisdiction?
+H: There is no virtual presence.
+- Serve SoleKicks at its website's Singapore-facing address under s 376 || SoleKicks is not registered and has no Singapore office, so s 376 does not apply.
+- Plead presence under Adams v Cape, as regular sales to Singapore buyers are business here || A website is not a virtual presence (Lucasfilm), and accepting orders abroad is excluded by s 366(2).
+* Serve out under O 8, unless an agent here or local solicitors can be served || Correct: neither s 376 nor Adams v Cape applies to an online seller with no place of business here.
+- Serve by email, because a company trading online is present wherever its customers are || There is no such rule. Email may be a mode of service out with approval, but it is not presence.
+
+Q: Lim & Partners, a Singapore architecture firm, designed a leaky roof. Partner B has emigrated to Canada. The client sues the firm in its name and serves the office manager at the principal place of business. Can the client enforce judgment against B personally?
+H: Firm name and in personam jurisdiction.
+- Yes: suing in the firm name and serving the firm binds every partner, wherever each lives || Per C&Y, the firm-name procedure gives no in personam jurisdiction over a partner.
+- Yes, because B was a partner when the roof was designed, which is submission || Being a partner at the time is not submission. B must be served or must submit.
+* Not without more: the client must serve B, out of the jurisdiction, or show that he submitted || Correct: O 56 r 1 lets the client sue the firm, but each partner to be made liable must be served.
+- No, and B can never be made liable because he has left Singapore || Service out under O 8 is available, so B can be made liable.
+
+Q: Volga Logistics BV (Netherlands) is unregistered, but has a warehouse office in Jurong with its own staff. How does Victoria found jurisdiction against it?
+H: Router drill.
+- Through s 376(c), serving at its registered office in the Netherlands || Section 376 applies to registered companies. Volga Logistics never registered.
+- Through s 387 CA, as it has a Singapore office || Section 387 applies to Singapore-incorporated companies.
+* Prove Adams v Cape presence (s 16(1)(a)(i)), then serve an officer || Correct: an unregistered foreign company trading from a fixed place here can be present, but the claimant must prove it.
+- It cannot: an unregistered company must always be served out under O 8 || Never-registered companies can still be present under Adams v Cape. Serve out only if presence fails.
+
+@sec law302-hj2--hx-J2-2
+Q: Sunrise Resorts (Maldives) is irregularly served in the Maldives. Through Singapore counsel it applies to set aside service, "vigorously protesting" jurisdiction, files an affidavit saying the Maldives is the right forum, and attends the hearing. Has it submitted?
+H: Williams & Glyn's; Zoom.
+- Yes: attending the hearing through counsel is a step only useful if jurisdiction is accepted || Attending your own set-aside hearing is entirely consistent with contesting jurisdiction.
+- Yes: an affidavit on forum shows it accepts the court has jurisdiction to weigh the forum || Forum arguments can form part of a challenge. None of the steps is incompatible with the objection.
+* No: it invoked only the court's jurisdiction to decide jurisdiction || Correct: none of the steps is "only necessary or only useful" if the objection had been waived (Zoom).
+- No, but its appearance cures the irregular service, so the case continues on the merits || Only submission cures irregular service. Without submission, the irregularity remains.
+
+Q: A Hong Kong defendant served in Singapore applies, without reservation, to strike out the claim as disclosing no reasonable cause of action. Two months later it applies to set aside service. What happens?
+H: Spamhaus.
+* The set-aside fails: an unreserved strike-out application is submission || Correct: it asks the court to rule on the claim, which is useful only if jurisdiction is accepted (Spamhaus, C&Y).
+- The set-aside succeeds, because a strike-out is a procedural step and not a defence on the merits || A strike-out goes to the claim's viability. Made without protest, it is submission.
+- The set-aside succeeds if filed within the time limits for contesting jurisdiction || Time limits protect a notice of intention to contest. They do not undo a submission already made.
+- The set-aside succeeds, because a defendant can submit only by filing a full defence || A strike-out application without protest is also submission.
+
+Q: A Malaysian defendant validly served in Singapore files an affidavit saying "the court should not exercise jurisdiction because Malaysia is the natural forum", then applies only for a Spiliada stay. Has it submitted?
+H: Zoom versus O 6 r 12(5).
+- Clearly not: under ROC 2021 a stay application can never be submission || The protection in O 6 r 12(5) clearly covers the filing. Whether it covers arguing the stay is uncertain.
+- Clearly yes: per Zoom, a stay application alone always accepts that jurisdiction exists || O 6 r 12(5) now says an affidavit stating an exercise challenge is not submission, so it is not clear-cut.
+* Arguable both ways: Zoom treats a stay alone as submission, but O 6 r 12(5) protects the affidavit || Correct: the ROC 2021 uncertainty is whether that protection extends beyond the filing to arguing the stay (J2.2.4).
+- Yes, but only if the stay application fails, as a successful stay undoes any submission || The outcome of the stay is not what makes the step submission or not.
+
+Q: A foreign state-owned company applies for a stay on immunity grounds and, in the same application, asks the court to release US$5m frozen by an earlier injunction, whether or not the stay is granted. Has it submitted?
+H: Zoom, explaining Maler Foundation.
+- No: an immunity plea is the strongest form of protest, so nothing in the same application can be submission || A protest does not cover a request for substantive relief pursued whatever happens to the stay.
+- No: release of frozen funds is ancillary relief and never invokes the merits jurisdiction || Seeking release whatever the outcome invokes the court's jurisdiction over the dispute.
+- Only if the court grants the release, as submission depends on obtaining relief || Submission depends on the step taken, not on whether it succeeds.
+* Yes: seeking release whatever the stay outcome invokes the court's jurisdiction || Correct: if release were sought only as a consequence of a successful stay, it would be consistent with the objection.
+
+Q: A PRC defendant writes "without prejudice to our objection to jurisdiction" on every filing, but files lengthy merits affidavits against a third-party shareholder's injunction application, cross-examines her witness and seeks costs against her. Has it submitted?
+H: Shanghai Turbo (SGCA).
+- No: an express reservation on every filing preserves the objection || A reservation is "not a silver bullet". Conduct as a whole decides.
+* Likely yes: deep, active participation contradicts the reservations || Correct: like Shanghai Turbo, this goes well beyond a neutral, pre-emptive procedural step.
+- No: participating in a non-party's application cannot be submission in the defendant's own suit || In Shanghai Turbo the participation was in a non-party's injunction application, and it was submission.
+- Yes, but only because it sought costs, which is always submission whatever else it did || It is the conduct as a whole, not costs alone, that contradicts the reservations.
+
+Q: A Japanese defendant's in-house counsel writes: "We have instructed Drew & Co, Singapore, to accept service on our behalf." The claimant serves Drew & Co. The defendant applies to set aside because no permission to serve out was obtained. What follows?
+H: Rothschild; Shanghai Turbo (SGCA); COSCO (HC).
+- The set-aside succeeds: the defendant is abroad, so service out with approval was required || Two routes defeat the set-aside: submission, and service in by agreed mode.
+- The set-aside succeeds unless the defendant also files a defence on the merits || Instructing solicitors to accept service is enough on either route.
+* It fails, either as submission (Rothschild) or as agreed service in Singapore (O 7 r 2(1)(d)) || Correct: argue both. Yeo prefers the submission analysis. The defendant can still seek a stay.
+- It fails, because appointing Singapore solicitors for any purpose is submission || Contrast Malayan Banking: appointing solicitors to challenge jurisdiction is not submission.
+
+Q: A Thai defendant is served out on 1 March. On 15 March it files a notice of intention to contest. On 1 April it files a defence saying: "The Defendant contends that the Court has no jurisdiction, alternatively should not exercise it." Has it submitted?
+H: O 6 rr 6(4) and 7(4)–(6).
+- Yes: filing any defence is a merits step, whatever it says about jurisdiction || A defence stating an existence or exercise challenge within time is not submission.
+- Yes, because the notice was filed after 14 days and so is a waiver of improper service || The 14-day limit applies to service in Singapore. On service out the limit is 21 days.
+- No for the notice; yes for the defence, which was filed more than 21 days after service || On service out the defence must be filed within 5 weeks, and 1 April is within that.
+* No: both steps were in time and state the challenge, so neither is submission || Correct: 21 days for the notice and 5 weeks for the defence on service out (14 days and 21 days if served in).
+
+Q: Which of these is submission? (1) A defendant who challenged jurisdiction in its defence attends the case conference. (2) Counsel attends a hearing "as an observer only, without submitting". (3) An employee resists an interim injunction that would stop him working, keeping his objection.
+H: Contrast Shanghai Turbo's deep participation.
+* None of them || Correct: (1) jurisdiction is dealt with first (O 9 r 7); (2) an express observer caveat (Grains); (3) purely defensive participation (International SOS v Overton).
+- Only (3), because opposing an injunction on its merits is deep, active participation || Purely defensive participation to protect one's livelihood is not submission.
+- Only (1), because a case conference concerns the management of the merits || After signalling a challenge, attending the case conference is not submission; jurisdiction comes first.
+- (2) and (3), as both involve appearing at a hearing about the claim || Appearance alone is not the test. Neither step is incompatible with the objection.
+
+Q: An Indonesian defendant served out files one summons: "(1) service be set aside; (2) alternatively, a stay on FNC grounds." Counsel argues prayer (2) first and at length, and also files a separate stay application on the same grounds. What is the main risk?
+H: Zoom: "unnecessarily risky".
+- The summons itself is submission, because a stay prayer accepts that jurisdiction exists || A fall-back stay in the same summons is not submission, as the prayers are considered in sequence.
+- None: the order of argument and duplicate applications have no legal consequence || Arguing the stay first was "unnecessarily risky" in Zoom, and the duplicate is counter-productive.
+- The court must decide the stay first because it was argued first, so existence is waived || The prayers are considered in sequence. The risk is in looking as if existence is not contested.
+* Arguing the stay first risks looking like acceptance, and the separate stay is unnecessary || Correct: on service out, forum arguments belong inside the set-aside (C&Y), and a duplicate stay may be disallowed.
+
+Q: A Swiss defendant says the guarantee containing the Singapore jurisdiction clause was forged, and the point is before the Zurich court. It asks Singapore to stay the action pending the Zurich ruling. Is that submission?
+H: Williams, as limited in Zoom.
+- Yes: any stay accepts that jurisdiction exists, as in Zoom || Per Williams, a stay sought in order to determine jurisdiction is not submission.
+- No, plainly: Sch 1 para 9 gives Singapore the same power to stay as the English statute || Singapore lacks an equivalent of the English statutory power, which is why the point is unclear.
+- Yes, because forgery goes to the merits, and asking for the merits to be decided abroad is submission || The forgery issue decides whether the clause, and so jurisdiction, exists.
+* Not in principle, but only if Singapore can stay without first assuming jurisdiction, which is unclear || Correct: frame the application carefully as part of the jurisdiction challenge.
+
+Q: Pine says Hanbit (Korea) submitted because: (1) Hanbit served a statutory demand on Pine in Singapore outside this suit, with a reservation; (2) Hanbit defended an earlier, finished Singapore suit; (3) Hanbit's receivers sought recognition here; (4) the contract is governed by Singapore law. Which of these is submission?
+H: Unconnected steps.
+- (2), because submission in one Singapore suit carries over to later suits between the same parties || Submission in an earlier suit does not carry over to a fresh suit (Lakshmi).
+- (4), because choosing Singapore law plus doing business here is implied consent || A governing law clause is not submission, and with business here it is not even implied consent (Vizcaya, by analogy).
+* None of them || Correct: (1) 6DM v AE Brands; (2) and (3) Lakshmi; (4) Vizcaya by analogy.
+- (1) and (3), because each invoked a Singapore court process || Neither is premised on jurisdiction over this dispute. Both are unconnected steps.
