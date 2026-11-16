@@ -18,9 +18,10 @@ shows on the right, level with the text). It is separate from the course content
   and anchored by quoted text. Don't rename page ids (`<article class="page" id="...">`)
   without a reason: comments on a renamed page show under "All pages" with the old id.
 
-## LAW302 hypo quick checks: re-apply after uploads
+## LAW302 hypo quick checks and the section timer: re-apply after uploads
 
 The quick checks inside the LAW302 hypo pages of `practice.html` come from
-`law302/hypo-quick-checks/`. If an upload replaces `practice.html` with a version
-without them (the J1 page kicker says "8 QUESTIONS"), run
+`law302/hypo-quick-checks/`, and the section timer is `timer/timer.js` (never delete it).
+If an upload replaces `practice.html` with a version without them (the J1 page kicker
+says "8 QUESTIONS", or there is no `data-lpa-timer` script line), run
 `python3 law302/hypo-quick-checks/apply.py` and then `python3 comments/attach.py`.

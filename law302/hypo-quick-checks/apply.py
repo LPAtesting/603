@@ -5,7 +5,8 @@ Usage:  python3 law302/hypo-quick-checks/apply.py [path/to/practice.html]
 Reads the question files in questions/ (one per hypo page, plus zfix.txt, which
 rebalances the option lengths of the original 80 hypo-test questions), adds the
 questions to window.QBANK, puts a "Quick check" after each listed section, and
-updates the question counts. Run it after uploading a practice.html that does not
+updates the question counts, and attaches the section timer
+(timer/timer.js). Run it after uploading a practice.html that does not
 have the quick checks yet. It does nothing if they are already there.
 """
 import re, json, hashlib, html, sys, glob, os, random
@@ -14,6 +15,25 @@ from collections import Counter, defaultdict
 SP = os.path.dirname(os.path.abspath(__file__))
 TARGET = sys.argv[1] if len(sys.argv) > 1 else os.path.join(SP, '..', '..', 'practice.html')
 s = open(TARGET, encoding='utf-8').read()
+
+TIMER_TAG = '<script src="timer/timer.js" defer data-lpa-timer></script>'
+def extras(text):
+    """Attach the section timer and keep the home page's question total right."""
+    if 'data-lpa-timer' not in text:
+        k = text.rfind('</body>')
+        text = text[:k] + TIMER_TAG + '\n' + text[k:]
+    j = text.find('window.QBANK=') + len('window.QBANK=')
+    total = len(json.JSONDecoder().raw_decode(text, j)[0])
+    return re.sub(r'with \d+ multiple-choice questions in all', 'with %d multiple-choice questions in all' % total, text, count=1)
+
+if 'data-ids="j1q-' in s:
+    out = extras(s)
+    if out != s:
+        open(TARGET, 'w', encoding='utf-8').write(out)
+        print('Quick checks were already there; attached the timer / updated the total.')
+    else:
+        print('Quick checks and timer are already in this file. Nothing to do.')
+    sys.exit(0)
 
 PAGES = {  # pid: (lesson, code)
  'law302-hj1': ('302:101', 'J1'), 'law302-hj2': ('302:102', 'J2'), 'law302-hj3': ('302:103', 'J3'),
@@ -151,6 +171,7 @@ for pid in PAGES:
                  lambda m: m.group(1) + '%d questions' % n, out, count=1)
 total302 = sum(1 for v in qb.values() if v['course'] == '302')
 out = re.sub(r'10 hypo lessons · \d+ questions', '10 hypo lessons · %d questions' % total302, out, count=1)
+out = extras(out)
 open(TARGET, 'w', encoding='utf-8').write(out)
 print('Added %d questions:' % sum(per_page.values()), dict(per_page))
 

@@ -10,7 +10,8 @@ at sub-section breaks in long sections, as the LAW301 hypo pages have.
   `-` wrong option, each followed by ` || ` and the explanation shown after checking.
 - `questions/zfix.txt`: shorter or longer option texts for the original 80 hypo-test
   questions, so the right answer is no longer simply the longest option.
-- `apply.py`: adds all of this to a `practice.html` that does not have it yet.
+- `apply.py`: adds all of this to a `practice.html` that does not have it yet, and
+  attaches the section timer (`timer/timer.js`) if its script line is missing.
 
 Option lengths are balanced (the right answer is the longest option in about a
 quarter of questions), and `apply.py` spreads the right answer evenly over A–D.
