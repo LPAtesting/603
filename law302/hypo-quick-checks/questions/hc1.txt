@@ -77,7 +77,7 @@ Q: A Singapore claimant sues after 18 months for an accident in Ruritania (Rurit
 H: FLPA s 3(2); no renvoi.
 - Yes: Ruritanian conflict rules refer limitation to Singapore law, which gives 3 years || Renvoi is excluded (ss 3(5), 6(2)), so only Ruritania's domestic period counts.
 - Yes: as in England, both periods apply, and the claim must only satisfy the longer || Singapore does not apply its own period cumulatively, unlike the UK FLPA (Metall).
-* No: Ruritania's 1-year period applies, unless the flexible exception selects Singapore law alone || Correct: s 3(2) applies the lex loci delicti's period, considered for actionability.
+* No: Ruritania's 1-year period applies, absent the flexible exception's help || Correct: s 3(2) applies the lex loci delicti's period, considered for actionability.
 - No, because the forum always applies the shorter of the two periods to torts || There is no "shorter period" rule; the statute picks the lex loci delicti's period.
 
 Q: A distressed-debt fund bought, at a steep discount, claims it knew were probably time-barred under the governing Thai law. They became barred because the assignor's former directors refused to sue. Can the fund disapply the Thai period for undue hardship under FLPA s 4(2)?
@@ -90,7 +90,7 @@ H: Recovery Vehicle 1: causation and self-induced hardship.
 Q: A beneficiary's fiduciary claim is governed by Swiss law, which has a 10-year period. He waited 9 years, during which witnesses died and documents were lost. Singapore law's laches doctrine would bar the claim. Is it barred in Singapore?
 H: FLPA and equitable claims.
 - Yes: Singapore's laches doctrine is preserved for equitable claims || Unlike UK FLPA s 4(3), the Singapore FLPA has no carve-out for laches.
-* No: the Swiss 10-year period applies and has not run || Correct: per C&Y, an unacceptably long, prejudicial delay might engage public policy, but that needs strong facts.
+* No: the Swiss 10-year period governs, and it has not yet run out || Correct: per C&Y, an unacceptably long, prejudicial delay might engage public policy, but that needs strong facts.
 - Yes, because laches is procedural and so applies as lex fori || Under the FLPA, the lex causae's limitation law applies whatever its label.
 - No, because limitation never applies to equitable claims || The FLPA applies to equitable claims too; the Swiss period simply has not run.
 
@@ -120,7 +120,7 @@ Q: Two experts flatly contradict each other on a novel point of NSW trust law in
 H: O 29 ROC 2021.
 - Nothing: it must choose between the experts as a matter of fact || The court has a further option for specified courts.
 - Apply Singapore law instead, as NSW law is unproved || NSW law has been proved, just disputedly. The court can seek a ruling from NSW.
-* Order the question decided in NSW under O 29 || Correct: as in Westacre. For the PRC, O 29A allows a court-to-court reference.
+* Order, under O 29, that the question be decided in NSW || Correct: as in Westacre. For the PRC, O 29A allows a court-to-court reference.
 - Refer the question to the SICC, which decides foreign law on submissions || Section 18L is an SICC power for SICC cases; it is not a referral route for the General Division.
 
 @sec law302-hc1--hx-C1-9

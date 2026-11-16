@@ -61,7 +61,7 @@ H: OMG Holdings, as explained in EFT.
 Q: A Singapore-incorporated SPV built a hospital in Riyadh under Saudi-law contracts. Defects caused damage there. Its insurer, not having paid yet, wants to sue the head contractor directly in Singapore. Saudi law allows an insurer to sue before paying; Singapore law does not. Can it rely on Saudi law alone?
 H: Red Sea.
 - No: limb 1 requires actionability under Singapore law, which is never displaced || The exception can displace the lex fori (Red Sea).
-* Yes, if it proves Saudi law, as Singapore is purely fortuitous || Correct: all or virtually all factors point to Saudi Arabia, so Saudi law can govern the whole claim.
+* Yes, if it proves Saudi law and that Singapore is purely fortuitous || Correct: all or virtually all factors point to Saudi Arabia, so Saudi law can govern the whole claim.
 - Yes, automatically, because the claim is unknown to Singapore law || That Singapore law gives no remedy is a factor, not the test; fortuity decides.
 - No, because only claimants deprived of a remedy can use the exception || The exception is not only for deprived claimants, but here the insurer does use it as claimant.
 
@@ -82,7 +82,7 @@ H: Ong Ghee Soon.
 Q: Ruritania's occupying government decreed that a Singapore airline's aircraft at its airports belonged to its national carrier. The airline sues the carrier in Singapore for conversion. Under Ruritanian law, as modified by the decree, there is no tort. What is the better route?
 H: Kuwait Airways; Rickshaw's fortuity test.
 - Use the flexible exception to apply Singapore law, as Ruritania's law is unjust || After Rickshaw the exception requires fortuity, and Ruritania is not fortuitous.
-* Disregard the decree on public policy, then apply Ruritanian law || Correct: Lord Steyn's approach. If so, limb 2 is satisfied and the airline succeeds.
+* Disregard the decree on public policy, then apply the rest of Ruritanian law || Correct: Lord Steyn's approach. If so, limb 2 is satisfied and the airline succeeds.
 - Apply the decree, as courts cannot question a foreign State's acts in its territory || A confiscatory decree offending fundamental public policy is disregarded (C1.8).
 - The claim fails, because the decree governs title under the lex situs || Title follows the lex situs only once the decree is disregarded for public policy.
 

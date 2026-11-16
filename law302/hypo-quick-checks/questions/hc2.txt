@@ -39,7 +39,7 @@ Q: A sale contract says: "If the Buyer repudiates, English law governs; if the S
 H: Coherence.
 - Yes: parties may split the proper law however they wish || A split must be internally coherent.
 - Yes, as Hague Principles art 2(2) allows any split || Even under art 2(2), the split must be coherent.
-* No: it is internally incoherent || Correct: contrast a coherent split, such as payment under New York law and all else under Singapore law.
+* No: a split that turns on who repudiates is incoherent || Correct: contrast a coherent split, such as payment under New York law and all else under Singapore law.
 - No, because a contract may never have more than one governing law || Splits are allowed (Libyan Arab Foreign Bank); this one fails for incoherence.
 
 Q: A 2019 distribution agreement governed by Indonesian law was varied in 2023 to be governed by Singapore law. A 2020 guarantor says the change cannot prejudice it. What is the better view?
@@ -61,7 +61,7 @@ Q: Contract A "incorporates the provisions of the Thai Civil and Commercial Code
 H: Choice versus incorporation.
 - Yes to both: Thai law applies as living law in each case || Incorporated provisions are terms that crystallise at formation.
 - No to both: the law at the date of contracting always governs || A choice of law applies the law as it stands from time to time.
-* Not to A, but yes to B || Correct: subject to any Thai transitional rules for Contract B.
+* Not to A, whose terms are fixed at formation, but yes to B || Correct: subject to any Thai transitional rules for Contract B.
 - Yes to A (incorporation tracks changes), but not to B || It is the other way round.
 
 @sec law302-hc2--hx-C2-5
@@ -113,7 +113,7 @@ H: Haugesund Kommune.
 Q: A broker sues for a fee for introducing buyers under a Singapore-law contract. The defendant argues at trial, without having pleaded it, that extraneous emails show an intention to bribe officials. Will the court refuse enforcement on that basis?
 H: Fan Ren Ray.
 - Yes: the court must always refuse an illegal contract of its own motion || The court acts of its own motion only where the contract is illegal on its face.
-* No: extraneous evidence of an illegal object must be pleaded || Correct: contrast a contract ex facie for the sale of human organs, which the court may refuse unprompted.
+* No: extraneous evidence of an illegal object must be pleaded before use || Correct: contrast a contract ex facie for the sale of human organs, which the court may refuse unprompted.
 - Yes, because bribery of officials is contrary to international public policy || The policy may be engaged, but the evidence must first be properly pleaded.
 - No, because illegality is never relevant to a Singapore-law contract || Illegality is relevant; it just has to be pleaded when it rests on extraneous evidence.
 
@@ -121,7 +121,7 @@ Q: A agrees to sell B jute "CIF Genoa", but both know it will really go to South
 H: Foster v Driscoll; Regazzoni.
 - Yes: the stipulated destination is Genoa, which breaks no law || The real object and intention at formation decide, not the stipulated place.
 - Yes, because the plan was never carried out || The wicked intention at formation is enough, even if never acted on (Waugh v Morris).
-* No: the real object at formation was to break a friendly State's law || Correct: Indian law is recognised, not enforced, and Singapore takes no side on South Africa.
+* No: its real object was to break Indian law || Correct: Indian law is recognised, not enforced, and Singapore takes no side on South Africa.
 - No, but only if Indian law also governs the contract || Route C does not depend on the proper law; it turns on the parties' intention.
 
 Q: A Singapore seller sells cigarettes to a Thai buyer, knowing the buyer plans to smuggle them into Thailand without paying duty, but taking no part in the plan. Can the seller sue for the price?
@@ -151,4 +151,4 @@ H: Esben.
 - No: a party can never rely on an illegal arrangement in any way || Esben allows reliance as a defence unless the outcome would stultify comity.
 - No, because the claim is restitutionary and illegality does not apply to restitution || Illegality can matter in restitution; the question is whether reliance gives effect to the illegal performance.
 - Yes, and it could equally rely on a right to keep the money to fund smuggling || That would give effect to the illegal performance and stultify comity, so that defence fails.
-* Yes: reliance only explains why the payments were made, so it gives no effect to the illegality || Correct: illegality is a shield, not a sword.
+* Yes: it only explains why the payments were made || Correct: illegality is a shield, not a sword.

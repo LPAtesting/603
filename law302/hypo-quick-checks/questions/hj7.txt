@@ -16,7 +16,7 @@ H: Real prospect of legitimate benefit.
 @sec law302-hj7--hx-J7-1-2
 Q: A Hong Kong judgment declares a Las Vegas casino's Nevada judgment enforceable in Hong Kong. The casino sues on the Hong Kong judgment in Singapore. Is it enforceable at common law?
 H: Sang Cheol Woo.
-* No: it is a judgment on a judgment, not on the merits || Correct: enforcing it would "launder" the Nevada judgment through Hong Kong (declining Morgan Stanley v Pilot Lead).
+* No: it is a judgment on a judgment, not a judgment on the merits || Correct: enforcing it would "launder" the Nevada judgment through Hong Kong (declining Morgan Stanley v Pilot Lead).
 - Yes: it is a final Hong Kong money judgment, and Hong Kong had jurisdiction || The Hong Kong judgment only fixes the Nevada judgment's effect in Hong Kong. It is not on the merits.
 - Yes, following Desert Palace, which enforced such judgments || Per C&Y, Desert Palace did not engage with the theory, and Sang Cheol Woo declined to follow that approach.
 - No, but only because gambling debts are contrary to Singapore public policy || Public policy may arise on the Nevada judgment later; the first problem is that this is a judgment on a judgment.
@@ -33,7 +33,7 @@ H: Adams v Cape.
 - Yes: a Texas company selling only its products gave it a fixed place of business there || Like Cape's Illinois marketing companies, Lone Star carried on its own business.
 - Yes, because Lone Star had authority to receive service on Nusantara's behalf || Nothing suggests that, and in any event presence depends on Nusantara carrying on its own business there.
 - No, but it would be if Lone Star were a wholly owned subsidiary || Even a subsidiary is a separate company; ownership alone does not make the parent present.
-* No: Lone Star carried on its own business, with its own premises and no power to bind Nusantara || Correct: contrast a Houston warehouse staffed by Nusantara's own employees who could sign contracts.
+* No: Lone Star carried on its own business, not Nusantara's || Correct: contrast a Houston warehouse staffed by Nusantara's own employees who could sign contracts.
 
 Q: Sinar Shipping, absent from X, applied in X to set aside service on the ground that X was forum non conveniens, and lost. It took no further part. Did it submit to X's jurisdiction?
 H: Henry v Geoprosco versus IGCF.
@@ -47,7 +47,7 @@ H: Vizcaya Partners.
 - Yes: choosing Gibraltar law and trading there daily is implied consent to its courts || Per Vizcaya itself, choice of law plus doing business there is not enough, even on the wider view.
 - Yes, if Gibraltar's own rules would found jurisdiction on these facts || Gibraltar's procedural rules are not the test; Singapore's conflict rules are.
 - No, and an express clause would not help either, since the investor did not appear || Express advance agreement founds international jurisdiction despite default (United Malayan Banking).
-* No: even if implied submission is possible, choice of law plus business is not enough || Correct: whether Singapore adopts Vizcaya's implied route is open (C&Y); it fails here either way.
+* No: choice of law plus business is not enough, even on the Vizcaya view || Correct: whether Singapore adopts Vizcaya's implied route is open (C&Y); it fails here either way.
 
 @sec law302-hj7--hx-J7-1-5
 Q: A Chinese judgment ordered a Chinese seller to refund RMB 5m "upon the buyer making the generator sets available for collection", and to pay "reasonable costs to be assessed". The buyer has made the sets available, but costs are unassessed. What can it enforce at common law?
@@ -125,7 +125,7 @@ H: Poh Soon Kiat; Murakami.
 @sec law302-hj7--hx-J7-3-2
 Q: A Singapore buyer sued a German manufacturer in Munich for defective machinery and lost; the Munich court declared the manufacturer not liable under the contract. The buyer now sues in Singapore for breach of the same contract. What can the manufacturer do?
 H: Arnold.
-* Plead cause of action estoppel, an absolute bar || Correct: the Munich judgment is used as a shield. A representation not to rely on it could found a cross-estoppel (Showlag).
+* Plead cause of action estoppel, which is an absolute bar to the claim || Correct: the Munich judgment is used as a shield. A representation not to rely on it could found a cross-estoppel (Showlag).
 - Nothing: a foreign judgment that awards no money cannot be recognised in Singapore || Recognition does not need a money judgment. Only enforcement as a debt does.
 - Rely on issue estoppel only, as cause of action estoppel needs a Singapore judgment || Cause of action estoppel applies to recognisable foreign judgments too.
 - Apply for a stay in favour of Germany under Spiliada || The point is res judicata, not forum. The claim is barred.
@@ -147,7 +147,7 @@ H: Merck's limit (iii).
 Q: A BVI court held that a Singapore defendant had "voluntarily submitted" to its jurisdiction. When the BVI judgment is sued on in Singapore, can the creditor rely on that ruling as an issue estoppel on submission?
 H: Desert Sun: no "sub-contracting".
 - Yes: the BVI court decided submission after argument, so the issue is res judicata || Whether there was submission is for Singapore's conflict rules. Estoppel would sub-contract the question.
-* No: submission for international jurisdiction is an issue Singapore decides for itself || Correct: per Desert Sun (Roch LJ), the foreign court's own finding raises no estoppel.
+* No: Singapore decides submission for itself, under its own rules || Correct: per Desert Sun (Roch LJ), the foreign court's own finding raises no estoppel.
 - No, because the BVI is not a REFJA country || The point applies regardless of REFJA. Singapore always decides submission for itself.
 - Yes, unless the defendant appealed the ruling in the BVI || An appeal is beside the point. Singapore decides submission itself.
 
@@ -155,14 +155,14 @@ Q: After a full trial, a Hong Kong court held a shipbuilding contract governed b
 H: First Laser; Merck.
 - No: governing law is an issue Singapore must always decide for itself || Governing law is not such an issue (Merck), and it was decided at the final trial.
 - No: Hong Kong applied different choice of law rules, so the issue is not the same || That the foreign rules differ is immaterial; estoppel never needed Singapore to reach the same result.
-* Yes, likely: it was decided at trial, and differences in choice of law rules are immaterial || Correct: contrast a governing law ruling made only on a good arguable case at the stay stage.
+* Yes, likely, as the governing law was decided at the full trial || Correct: contrast a governing law ruling made only on a good arguable case at the stay stage.
 - Yes, but only if Singapore's rules would also select English law || Estoppel does not require Singapore to reach the same result itself.
 
 @sec law302-hj7--hx-J7-4
 Q: In Jakarta, a Singapore creditor lost on the validity of a guarantee against an Indonesian group's parent. It now sues the parent in Singapore on a fresh argument (that the guarantee was varied) which it knew of during the Jakarta case but did not run. What is the likely result?
 H: Henderson v Henderson; Humpuss.
 - It may proceed, because the variation point was not decided in Jakarta || Henderson extends to points that could and should have been raised.
-* It is likely an abuse: the point could and should have been raised in Jakarta || Correct: weighing all the circumstances (Humpuss), it is a collateral attack. Fresh evidence found later would tell against abuse.
+* It is likely an abuse, as it should have been run in Jakarta || Correct: weighing all the circumstances (Humpuss), it is a collateral attack. Fresh evidence found later would tell against abuse.
 - It may proceed, because Henderson applies only to local judgments || Humpuss applies the Henderson rule to foreign judgments too.
 - It is barred by cause of action estoppel, as the same guarantee is involved || The fresh argument is not the decided cause; the doctrine is abuse of process under Henderson.
 
@@ -184,7 +184,7 @@ H: Section 10.
 Q: A Mexico City court chosen under a 2021 exclusive clause gave judgment against a Singapore distributor. The claim was served on the distributor's old address, which the claimant knew it had left; the distributor learned of the case only after judgment. What follows under the CCAA?
 H: Section 14.
 - Discretionary refusal under s 15, if the distributor shows prejudice || Lack of timely notice is a mandatory ground under s 14(a).
-* Mandatory refusal under s 14(a), and probably s 14(b) for procedural fraud || Correct: deliberately serving a known wrong address is close to extrinsic fraud (C&Y).
+* Mandatory refusal under s 14(a), for want of notice || Correct: deliberately serving a known wrong address is close to extrinsic fraud (C&Y).
 - No refusal: findings of the chosen court bind, including on service || The binding-findings rule does not oust the mandatory notice ground.
 - No refusal, because the CCAA has no natural justice ground || Section 14(a) is precisely a notice ground.
 

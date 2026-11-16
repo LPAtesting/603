@@ -54,7 +54,7 @@
 @fix j3hx-0e610ba9
 3: (p): the cause of action arose in Singapore through the Singapore platform
 @fix j3hx-9feb0978
-1: (r): it is an agreement to submit, which carries the tort claim within its scope
+1: (r): an agreement to submit, which carries the tort within its scope
 @fix j3hx-6ce75018
 2: (e) subsumes the serious question; (d)(iii) needs it shown separately
 1: Neither needs any merits evidence at all, as long as the gateway itself is shown to the right standard
@@ -182,7 +182,7 @@
 @fix c2hx-343ad69a
 1: No: forum and local policy both condemn it (Lemenda)
 @fix c3hx-dead3b77
-2: Plead and prove Indonesian law
+2: Plead Indonesian law and prove it by evidence
 @fix c3hx-2c0da1d6
 0: It is fatal unless displaced
 @fix c3hx-0a9035a2
@@ -195,6 +195,6 @@
 @fix c3hx-698a7e27
 1: Yes, as both are fortuitous, though it rarely succeeds
 @fix c3hx-3a5ab063
-3: It fails both limbs
+3: Both limbs fail: copyright is territorial
 @fix c3hx-e5820564
 2: No: renvoi has never applied in tort

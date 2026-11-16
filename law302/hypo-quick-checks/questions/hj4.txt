@@ -38,7 +38,7 @@ H: Hindocha.
 @sec law302-hj4--hx-J4-1-2
 Q: Mr Wijaya, a jet-setter with homes in four countries, holds Singapore directorships in five holding companies and has a Singapore bank account, but runs the family business from Jakarta. Sued in Singapore over misrepresentations made in Jakarta about an Indonesian mine, how are his Singapore links weighed?
 H: Quality over quantity.
-* They are tenuous and irrelevant to the dispute, so they are disregarded; the business "is" in Jakarta || Correct: no balance sheet is drawn (Rappo; JIO). His domicile carries little weight given his mobility (Mulacek).
+* They are disregarded as tenuous and irrelevant to the dispute in Jakarta || Correct: no balance sheet is drawn (Rappo; JIO). His domicile carries little weight given his mobility (Mulacek).
 - They count heavily, as five directorships show a strong personal connection with Singapore || Connections irrelevant to the dispute carry little or no weight, however many there are.
 - They are added up against the Jakarta factors, and the longer list wins || Spiliada is not a balance sheet. Quality, not quantity, matters.
 - They are decisive, because a defendant with Singapore directorships cannot object to Singapore || Directorships here say little about where this dispute is best tried.
@@ -97,7 +97,7 @@ Q: A Singapore claimant argues that Singapore should adopt the Australian Voth t
 H: JIO; Eng Liat Kiang.
 - Voth applies, as Singapore follows the test most protective of a local claimant || Singapore has rejected Voth.
 - The tests give the same result here, so the choice does not matter || This is exactly where they diverge: Malaysia more appropriate, Singapore not clearly inappropriate.
-* Singapore has rejected Voth, so a stay is granted under Spiliada || Correct: the choice of test is outcome-determinative on these facts.
+* Singapore has rejected Voth, so a stay is granted under Spiliada here || Correct: the choice of test is outcome-determinative on these facts.
 - Voth applies at stage 2 only, so the claimant can rely on it after stage 1 || Singapore uses Spiliada at both stages; Voth is not part of either.
 
 @sec law302-hj4--hx-J4-2
@@ -105,7 +105,7 @@ Q: A Singapore owner serves a Vietnamese state-owned shipyard out, seeking a dec
 H: Each court applies its own law.
 - It points to Singapore, as Singapore law is the putative proper law || A Vietnamese court would apply Vietnamese law, so per C&Y the factor is neutral.
 - It points to Vietnam, because the defendant is a Vietnamese state entity || State ownership is irrelevant at stage 1 in a civil commercial claim.
-* Neutral: each court would apply its own law || Correct: the yard's own employee witnesses are also neutral; state ownership may matter only at stage 2.
+* It is neutral, since each court would apply its own law to formation || Correct: the yard's own employee witnesses are also neutral; state ownership may matter only at stage 2.
 - It is decisive for Singapore, as the negotiations took place here || The place of negotiations goes to the putative proper law, but the governing law factor is still neutral here.
 
 Q: The court finds Vietnam is the natural forum, so stage 1 fails for the owner on service out. The owner adds that it would lose in Vietnam because Vietnamese law requires formal approval for state enterprise contracts. Is that a stage 2 point?
@@ -120,7 +120,7 @@ H: FLPA s 4(2).
 - That Singapore's 6-year period applies, since the claim was brought in Singapore || Under FLPA s 3(1), Singapore applies the Philippine period because Philippine law governs.
 - That the bar makes the Philippines unavailable, so no stay can be granted || The bar follows the claimant to Singapore too, so it does not favour Singapore.
 - Nothing: a foreign limitation period under the FLPA can never be disapplied || FLPA s 4(2) allows disapplication on public policy grounds for undue hardship.
-* Public policy under FLPA s 4(2), for undue hardship caused by the bar, citing the assurances || Correct: weigh the short period, the claim's complexity and the good reason for letting time run (Recovery Vehicle 1).
+* Undue hardship under FLPA s 4(2), relying on the defendant's own assurances || Correct: weigh the short period, the claim's complexity and the good reason for letting time run (Recovery Vehicle 1).
 
 Q: A Hong Kong buyer sued first in Hong Kong, which ruled itself the natural forum. The Singapore seller then sues in Singapore for the price, serving out. The buyer applies to set aside, saying Hong Kong was first seised and Singapore is bound by the Hong Kong ruling. What is right?
 H: Lakshmi.
@@ -134,14 +134,14 @@ Q: Vinyl Asia sues Siam Petro in Singapore under an exclusive Singapore clause. 
 H: Foreseeable at contracting?
 - A stay, because the connections to Thailand are overwhelming || Siam Petro is in breach and must show strong cause, not merely that Bangkok is more appropriate.
 - A stay, because related proceedings in Bangkok create a risk of inconsistent judgments || Related proceedings with different parties are not strong cause (Shanghai Turbo).
-* No stay: these grounds were all foreseeable at contracting || Correct: absent abuse or denial of justice, the stay is refused (Vinmar).
+* No stay: all of these grounds were foreseeable when it agreed to Singapore || Correct: absent abuse or denial of justice, the stay is refused (Vinmar).
 - A Spiliada analysis, because a Singapore clause is only a factor for Singapore || An exclusive Singapore clause is breached by the objection, so strong cause applies.
 
 Q: A Thai defendant objects to an exclusive Singapore clause, arguing it would be prejudiced here because the claim is time-barred under Thai law but not Singapore law, and a Singapore judgment would not be enforceable in Thailand where its assets are. Is that strong cause?
 H: Flipped factor (e).
 - Yes: losing a limitation defence is a concrete, cogent prejudice || The defendant agreed to Singapore and so foresaw its limitation periods (Chong).
 - Yes: non-enforceability at home is the core of factor (e) || Factor (e)(ii) is really about the claimant's ability to enforce, and non-enforceability was foreseeable.
-* No: both were foreseeable when it chose Singapore || Correct: flipped (e) must be concrete and cogently evidenced.
+* No: both were foreseeable when it agreed to a Singapore court || Correct: flipped (e) must be concrete and cogently evidenced.
 - No, because factor (e) can only ever be argued by a claimant || A defendant can run it in principle; it just fails on these facts.
 
 Q: A Singapore seller sues an Indian buyer here despite an exclusive Mumbai clause. It argues strong cause because the buyer has no defence (it signed an acknowledgment of debt). Does that help?
@@ -149,7 +149,7 @@ H: Vinmar overruled The Jian He.
 - Yes: a hopeless defence means the clause serves no purpose || The court does not inquire into the merits. The parties chose Mumbai to win or lose there.
 - Yes, but only if the acknowledgment is in writing and signed || Form is not the issue. The merits are simply irrelevant to strong cause.
 - It depends on how strong the seller's case is shown to be || There is no sliding scale on the merits after Vinmar.
-* No: the court does not look at the merits (Vinmar) || Correct: a merits inquiry would breed uncertainty, cost and delay.
+* No: per Vinmar, the court does not look into the merits || Correct: a merits inquiry would breed uncertainty, cost and delay.
 
 Q: Which of these is most likely to be strong cause for a Singapore seller suing here despite an exclusive Mumbai clause?
 H: Unforeseeable unavailability.

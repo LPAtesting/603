@@ -33,7 +33,7 @@ H: "May" or "shall"?
 - It is mandatory in effect, so likely exclusive under its proper law, and the claimant bears strong cause || That reading fits "shall be heard by". "May be referred to" is permissive.
 - It names only one court, so it is an EJC and Singapore must stay unless strong cause is shown || Naming a single court does not make a clause exclusive. The permissive wording points the other way.
 - It is void for uncertainty because "may" fixes no forum, so the clause is simply ignored || A permissive clause is not uncertain. It is a valid non-exclusive clause.
-* It is permissive, so a NEJC: suing in Singapore breaches nothing and Spiliada applies || Correct: "may be referred to" points to a NEJC. There is no promise (2), so no breach and no strong cause.
+* It is permissive, so it is a NEJC: suing in Singapore breaches nothing, and Spiliada applies || Correct: "may be referred to" points to a NEJC. There is no promise (2), so no breach and no strong cause.
 
 Q: A March 2016 construction contract governed by English law says: "Disputes shall be resolved by the Singapore International Commercial Court." One party sues in the General Division. Is the SICC clause exclusive?
 H: Date first, then s 18F, then the debate.
@@ -51,7 +51,7 @@ H: What does "submit" mean under Singapore law?
 
 Q: A rice contract governed by Ruritanian law says "The Buyer submits to the non-exclusive jurisdiction of the courts of Singapore." The Seller sues in Singapore; the Buyer seeks a stay. The Buyer's expert proves that under Ruritanian law "submit" is bare consent with no waiver. What follows?
 H: Which promises does the clause contain under its proper law?
-* The clause holds only (1A), so the stay is no breach; Spiliada applies, with the Buyer bearing stage 1 || Correct: proved foreign law implies no waiver, so there is no breach. The Buyer was served here and seeks a stay, so it bears stage 1.
+* No breach, so plain Spiliada applies, with the Buyer bearing stage 1 on its own stay || Correct: proved foreign law implies no waiver, so there is no breach. The Buyer was served here and seeks a stay, so it bears stage 1.
 - Strong cause still applies, because Singapore law as lex fori decides what "submit" means || The lex fori decides the effect; the meaning of the clause, including any waiver, is for its proper law.
 - Spiliada applies, but the Seller bears stage 1 because it chose to sue in Singapore || On a stay of a served-in action, the applicant (the Buyer) bears stage 1.
 - The presumption of similarity reads the Singapore waiver in, despite the expert evidence || The presumption applies only where foreign law is not proved. Here it is proved.
@@ -81,7 +81,7 @@ Q: A JV agreement says: "Disputes shall be resolved by the courts of Singapore/o
 H: No mechanism means both courts.
 - Spiliada, because a stay in favour of another named court cannot breach the clause || The waiver applies to each named forum. Objecting in Singapore once Singapore is seised is a breach.
 - None: with no election mechanism the clause is too uncertain, so it is void || With no mechanism the clause is read as a NEJC to both courts, not as void (Shanghai Turbo (CA)).
-* Strong cause: it is a NEJC to both courts, and the defendant's objection breaches the waiver || Correct: each party submits to whichever named court is seised, so the defendant bears strong cause.
+* Strong cause: a NEJC to both courts, and the objection breaches its waiver || Correct: each party submits to whichever named court is seised, so the defendant bears strong cause.
 - Strong cause on the claimant, who elected Singapore by suing first in a race to sue || The CA rejected the "claimant elects" reading precisely because it would encourage a race to sue.
 
 Q: A loan says only: "Lender may sue Borrower in any court." The Borrower made no promise to submit. The Lender sues in Singapore and the Borrower applies for a stay. What test applies?
@@ -96,12 +96,12 @@ Q: A 2020 clause reads: "The parties submit to the jurisdiction of the courts of
 H: What displaces s 3(2)?
 - Deemed exclusive under s 3(2), so the CCAA applies and Singapore must stay under s 12 unless an exception applies || Section 3(2) deems a clause exclusive only unless the parties expressly provide otherwise. The "any other competent court" words do that.
 - It is exclusive at common law because it names one State, so the buyer must show strong cause for suing here || Naming one State does not make a clause exclusive at common law, and these words expressly keep other courts open.
-* The express words displace s 3(2): no CCAA, so treat it at common law as a foreign NEJC (Spiliada) || Correct: express non-exclusive wording takes the clause out of s 3(2). At common law a foreign NEJC means no breach and plain Spiliada.
+* The express words displace s 3(2), so the CCAA is out; at common law treat it as a foreign NEJC under Spiliada || Correct: express non-exclusive wording takes the clause out of s 3(2). At common law a foreign NEJC means no breach and plain Spiliada.
 - The CCAA applies, but s 12 lets Singapore keep the case because the parties allowed suit in other courts || If the clause is non-exclusive, the CCAA does not apply at all. It is not a matter for the s 12 exceptions.
 
 Q: The exam question says: "The contract contains a non-exclusive English jurisdiction clause." How should you deal with s 3(2) CCAA?
 H: The facts have already done the characterising.
-* Don't argue s 3(2): state that the CCAA does not apply and go straight to the common law || Correct: the question has characterised the clause as non-exclusive, so there is no room for a deemed-exclusive argument.
+* Don't argue s 3(2): state that the CCAA does not apply, and go straight to the common law analysis || Correct: the question has characterised the clause as non-exclusive, so there is no room for a deemed-exclusive argument.
 - Argue that s 3(2) deems the clause exclusive unless the contract itself uses the words "non-exclusive" || The facts fix the characterisation. Arguing s 3(2) against them wastes time and misreads the question.
 - Run both CCAA and common law in full, since s 3(2) may still make an unlabelled clause exclusive || The clause is not unlabelled here. The exam has told you it is non-exclusive, so only the common law route remains.
 - Apply s 12, because the Convention presumes every clause naming one Contracting State to be exclusive || The presumption is displaced where the parties provide otherwise, and the exam has told you they did.
@@ -123,7 +123,7 @@ H: Before election there is a menu; after it, arguably a choice.
 Q: "Disputes shall be submitted exclusively to the courts of Singapore or England." The claimant sues in Singapore and the defendant objects. The defendant wants a mandatory s 12 analysis. Is that available?
 H: How many States does the clause designate?
 - Yes: both States are Contracting States, so the clause is exclusive under s 3(1) as to all other courts || Section 3(1) requires the courts of one Contracting State. Naming two States takes the clause outside the CCAA.
-* No: two States are named, so it is outside the CCAA; at common law the defendant's objection bears strong cause || Correct: it is an EJC for two fora at common law. Suing in Singapore breaches nothing; objecting to a named forum breaches the waiver.
+* No: two States are named, so it is outside the CCAA, and at common law the objector bears strong cause || Correct: it is an EJC for two fora at common law. Suing in Singapore breaches nothing; objecting to a named forum breaches the waiver.
 - No, and as the clause is outside the CCAA it is merely non-exclusive, so Spiliada applies to the stay || Being outside the CCAA does not make the clause non-exclusive. At common law it excludes all courts but the two named.
 - Yes, but only after the claimant's suit fixes Singapore as the one designated State || Unlike the charterer's notice case, there is no election mechanism. The clause names two States, so it is outside s 3(1).
 
@@ -136,7 +136,7 @@ H: Section 5.
 
 Q: An exclusive English courts clause was signed on 1 March 2018 between a Singapore company and an English company. The Singapore company sues in Singapore in 2024. Does the CCAA apply?
 H: The UK was bound via the EU from 2015 and in its own right from 2021.
-* Contested: covered if the UK's 2021 accession continued EU coverage from 2015; if not, common law strong cause applies || Correct: flag both sides. Both routes favour a stay, but the tests differ (s 12 exceptions versus strong cause).
+* Contested: it depends on whether the UK's 2021 accession continued its coverage via the EU from 2015 || Correct: flag both sides. Both routes favour a stay, but the tests differ (s 12 exceptions versus strong cause).
 - Yes: the clause was signed after Singapore's 1 October 2016 entry into force, which is the only date that matters || The date must be after entry into force for the chosen court's State too. For the UK that is the contested point.
 - No: an English clause can only be covered if it was concluded after 1 January 2021, as the EU period does not count || That is only the claimant's side of the argument. The defendant argues continuity from 2015, so the point is contested.
 - No: the UK left the EU, so clauses choosing English courts are outside the Convention entirely || The UK acceded in its own right from 1 January 2021. English clauses concluded after that are covered.
@@ -152,7 +152,7 @@ Q: Under the same Mexico City clause, Sonora applies in Singapore for a Mareva i
 H: Section 10.
 - No: Mexico is the chosen court, so Singapore must decline anything connected with the dispute || The duty to decline does not reach interim measures, which s 10 leaves outside the CCAA.
 - Only if Sonora shows strong cause for applying outside the chosen court || Strong cause is a common law test for proceeding in breach. It is not the gateway for interim relief under s 10.
-* Yes: interim measures are outside the CCAA (s 10), so the chosen court clause does not bar the Mareva || Correct: s 10 excludes interim measures, so Singapore may grant the Mareva even though Mexico is the chosen court (J6.5.3).
+* Yes: interim measures are outside the CCAA (s 10), so it is not barred || Correct: s 10 excludes interim measures, so Singapore may grant the Mareva even though Mexico is the chosen court (J6.5.3).
 - Yes, but only if Singapore would also have jurisdiction over the merits under the CCAA || The point is that interim measures fall outside the CCAA altogether, whatever the position on the merits.
 
 Q: Château Lavigne and Grand Cru agreed a French-law distribution contract with an exclusive Singapore High Court clause. Sued in Singapore, Lavigne says the clause was signed under duress. How is this decided?
@@ -345,7 +345,7 @@ Q: A Singapore consumer buys a sofa online from a local retailer whose T&Cs send
 H: Forum mandatory rules (C1.7).
 - UCTA s 13(1), since the clause restricts a remedy and so must pass the reasonableness test || That is the SME's argument against the software vendor. For a consumer, the CPFTA has a direct voiding rule.
 - COGSA s 3(1), as the Hague-Visby Rules apply to goods bought online from overseas || COGSA concerns bills of lading for carriage by sea. This is a local consumer sale.
-* CPFTA s 35(1): a term ousting the consumer's statutory protections is void || Correct: the consumer argues the Vanuatu clause cannot oust its CPFTA claim.
+* CPFTA s 35(1): a term that ousts the consumer's statutory protections is simply void || Correct: the consumer argues the Vanuatu clause cannot oust its CPFTA claim.
 - Section 12 CCAA exception (a), because consumer contracts are null and void under Vanuatu law || Consumer contracts are excluded from the CCAA (s 9(1)), and nothing suggests Vanuatu law voids the clause.
 
 @sec law302-hj1--hx-J1-7
@@ -372,7 +372,7 @@ H: Akai.
 
 Q: A contract says only: "This Agreement shall be governed by Singapore law." One party sues in Ruritania, whose courts will apply Ruritanian law. The other seeks an ASI in Singapore, arguing the clause was a promise. What happens?
 H: Ace Insurance v Moose.
-* The ASI is refused: a choice of law clause is ordinarily declaratory, not a promise || Correct: only very clear words (e.g. no proceedings in any forum that will not apply Singapore law) make it promissory.
+* The ASI is refused, as a choice of law clause is ordinarily declaratory rather than promissory || Correct: only very clear words (e.g. no proceedings in any forum that will not apply Singapore law) make it promissory.
 - The ASI is granted, because suing where another law will apply defeats the parties' express choice || A declaratory clause promises nothing about where to sue, so there is no breach to restrain.
 - The ASI is granted if Ruritanian law would give a materially different result from Singapore law || Different results do not turn a declaratory clause into a promise.
 - The ASI is refused only because there is no jurisdiction clause, which is needed for any ASI || ASIs can issue on the vexation ground without any clause. The point here is that the law clause promises nothing.

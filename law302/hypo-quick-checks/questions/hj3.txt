@@ -11,7 +11,7 @@ Q: Golden Harvest (Brazil) emails: "We have instructed Rajah & Co to accept serv
 H: Submission has a scope.
 - Service in Singapore under O 7 r 2(1)(d), so Golden Harvest can only seek a stay, bearing stage 1 || That is the COSCO reading. The lecturer's view treats the step as submission, limited by the reservation.
 - Constructive presence through the solicitors, giving the same result as COSCO but for a different reason || That is the Beranek reading. The lecturer rejects presence as a fiction here.
-* Submission limited by the reservation: it can still contest nexus, forum and merits, with the burden on the trader || Correct: the solicitors do not carry on Golden Harvest's business here, so submission, limited by its scope, is the honest analysis.
+* Submission limited by its reservation, so the trader still bears the burden on all three limbs || Correct: the solicitors do not carry on Golden Harvest's business here, so submission, limited by its scope, is the honest analysis.
 - No submission at all, because the email reserved every objection, so service is simply void || The defendant did authorise service, so it submitted at least to being served. Only the scope is limited.
 
 Q: Karachi Cement (Pakistan) has no Singapore office. Its chairman flies in for the Grand Prix, and a Dubai buyer serves him at the paddock under O 7 r 2(1)(b), suing on a cement contract made in Dubai. Is the company validly served?
@@ -39,7 +39,7 @@ H: O 8 r 1(4).
 Q: Bavaria Brewing submits to the exclusive jurisdiction of the Singapore courts, while the distributor may sue in any competent court. The contract is silent on service. On which ground should the distributor seek approval to serve Bavaria out?
 H: Is this a CCAA clause?
 - "Has the jurisdiction", because Bavaria agreed to Singapore's exclusive jurisdiction || That ground is for CCAA clauses. An asymmetric clause is not one (CHLOE V).
-* "Appropriate court", with (r) or (d)(iv) as the nexus; the forum limb is easily met || Correct: Bavaria objecting would bear strong cause. The clause is a nexus, not itself a source of jurisdiction (British Wagon v Gray).
+* "Appropriate court", with (r) or (d)(iv) as the nexus, and the forum limb is easily met || Correct: Bavaria objecting would bear strong cause. The clause is a nexus, not itself a source of jurisdiction (British Wagon v Gray).
 - No approval is needed, because a jurisdiction clause counts as consent to service out || O 8 r 1(3) needs a contractual provision for service out. A jurisdiction clause alone is not that.
 - No ground: the clause confers jurisdiction directly, so the distributor serves as of right || Per British Wagon v Gray, an agreement does not itself confer jurisdiction. It supplies a nexus.
 
@@ -48,11 +48,11 @@ H: Non-exhaustive list; Yeo's "one gateway".
 - No: a claim must fit at least one listed factor, and doubts are resolved for the defendant || That was the old O 11 position. The list is now non-exhaustive.
 - Yes, automatically: any loss suffered in Singapore is a sufficient nexus under (n) || The fund must still show sufficient nexus, and the defendant can press the "no fence" critique.
 - No, because forum conveniens cannot be used to enlarge the court's reach || True, but the fund relies on the non-exhaustive nexus gateway, not on forum conveniens.
-* Arguably: it can argue sufficient nexus directly, though the defendant will say the links are too thin || Correct: the reform lets the claim in conceptually; whether it succeeds then turns largely on forum.
+* Arguably: it can argue sufficient nexus directly, since the list is open || Correct: the reform lets the claim in conceptually; whether it succeeds then turns largely on forum.
 
 Q: A Singapore shipyard obtains approval to serve a Korean shipowner, without mentioning that the shipowner sued it in Seoul on the same contract a month earlier. Inter partes, the shipowner applies to set aside, and the shipyard raises a new gateway and a restitution claim. What is the position?
 H: Full and frank disclosure; NML Capital.
-* Approval may be set aside for the non-disclosure; absent abuse, the new gateway and claim may be relied on || Correct: the Seoul action is material to forum (Zoom). The court may also weigh developments since approval.
+* Approval may be set aside for the non-disclosure, but the new points may still be run || Correct: the Seoul action is material to forum (Zoom). The court may also weigh developments since approval.
 - Non-disclosure is cured once the defendant appears inter partes and can make the point itself || Material non-disclosure can found a set-aside unless the defendant waived it.
 - The burden shifts to the shipowner inter partes, as it is the one applying to set aside || The legal burden stays on the claimant on all three requirements (Zoom; Li Shengwu).
 - The shipyard is confined to the gateway and claim in its without-notice application || Per NML Capital and IM Skaugen, absent abuse a new gateway or cause of action may be relied on.
@@ -62,7 +62,7 @@ H: IM Skaugen (CA).
 - The assignment merges the claims, so one Singapore failure supplies nexus for all of them || Per IM Skaugen (CA), an assignment does not merge the assigned claims into one aggregate claim.
 - One factor for the whole action is enough, as factors are disjunctive || Disjunctive means one factor per claim suffices. Each claim still needs one.
 - Nexus is assessed for the defendant overall, so Motoren's links to Singapore decide it || That is true only of factor (a). Otherwise a factor is needed claim by claim.
-* A factor is needed for each claim; the North Sea claims need their own, or approval may be partial || Correct: unless Motoren had Singapore property, in which case factor (a) would cover every claim.
+* Each claim needs its own factor, so approval may be granted only in part || Correct: unless Motoren had Singapore property, in which case factor (a) would cover every claim.
 
 Q: A Singapore company sues a Japanese company for "breach of confidence" over information leaked in Tokyo, relying on the tort factor (f). Which law decides whether the claim is "founded on a tort"?
 H: Characterisation.
@@ -83,14 +83,14 @@ Q: Fjord Holdings AS owns a single share in a dormant Singapore subsidiary. A cl
 H: "Has property in Singapore".
 - No: the property must relate to the claim being brought || Factor (a) turns on the defendant, not the claim, so the property need not relate to it.
 - No: a single share in a dormant company is too trivial to count as property || The factor asks whether the defendant has property here. A share is property in Singapore.
-* Yes: one share is property in Singapore, and the property need not relate to the claim || Correct: but the claimant must still show a serious question and that Singapore is forum conveniens.
+* Yes: one share is property in Singapore, related or not || Correct: but the claimant must still show a serious question and that Singapore is forum conveniens.
 - Yes, and owning the subsidiary also makes Fjord present in Singapore for service in || Owning shares in a subsidiary does not make the parent present (Adams v Cape).
 
 Q: Which of these requests for relief satisfies factor (b)? (1) A final injunction stopping a former franchisee using the trade name at its Singapore outlet. (2) A freezing order alone over a debtor's Singapore account pending a Hong Kong judgment. (3) An ASI restraining proceedings in India.
 H: Lakshmi; Karaha Bodas.
 - All three, because each asks the court to order the defendant to do or not do something || The injunction must be substantive relief about conduct in Singapore. A Mareva is interlocutory, and an ASI concerns conduct abroad.
 - (1) and (2), because both injunctions concern assets or conduct in Singapore || A Mareva alone is interlocutory, not substantive relief (Karaha Bodas).
-* Only (1); (3) is best sought as ancillary relief in an action served out on another factor || Correct: per Chong, amenability for the ASI then comes from that service (J6).
+* Only (1); (3) should be sought as ancillary relief in a claim served out || Correct: per Chong, amenability for the ASI then comes from that service (J6).
 - (1) and (3), because an ASI protects the Singapore court's own process || On its wording (b) covers only conduct in Singapore, and interim ASIs are interlocutory.
 
 Q: Cobalt sues its former CFO (D1, served in Singapore) and a Dubai trading house (D2) for conspiracy. The claim against D1 is obviously time-barred. Can Cobalt serve D2 out as a necessary or proper party?
@@ -105,7 +105,7 @@ Q: Nautilus accepted Aegean's final offer by WhatsApp from Singapore. Aegean's S
 H: National Mortgage; DJS Solutions.
 - None: an agent without authority to sign cannot make a contract "through" her || Under (d)(ii) the agent needs only authority to negotiate, not to sign (National Mortgage).
 - (d)(i), because the contract was made where the agent negotiated it || Where the contract was made is a separate question. Chloe's role engages (d)(ii).
-* (d)(ii): authority to negotiate the contract sued on is enough || Correct: the relief relates to the contract she negotiated (DJS Solutions).
+* (d)(ii): her authority to negotiate the contract sued on is enough here || Correct: the relief relates to the contract she negotiated (DJS Solutions).
 - (d)(iv), because a local broker is treated as a Singapore jurisdiction term || A broker's involvement is nothing like a jurisdiction term. (d)(iv) requires an actual clause.
 
 Q: Aegean denies that any contract was concluded, saying its manager lacked authority, and that under Greek law an unsigned charter is void. The charter says it is governed by Singapore law. What must Nautilus show for factor (d)?
@@ -127,7 +127,7 @@ H: IM Skaugen (CA): incurring the loss versus its effects.
 - The legal fees for the application, as they are damage suffered in Singapore || Fees incurred on the service-out application itself do not count (Lakshmi).
 - That the company is a Singapore entity whose shareholders lost value here || That is the end result felt here. Being a Singapore entity with a Singapore account is not enough (Nippon Catalyst).
 - Nothing: damage from a fraud pitched abroad can only be located where the pitch was made || The place of damage is distinct from the place of the act. The company can argue its account debit is damage here.
-* Arguably the debit of its Singapore account, if more than trivial || Correct: deceit is founded on damage, so if (f)(ii) is met the company recovers all its losses, wherever suffered (C&Y).
+* Arguably the debit of its Singapore account, provided it is more than trivial || Correct: deceit is founded on damage, so if (f)(ii) is met the company recovers all its losses, wherever suffered (C&Y).
 
 @sec law302-hj3::Factor (m)
 Q: A Singapore tenant sues an Australian landlord who lives abroad. One claim is for possession of a Holland Village shophouse; another is only for unpaid rent. Does factor (g) cover both?
@@ -169,7 +169,7 @@ H: Li Shengwu: "more illusory than real".
 Q: A Singapore company mistakenly pays S$2m into a Malaysian supplier's Singapore account; the supplier's director in Johor moves it out. Separately, it brings a quantum meruit for work done under an existing contract with a Thai company. Which claim falls within factor (o)?
 H: Chen v BHNV; Rabiah Bee.
 - Both: each seeks payment for a benefit the defendant received || A quantum meruit resting on a contract is contractual, not restitutionary (Rabiah Bee).
-* Only the mistaken payment, received in a Singapore account || Correct: both limbs of (o) are met. The contractual quantum meruit goes under (d).
+* Only the mistaken payment, which was received in a Singapore account || Correct: both limbs of (o) are met. The contractual quantum meruit goes under (d).
 - Only the quantum meruit, as the money was moved out of Singapore from Johor || Liability arose from receipt in the Singapore account. Moving it out later does not change that.
 - Neither: (o) covers only claims against trustees or fiduciaries || (o) also covers restitutionary claims, such as for a mistaken payment.
 
@@ -178,13 +178,13 @@ H: Kishinchand.
 - No: a trust arises where the trustee signs, so the cause of action arose in Geneva || As in Kishinchand, where the trustee signed or the interest vested is insignificant.
 - No: factor (p) requires every material fact to have occurred in Singapore || Not all the facts need arise here. The question is where in substance the cause of action arose.
 - Yes, but only if the trust funds were sent from a Singapore bank account || The essential factual material is Raj's Singapore instructions and the trust's purpose, not the route of the money.
-* Yes: his instructions and the trust's purpose both point to Singapore || Correct: on a fact-centric review (IM Skaugen (CA)), the cause of action arose here.
+* Yes: his Singapore instructions and the trust's purpose point to Singapore || Correct: on a fact-centric review (IM Skaugen (CA)), the cause of action arose here.
 
 Q: A phishing victim wants (i) a US-based exchange to disclose who controls the wallet that received the stolen funds, and (ii) later, committal of a London-based defendant for breaching a Singapore injunction. Which factors should it cite?
 H: The Li Shengwu problem now has its own factors.
 - (p) for both, as the scam and the injunction both arose in Singapore || A committal is not founded on a civil cause of action, so (p) fails for it (Li Shengwu).
 - (s) for both, as each enforces a Singapore statute || Per Li Shengwu, a committal vindicates a power and is not "enforcement" of written law.
-* (u) for the disclosure, and (t) for the committal, with (n) in the alternative || Correct: (u) covers identifying parties and tracing property; (t) covers committal under O 23.
+* (u) for the disclosure, and (t) for the committal || Correct: (u) covers identifying parties and tracing property; (t) covers committal under O 23.
 - (b) for both, as each asks the defendant to do something in Singapore || The disclosure is sought from a US exchange, and a committal is not an injunction claim.
 
 Q: A Vietnamese buyer and an Indonesian seller of coal closed their deal through a Singapore escrow agent and a Singapore bank, and the seller holds S$20m in a Singapore account. The buyer sues for a misrepresentation made in Jakarta, with loss in Vietnam. How should it argue nexus?
@@ -198,7 +198,7 @@ Q: Merlion negotiated a draft nickel contract with Kazakh Mining at Singapore me
 H: Whose breach claim is it?
 - (d)(i), because the negotiations took place in Singapore || (d)(i) is usable: Merlion needs only a good arguable case of the connection, not of the contract.
 - (d)(iii), because the putative proper law of the alleged contract is Singapore law || (d)(iii) is usable on the draft clause (Lew v Nargolwala).
-* (e), because Merlion alleges no breach in Singapore || Correct: the breach claim is Kazakh Mining's, abroad. (c) and (b) are also unavailable here.
+* (e), because Merlion alleges no breach of contract in Singapore || Correct: the breach claim is Kazakh Mining's, abroad. (c) and (b) are also unavailable here.
 - (p), arguably, because the formation events occurred in Singapore || (p) is arguably usable on a generous reading of "cause of action".
 
 @sec law302-hj3--hx-J3-1-4
@@ -228,7 +228,7 @@ Q: A contract says: "Notices under this Agreement may be given by email to the a
 H: What does "allowed under a contract" mean?
 - Yes: any agreed method of communication that works abroad satisfies O 8 r 1(3) || Yeo rejects that reading because it clashes with O 8 r 2(1)(a) (service "in the manner agreed" after approval).
 - Yes, as in NW Corp, where an agreed method plus a foreign address was enough || In NW Corp the clause provided for service of process and named the Singapore courts. A notices clause does neither.
-* No: a notices clause does not allow service of process out, so approval is needed first || Correct: once approval is given, the email method may then be used as the mode.
+* No: a notices clause does not allow service out, so approval is needed || Correct: once approval is given, the email method may then be used as the mode.
 - No, because email can never be a valid mode of service out of Singapore || Email can be the mode once approval is obtained. The problem is the lack of a clause allowing service out.
 
 Q: The clause in NW Corp-style terms reads: "Disputes shall be referred to the courts of Singapore. Service of process may be effected by registered mail" to the defendant's Hong Kong office. The claimant posts the claim and the defendant applies to set aside, arguing no gateway and Hong Kong as the natural forum. What happens?
@@ -236,13 +236,13 @@ H: Existence versus exercise after O 8 r 1(3).
 - The set-aside succeeds unless the claimant shows a gateway and that Singapore is forum conveniens || Service under r 1(3) founds jurisdiction without approval, so there is no gateway question.
 - The set-aside succeeds, because a clause cannot dispense with the court's scrutiny of forum || O 8 r 1(3) does exactly that where the contract allows service out.
 - Jurisdiction exists, and the defendant may seek a Spiliada stay, bearing stage 1 only || The clause also names the Singapore courts, so the forum challenge is a breach and strong cause applies.
-* Jurisdiction exists; the defendant can only seek a stay, and as that breaches the clause, it bears strong cause || Correct: NW Corp. It cannot dispute existence, and its forum challenge is itself a breach.
+* Jurisdiction exists, and any stay needs strong cause, as the objection breaches the clause || Correct: NW Corp. It cannot dispute existence, and its forum challenge is itself a breach.
 
 Q: A lender gets an order for substituted service by email on Mr Haddad, a former director who moved to Dubai in 2019 and has lived there openly since. It never sought approval to serve out. The email is read. Is service valid?
 H: Consistel's hierarchy.
 - Yes: the email was read, so the defect is cured by actual notice || Per Consistel, substituted service is not validated after the event because it reached the defendant.
 - Yes: personal service abroad is impracticable, so substituted service is proper || Being abroad does not make personal service impracticable.
-* No: the lender had to seek approval to serve out first, and neither exception applies || Correct: like the Consistel defendants, Haddad is a long-term, settled resident abroad. Service is set aside.
+* No: the lender had to obtain approval to serve Mr Haddad out first || Correct: like the Consistel defendants, Haddad is a long-term, settled resident abroad. Service is set aside.
 - No, because email can never be used for service on a defendant abroad || Email can be a valid mode. The defect is skipping the right to serve out.
 
 Q: Ms Volkov flew out of Singapore the day after receiving a letter of demand, and has since been seen in Bali, Phuket, Tbilisi and Istanbul. The lender serves her by email under an order for substituted service, without approval to serve out. Can service stand?
@@ -263,7 +263,7 @@ H: Janesh ("CHEFPIERRE").
 Q: A Singapore-law SPA between Kite Capital and Mr Liu (Shanghai) says: "The parties submit to the non-exclusive jurisdiction of the Singapore courts", with no service clause. Kite serves Mr Liu out with approval. He argues that China is the natural forum. Who bears what on forum?
 H: Shanghai Turbo (CA), in practice.
 - Kite must show Singapore is clearly the more appropriate forum, as on any service out || In practice Kite need not prove forum. Mr Liu's objection is itself a breach of the NEJC's waiver.
-* Mr Liu must show strong cause, because objecting breaches the clause's narrow waiver || Correct: whether framed as a set-aside or a stay. Had he never raised forum, Kite would need to prove nothing on it.
+* Mr Liu must show strong cause, because objecting breaches the narrow waiver in the clause || Correct: whether framed as a set-aside or a stay. Had he never raised forum, Kite would need to prove nothing on it.
 - Neither: a non-exclusive clause makes forum irrelevant, so only nexus and merits are argued || Forum is still in issue if Mr Liu raises it. The question is who bears the burden.
 - Mr Liu bears stage 1 of Spiliada, because the clause is only a factor pointing to Singapore || Under Singapore law the clause carries a waiver, so the test is strong cause, not Spiliada.
 
@@ -271,7 +271,7 @@ Q: Same SPA, but it is governed by Ruritanian law, and Mr Liu proves that under 
 H: Construe the clause under its proper law first.
 - Strong cause on Mr Liu, because the clause still names Singapore || Under its proper law the clause contains no promise not to object, so objecting is no breach.
 - Strong cause on Kite, for suing outside Ruritania, the country of the governing law || A non-exclusive Singapore clause is not breached by suing in Singapore.
-* Plain forum conveniens with the burden on Kite, the clause being only a factor for Singapore || Correct: Kite can also point to possible transfer to the SICC against the governing law factor.
+* Plain forum conveniens, with the burden on Kite and the clause as a factor || Correct: Kite can also point to possible transfer to the SICC against the governing law factor.
 - No forum inquiry at all, because the clause makes Singapore an agreed forum || Without a waiver, the forum limb of service out must still be satisfied by Kite.
 
 Q: Kite also wants to sue the target company's Shanghai-based director personally for fraudulent misrepresentation. He is not a party to the SPA or its non-exclusive Singapore clause. What must Kite do?
@@ -283,7 +283,7 @@ H: Party scope (J1.5).
 
 Q: Mr Liu argues: (1) his signature on the SPA was forged, so there is no agreement; (2) the warranty claim is hopeless; (3) China is more convenient. Who bears the burden on each?
 H: The burden is on the party seeking release from its promise.
-* Kite on (1) and (2); Mr Liu on (3), as strong cause || Correct: nexus and merits stay with the claimant; forum falls on the party in breach of its promise.
+* Kite on (1) and (2), and Mr Liu on (3), by way of strong cause || Correct: nexus and merits stay with the claimant; forum falls on the party in breach of its promise.
 - Mr Liu on all three, as the party applying to set aside service || The legal burden on nexus and merits stays on the claimant inter partes.
 - Kite on all three, as service out is extraordinary jurisdiction || If the clause exists, Mr Liu's forum objection breaches it, so he bears strong cause.
 - Mr Liu on (1) only, as forgery must be proved by whoever alleges it || The clause is the basis of jurisdiction, so Kite must show a good arguable case it exists and binds Mr Liu.
