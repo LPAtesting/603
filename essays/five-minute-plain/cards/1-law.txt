@@ -1,0 +1,288 @@
+# Family 1: Law-making and morality (E1-E13)
+# Format: see ../README.md
+
+@card E1
+say: You have a right to make the big choices about your own life (who to love, whether to have a child). Therefore the law should not enforce morality or control private behaviour.
+verdict: partly
+answer: Right that private, consenting conduct should not be punished just because some call it immoral. Wrong that this right rules out every law touching morals.
+step: The right is strong, but not absolute. It is itself a moral idea, and it cannot settle cases where someone else is affected, such as a spouse or a child.
+step: "Enforce" has three levels: encourage, regulate, punish. The stronger the level, the stronger the reason it needs.
+step: The hidden link behind "therefore" is "law may only stop harm to others". Say it out loud: it is a good starting rule, but deciding what counts as harm is itself a moral call.
+remember: A right is a moral claim; enforcing is a ladder; name the hidden "harm" link.
+spot: It starts from your right to decide about your own life, then jumps with "therefore" to "no morals laws".
+Q: Which statement is E1?
+* "I may choose who to love, so the law must keep out of morals." || Right: a right to decide, then "therefore" no morals law.
+- "Most people disapprove of how I live, so the law may ban it." || That is the majority against private choice: E5.
+- "Whenever the law pursues moral values, our liberty is always lost." || That is E6.
+Q: What is the best short answer to E1's statement?
+* Partly agree: don't punish private choices for being "immoral", but some morals laws are fine. || Right. The right protects strongly against punishment, not against every law.
+- Agree completely: the law should never touch private life, whoever else is affected by it. || Too far. The right cannot settle cases that affect others, such as a child.
+- Disagree completely: the majority may punish any private conduct that it finds immoral. || That ignores the strong protection private choices deserve.
+Q: "Enforcing" morality has three levels. Which order runs from mildest to strongest?
+* Encourage, regulate, punish || Right. The stronger the level, the stronger the reason needed.
+- Punish, regulate, encourage || That runs from strongest to mildest.
+- Regulate, encourage, punish || Encouraging is milder than regulating, so it comes first.
+
+@card E2
+say: Using law to enforce morality is not automatically unjust. The only good objections to it are moral or practical ones, not "nobody can know what is right". (Form b: a majority's view is not automatically right, but Parliament may still enforce society's morality.)
+verdict: mostly
+answer: Mostly agree. Every law enforces some morality, so doing so is not wrong in itself. One fix: doubting who knows the right answer is a real reason to be careful.
+step: No law avoids morality: even a law against theft enforces a moral view. What can make a morals law unjust is its reasons, how much force it uses, and who bears it.
+step: "Nothing is really right or wrong" defeats itself, because "so be tolerant" is a moral claim too. The statement is right to set it aside.
+step: But "sceptical" has a second meaning: doubting who knows the right answer. That doubt is real. It says go slowly, protect privacy, and give reasons, not feelings.
+remember: Denying moral truth defeats itself; doubting who knows it calls for care, not silence.
+spot: It asks whether enforcing morality can be legitimate, and which objections count. Or: the majority is not always right, yet Parliament may enforce society's morality.
+Q: Which statement is E2?
+* "Enforcing morality isn't unjust as such; only moral or practical objections count." || Right: whether enforcing morality can be legitimate, and which objections count.
+- "Morality is just a matter of opinion, so the law should tolerate every private choice." || That asserts scepticism: E9.
+- "Law-makers should follow the majority, or else they just impose their own private views." || That is whose morality to follow: E4.
+Q: Why does "nothing is really right or wrong" fail as an objection?
+* Because "so be tolerant" is itself a moral claim. || Right. The sceptic needs the very kind of claim they deny.
+- Because most people in fact believe in right and wrong. || Counting heads proves nothing either way.
+- Because judges have already settled the question in court. || This is a philosophical point, not a legal ruling.
+Q: Which kind of doubt does count, and what does it call for?
+* Doubting who knows the answer: it calls for care and good reasons. || Right. Doubt affects how the state enforces, not whether it may.
+- Doubting that right and wrong exist: it calls for the law to stay silent. || That kind of doubt defeats itself.
+- Doubting the majority's judgement: it calls for the courts to decide instead. || Not the point. The doubt shapes how carefully any law-maker acts.
+
+@card E3
+say: Law-makers should treat all moral opinions as equally valid. They can do this by limiting freedom only when needed to protect others from a wrongdoer. Only then will the law avoid imposing one fixed idea of the good life.
+verdict: partly
+answer: Right that no single belief system should be made official. Wrong that a "harm only" rule makes all views equal, and wrong that it is the only way.
+step: "Equally valid" has two meanings. "All views are equally true" defeats itself. "No view gets special treatment in advance" is Rawls's idea, but even he shuts out unreasonable views.
+step: "Only to protect others" (the harm rule) is not neutral: a word like "wrongdoer" already carries a moral judgement. Devlin rejects the limit; Rawls calls it Mill's own personal ideal.
+step: "A fixed idea of the good life" is a matter of degree. Singapore's Article 156 (2022) protects marriage without imposing a whole way of life.
+remember: Respect all people equally, not all opinions; "fixed" is a matter of degree.
+spot: Three linked steps: a goal (all opinions equal), a means (harm only), a result ("only then" no fixed good life). Test each link.
+Q: How is E3's statement built?
+* A chain: a goal, a means, and a result ("only then"). || Right. Chains break where the links join, so test each one.
+- One single claim, run deep: law-makers should be as neutral as possible. || That single claim is E8. Here neutrality is only the last link.
+- A right to decide about one's own life, then "therefore" no morals law. || That is E1.
+Q: What does the law owe citizens, according to E3's answer?
+* Equal respect for persons, not for every opinion. || Right. That is the memory line.
+- Equal validity for every moral opinion anyone holds. || That is the statement's own goal, which the essay rejects.
+- Whatever the majority's moral opinion happens to require. || The majority is E4's and E5's topic, not this answer.
+Q: Why isn't the "harm only" rule neutral?
+* Deciding what counts as harm is itself a moral judgement. || Right. Even "wrongdoer" carries a judgement.
+- Because harm to others can never be proved in a court of law. || The point is moral, not about evidence.
+- Because Parliament has never used a harm rule in Singapore. || Parliament used something close to it in 2022.
+
+@card E4
+say: Law-makers should follow the majority on moral questions; otherwise they just impose their own views. (Other forms: never enforce a group's morality "lest" minorities suffer; or a pluralist democracy should not take moral sides at all.)
+verdict: partly
+answer: Partly agree: the majority decides who makes the law. But "follow the majority or impose your own taste" is a false choice. The third option is reasons anyone can examine.
+step: A poll is not a reason. Devlin does not count heads; he asks what twelve ordinary people would accept after discussion. In 2007 the 70% who "frowned on" homosexuality were never asked whether it should be a crime.
+step: A view is only "subjective" if no reason can be given for it. Hart tests popular morality by critical thinking; Finnis says the basic goods are clear to reason.
+step: No law is neutral: allowing something also takes a side. Protecting minorities is itself a moral judgement.
+remember: Not the crowd, not my taste: reasons anyone can examine. Not deciding is a decision.
+spot: It tells the law-maker whose morality to follow: the majority's ("otherwise" your own), no group's ("lest" minorities suffer), or none at all.
+Q: Which word in E4's statement sets up a false choice?
+* "Otherwise" || Right. It hides a third option: reasons anyone can examine.
+- "Majority" || The majority matters, but the trap is the either/or.
+- "Moral" || The statement is rightly about moral questions.
+Q: What is the third option E4's answer offers?
+* Decide on reasons the minority can examine. || Right.
+- Leave every hard moral question to the courts to decide. || Courts are not the answer here (see E36).
+- Hold a referendum whenever Parliament is split on a moral issue. || A head-count is still not a reason.
+Q: "Parliament should take no side on a moral conflict." What is E4's reply?
+* Not deciding is a decision: keeping the law also takes a side. || Right.
+- Agreed: neutrality is possible if Parliament simply does nothing. || No law is neutral.
+- Agreed, as long as the majority is content with the law as it stands. || That swaps one problem for another.
+
+@card E5
+say: (a) In a democracy the majority may enforce its morals against private choices it condemns. Or (b): private choices must win over the majority's morals, unless they harm others.
+verdict: partly
+answer: Both forms overstate. The majority may make the law, but disliking something is no reason to punish it. Harm is the best line for punishment, but not a neutral one.
+step: The majority decides who makes the law, not what is right. Even Devlin, the majority's natural friend, will not just count heads.
+step: Private choice deserves strong protection (Hart, Rawls), but it cannot settle cases that affect a third party.
+step: Harm: Hart also allows protecting people whose consent is weak, and public decency. Being upset that others do something in private is not harm.
+remember: The majority decides who; reasons decide what; harm is the strongest reason, not a neutral line.
+spot: The majority against the individual, with "harm" as the dividing line.
+Q: Which statement is E5?
+* "The majority may enforce its morals against private choices it condemns." || Right: the majority against private choice.
+- "I have a right to decide about my own life, so the law must have no morals laws." || No majority in it: that is E1.
+- "Law is simply the will of the majority, so the legislator should record it accurately." || That is what law is: E10.
+Q: What does the majority settle, on E5's answer?
+* Who makes the law, not what is right. || Right.
+- What is morally right, since most people agree. || A head-count cannot show that.
+- Nothing at all: majorities settle nothing. || Too far: majority rule is how a democracy decides who makes law.
+Q: A neighbour is upset just knowing that others live together unmarried. Is that "harm" for Hart?
+* No: being upset just knowing it is not harm. || Right. Otherwise almost any private choice could be banned.
+- Yes, as long as enough neighbours feel the same. || Numbers do not turn upset into harm.
+- Yes: any distress at all counts as harm to others. || That would leave liberty almost empty.
+
+@card E6
+say: Whenever law-makers pursue moral values, liberty is inevitably sacrificed.
+verdict: partly
+answer: Right that every criminal ban costs someone some freedom. Wrong that liberty is "inevitably sacrificed": liberty is itself a moral value, and a limit backed by strong enough reasons is a limit, not a sacrifice.
+step: Liberty is a moral value too. Some moral law-making widens freedom: repealing s 377A was called "the right thing to do".
+step: Pursuing values does not always mean punishing. Encouraging (Article 156 protects marriage) costs far less freedom than a criminal law.
+step: "Sacrificed" can mean "given up" (true of every law, so it says little) or "overridden without good reason" (false when the reasons match the force used).
+remember: Liberty is a moral value too; limited, not sacrificed, when the reasons match the force.
+spot: One sentence: pursuing moral values in law always sacrifices liberty. Usually "Do you agree?"
+Q: Which word makes E6's statement too strong?
+* "Inevitably" || Right. It turns "often costs some freedom" into "always sacrifices it".
+- "Moral" || Moral values are the topic, not the trap.
+- "Law-making" || The setting is fine; the absolute is the problem.
+Q: Why is liberty not simply on the other side from morality?
+* Because liberty is itself a moral value. || Right. The conflict is between values, not morality against liberty.
+- Because the law never actually limits liberty. || Every criminal ban limits someone's liberty.
+- Because judges protect liberty in any case. || The essay is about law-makers, not judges.
+Q: Which costs the least liberty?
+* Encouraging marriage, as Article 156 does || Right. Promoting is the bottom rung.
+- Jailing people who break a moral rule || That is the top rung, punishing.
+- Fining people who break a moral rule || Still punishing.
+
+@card E7
+say: (a) No one can know what is right, so each person must decide, so enforcing morality is illegitimate. Or (b): no one knows better than anyone else, so the majority must decide, so enforcing its morality is legitimate.
+verdict: disagree
+answer: Disagree: "nobody can know" cannot tell you who should decide. Each step needs a moral premise the sceptic cannot supply.
+step: Scepticism: not being able to prove something does not make it false. "We were wrong before" assumes there is a right answer to be wrong about. Doubt means be careful, not silent.
+step: Who decides: "so each person decides" assumes freedom matters, a moral claim. "So the majority decides" assumes equality matters, also moral. Use only the form you are given.
+step: Legitimacy depends on the reasons and on how much force is used, not just on who decides.
+remember: "Nobody can know" decides nothing about who decides; every step needs a moral premise.
+spot: A three-step chain: nobody can know what is right, so X must decide, so enforcing morality is (il)legitimate.
+Q: What is the shape of E7's statement?
+* A chain: nobody knows, so someone decides, so it is (il)legitimate. || Right.
+- One claim: morality is just opinion, so the law should tolerate every choice. || That stops at tolerance: E9.
+- Whose morality the law-maker should follow: the majority's, or nobody's at all. || That is E4.
+Q: "Nobody can know what's right, so each person must decide." What is wrong with the "so"?
+* It needs a hidden moral premise: that freedom matters. || Right. The sceptic cannot supply it.
+- Nothing is wrong with it: the conclusion follows logically. || It needs a hidden moral premise.
+- It should say the courts decide, not each person. || Swapping the decider does not fix the gap.
+Q: What makes enforcing morality legitimate, on E7's answer?
+* Sound reasons, and force that matches them || Right.
+- Who decides, and nothing else at all || Who decides is only part of it.
+- Certainty that the law is morally right || No one needs certainty; fallibility means care, not silence.
+
+@card E8
+say: In a society with many beliefs, law-makers should be as neutral as possible between different views of the good life.
+verdict: partly
+answer: Right that the state should be fair to all citizens. Wrong that it can be neutral: every law favours some views. Be even-handed between people, not between opinions.
+step: "Neutral" has two meanings. Neutral in effect is impossible (even a secular school curriculum takes a view on family). Neutral in reasons is possible, and is all Rawls asks, but it is still a moral choice.
+step: "As possible": allowing something also takes a side. The real question is how much of a side, for what reasons, with how much force.
+step: What replaces neutrality: match the force to the reasons. Encouraging needs less justification than punishing.
+remember: Neutral in outcome: impossible. Neutral in reasons: possible, but still moral. Fair to citizens, not to opinions.
+spot: One claim, explored in depth: law-makers should be as neutral as possible between views of the good life.
+Q: Which statement is E8?
+* "Law-makers should be as neutral as possible between views of the good life." || Right: one claim, run deep.
+- "Treat all opinions as equal by using harm to others as the only limit on liberty." || That is the three-link chain: E3.
+- "Religious arguments have no place in law-making in a multi-religious society." || That is E11.
+Q: Which kind of neutrality can a law-maker actually achieve?
+* Neutral reasons, not neutral effects || Right. Effects always favour someone.
+- Neutral effects, not neutral reasons || Backwards: effects are never neutral.
+- Both kinds, if they try hard enough || No law is neutral in its effects.
+Q: Parliament decides to "stay neutral" and leave a ban in place. Is that neutral?
+* No: keeping the ban also takes a side. || Right. Permitting and refusing both decide.
+- Yes: doing nothing is always neutral. || Not deciding is a decision.
+- Yes, if most people agree. || Agreement does not make it neutral.
+
+@card E9
+say: Morality is just opinion; nobody can prove one view better than another. So the law should tolerate every choice and stay out of moral questions.
+verdict: disagree
+answer: Disagree: people disagreeing does not show there is no right answer, and "so be tolerant" is itself a moral demand the sceptic cannot back up.
+step: Name the sceptic: "it varies by culture" (relativist), "we can't know it" (sceptic), or "it's just feelings, like liking durian" (non-cognitivist). Then show what their premise assumes.
+step: "So tolerate" is a moral claim. Refusing to act on a judgement is acting as if the opposite were true (TSH).
+step: Facts plus agreed moral premises do lead to conclusions, so Hume's gap between "is" and "ought" does not make moral reasoning useless.
+remember: "So tolerate" is a moral demand the sceptic can't ground; doubt calls for care, not silence.
+spot: Morality is "just opinion" (or a social construct, or unprovable), so the law should tolerate everything or stay out.
+Q: Which statement is E9?
+* "Morality is just opinion, so the law should tolerate every choice." || Right.
+- "Nobody can know what is right, so the majority must decide for all." || That chain goes on to who decides: E7.
+- "Sceptical objections to morals laws don't count; only moral ones do." || That rules scepticism out: E2.
+Q: What is the main flaw in "morality is opinion, so tolerate"?
+* "Tolerate" is itself a moral demand. || Right.
+- Tolerance is always a bad thing. || The essay does not say that.
+- Morality can be proved, like maths. || The essay does not need proof, only reasons.
+Q: "We were wrong about slavery, so we should stay neutral now." What does E9 say?
+* It assumes a right answer, so it supports care, not neutrality. || Right.
+- It proves that morality is only ever a matter of opinion. || It proves the opposite.
+- It is irrelevant: history has nothing to say about law-making. || History is relevant: it counsels slowness.
+
+@card E10
+say: Law is simply what the majority wants. So the law-maker's only job is to express that will as accurately as possible.
+verdict: disagree
+answer: Disagree: the majority decides who may make law, within rules that bind it. It does not decide what the law should say. A law-maker is a trustee, not a stenographer.
+step: Law is more than will. Hart: law needs rules that say who may make law. Singapore's Article 4 voids laws that break the Constitution, so majority will is law only within the rules.
+step: "Then" slides from what law is to what law-makers should do. A fact about law cannot tell you what the law should be.
+step: "Sole concern" is wrong: Devlin wants considered judgement, not a count; Hri Kumar (2007) said laws should make sense for Singapore as a whole, not just please the majority.
+remember: Will makes law only through rules; "then" slides from is to ought; trustee, not stenographer.
+spot: It defines law as majority will, then says ("then") the law-maker's only job is to record it.
+Q: Which word in E10's statement slides from "is" to "ought"?
+* "Then" || Right: from what law is to what the law-maker should do.
+- "Majority" || The topic, not the slide.
+- "Accurately" || A problem too (no poll reads a settled will), but not the slide.
+Q: E10's image for the law-maker is…
+* A trustee, not a stenographer || Right. A trustee uses judgement for everyone; a stenographer just records.
+- A stenographer, not a trustee || Backwards: that is the statement's picture.
+- A judge, not a politician || Not the image used.
+Q: Why is majority will law only "within the rules"?
+* Rules like Article 4 say who may make law, and void laws that break it. || Right.
+- Judges may overrule any majority whose laws they happen to dislike. || Courts strike down only unconstitutional laws.
+- The majority never really agrees on anything, so it cannot make law. || The point is about rules, not agreement.
+
+@card E11
+say: In a society with many religions, religious arguments have no place in law-making; laws should rest on secular reasons only. (Or the reverse: religious arguments are as good as any other.)
+verdict: partly
+answer: Partly agree: a faith cannot be the only reason for forcing everyone to obey. But religious arguments may still be offered. What matters is that a law also has reasons people outside the faith can examine.
+step: "No place" goes further than even Rawls. His "public reason" binds only people using state power, only on basic questions, and faith reasons are fine if public reasons follow.
+step: Judge reasons by their merit, not by where they come from. Judging an MP by motive is unfair (TSH's Catch-22: believers' medical reasons were dismissed as a "facade").
+step: Religion is itself a basic good (Finnis) and a basic liberty (Rawls), so a law that burdens a faith needs strong reasons.
+remember: Speak from faith, coerce on reasons others can examine; judge reasons by merit, never by motive.
+spot: Religious arguments in law-making: banned altogether, or just as good as any other.
+Q: Which statement is E11?
+* "Religious arguments have no place in law-making in a multi-faith society." || Right.
+- "Only grounds that every citizen can share may justify using state power." || That is Rawls's own theory under test: E16.
+- "Morality is just opinion, so the law should stay out of moral questions." || That is E9.
+Q: An MP says: "My faith forbids it, and that is the only reason I need." What does E11 say?
+* He may speak from faith, but coercion needs other reasons too. || Right: a reason those outside the faith can examine.
+- He must keep his faith out of Parliament altogether. || Too far: faith may be spoken.
+- His reason is as good as any other reason in a debate. || Not enough on its own to coerce others.
+Q: How should reasons be sorted, on E11's answer?
+* By their merit, not by the speaker's motive || Right.
+- By whether or not they come from a religion || That is the statement's mistake.
+- By how many citizens happen to hold them || A head-count is not a reason.
+
+@card E12
+say: Singapore kept s 377A but did not enforce it (2007), then repealed it while protecting marriage in the Constitution (2022). This shows majority feeling decides moral questions here. (Or: the harm principle won; the state is now neutral; Parliament should decide.)
+verdict: partly
+answer: Partly: 2007 followed majority feeling, but carefully, Devlin-style. 2022 removed punishment for reasons close to Hart's and promoted marriage instead. Neither was a win for one theory, and neither was neutral.
+step: 2007: the result matched majority feeling, but the arguments did not just count heads. Keeping a law but not enforcing it is a problem: it gives police wide discretion (Hart) and breaks Fuller's rule that officials should act as the law says.
+step: 2022: repeal was a moral decision, made partly because courts might strike s 377A down, and a court ruling is "all or nothing". Most theorists can approve the package for their own reasons.
+step: What it shows: the encourage, regulate, punish ladder at work, not neutrality. The question stayed with Parliament.
+remember: 2007: majority feeling with Devlin's brakes. 2022: punishment down, promotion up, Parliament decides.
+spot: It names Singapore's own story: s 377A in 2007, and repeal plus Article 156 in 2022.
+Q: Which statement is E12?
+* "Keeping s 377A in 2007, then repealing it in 2022, shows majority feeling rules." || Right: Singapore's two decisions.
+- "Contested moral questions should be decided by Parliament, never by the courts." || As a general question that is E36.
+- "Private choices must always win over the majority's morality unless they harm others." || That is E5.
+Q: What was wrong with keeping a law but not enforcing it (2007)?
+* Wide police discretion, and a gap between law and practice. || Right (Hart's "discriminatory powers"; Fuller's congruence).
+- Nothing at all: it was the perfect compromise for everyone. || It strains both Hart's and Fuller's ideas.
+- It meant judges still had to convict in every case brought. || The issue is discretion, not judges.
+Q: What did the 2022 package do, on the ladder?
+* Took punishment away and added promotion || Right.
+- Added punishment and took promotion away || Backwards.
+- Stayed fully neutral on marriage || Article 156 takes a stand on marriage.
+
+@card E13
+say: Limited government rests on denying moral truth. So each person decides their own life, and law-makers, judges and lawyers should not act on moral truth. Is this sound and workable?
+verdict: disagree
+answer: Disagree: neither sound nor workable. Setting moral truth aside is itself a moral choice, and no law-maker, judge or lawyer can avoid moral judgement, only discipline it.
+step: Sound? "There is no moral truth" defeats itself. Rawls's bracketing is limited and rests on a moral value (fairness). Finnis's limited state rests on moral truth.
+step: "Decide your own destiny" is a personal ideal, not a neutral one. Singapore's Constitution takes a stand on marriage (Article 156).
+step: Workable? Give each actor a paragraph: the law-maker (the 1969 abortion debate), the judge (the Constitution's moral words), the lawyer (even choosing clients is moral). Without moral judgement, nothing guards against tyranny.
+remember: Bracketing truth is a moral choice; no actor can refrain, only discipline their judgement.
+spot: A long statement naming several actors (law-makers, judges, lawyers) and asking "is this sound and workable?"
+Q: What two things does E13's question ask?
+* Is it sound, and could each actor follow it? || Right: the premise, and whether it works.
+- Is it legal, and is it popular with voters? || Not the question.
+- Is it Rawls's view, and is it Finnis's view? || The theorists are tools, not the question.
+Q: Can a judge avoid acting on moral judgement entirely?
+* No: her task is to discipline moral judgement, not drop it. || Right. Reading the Constitution's moral words needs a view.
+- Yes: she can avoid it simply by reading the text. || Moral words like "equal" need a view to read.
+- Yes, as long as Parliament tells her to avoid it. || The words still need reading.
+Q: Why is "limited government needs no moral truth" unsound?
+* Setting truth aside is itself a moral choice. || Right.
+- Because government should really be unlimited. || The essay supports limited government, on moral grounds.
+- Because moral truth is easy to prove to anyone. || Proof is not needed; reasons are.

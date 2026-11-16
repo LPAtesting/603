@@ -1,0 +1,842 @@
+# The harder quiz bank: hypos and reworded statements, each with a verdict step.
+# Format: see ../README.md. Option sets: @vote, @stance, @right, or "A | B | C".
+# The number after the options is the right one (1 = first).
+
+# ---------- Family 1: law-making and morality (E1-E13) ----------
+
+@item h01
+kind: hypo
+best: E5
+also: E1
+src: New hypo (cohabitation)
+Q: A bill fines unmarried couples who share a home $2,000 a year until they marry. Its mover cites a survey in which 72% "disapprove" of couples living together, and studies showing their children do worse on average. Another MP replies: "What adults do at home is none of Parliament's business." How would you vote, and is the second MP right?
+why: The majority's disapproval set against a private choice, with harm (the children) as the line. That is E5.
+trap: E4 || E4 tells the law-maker whose morality to follow. Here the question is the majority against a private choice.
+trap: E1 || E1's right to decide helps with the second MP, so half marks, but the bill pits the majority against private choice.
+part: Your vote on the fines || @vote || 2 || "Disapprove" is not "make it an offence" (like the 70% in 2007), and "worse on average" is a reason to support families, not to fine couples.
+part: The second MP ("none of Parliament's business") || @right || 2 || Private choices deserve strong protection, but children are third parties, so Parliament may still support and protect them. "None of its business" goes too far.
+
+@item h02
+kind: hypo
+best: E1
+also: E45, E5
+src: Hypo 3, reworded
+Q: An MP proposes up to two years' jail for adultery. The Minister promises police will not go looking for cases: the law is "a moral signpost". Grounds: all major faiths condemn adultery; children of broken marriages fare worse; a clear majority backs it. A colleague objects: "Adults' love lives are their own affair, so no law should touch them." How would you vote, and is the colleague right?
+why: A right to run your own intimate life, used against a morals law. That is E1, with its ladder (encourage, regulate, punish).
+trap: E12 || E12 is Singapore's s 377A story. This is a new bill to vote on.
+trap: E45 || E45 is the frame for any vote, so half marks, but E1 is the essay for an adultery offence.
+part: Your vote || @vote || 2 || Jail is the top rung and needs the strongest reasons; promoting marriage costs far less. A "signpost" law still stigmatises and hands police wide discretion (Hart).
+part: The colleague ("no law should touch them") || @right || 2 || Adultery is intimate but not purely private: the spouse and the children are affected, so "no law at all" goes too far.
+
+@item h03
+kind: hypo
+best: E2
+also: E45
+src: Hypo 1, reworded
+Q: A bill closes the two licensed casinos and jails anyone who gambles, except on the charity lottery. Supporters say several faiths call gambling a sin, problem gamblers fall into debt and crime, and 78% "disapprove" of gambling. One MP objects: "Nobody can prove gambling is wrong, so the law has no business here." How would you vote, and is the objecting MP right?
+why: Whether enforcing morality is legitimate, and which objections count. The MP's objection is the sceptical one that E2 sets aside.
+trap: E9 || E9 is for a statement that asserts scepticism. Here you must judge whether a sceptical objection counts.
+trap: E11 || E11 is about faith reasons in law-making. The faith ground is one of three here.
+part: Your vote || @vote || 2 || Sin is not crime; disapproving is not wanting jail; debt and crime support licensing, limits and help for gamblers, not jail for players.
+part: The objecting MP ("nobody can prove it's wrong") || @right || 3 || That objection defeats itself. The good objections are moral and practical: these reasons do not justify jail.
+
+@item h04
+kind: twist
+best: E3
+also: E8
+src: Reworded statement
+Q: "If Parliament wants to respect every citizen's beliefs equally, it should use the criminal law only to stop people hurting others. That way no one's idea of a good life is forced on anyone else."
+why: A goal (respect every belief equally), a means (only to stop people hurting others) and a result (no idea of the good life forced on anyone). The three-link chain is E3.
+trap: E8 || E8 is one claim about neutrality. Here neutrality is the last link of a chain, so half marks at most.
+trap: E1 || There is no right to decide about one's own life here.
+part: Do you agree? || @stance || 2 || Right that no doctrine should be made official. Wrong that a "hurting others" rule treats all beliefs equally (what counts as hurt is a moral judgement), and wrong that it is the only way.
+
+@item h05
+kind: twist
+best: E4
+also: E8
+src: Reworded statement
+Q: "When a society is bitterly split on a moral issue, Parliament should simply leave the law as it is and not pick a side."
+why: Whether Parliament should resolve a deep moral conflict at all. That is E4's third form ("should not resolve intractable moral conflicts").
+trap: E8 || E8 is "as neutral as possible" between views of the good life. It would work, so half marks.
+trap: E9 || No claim here that morality is just opinion.
+part: Do you agree? || @stance || 3 || Leaving the law as it is also picks a side: not deciding is a decision. Parliament must decide, on reasons the minority can examine.
+
+@item h06
+kind: hypo
+best: E6
+also: E45
+src: Hypo 5, reworded
+Q: A bill makes it an offence (up to five years) to publish anything "offensive to the religious feelings of any group"; the Minister alone decides whom to prosecute, with no published guidelines. Its mover says: "Protecting harmony costs some freedom. That price is unavoidable whenever law protects values." How would you vote, and is the mover right?
+why: The mover's defence is E6's statement in other words: pursuing values inevitably sacrifices liberty.
+trap: E11 || Religion is the bill's subject, not the reason for it.
+trap: E44 || The secret guidelines raise rule-of-law points, but the mover's claim is about liberty and values.
+part: Your vote || @vote || 2 || Free speech is a moral value too. Punishing offence to feelings counts distress as harm (Hart: liberty would become "quite nugatory"), and secret guidelines fail Fuller. Regulate incitement narrowly instead.
+part: The mover ("the cost to freedom is unavoidable") || @right || 2 || Every criminal law costs some freedom, but a narrow incitement law with reasons that match its force limits liberty without sacrificing it.
+
+@item h07
+kind: hypo
+best: E7
+also: E9
+src: Hypo 14, adapted and reworded
+Q: At a hearing on paid surrogacy, one expert says: "No one is in a position to say what is morally right here, which is why the choice must rest with each woman, and a ban would have no legitimacy." Another replies: "Then no one's view counts for more than anyone else's, so we go with the 70% who want a ban, and a ban would be perfectly legitimate." Evaluate both.
+why: Two chains from "nobody knows" to who decides to legitimacy, running in opposite directions. That is E7.
+trap: E9 || E9 stops at tolerance. Both experts go on to who decides and legitimacy, so half marks.
+trap: E4 || E4 is whose morality to follow, without the sceptical start.
+part: The first expert || @right || 3 || "So each woman decides" is itself a moral claim about autonomy, which "no one knows" cannot supply. And the child is a third party.
+part: The second expert || @right || 3 || A head-count settles who decides, not what is right. Legitimacy depends on reasons and on how much force is used.
+
+@item h08
+kind: twist
+best: E9
+also: E7
+src: Reworded statement
+Q: "Moral views are like tastes in food: nobody's are better than anyone else's. A law banning what some people enjoy is just one group's taste forced on another."
+why: Morality is just opinion (taste), so the law should not take sides. That is E9.
+trap: E7 || There is no step about who decides or legitimacy.
+trap: E2 || E2 rules sceptical objections out. Here scepticism is asserted.
+part: Do you agree? || @stance || 3 || Disagreeing like tastes does not show there is no right answer, and "don't force your taste on others" is itself a moral claim the sceptic cannot back up.
+
+@item h09
+kind: hypo
+best: E10
+also: E45
+src: Hypo 4, reworded
+Q: After bombings by a group claiming to act for a religious minority, a bill lets the Minister detain anyone without review, and strips citizenship from members of that faith who do not renounce it within 30 days. A two-thirds amendment shields it from fundamental-liberties challenges. Grounds: 82% want "strong measures"; once passed, "it will simply be valid law, and no one has any business questioning it". How would you vote on each part?
+why: A poll as a mandate, and "simply valid law" as the end of the matter. The slide from majority will to what law-makers should do is E10.
+trap: E36 || E36 is courts or Parliament. You are asked to vote as an MP.
+trap: E41 || E41 is the citizen told to obey. Here you are the law-maker.
+part: (a) Detention without review || @vote || 2 || "Strong measures" is not a mandate for these measures, and "simply valid" confuses validity with justice.
+part: (b) Stripping citizenship from members of the faith || @vote || 2 || It targets a faith and betrays equality. A poll for "strong measures" cannot justify it.
+
+@item h10
+kind: hypo
+best: E11
+also: E16
+src: Hypo 22, reworded
+Q: On a free vote to lift a ban on embryo research, MP Tan says: "My scripture forbids this, and that is the only reason I need." MP Devi says the research treats a human life merely as a tool, a view she holds because of her faith but argues without citing it. The Minister then proposes a law requiring every MP to certify that they voted on "secular reasons only". Judge each.
+why: Whether faith reasons may count in law-making. That is E11.
+trap: E16 || Rawls's public reason is the tool, so half marks, but the topic is religious argument.
+trap: E45 || You are not asked how to vote on embryo research.
+part: MP Tan's reason || Enough: MPs may vote on any sincere belief | A voice, but not enough on its own to coerce || 2 || A coercive law needs at least one reason those outside the faith can examine.
+part: MP Devi's reason || Fine: a reason anyone can examine, whatever her motive | Excluded: her real motive is religious, so it cannot count || 1 || Judge reasons by merit, not motive: she gives a reason anyone can examine.
+part: The "secular reasons only" certificate law || @vote || 2 || It turns a moral duty of civility into a legal one and sorts reasons by motive.
+
+@item h11
+kind: hypo
+best: E12
+also: E44
+src: Hypo 3 judge limb and Hypo 7, reworded
+Q: Ruritania keeps its adultery offence but announces that police will not go after anyone. Three years later a man is charged after his wife complains. Later Parliament repeals the offence and gives tax breaks to married couples instead. Answer both parts.
+why: Keeping a law but not enforcing it, then repealing it and promoting marriage: the 2007 and 2022 pattern. That is E12.
+trap: E1 || E1's ladder helps, but the question asks what the two decisions show.
+trap: E44 || Fuller's congruence is one point inside E12, so half marks.
+part: As judge, the prosecution || Convict: a promise cannot change a valid statute | The promise may bar a prosecution brought without clear notice || 2 || An announced policy of non-enforcement can gain legal force (Tan Seng Kee), and the gap strains Fuller's congruence.
+part: What the pair of decisions shows || Majority feeling decides moral questions here, as in 2007 | Punishment down, encouragement up: the ladder at work || 2 || It follows the 2022 model: withdraw punishment, keep promotion.
+
+@item h12
+kind: twist
+best: E13
+also: E9, E34
+src: Reworded statement
+Q: "A government stays limited only by refusing to take any view on what is morally true. So MPs, judges and lawyers alike should keep their moral beliefs out of their work. Is that sound, and could they do it?"
+why: Limited government rests on denying moral truth, so every actor should refrain from acting on it. Several actors, "sound and workable": E13.
+trap: E9 || E9 is scepticism for the law-maker only.
+trap: E34 || E34 is about the limits of each role, not refraining from moral truth.
+part: Do you agree? || @stance || 3 || Not sound (setting truth aside is itself a moral choice) and not workable (no actor can avoid moral judgement, only discipline it).
+
+@item h13
+kind: hypo
+best: E8
+also: E45
+src: Hypo 17, reworded
+Q: After a video of animals killed without stunning at a minority faith's festival, a bill bans killing any animal without stunning "for any purpose, religious or otherwise" (up to two years). Fishing and pest control are exempt. Grounds: cruelty is wrong whoever does it; 81% felt "disgust"; the bill names no religion, so it is "neutral". How would you vote?
+why: The bill's defence is that it is neutral. The two meanings of neutrality are E8.
+trap: E11 || No one gives a religious argument here; the faith is the bill's target.
+trap: E45 || E45 frames the vote, so half marks, but the neutrality claim needs E8.
+part: Your vote, as drafted || @vote || 2 || Neutral in wording, not in effect: it falls on one rite while fishing goes free, and disgust is not a reason. Regulate slaughter by a welfare standard that applies to everyone.
+part: "It names no religion, so it is neutral" || @right || 3 || Neutral in form is not neutral in effect. The exemptions show the line follows the majority's habits.
+
+@item h14
+kind: twist
+best: E2
+also: E9
+src: Reworded statement
+Q: "Objecting to a morals law because 'no one can really know right from wrong' is a weak objection. The serious objections are that the law's reasons are bad, or that it will do more harm than good."
+why: Which objections to enforcing morality count: moral and practical, not sceptical. That is E2.
+trap: E9 || E9 asserts scepticism. This statement rejects it.
+trap: E7 || No chain to who decides.
+part: Do you agree? || @stance || 1 || That is E2's answer: denying moral truth defeats itself. Add one point: doubt about who knows best is still a reason for care.
+
+# ---------- Family 2: testing a theory (E14-E19) ----------
+
+@item h15
+kind: hypo
+best: E19
+also: E45, E11
+src: Hypo 6, MP limb (your example)
+Q: A bill cuts the period for termination for any reason from 24 to 12 weeks, save to save the woman's life. Grounds: the MP's faith teaches life begins at conception; by 12 weeks there is a heartbeat and human form; 65% support "some reduction". A fellow MP says nobody can say when life begins, so Parliament should take no side. Whips are lifted. How would you vote? Judge each point.
+why: The fellow MP's claim is E19's statement word for word ("nobody can say when life begins, so take no side"), and the topic is abortion for the law-maker.
+trap: E23 || E23 is the judge's question about abortion. This is a vote.
+trap: E11 || The faith ground is one point inside the answer, so half marks at most.
+part: The fellow MP ("nobody can say, so take no side") || @right || 3 || Keeping 24 weeks also answers whether the unborn counts. Uncertainty calls for care, not a free pass (Chua in 1969; TSH's hunter).
+part: The MP's faith (life begins at conception) || Enough: on a free vote an MP may act on her faith alone | A voice, but not enough on its own || 2 || Faith may be spoken, but the law needs reasons those outside the faith can examine.
+part: 65% support "some reduction" || A mandate to cut the limit | Evidence only, and not for 12 weeks || 2 || A poll is evidence, not a mandate, and "some reduction" is not this reduction.
+part: Heartbeat and human form by 12 weeks || Decisive: a heartbeat shows a person is present | Relevant, but they need a moral premise || 2 || Embryology fixes the stakes once a moral premise is agreed. Either vote can be defended; what counts is giving public reasons.
+
+@item h16
+kind: hypo
+best: E18
+also: E45, E1
+src: Hypo 2, reworded
+Q: A bill lets doctors end the life of a terminally ill adult who asks, after two medical opinions and a 14-day wait. Supporters argue: people have a right to make the deepest decisions about their own lives; end-of-life care means suffering and is costly; and the bill "takes no side", since no doctor has to take part. Judge each ground, using Rawls and Finnis.
+why: Autonomy said to demand legal euthanasia, tested through Rawls and Finnis. That is E18.
+trap: E1 || E1 is intimate choices in general with all four theorists. The topic here is euthanasia.
+trap: E19 || E19 is abortion.
+part: Ground 1: a right to decide about your own life || Settles it: Rawls protects each citizen's autonomy first | Weighty, but first for neither Rawls nor Finnis || 2 || Treating autonomy as the highest value is a personal ideal, not a public reason.
+part: Ground 2: care is costly || A good reason: costs fall on taxpayers | It treats a life as a cost to be weighed up || 2 || Relieving suffering is a public reason; counting the cost of a life is not.
+part: Ground 3: the bill "takes no side" || @right || 3 || Permitting decides too. A narrow scheme might pass Rawls's test; Finnis would bar it.
+
+@item h17
+kind: hypo
+best: E15
+also: E45
+src: Hypo 19, reworded
+Q: Selling sex in private is lawful; soliciting in the street is an offence. A bill makes paying for sex anywhere an offence (up to three years), drops the street offence, and police will ignore two "tolerated" districts. Grounds: "any decent person knows it degrades both sides"; many sellers are trafficked or in debt; 68% say the trade "should not be seen". How would you vote?
+why: "Any decent person knows" is Devlin's reasonable man speaking. Test Devlin: E15.
+trap: E45 || E45 frames the vote, so half marks, but the decent-person ground is Devlin's.
+trap: E5 || E5 is the majority against private choice in general.
+part: Your vote || @vote || 2 || It reverses Wolfenden (lawful in private, off the streets). Trafficking supports offences aimed at coercion, not at every buyer, and ignoring two districts breaks congruence.
+part: "Any decent person knows" || Devlin's test is met | Ask whether twelve would agree after discussion || 2 || Devlin wants deliberated feeling, not instant disgust or a head-count.
+
+@item h18
+kind: twist
+best: E14
+also: E15
+src: Reworded statement
+Q: "Deciding what counts as harm under Hart's approach takes moral judgement, but that is no knock-down objection: for limiting what may be punished, nothing works better."
+why: Hart's theory under test: needs judgement, not fatal, still the best. That is E14 in other words.
+trap: E15 || Devlin is not under test here.
+trap: E21 || E21 is about judges and moral judgement.
+part: Do you agree? || @stance || 1 || That is E14's answer: not fatal, and best at limiting punishment. Add the limit: Hart says little about encouraging or regulating.
+
+@item h19
+kind: twist
+best: E16
+also: E11, E8
+src: Reworded statement
+Q: "A law is legitimate only if every citizen actually accepts the reasons given for it."
+why: Grounds every citizen can share: Rawls's test, under test. That is E16.
+trap: E11 || No religious argument in sight.
+trap: E8 || E8 is neutrality between views of the good life, without Rawls's legitimacy test.
+part: Do you agree? || @stance || 3 || Rawls means reasons citizens could reasonably accept, not ones they actually accept. Otherwise anyone would have a veto (Finnis's point).
+
+@item h20
+kind: twist
+best: E17
+also: E42
+src: Reworded statement
+Q: "Finnis's list of basic goods is so open that it could justify any law at all, unless it is really a religious code telling people how to live."
+why: Finnis's natural law either gives no guidance or dictates a way of life. That is E17, reworded.
+trap: E42 || E42 is natural law in general. Finnis's goods are named here.
+trap: E18 || No euthanasia in this statement.
+part: Do you agree? || @stance || 3 || A false choice: Finnis gives a few firm limits and a direction, then leaves room to choose. And his goods are grasped by reason, not faith.
+
+@item h21
+kind: hypo
+best: E14
+also: E45, E17
+src: Hypo 20, reworded
+Q: A bill lets any adult sell one kidney to a state agency for $60,000 after two opinions and a 30-day wait. Grounds: "My body is my own, and consent makes all the difference"; hundreds of lives would be saved; people already take dangerous jobs for money. 61% say they are "uncomfortable". Is Hart's or Finnis's approach more convincing here? Judge each point.
+why: The task asks whether Hart's approach holds up against a rival. Hart under test: E14.
+trap: E17 || Finnis is the rival here, so half marks.
+trap: E18 || E18 is euthanasia.
+part: "Consent makes all the difference" || @right || 2 || Consent matters a lot, but money pressure can make consent weak (Hart), and Finnis says consent cannot cure an intended harm to yourself.
+part: 61% are "uncomfortable" || Decisive: most people are uneasy | Evidence only || 2 || Discomfort is not a reason on its own.
+
+# ---------- Family 3: judges, lawyers and the Constitution (E20-E36) ----------
+
+@item h22
+kind: hypo
+best: E20
+also: E35, E42
+src: Hypo 13, reworded
+Q: A senior official tells a newly appointed judge: "Our Constitution is supreme and lists everyone's rights. You'll never need legal theory, and certainly not your own sense of right and wrong. Just follow the text." Her first case asks her to find a natural-law right to privacy in Article 9, against an offence the Court of Appeal upheld ten years ago. Respond to the official, and decide the case.
+why: A supreme written Constitution, so no need for theory or personal morality. That is E20.
+trap: E35 || E35 is about what "law" means under Article 4. The official's claim is about what a judge needs.
+trap: E42 || No claim that natural law is for the devout.
+part: The official's claim || @right || 3 || The claim is itself a philosophy. The Constitution settles who decides, not what its open words mean.
+part: Find the privacy right? || Yes: Article 9 must be read with natural law | No: follow precedent; this is not intolerable || 2 || Reading Article 9 needs a theory either way, but refusing to apply a law is only for intolerable injustice (Yong Vui Kong: no rights from "whole cloth").
+
+@item h23
+kind: hypo
+best: E21
+also: E28
+src: Hypo 23(c), reworded
+Q: A 1950 by-law bans "vehicles" from parks. One person is fined for riding an electric unicycle; another for putting a decommissioned army truck on a plinth as a war memorial. The judge says: "I just find out what the by-law's makers meant and apply it. Anything more is politics." Judge the judge, and the memorial.
+why: A judge who claims to apply only what the law is, with no moral judgement. That is E21.
+trap: E30 || E30 needs judges disagreeing about what the law is.
+trap: E28 || E28 compares statutes and common law across cases, so half marks.
+part: The judge's claim || @right || 2 || Purpose may settle the unicycle. But "simply apply it" hides a theory of reading rules.
+part: The memorial truck || A vehicle: uphold the fine | Needs a judgement about the rule's point || 2 || It is a vehicle in form, but not the kind of thing the rule is about. That takes judgement, made with fit and candour.
+
+@item h24
+kind: hypo
+best: E22
+also: E20
+src: Hypo 8 (Moonbites), reworded
+Q: A tax tribunal must decide whether "Moonbites" are cakes (no tax) or biscuits (taxed): soft when fresh, hard when stale, sold in the biscuit aisle. A columnist writes: "This needs no theory. A good dictionary will settle it." Is the columnist right?
+why: How far, and in what sense, a legal question turns on philosophy. That is E22.
+trap: E20 || E20 is about whether judges need philosophy at all under a supreme Constitution. It would work, so half marks.
+part: The columnist || @right || 3 || A dictionary lists the factors but cannot weigh them. The tribunal builds a working theory of "cake" (the Jaffa Cakes case).
+
+@item h25
+kind: hypo
+best: E23
+also: E36, E35
+src: Hypo 6, judge limb, reworded
+Q: Parliament cuts the abortion limit from 24 to 12 weeks. A woman argues in court that it takes her liberty otherwise than "in accordance with law" (Article 9) and denies her equal protection (Article 12). Her counsel adds: "Judges reason morally anyway, so the court should simply read a right to abortion into the Constitution." How should the judge decide?
+why: A judge asked to read a right into the Constitution because moral reasoning is unavoidable. That is E23.
+trap: E19 || E19 is the law-maker's question.
+trap: E36 || E36 is the general courts-or-Parliament question, so half marks.
+part: Strike the law down? || Strike it down | Uphold it: not intolerable || 2 || It is not intolerably unjust by broad historical consensus, and Article 12 asks only for a rational line (Lim Meng Suang).
+part: Counsel ("judges reason morally anyway, so...") || @right || 2 || The first half is right: moral reasoning is unavoidable. The "so" fails: fit, role and a high bar bind the judge.
+
+@item h26
+kind: hypo
+best: E24
+also: E33
+src: Hypo 24(b), reworded
+Q: A regime's decree strips a minority of citizenship and property. Advocate Brun is offered two briefs: acting for the state in the confiscation cases, and defending a minority family. He thinks: "Taking either brief makes me part of this system. The only honest thing is to leave the profession." What should he do?
+why: An unjust system, and a lawyer deciding whether to stay, refuse or resign. That is E24.
+trap: E33 || E33 is the lawyer in an ordinary system.
+trap: E43 || E43 is after the regime has fallen.
+part: The state's confiscation brief || Take it: the state deserves a lawyer too | Refuse it || 2 || It serves an intolerably unjust law.
+part: The family's defence || Take it | Refuse it: any brief props up the regime || 1 || It serves the law's victims: staying can protect them.
+part: "Leaving is the only honest course" || @right || 3 || Resigning is one option, never the only one. Refusing openly from within is loyalty to law.
+
+@item h27
+kind: hypo
+best: E25
+also: E33, E32
+src: Hypo 10 with 9(b), reworded
+Q: A supervising partner points to a study showing similar cases decided differently by different judges: "See? Judging is just politics, so theory is for academics. If the conduct rules don't forbid it, we do it for the client." Evaluate the advice.
+why: Judging is politics, so theory is idle, so serve the client. The cynic's chain is E25.
+trap: E33 || The last step needs E33's lawyer material, so half marks.
+trap: E32 || E32 is the realists and crits on whether rules decide, without the lawyer.
+part: What the study shows || That law is just politics | Some cases at the margins are open || 2 || Variation at the edges is not the same as politics, and a judge must justify, not predict.
+part: The partner's advice || @right || 3 || "Theory is for academics" is an unexamined theory, and "if the rules don't forbid it" treats the floor as the whole building.
+
+@item h28
+kind: hypo
+best: E26
+also: E32, E24
+src: Hypo 9(c), reworded
+Q: Judge Wong wants to rule for striking drivers lying across a depot entrance, though trespass plainly applies. A colleague says: "Judging is politics anyway; talk of loyalty to law is a cover. So just stay in your lane: apply the rule and leave the rest to Parliament." Judge the colleague, and say what Wong may do.
+why: Politics, fidelity a cover, so keep to your role. That chain is E26.
+trap: E25 || E25 ends with the lawyer serving the client.
+trap: E32 || E32 is the realists and crits on whether rules decide.
+part: The colleague || Right, for the right reasons | Right result, wrong reasons | Wrong: Wong should rule for the strikers || 2 || The rule does apply and is not intolerably unjust, so fidelity binds. But if fidelity were a cover, "stay in your lane" would be a cover too.
+part: What may Wong do? || Rule for the strikers by quietly bending the facts | Apply the rule, and say openly what she thinks | Resign: she cannot apply a rule she thinks unjust || 2 || Candour rules out hidden tricks. She may go along and speak openly.
+
+@item h29
+kind: hypo
+best: E27
+also: E30, E21
+src: Hypo 8 (Justice Lim), reworded
+Q: The Succession Act gives an estate "in equal shares to the deceased's children". Anil helped his dying father end his life at his request, was convicted and fined, and now claims his share. Justice Lim: "I apply the law as written, and that is what justice requires. Grand ideas like 'no one may profit from his own wrong' are too subjective." Is he right?
+why: Applying the law serves justice, so avoid lofty morality. That is E27.
+trap: E30 || E30 needs several judges disagreeing about what the law is.
+trap: E21 || E21 has no promise of justice, so half marks.
+part: Justice Lim || @right || 3 || Plain words secure only formal justice. The maxim is already part of the common law, so applying it is applying the law, not lofty morality.
+
+@item h30
+kind: hypo
+best: E30
+also: E31
+src: New hypo (a hard case)
+Q: A Wills Act requires a will to be "signed by the testator". A dying man types his name at the end of an email setting out his wishes. Three judges split: one says typing is not signing; one says the Act exists to honour clear wishes; one says precedent has run out, so the court must make new law. A commentator says: "They all agree on the law; they only disagree about whether to follow it." Is the commentator right?
+why: Several judges, and a claim that they never disagree about what the law is. That is E30.
+trap: E31 || E31 (Dworkin) would work, so half marks.
+trap: E27 || E27 is one judge's view, not a disagreement.
+part: The commentator || @right || 3 || All three accept the Act binds them. They disagree about what the law is: its grounds, not whether to obey it.
+
+@item h31
+kind: hypo
+best: E31
+also: E30, E28
+src: Hypo 23(b), reworded
+Q: A mother watches, live on a video call, as her daughter is hit by a negligent driver 200 km away, and suffers psychiatric illness. Past cases allow claims only at the scene or its immediate aftermath; none involves live video. The driver's lawyer says the court must not "legislate", and warns of a flood of claims. Judge each point.
+why: A hard case, principle against policy, find or make. That is Dworkin under test, E31.
+trap: E30 || E30 needs judges disagreeing about the law, so half marks.
+trap: E32 || E32 is the realists and crits.
+part: If the judge allows the claim, is she "legislating"? || Yes: no case covers live video | No: a principle says which differences matter || 2 || Like a chain novelist, she continues the law; she neither finds it ready-made nor invents it.
+part: The flood of claims || A principle: the court must protect defendants | Policy, better weighed by Parliament || 2 || Principles concern rights; floodgates is policy. Run both arguments.
+
+@item h32
+kind: hypo
+best: E32
+also: E25
+src: Hypo 9, reworded
+Q: A study of 10,000 decisions finds similar cases decided differently by different judges. A think-tank concludes: "Law is just a prediction of what judges will do. To change the law, change the judges." Is the think-tank right?
+why: Rules do not decide cases; law is prediction. That is the realists and crits, E32.
+trap: E25 || E25 needs the chain on to theory being idle and the lawyer serving the client.
+trap: E26 || E26 ends with the judge staying in role.
+part: The think-tank || @right || 3 || The study shows that some cases at the margins are open, not that law is prediction. A judge cannot predict her own ruling; she must justify it.
+
+@item h33
+kind: hypo
+best: E33
+also: E20, E25
+src: Hypo 10, reworded
+Q: Your partner says: "Leave your conscience at the door. If the conduct rules don't forbid it, we do it." This week a factory asks for "the real limit" (its licence caps effluent at 0.050 g/l, but readings up to 0.075 are ignored); a client wants you to plead a time bar against a debt he admits he owes; and a house seller wants you to answer only what buyers ask, though termite damage has been painted over. What do you do?
+why: A lawyer's ordinary week, and "it's just a job". That is E33.
+trap: E24 || E24 is an immoral system, not ordinary practice.
+trap: E20 || E20's lawyer limb helps with the time bar, so half marks.
+part: The effluent limit || Tell them only the licence limit, nothing else | Tell both figures; don't encourage a breach | Advise them they can safely run at 0.075 || 2 || Give the client the facts, without encouraging a breach.
+part: The time bar || Plead it, but first talk about paying | Refuse: pleading it against a just debt is dishonest | Plead it: it is lawful, so no discussion is needed || 1 || The law is a floor: pleading it is lawful, and dialogue comes before any refusal.
+part: The termites || Fine: buyer beware | Risky: a half-truth may misrepresent || 2 || Answering only what is asked can still mislead.
+
+@item h34
+kind: hypo
+best: E34
+also: E44
+src: Hypo 18(iii), reworded
+Q: Under new outbreak rules, Officer Tan's superior tells him to fine gatherings in older housing estates and "leave the better neighbourhoods alone". The Health Minister, given power to make "such rules as he thinks fit", says the hard choices are his alone. Judge each.
+why: Each actor and the limits of his role. That is E34.
+trap: E44 || The discriminatory enforcement raises rule-of-law points, so half marks.
+trap: E21 || E21 is about judges.
+part: Must Tan comply? || Yes: his superior answers for the order | Raise it, then refuse the unequal part | Refuse the whole job and report his superior || 2 || Loyalty is owed to law, not rank.
+part: The Minister's open-ended power || Fine: health experts should make these calls | Parliament ducking its own job || 2 || Handing open-ended power to the executive is abdication.
+
+@item h35
+kind: hypo
+best: E35
+also: E20
+src: New hypo
+Q: A litigant argues that "law" in Article 9 must mean fair law, not just whatever Parliament passes. The Attorney-General replies: "Article 4 makes the Constitution supreme, so we are all positivists now: law is whatever is validly enacted, and the text answers every question." Is the Attorney-General right?
+why: Supremacy said to settle what law is. That is E35.
+trap: E20 || E20 is about whether judges need philosophy, so half marks.
+trap: E36 || E36 is about who decides contested questions.
+part: The Attorney-General || @right || 3 || Supremacy moves the debate into how to read "law" and "equal". Reading "law" as "whatever is validly passed" is circular.
+
+@item h36
+kind: hypo
+best: E36
+also: E24
+src: Hypo 13(c), (e), reworded
+Q: By a two-thirds vote, Parliament amends the Constitution so the Prime Minister may postpone general elections indefinitely during an "emergency", with no court review. The Minister says: "Any judge who strikes down a properly passed amendment usurps Parliament." A litigant replies that the Constitution binds no one alive, because no one alive consented to it. Judge both.
+why: Amendment, legitimacy and who decides, courts or Parliament. That is E36.
+trap: E24 || E24 is for an intolerable law and whether to resign.
+trap: E35 || E35 is what "law" means, not who decides.
+part: The Minister || @right || 2 || Parliament is the normal forum, but "never" ignores the other vice, abdication, and indefinite postponement may be the rare case where the threshold is live.
+part: The litigant (no one alive consented) || @right || 3 || Consent is not what makes a Constitution legitimate: equal dignity and the reasons owed to citizens are.
+
+@item h37
+kind: twist
+best: E28
+also: E22, E21
+src: Reworded statement
+Q: "Whenever a judge decides a case, under a statute or the common law, it is her moral views that end up deciding it."
+why: Morality implicated in common law and statute cases. That is E28.
+trap: E22 || E22 adds lawyers and "all legal argument", so half marks.
+trap: E21 || E21 says the opposite: no moral judgement at all.
+part: Do you agree? || @stance || 3 || Morality is always in the background but decides only hard cases and extreme injustice, more often at common law than under a statute.
+
+@item h38
+kind: twist
+best: E29
+also: E22, E28
+src: Reworded statement
+Q: "Every judge and lawyer works with some theory of what law is and what their job allows, and that theory sets when the justice of a case may override a rule."
+why: Theory guides judges and lawyers, including the justice of the case. That is E29.
+trap: E22 || E22 is about all legal argument, with three limbs.
+trap: E25 || E25 says theory is idle.
+part: Do you agree? || @stance || 1 || That is E29's answer: theory frames every case and sets when justice may override. It decides outcomes only in hard cases.
+
+@item h39
+kind: twist
+best: E33
+also: E25
+src: Reworded statement
+Q: "Lawyers are like plumbers: they fix what the client asks, and their own morals do not come into it as long as they stay within the law."
+why: The lawyer as a hired technician, morally sealed off. That is E33.
+trap: E25 || E25 starts from judging being politics.
+trap: E24 || No immoral system here.
+part: Do you agree? || @stance || 3 || The role is itself moral. Within the law, choosing clients, moral dialogue and objection remain.
+
+@item h40
+kind: twist
+best: E21
+also: E27
+src: Reworded statement
+Q: "A good judge leaves her values at the courtroom door and simply reports what the law says."
+why: Judges should use no moral judgement, only what the law is. That is E21.
+trap: E27 || E27 adds a promise that this serves justice.
+trap: E20 || E20 adds the supreme written Constitution and lawyers.
+part: Do you agree? || @stance || 2 || Right that a judge should not decide by personal conviction. Wrong that she can leave all values behind: morality is always in the background and decides hard cases.
+
+# ---------- Family 4: what law is, and what we owe it (E37-E44) ----------
+
+@item h41
+kind: hypo
+best: E40
+also: E41, E38
+src: Hypo 24(a), reworded
+Q: Under a regime's decree, every citizen must report any minority neighbour hiding property. Mila is told: "The decree is the law, that is a fact; most people support it; your conscience has nothing to say." Must she report?
+why: Law as a fact, opinion settles it, so conscience has no claim. That is E40.
+trap: E41 || E41 ends in "simply obey" because no legitimacy can be shown.
+trap: E24 || E24 is a judge or lawyer, not a citizen.
+part: Must Mila report? || Yes: it is valid law, and most people support it | No: it is intolerably unjust || 2 || That the decree is law says nothing about whether to obey it, and stripping a minority of property is intolerable on every theory.
+part: "Most people support it" || Settles what she should do | Evidence, not a reason || 2 || Majority support is evidence to weigh, never the answer.
+
+@item h42
+kind: hypo
+best: E41
+also: E40, E24
+src: Hypo 24(c), reworded
+Q: Sergeant Voss is ordered to clear a minority village under the decree. He reasons: "Orders under the decree are the law of the land. Nobody can prove any law legitimate anyway. So I have no choice but to obey." Is he right, and what should he do?
+why: Law, no legitimacy provable, so simply obey. That chain is E41.
+trap: E40 || E40 ends in "conscience has no claim", so half marks.
+trap: E39 || E39 has no "so obey".
+part: Voss's reasoning || @right || 3 || If no legitimacy can be shown, nothing shows he must obey either: his own premise undoes his conclusion.
+part: What should he do? || Obey | Refuse openly | Pretend to obey and quietly sabotage || 2 || Loyalty is owed to law, not rank, and Alexy's risk effect reaches an officer who is "neither a saint nor a hero".
+
+@item h43
+kind: hypo
+best: E38
+also: E40, E41
+src: Hypo 18(ii), reworded
+Q: A law requires every adult to be vaccinated, with fines and, after a third refusal, six months in jail, and no conscience exemption. Mdm Goh refuses: her conscience forbids it, she is a "sovereign citizen" whom Parliament's laws do not bind, and she will accept any punishment. What do you say to her?
+why: The citizen and the duty to obey. That is E38.
+trap: E40 || E40 is the claim that conscience has no claim. Here the citizen claims too much.
+trap: E41 || No "simply obey" chain here.
+part: "Parliament's laws do not bind me" || @right || 3 || Whether a law binds is a question about what officials accept. Whether she should obey is a separate, moral question.
+part: Your advice || Obey, or refuse openly and accept the penalty | Refuse quietly and avoid the penalty: conscience wins | Obey: conscience never counts against a valid law || 1 || Fair play and harm to others weigh heavily, and this law is not gravely unjust. Open refusal is the most conscience allows.
+
+@item h44
+kind: hypo
+best: E43
+also: E24
+src: Hypo 11, reworded
+Q: After a regime falls: Mrs Kova had reported her husband's private jokes about the regime under a secret decree, to be rid of him; he was sentenced to death but survived. Judge Ferro applied the regime's decrees in 300 cases: "Law is law. My conscience is my private business." Judge each.
+why: After the regime falls: a retroactive statute, the grudge informer, the judge who applied the decrees. That is Radbruch under test, E43.
+trap: E24 || E24 is a judge deciding whether to stay while the regime lasts, so half marks.
+trap: E38 || E38 is a citizen deciding whether to obey.
+part: A new law punishing such informers retroactively || Fine: retroactive punishment is never a problem | Honest (Hart), but retroactivity weighs against it | Wrong: the decrees were valid, so she did nothing wrong || 2 || Hart prefers a frankly retroactive law; the cost is retroactivity.
+part: Ferro ("law is law; my conscience is private") || @right || 3 || That is the pre-war positivism Radbruch blamed. The decrees betrayed equality, and the risk effect reaches Ferro.
+
+@item h45
+kind: hypo
+best: E44
+also: E45
+src: Hypo 12, reworded
+Q: The Law Minister proposes four measures. How would you vote on each?
+why: A package tested by the rule of law: Fuller's requirements applied. That is E44.
+trap: E45 || E45 is for a morals bill with grounds. This is a package tested by legality, so half marks.
+trap: E34 || E34 is about the limits of roles.
+part: (a) Mandatory caning for third-time littering, "treating like cases alike" || @vote || 2 || Treating like cases alike by any standard of "like" gives certainty, not justice.
+part: (b) A new offence of lending bank accounts to scammers, covering accounts lent since last January || @vote || 2 || It punishes conduct that was lawful when done: retroactive.
+part: (c) A law validating 2,000 marriages void only because the registrar's appointment had lapsed || @vote || 1 || A curing law protects people who relied in good faith. Retroactivity is fine here.
+part: (d) Keeping an unused 50-year-old offence "as a signal" || @vote || 2 || A law officials never apply breaks the match between the rules and official action (congruence).
+
+@item h46
+kind: hypo
+best: E37
+also: E43
+src: Hypo 24(d), reworded
+Q: A refugee sues a bank here for jewellery a foreign regime confiscated from her under a decree stripping her minority of property. The regime's lawyers say: "The decree is law in that country. That is simply a fact, and our courts must respect it." Judge both points.
+why: Is law simply a fact? That is E37.
+trap: E43 || E43 covers the foreign court too, so half marks.
+trap: E40 || No conscience claim here.
+part: "The decree is law there; that is a fact" || @right || 2 || To an observer it was law there (and naming it law lets us condemn it), but "simply a fact" hides a choice about whose recognition counts.
+part: Should our court give the decree effect? || Yes: it is a foreign fact | No: too evil to be given effect here || 2 || Our judge is a participant in her own system.
+
+@item h47
+kind: twist
+best: E39
+also: E44
+src: Reworded statement
+Q: "In the end, law is just force in nicer clothes. Whatever justification is offered either can't be proved or simply means 'it works'."
+why: Law against force is hollow; legitimacy is either unprovable or effectiveness. That is E39.
+trap: E44 || E44 is the rule of law as efficiency.
+trap: E41 || There is no "so obey".
+part: Do you agree? || @stance || 3 || Law binds the ruler too, effective is not legitimate, and a reason that can't be proved can still be examined, which a gunman's order cannot.
+
+@item h48
+kind: twist
+best: E42
+also: E37
+src: Reworded statement
+Q: "Positivists and natural lawyers aren't really arguing: one side describes the law, the other preaches about it."
+why: Positivism and natural law at cross purposes. That is E42.
+trap: E37 || E37 is law as social fact.
+trap: E17 || E17 is Finnis alone.
+part: Do you agree? || @stance || 3 || Both answer the same question, what law is, and differ only at the extreme of injustice.
+
+@item h49
+kind: twist
+best: E38
+also: E40, E41
+src: Reworded statement
+Q: "Citizens have a strong moral duty to obey the law, which serious injustice can override but simple disagreement cannot."
+why: The citizen's duty to obey. That is E38's repaired statement.
+trap: E41 || E41's repair says the same, so half marks, but E41 is the "simply obey" chain.
+trap: E39 || E39 is law against force.
+part: Do you agree? || @stance || 1 || That is the line E38, E40 and E41 all end on.
+
+@item h50
+kind: twist
+best: E44
+also: E27
+src: Reworded statement
+Q: "If a government follows clear, public, forward-looking rules, its laws will be just."
+why: The rule of law as a guarantee of justice. That is E44.
+trap: E27 || E27 is about judges.
+trap: E39 || E39 is law against force.
+part: Do you agree? || @stance || 3 || Clear, public rules can still be evil (Ordinance 11 had legal form). Legality is a condition of justice, not a guarantee.
+
+# ---------- The problem question (E45) ----------
+
+@item h51
+kind: hypo
+best: E45
+also: E17, E44
+src: Hypo 15 (your example)
+Q: Trafficking already carries up to 30 years. A bill makes death mandatory for trafficking over 15 grams of "Velvet", applies it to 40 prisoners already serving terms, and lets a court substitute life only if the Prosecutor certifies the offender a helpful courier, the certificate unquestionable. Grounds: those who deal in death deserve to die; each kilogram ruins about a hundred lives and death deters; 83% support it for "drug lords". How would you vote on each part?
+why: A bill with grounds, voted on part by part. That is E45, with its severity and death-penalty blocks; Finnis's absolute helps on part (a).
+trap: E17 || Finnis's absolute helps with part (a), so half marks, but the plan is E45's.
+trap: E44 || Parts (b) and (c) use Fuller, but the task is a vote on a bill, so half marks.
+part: (a) Death made mandatory over 15 grams || @vote || 2 || Finnis: a law that intends death is wrong whatever the deterrence figures; Hart: how severely to punish needs its own case, and a mandatory term buys certainty, not justice. Long prison terms remain open.
+part: (b) Applying it to the 40 prisoners already serving || @vote || 2 || It increases punishment after the fact: retroactive, against Fuller.
+part: (c) Life only if the Prosecutor certifies, the certificate unquestionable || @vote || 2 || An unreviewable certificate hands sentencing to the prosecutor and fails Fuller.
+part: The 83% poll || Supports the bill | Doesn't match: the bill reaches couriers too || 2 || A poll is evidence, and this one asked a different question. "Each kilogram" also does not match a 15-gram line.
+
+@item h52
+kind: hypo
+best: E45
+also: E2, E1
+src: The Chief hypo, reworded
+Q: A bill bans selling or consuming any mood-altering drink or smoke, with long jail terms and no exceptions, even at religious rites. Grounds: a large minority faith forbids intoxicants; studies say they "tend to" harm health; 85% at least "somewhat" support it. How would you vote as an MP, and would you enforce it as a judge?
+why: A bill with three grounds, then two hats. That is E45.
+trap: E2 || E2 supplies kits (the poll), not the plan, so half marks.
+trap: E18 || E18 is euthanasia.
+part: As an MP || @vote || 2 || Faith is a voice, health supports controls not jail, the poll is evidence. Move licensing, limits on sale and education instead.
+part: As a judge, if validly passed || Enforce it: harsh, not intolerable | Refuse: a judge may not apply an unjust law || 1 || Climb the ladder (valid? how to read it? a constitutional challenge? intolerable?). Say openly if you think it unjust.
+
+@item h53
+kind: hypo
+best: E45
+also: E44, E34
+src: New hypo (contagion)
+Q: A bill makes it an offence (up to two years) to knowingly expose others to a serious infectious disease, and lets the Health Minister add diseases to the list by unpublished order, "as he thinks fit". Grounds: an outbreak killed 300 people last year; a faith teaches that caring for the sick is a duty; 74% support it. How would you vote on each part?
+why: A bill to vote on where harm to others is plainly made out. E45: support the offence and argue about the powers.
+trap: E44 || The unpublished order raises Fuller's points, so half marks, but the task is a vote.
+trap: E34 || E34 is for an official deciding the limits of his role.
+part: (a) The offence itself || @vote || 1 || Harm to others is plainly made out, so every theory supports punishing it. The live questions are the penalty and the powers.
+part: (b) The Minister's unpublished power to add diseases || @vote || 2 || Secret, open-ended rules fail Fuller's requirements of publicity and clarity, and Parliament should not hand its job away.
+
+@item h54
+kind: hypo
+best: E45
+also: E44
+src: New hypo (forced labour)
+Q: A bill creates an offence of trafficking people into forced labour, with a mandatory ten years' jail and twelve strokes of the cane, no exceptions. Grounds: victims are trapped and beaten; a faith condemns slavery; 92% support it. How would you vote on each part?
+why: A bill to vote on, harm plainly made out, with a severity question. That is E45.
+trap: E44 || A mandatory penalty is a severity question inside E45, not a rule-of-law package.
+trap: E15 || There is no appeal to shared morality; the harm is plain.
+part: (a) The offence || @vote || 1 || Harm to others is plain. Support it.
+part: (b) The mandatory penalty || @vote || 2 || Whether to punish and how severely are separate questions (Hart). A mandatory term buys certainty, not justice: give judges a high maximum instead.
+
+@item h55
+kind: hypo
+best: E45
+also: E6, E44
+src: Hypo 5, reworded
+Q: A bill makes it an offence (up to five years) to publish anything "offensive to the religious feelings of any group"; prosecutions need the Minister's consent, with no published guidelines. Grounds: harmony is fragile; believers are hurt even by private mockery; 88% say religion "should be respected". It passes. A comedian sends a video mocking a festival to 20 friends. Answer each part.
+why: A bill to vote on, then the judge's hat. That is E45.
+trap: E11 || Religion is the bill's subject, not the reason given for it.
+trap: E6 || E6 fits if the mover says liberty must be sacrificed; here you vote and judge, so half marks.
+part: As an MP || @vote || 2 || Distress at what others say in private is not harm, secret guidelines fail Fuller, and "respect" is not a call for jail.
+part: As judge, your first step with the comedian || Convict: the law is valid and plainly applies | First ask: is 20 friends "publishing"? | Refuse to apply a law that offends free speech || 2 || Read the word first, then climb the judge's ladder. The law is harsh but not intolerable.
+part: 88% say religion "should be respected" || A mandate: most want offenders punished | Respect is not a call for jail || 2 || The poll asked a different question.
+
+@item h56
+kind: hypo
+best: E45
+also: E1
+src: New hypo (cannabis)
+Q: A bill makes possessing any amount of cannabis for personal use punishable by a mandatory two years' jail. Grounds: a faith condemns intoxication; studies link cannabis to psychosis; 70% want "drugs kept out". How would you vote, and as a judge would you impose the sentence?
+why: A bill with grounds, vote then judge. That is E45, with its severity block.
+trap: E1 || E1 is a statement about a right to decide, not a bill to vote on.
+trap: E44 || A mandatory sentence is a severity point inside E45.
+part: As an MP || @vote || 2 || Health supports controls and treatment, not jail for the user, and the mandatory term buys certainty, not justice.
+part: As a judge, if validly passed || Impose it: harsh, not intolerable | Refuse: a judge need not impose an unjust term || 1 || Fidelity to a valid law short of intolerable injustice. Say openly if you think it unjust.
+
+@item h57
+kind: hypo
+best: E45
+also: E44, E34
+src: New hypo (sugar)
+Q: A bill bans drinks above a set sugar level, fines sellers (not buyers), and lets the Health Minister add any food to the ban "as he thinks fit" by order. Grounds: diabetes costs are soaring; a faith condemns gluttony; 61% support it. How would you vote on each part?
+why: A public-health bill with grounds and a ministerial power. That is E45.
+trap: E44 || The Minister's power raises Fuller's points, but that is one part, so half marks.
+trap: E11 || The faith ground is one of three.
+part: (a) The sugar limit, with fines on sellers || @vote || 1 || Regulating sale is low on the ladder, and health is a public reason. Nobody is jailed for drinking.
+part: (b) The Minister may add any food "as he thinks fit" || @vote || 2 || Open-ended power fails Fuller's clarity and hands Parliament's job to the executive.
+part: "A faith condemns gluttony" || A ground: many citizens share the faith | A voice, not a ground || 2 || Faith may be spoken, but the law needs reasons others can examine.
+
+@item h58
+kind: hypo
+best: E45
+also: E4, E12
+src: Hypo 7, reworded
+Q: A bill gives housing grants and tax relief only to married parents. Grounds: the main faiths hold marriage sacred; children of married parents do better on average; the Constitution invites Parliament to protect marriage. An opposition MP says: "Let's hold a referendum instead and let the people decide." How would you vote on each?
+why: A bill to vote on, low on the ladder, plus a call for a referendum. That is E45.
+trap: E4 || E4 helps on the referendum (whose morality), so half marks.
+trap: E12 || E12 is what Singapore's 2007 and 2022 decisions show, so half marks.
+part: (a) Grants and tax relief for married parents || @vote || 1 || Promotion is the lowest rung and Article 156 invites it. Take care that children of single parents are not punished.
+part: (b) A referendum instead || @vote || 2 || A head-count is not a reason, and MPs must decide (Masagos).
+
+@item h59
+kind: hypo
+best: E45
+also: E3, E8
+src: Hypo 16, reworded
+Q: Men of one minority faith may take up to four wives; everyone else faces seven years for bigamy. A bill would let any three or more consenting adults register a plural marriage. Grounds: the state has no business preferring one kind of family; plural unions harm no one; the present law is arbitrary. An opponent says one-to-one marriage is "built into the house we live in", citing a 74% poll. Judge each point.
+why: A bill to vote on, with its plural-marriage points. That is E45.
+trap: E3 || E3's chain is close to the first ground, so half marks, but the task is a bill.
+trap: E15 || The opponent quotes Devlin, but Devlin is not under test.
+part: "The state has no business preferring one kind of family" || @right || 3 || Neutral outcomes are impossible: permitting and refusing both take a side.
+part: "Plural unions harm no one" || Settles it | Raises who counts: wives and children || 2 || Ask who bears the harm before saying there is none.
+part: The opponent's "house we live in" || Devlin's point wins: 74% share the house | Assumes one house; the law has two kinds || 2 || And a 74% poll is evidence, not a mandate.
+
+# ---------- No essay fits (G1) ----------
+
+@item h60
+kind: g1
+best: G1
+also: E14, E15
+src: Statement type: same result
+Q: "Hart and Devlin would both oppose jailing adults for drinking at home, so their famous quarrel makes no practical difference."
+why: Same result, so the theory is idle. No essay holds it: G1's first type.
+trap: E14 || E14 tests Hart alone.
+trap: E15 || E15 tests Devlin alone.
+part: Do you agree? || @stance || 3 || Grant the agreement, then show the reasons still decide the hard case, the next case, and what the loser is owed.
+
+@item h61
+kind: g1
+best: G1
+also: E34, E24
+src: Statement type: the role
+Q: "Whoever acts within a legitimate role, whether judge, official or lawyer, is not responsible for what that role requires of them."
+why: The role answers for its wrongs. No essay holds it: G1's role type.
+trap: E34 || E34 is about keeping within role limits, not responsibility.
+trap: E24 || E24 is an immoral system.
+part: Do you agree? || @stance || 2 || A just role carries the responsibility for ordinary outcomes, never for intolerable ones.
+
+# ---------- More items where the right call is to vote for, or to agree ----------
+
+@item h62
+kind: hypo
+best: E45
+also: E14
+src: New hypo (smoking and licensing)
+Q: A bill bans smoking in enclosed public places and outside hospital entrances, and requires shops to hold a licence to sell alcohol, with no sales after 10.30 pm. Grounds: second-hand smoke harms staff and patients; a faith condemns intoxication; 64% support it. How would you vote on each part?
+why: A bill with grounds to vote on, part by part. That is E45: its health section says harm to others supports public-smoking bans, and the "narrower measures" it recommends are licensing and limits on sale.
+trap: E14 || Hart's harm principle does the work here, so half marks, but the task is a vote on a bill.
+trap: E2 || E2 is whether enforcing morality is legitimate, not a public-health bill.
+part: (a) The smoking ban in enclosed public places || @vote || 1 || Second-hand smoke harms others who have not consented: harm to others is made out.
+part: (b) Licensing alcohol sales, none after 10.30 pm || @vote || 1 || Regulating sale is a low rung on the ladder; nobody is jailed for drinking.
+part: "A faith condemns intoxication" || A ground: many citizens share the faith | A voice; the bill rests on its other reasons || 2 || Faith may be spoken, but the law needs reasons others can examine, and here it has them.
+
+@item h63
+kind: hypo
+best: E45
+also: E12, E1
+src: New hypo (repeal and promote)
+Q: A bill repeals the offence of adultery, unused for 30 years, and funds free marriage counselling for any couple who asks. An MP opposes the repeal: "Removing the offence tells people adultery is fine, so the state will have taken a side." How would you vote on each part, and is the MP right?
+why: A bill to vote on: punishment down, promotion up. That is E45, following the 2022 model in E12.
+trap: E12 || E12 is what Singapore's 2007 and 2022 decisions show. It would work, so half marks.
+trap: E1 || E1 is a statement about the right to decide, not a bill.
+part: (a) Repealing the offence || @vote || 1 || Jail for adultery needs the strongest reasons, and an unused offence only hands police discretion.
+part: (b) Funding marriage counselling || @vote || 1 || Promotion is the lowest rung of the ladder.
+part: The MP ("repeal takes a side") || @right || 2 || Repeal does take a side, since permitting decides too. But some side is unavoidable: the question is which rung the reasons support, and here it is promotion, not punishment.
+
+@item h64
+kind: hypo
+best: E45
+also: E2
+src: New hypo (an amendment to a gambling ban)
+Q: A bill would close the only casino and jail anyone who gambles. An amendment would instead keep the casino open, charge citizens a steep entry levy, and let families apply to bar a problem gambler. The ban's supporters reply: "Gambling is a sin, so anything less than a ban condones it." How would you vote on the amendment, and are the supporters right?
+why: A bill and an amendment to vote on. That is E45: the vote moves from punishing to regulating.
+trap: E2 || E2's "sin is not crime" helps, so half marks, but the task is a vote.
+trap: E11 || E11 is about religious arguments in general.
+part: The amendment (levy and family bars, instead of jail) || @vote || 1 || The justification needed rises with the coercion: regulation and help are justified where jail for players is not.
+part: The supporters ("anything less than a ban condones it") || @right || 3 || Sin is not crime. Choosing a lower rung on the ladder is not approval.
+
+@item h65
+kind: twist
+best: E36
+also: E23, E34
+src: Reworded statement
+Q: "Parliament, not the courts, should normally settle contested moral questions, though a court may refuse to apply a law that is intolerably unjust."
+why: Courts or Parliament on contested moral questions. That is E36's repaired statement.
+trap: E23 || E23 is a judge asked to read a right into the Constitution.
+trap: E34 || E34 is about every role's limits, not courts against Parliament.
+part: Do you agree? || @stance || 1 || That is E36's answer: Parliament is the normal forum, and only intolerable injustice, shown by broad historical consensus, defeats the presumption.
+
+@item h66
+kind: twist
+best: E11
+also: E16
+src: Reworded statement
+Q: "An MP may argue from her faith, but a law that binds everyone needs at least one reason that people outside the faith can test."
+why: Faith reasons in law-making. That is E11's repaired statement.
+trap: E16 || E16 tests Rawls's public reason as a theory, so half marks.
+trap: E9 || No claim that morality is just opinion.
+part: Do you agree? || @stance || 1 || That is E11's answer: speak from faith, coerce on reasons others can examine.
+
+@item h67
+kind: twist
+best: E23
+also: E28, E36
+src: Reworded statement
+Q: "Because judges cannot avoid moral reasoning, they should read the Constitution's moral words in the light of the legal record, and set the text aside only for intolerable injustice."
+why: Moral reasoning in judging, the Constitution and its limits. That is E23's repaired statement.
+trap: E28 || E28 is about common law and statutes.
+trap: E36 || E36 is courts or Parliament in general, so half marks.
+part: Do you agree? || @stance || 1 || That is E23's answer: unavoidable is not a licence; fit, role and a high bar bind the judge.
+
+@item h68
+kind: twist
+best: E5
+also: E1
+src: Reworded statement
+Q: "Private choices should always win against the majority's morality, unless someone else is harmed."
+why: Private choice against the majority, with harm as the line. That is E5's form (b).
+trap: E1 || E1 starts from a right to decide, with no majority.
+trap: E3 || No three-link chain here.
+part: Do you agree? || @stance || 2 || Harm to others is the strongest reason to punish, but deciding what counts as harm is itself moral, and Hart also allows protecting people with weak consent, and public decency.
+
+@item h69
+kind: twist
+best: E31
+also: E30
+src: Reworded statement
+Q: "In a hard case the judge must find the reading that best fits and justifies the law, and that reading can be proved correct to any fair-minded lawyer."
+why: One right answer in a hard case. That is Dworkin under test, E31.
+trap: E30 || E30 is about whether judges disagree about what the law is.
+trap: E32 || E32 is the realists and crits.
+part: Do you agree? || @stance || 2 || Right that she must seek the reading that best fits and justifies the law. Wrong that it can be proved: "one right answer" is a goal, not a proof.
+
+@item h70
+kind: twist
+best: E37
+also: E40, E10
+src: Reworded statement
+Q: "Laws come from people, not from heaven, so in the end public opinion is the right test of what our laws should say."
+why: Law is made by people, so only social fact (what people think) counts. That is E37.
+trap: E10 || E10 is about the legislator's job and majority will, so half marks.
+trap: E40 || E40 ends with conscience.
+part: Do you agree? || @stance || 2 || Right that law's sources are social facts. Wrong that opinion settles what law should be: it is evidence to weigh, never the answer.

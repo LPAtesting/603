@@ -1,0 +1,375 @@
+# Family 3: Judges, lawyers and the Constitution (E20-E36)
+
+@card E20
+say: With a supreme written Constitution that sets the tests of law and lists rights, judges and lawyers have no practical need for legal philosophy or personal morality. Obeying the law always gives them enough moral guidance.
+verdict: disagree
+answer: Disagree: the statement is itself a philosophy. The Constitution settles who decides, not what its open words mean. Following the law is necessary, but never always enough.
+step: Philosophy: the Constitution's open words (like "law" in Article 9) need a theory to read. Even Article 4's supremacy rests on officials accepting it.
+step: Morality in judging is disciplined, not private: it is tested on appeal and checked by broad historical consensus.
+step: "Always enough": the law leaves many lawful choices, such as pleading a time bar against a debt the client admits. The law is a floor, not a ceiling.
+remember: The Constitution settles who decides, not how; following the law is necessary, never always enough.
+spot: A supreme written Constitution, so judges and lawyers need no philosophy or morality; complying is enough.
+Q: Which statement is E20?
+* "With a supreme Constitution, judges need no philosophy or morality." || Right.
+- "Article 4 settles the debate between natural law and positivism once and for all." || That is what law is under the Constitution: E35.
+- "Judges should apply only what the law is, and that is desirable in a democracy." || About judges alone: E21.
+Q: "The law is a floor, not a ceiling." What does that mean for a lawyer?
+* Obeying the law is the minimum, not the whole job. || Right: above the floor there are still moral choices.
+- Anything lawful is automatically the right thing to do. || That treats the floor as the ceiling.
+- Lawyers may break the law when the cause is good enough. || The floor still binds.
+Q: What does the Constitution settle, on E20's answer?
+* Who decides, not what its open words mean || Right.
+- Every legal question, so no theory is needed || Words like "law" and "equal" still need reading.
+- Nothing at all: it is only a piece of paper || Too far: it settles who decides.
+
+@card E21
+say: Judges do not, and should not, use any moral judgement; they deal only with what the law is. In a constitutional democracy that is a good thing.
+verdict: partly
+answer: Partly agree: judges should not decide by personal views. But "no moral judgement at all" is neither true nor desirable: morality is always in the background and decides hard cases.
+step: "Any": even Hart's judge must use judgement in unclear cases. Easy cases rest on a shared theory.
+step: "Only what the law is": working out what the law is needs a theory. In Riggs the judges agreed the statute bound them, and still split over what it required.
+step: "Desirable": aim for a judge whose morality is always present and rarely decisive. Avoid two vices: taking over Parliament's job, and rubber-stamping.
+remember: Always in the background, rarely decisive: disciplined morality, not none.
+spot: Judges use no moral judgement, only "what the law is", and that is desirable.
+Q: Which statement is E21?
+* "Judges use no moral judgement; only what the law is." || Right.
+- "All legal argument turns on philosophy and morality, even where precedent is heavy." || The opposite claim: E22.
+- "Judging according to law serves justice, so judges should avoid lofty morality." || That adds a promise of justice: E27.
+Q: What is the right ideal judge on E21's answer?
+* Morality in the background, rarely decisive || Right: disciplined by fit and candour.
+- A judge with no moral views at all, ever || Not available, and not desirable.
+- A judge who decides by her own conscience || That is usurpation.
+Q: Name TSH's two vices for judges.
+* Taking over Parliament's job, and rubber-stamping || Right: usurpation and abdication.
+- Deciding too slowly, and deciding too quickly || Not the vices meant.
+- Citing philosophy, and citing religious texts || Not the vices meant.
+
+@card E22
+say: All legal argument turns on legal philosophy, morality and justice, even where precedent is heavy. To what extent, in what sense, and with what effects?
+verdict: partly
+answer: Partly agree: every argument assumes a theory of law, but morality decides only hard cases and extreme injustice. The effect is disciplined roles, not a free hand.
+step: To what extent: Dworkin says everywhere; Hart says only at the edges. Philosophy is always assumed, but decisive only at the margins (Riggs).
+step: In what sense: a working theory of law, not quoting philosophers in court. The Jaffa Cakes tribunal reasoned like philosophers about "cake" without citing any.
+step: Effects: for lawyers, the law is a floor and talking comes before refusing; for judges, avoid taking over and rubber-stamping.
+remember: All argument assumes theory; only hard cases make it decide.
+spot: "All legal argument", "even where precedent is heavy", with three limbs: extent, sense, implications.
+Q: Which statement is E22?
+* "All legal argument turns on philosophy, even where precedent is heavy." || Right.
+- "Theory and morality are implicated in deciding common law and statute cases." || That compares sources of law: E28.
+- "Theory necessarily guides judges and lawyers, including the justice of the case." || That is E29.
+Q: What did the Jaffa Cakes tribunal show?
+* Courts reason like philosophers about words. || Right, without citing any.
+- Tax law has nothing to do with legal theory. || The opposite.
+- A good dictionary settles every hard case. || A dictionary lists factors; it can't weigh them.
+Q: When does morality actually decide a case, on E22's answer?
+* In hard cases and at extreme injustice || Right.
+- In every single case, easy or hard || It is always assumed, but rarely decisive.
+- Never, once the precedent is clear || Too far.
+
+@card E23
+say: Moral reasoning in judging is unavoidable. Therefore judges have no reason in principle to refuse to read a right to abortion into the Constitution, whatever the text says, if equality requires it.
+verdict: partly
+answer: Agree with sentence one, disagree with the "therefore". Judges must reason morally, but they are bound by the legal record and their role, and may set the text aside only for intolerable injustice.
+step: Concede quickly: moral reasoning is unavoidable. But unavoidable is not a licence.
+step: "Whatever the text says": even Dworkin binds the judge to the legal history (fit). Yong Vui Kong (2015) refused to make rights out of "whole cloth".
+step: Equality cuts both ways: the woman's equal standing and the unborn's equal worth. Which wins depends on who counts, a question for Parliament (Lim Meng Suang). Singapore already allows abortion up to 24 weeks.
+remember: Unavoidable is not a licence: fit, role and a high bar bind judges' moral reasoning.
+spot: "Moral reasoning is inevitable. Therefore..." judges may read a right (such as abortion) into the Constitution.
+Q: Which statement is E23?
+* "Judges reason morally anyway, so they may read in a right to abortion." || Right.
+- "Nobody can say when life begins, so Parliament should take no side on abortion." || That is the legislator: E19.
+- "Contested moral questions are for Parliament, so courts must never strike laws down." || The general forum question: E36.
+Q: Where does E23's statement go wrong?
+* At "therefore": unavoidable is not a licence. || Right: the text and the record still bind.
+- Sentence one: judges never reason morally at all. || Concede sentence one.
+- Nowhere: the statement is correct as it stands. || Fit and role bind the judge.
+Q: Why does "equality" not settle the abortion question for a judge?
+* It cuts both ways: the woman and the unborn. || Right: her equal standing, its equal worth.
+- Because equality is not in the Constitution. || Article 12 guarantees it.
+- Because judges may not use the word at all. || They may; it just does not decide this.
+
+@card E24
+say: In an immoral legal system, the only right course for a judge or lawyer is to resign. Anything else either supports injustice or betrays the law.
+verdict: disagree
+answer: Disagree: a false choice. Refusing an intolerably unjust law from inside is loyalty to law, not betrayal. Resigning is sometimes right, never the only right course, and staying can protect victims.
+step: Ask what is immoral: the whole system, one rule, or one result? Refusing an intolerable rule openly is fidelity to law (Radbruch, Alexy); Hart says be honest about it.
+step: Judges: Kennedy gives five options short of resigning; quitting just leaves "the dirty work" to someone else. No hidden tricks (candour).
+step: Lawyers: Thunder's lawyer stays to protect the victims, patiently, without going along.
+remember: "Condone or betray" hides a third option: refuse from within, openly. Resigning is one option, never the only one.
+spot: An immoral system; resign, stay or refuse; a judge or a lawyer.
+Q: Which statement is E24?
+* "In an immoral system, the only right course is to resign." || Right.
+- "A good lawyer can be a good person only as far as the legal system allows." || An ordinary system: E33.
+- "Once the highest court calls an unjust rule law, then it is law, and that is that." || Radbruch: E43.
+Q: What is the third option the statement hides?
+* Stay, and refuse the unjust law openly. || Right.
+- Stay, and quietly bend the facts instead. || Candour rules out hidden tricks.
+- Leave the country and practise elsewhere. || Not the option meant.
+Q: Why might staying be better than resigning?
+* Staying can protect the system's victims. || Right: resigning just leaves the work to someone else.
+- Because judges must never resign, whatever happens. || Resigning is sometimes right.
+- Because staying in post is better for one's career. || Not a moral reason.
+
+@card E25
+say: Judges claim to apply the law, but judging is politics. So legal theory is useless, and the lawyer simply serves the client.
+verdict: disagree
+answer: Disagree: each "so" has a gap. Judging is political only in the sense of political morality, not party politics; lawyers cannot practise without some theory; and serving the client happens above the floor of the law.
+step: Rules have a settled core and fuzzy edges (Hart). In fuzzy cases judges reason from political morality, not preference (Dworkin). Even Kennedy sometimes "can't budge" a rule.
+step: Theory is not idle: lawyers predict most outcomes because they share a theory. The choice is examined theory or unexamined theory.
+step: "Just serve the client" is itself a theory of the role. Pepper's own limits keep conscientious objection. The law is the floor; above it, dialogue.
+remember: Political, not partisan; examined theory, not none; serve the client above a floor.
+spot: A cynic's chain: judging is politics, so theory is idle, so the lawyer just serves the client.
+Q: Which statement is E25?
+* "Judging is politics, so theory is idle, so lawyers serve clients." || Right: three steps ending with the lawyer.
+- "Judging is politics; fidelity to law is a cover; so judges should just stay in role." || That ends with the judge's role: E26.
+- "Rules don't decide cases; judges agree only because they share the same backgrounds." || The realists and crits: E32.
+Q: What does "politics" mean when judging is political, on E25's answer?
+* Political morality, not party politics || Right: principles about how the state should act.
+- Party politics and the judge's own party || That is the cynic's reading.
+- Whatever the latest opinion polls say || Not the sense meant.
+Q: "Theory is for academics." What is E25's reply?
+* Working without theory means an unexamined one. || Right.
+- Agreed: theory has no real use in practice. || Lawyers predict outcomes because they share a theory.
+- Only judges need theory, never practising lawyers. || Lawyers need one too.
+
+@card E26
+say: Judging is politics. Judges' talk of loyalty to law and of justice is a cover. So judges should simply stay in their role.
+verdict: disagree
+answer: Disagree: the chain undoes itself. If loyalty to law is just a cover, so is "stay in your role". Judging is political only as political morality.
+step: "Politics" means political morality (principles about how the state should act), not party politics.
+step: Evidence that law really constrains: judges who write "alas" and still follow the law; rules that "can't be budged". Cure bluster with candour.
+step: If fidelity is a cover, so is the role. Avoid both vices: taking over and rubber-stamping. Even the realists who supply the premise reject the conclusion.
+remember: If fidelity is a cover, so is the role: the chain undoes itself. Political, not partisan.
+spot: Judging is politics, fidelity is a cover, so keep to your role.
+Q: Why does E26's chain "undo itself"?
+* If fidelity is a cover, so is "stay in role". || Right.
+- Because judges never actually stay in their role. || Not the point.
+- Because politics and law are really the same thing. || That is the premise, not the flaw.
+Q: What is the evidence that law really constrains judges?
+* Judges who write "alas" and follow the rule || Right: they follow a rule they dislike.
+- Judges who always agree with each other || They don't; that is not the evidence.
+- Judges who never mention justice at all || Not the evidence.
+Q: Which essay is closest to E26 but ends with the lawyer serving the client?
+* E25 || Right. E26 ends with the judge's role.
+- E33 || E33 is the lawyer's role on its own.
+- E32 || E32 is the realists and crits.
+
+@card E27
+say: Judging according to the law serves justice. So judges should avoid lofty moral ideas, which bring too much subjectivity.
+verdict: disagree
+answer: Disagree: the two sentences cannot both stand. If "law" means just the rules, it gives only formal justice (treating like cases alike). If law includes a moral floor, judges cannot avoid morality. The cure for subjectivity is discipline, not abstaining.
+step: The positivist reading: applying the rules secures only formal justice. Hart and Fuller both admit rules can be unfair.
+step: The natural-law reading: extreme injustice is not law (Radbruch, Alexy). The court that refused Nazi Ordinance 11 applied the law and could not avoid morality.
+step: Subjectivity: moral reasoning in court is disciplined by fit, public reasons and appeals.
+remember: No reading saves both sentences; discipline, not abstinence, cures subjectivity.
+spot: "According to the law" serves "justice", so avoid "lofty" morality and "subjectivity".
+Q: Which statement is E27?
+* "Judging by the law serves justice, so avoid lofty morality." || Right: a promise plus an instruction.
+- "Judges should use no moral judgement at all; they deal only with what the law is." || No promise of justice there: E21.
+- "Judges never really disagree about what the law is, only about what it ought to be." || That is E30.
+Q: What does "applying the rules" secure on its own?
+* Formal justice: like cases alike || Right. That can still be unjust in substance.
+- Full justice in every single case || The promise fails on this reading.
+- Nothing worth having at all || Too far: formal justice is something.
+Q: What cures subjectivity in judging, on E27's answer?
+* Discipline: fit, public reasons, appeals || Right.
+- Avoiding moral questions entirely || Not possible, and it hides the choice.
+- Following the judge's own conscience || That is the subjectivity the statement fears.
+
+@card E28
+say: Theories of law and morality are necessarily involved when judges decide cases on the common law and on statutes in a constitutional democracy. To what extent do you agree?
+verdict: partly
+answer: Agree for theory: it is always involved. Only partly for morality: always in the background, decisive only in hard cases and extreme injustice. More room at common law than in statutes.
+step: Theory is always involved: Hart's judge needs a theory of discretion, Dworkin's a theory of fit and value.
+step: Statutes: the words usually decide, but maxims can split judges (Riggs). Common law: only a principle says which differences matter (McLoughlin). So morality decides more often at common law.
+step: Constitutional democracy: Part 4 uses moral words ("law", "equal"), so theory is unavoidable; morality decides only at the extreme.
+remember: Theory always; morality always in the background, rarely decisive; common law leaves more room than statute.
+spot: "Necessarily implicated", common law and statutes, "to what extent".
+Q: Which statement is E28?
+* "Theory and morality are involved in common law and statute cases." || Right: it names the sources of law.
+- "All legal argument turns on philosophy and morality, even where precedent is heavy." || Extent, sense and implications: E22.
+- "Judges never really disagree about what the law is, only about what it should be." || That is E30.
+Q: Where does morality decide more often?
+* At common law || Right. Only a principle says which differences matter.
+- In statutes || In statutes the words usually decide.
+- Equally in both || The source of law matters.
+Q: "Implicated" can mean two things. Which pair?
+* In the background, or deciding || Right: presupposed or operative.
+- Legal or else illegal || Not the distinction.
+- Written down or unwritten || Not the distinction.
+
+@card E29
+say: Theory necessarily guides the practice of judges and lawyers, including how they weigh the justice of the case.
+verdict: partly
+answer: Agree that theory always frames practice (what counts as a reason). Disagree that it decides every outcome: it does that only in hard cases, where it sets how far justice may count.
+step: Judges: every argument assumes a theory of law; the tenth, hard case is where it is argued.
+step: Lawyers: Pepper (access to law, the client's autonomy) against Thunder (justice and the rule of law). Your theory shapes how you handle the hard case.
+step: The justice of the case: validity never settles obedience (Hart); extreme injustice is not law (Radbruch). Theory decides when justice may override the rule or the client.
+remember: Theory frames every case, decides the hard ones, and sets when justice may override.
+spot: "Theory necessarily guides", judges and lawyers, "the justice of the case".
+Q: "Guides" has two senses. Which does E29 accept?
+* Frames: it sets what counts as a reason. || Right. It decides outcomes only at the margins.
+- Directs: it decides every single outcome. || That is the overstated sense.
+- Neither: theory is idle in real practice. || That is the cynic's view (E25).
+Q: Who are the two theorists of the lawyer's role?
+* Pepper and Thunder || Right.
+- Hart and Devlin || They are about criminal law.
+- Rawls and Finnis || They are about law-making.
+Q: What does theory decide about the justice of the case?
+* When justice may override the rule || Right, or override the client.
+- Nothing: justice is a personal matter || Theory sets the limits.
+- That justice always overrides any rule || Only at intolerable injustice.
+
+@card E30
+say: Judges and lawyers never really disagree about what the law is, only about what it ought to be or whether to follow it. Where the words are plain, there is nothing left to argue about.
+verdict: disagree
+answer: Disagree: judges often disagree about the grounds of law itself, what counts as law, not about its merits or about obeying it (Riggs).
+step: Two kinds of disagreement: whether the agreed tests are met, and what the tests are. Using different tests would mean talking past each other, like "banks" meaning savings banks to one and riverbanks to the other.
+step: Plain words: in Riggs v Palmer Elmer poisoned his grandfather. Gray kept to the words; Earl applied "no one may profit from his own wrong". Side with Earl.
+step: Precedent: at common law only a principle says which differences matter (McLoughlin), so run both principle and policy.
+remember: Not merits, not defiance: a dispute about law's grounds. Savings banks and riverbanks.
+spot: Judges "never really disagree" about what the law is; "plain words" leave nothing to argue about.
+Q: Which statement is E30?
+* "Judges never disagree about what the law is." || Right: only about what it ought to be, they say.
+- "In a hard case there is one right answer, which the judge declares rather than makes." || That is Dworkin under test: E31.
+- "Rules don't decide cases; judges agree only because they share the same backgrounds." || That is E32.
+Q: In Riggs v Palmer, what were the judges disagreeing about?
+* What the law required: words alone, or with a principle || Right. All agreed the statute bound them.
+- Whether to obey the statute or ignore it || All accepted the statute's authority.
+- What the law ought to be in the future || They argued about what it was.
+Q: What does the "banks" example show?
+* Different tests for "law" mean talking past each other. || Right.
+- The law of banking is especially unclear. || It is an analogy.
+- Words never have plain meanings in law. || Not the point.
+
+@card E31
+say: In a hard case there is one right answer, which the judge declares rather than makes. Principles are part of law; policies are not.
+verdict: partly
+answer: Partly agree: the judge should seek the reading that best fits and justifies the law, and defend it as right. But that reading is neither simply found nor invented, and "one right answer" is a goal, not something you can prove.
+step: Not "declare or make": like a chain novel, each judge writes the next chapter, bound by what came before.
+step: "One right answer": where fit leaves options, the better principle decides. Dworkin admits there may be no unique answer.
+step: Principle or policy: principles are about rights, policies about group goals. Judges should keep to principle, but the line is itself argued.
+remember: Not found, not invented: continued, like a chain novel. One right answer as a goal, not a proof.
+spot: Dworkin's ideas: a hard case, one right answer, declare not make, principles not policies.
+Q: Which statement is E31?
+* "In a hard case there is one right answer, declared." || Right: Dworkin under test.
+- "Judges disagree only about whether to follow the law, not about what it is." || That is E30.
+- "Rules do not decide cases; judges agree only because of shared backgrounds." || That is E32.
+Q: What is Dworkin's "chain novel"?
+* Each judge writes the next chapter, bound by the last. || Right.
+- Judges invent the law freely, as novelists do. || The chapters before bind them.
+- Judges copy the last decision word for word. || They must interpret, not copy.
+Q: What is "one right answer", on E31's answer?
+* A goal for the judge, not a provable result || Right: it disciplines her.
+- A result she can prove in every case || Dworkin concedes it may not be unique.
+- A myth that serves no use at all || It disciplines the judge.
+
+@card E32
+say: Form 1: rules don't decide cases; judges agree only because they share backgrounds. Form 2: contract law is a coherent set of principles with few exceptions. Form 3: critical views of law are destructive and useless.
+verdict: partly
+answer: Partly agree: realists and crits rightly show that rules leave some cases open. But a judge must justify, not predict, and political morality, not preference, closes the open cases.
+step: Rules do decide most cases: lawyers predict "eight times out of ten". A judge cannot predict her own ruling; she has to justify it.
+step: Every principle meets a counter-principle (freedom of contract against fairness), but that is complexity, not chaos. Critique is a demand for more justice, not proof it is useless.
+step: What follows: candour, not the end of law; fairness doctrines rest on principle (Dworkin).
+remember: Rules leave some cases open, not all; justify, don't predict; critique diagnoses, it doesn't prescribe.
+spot: Realists and crits: rules don't decide, shared backgrounds, coherent or contradictory doctrine, critique useless.
+Q: Which statement is E32?
+* "Rules don't decide cases; shared backgrounds do." || Right: form 1.
+- "Judging is politics, so legal theory is idle and the lawyer just serves the client." || That chain ends with the lawyer: E25.
+- "In a hard case there is one right answer, which the judge declares rather than makes." || That is E31.
+Q: What is the key difference E32 draws?
+* Predicting a ruling, or justifying it || Right. A judge must justify.
+- Statutes, or the common law || That is E28.
+- Judges, or practising lawyers || Not the key distinction here.
+Q: How often can lawyers predict outcomes, says Llewellyn?
+* Eight times out of ten || Right. Rules decide most cases.
+- Never, not even once || Too far.
+- Every single time || Some cases are open.
+
+@card E33
+say: A good lawyer can be a good person only as far as the legal system allows. The lawyer is a hired gun; it is just a job.
+verdict: disagree
+answer: Disagree: the system sets what a lawyer may do, not how good a person the lawyer can be. The role is itself moral, and choosing clients, talking with them and refusing remain.
+step: No sharp split between the professional and the person. Thunder: lawyering is justified by serving justice; amoral lawyers become slaves to their clients' consciences.
+step: Even Pepper, the role's defender, argues morally (access to law) and keeps four choices: whether to practise, which clients, moral dialogue, conscientious objection. In Singapore the duty to the court beats the client's wishes.
+step: A good person asks: is the system broadly just, is this rule intolerably unjust, is this outcome unjust?
+remember: The system sets what a lawyer may do, not how good the lawyer may be; talk before refusing.
+spot: "Good lawyer, good person", "hired gun", "just a job".
+Q: Which statement is E33?
+* "A lawyer is a hired gun; it's just a job." || Right.
+- "In an immoral system, the only right course is to resign." || That is E24.
+- "Theory guides judges and lawyers." || That is E29.
+Q: Which of Pepper's own limits show the role is not amoral?
+* Choosing clients, dialogue and objection || Right: three of his four zones of choice.
+- Charging every client a fair fee || Not one of his four zones.
+- Never discussing morals with clients || Pepper keeps moral dialogue.
+Q: What comes before refusing to act, on E33's answer?
+* Talking it through with the client || Right: dialogue before refusal.
+- Reporting the client to the police || That turns the lawyer into a policeman.
+- Resigning from the firm || Not the first step.
+
+@card E34
+say: Natural law requires legislators, judges, officials and lawyers to respect the limits of their own authority, and not do work that rightly belongs to others.
+verdict: partly
+answer: Partly agree: roles have limits. But the limits can be argued over, and there are two vices: overstepping (usurping) and ducking your own job (abdicating). Refusing extreme injustice is loyalty to law, not overstepping.
+step: Judges: TSH's twin vices, legislating from the bench and rubber-stamping.
+step: Legislators: do your own work; don't pass it to the executive, the courts or a referendum. The 2007 compromise (keep s 377A, don't enforce it) arguably shows both vices.
+step: Officials and lawyers: loyalty is owed to law, not rank. Raise a problem first, then refuse the unlawful part. The law is a floor.
+remember: Every role can fail twice: overstep or abdicate. Do your own role's moral work first.
+spot: Several actors (legislators, judges, officials, lawyers) told to stay within the limits of their roles.
+Q: Which vice does E34's statement ignore?
+* Abdication: ducking your own job || Right. It names only overstepping.
+- Usurpation: overstepping the role || The statement already warns against that.
+- Corruption: taking bribes in office || Not the point.
+Q: An official is told to do something he thinks is unlawful. First step?
+* Raise it first, then refuse the unlawful part. || Right.
+- Obey: the superior officer decides. || Loyalty is owed to law, not rank.
+- Resign from the service at once. || Not the first step.
+Q: Which essay sounds similar but is about everyone refraining from moral truth?
+* E13 || Right. E34 is about the limits of each role.
+- E24 || That is an immoral system.
+- E36 || That is courts or Parliament.
+
+@card E35
+say: By making the Constitution supreme, Article 4 settles the debate between natural law and positivism. "Law" means whatever is validly enacted, and the text answers every question of validity.
+verdict: disagree
+answer: Disagree: a supreme written text moves the debate into how to read its moral words ("law", "equal"); it does not end it.
+step: Two levels: what makes the Constitution law (officials accepting Article 4), and what its words mean. Positivism says nothing about reading loaded words.
+step: Neither school wins by declaration. Reading the Constitution "within its four walls" (Colin Chan) need not exclude universal standards.
+step: Reading "law" in Article 9 as "whatever is validly passed" is circular. Article 12's test (Lim Meng Suang) is natural law at work (TSH).
+remember: Supremacy moves the debate into "law" and "equal"; it doesn't settle it.
+spot: Article 4, supremacy, a written text, "makes us positivists".
+Q: Which statement is E35?
+* "Article 4 makes us all positivists." || Right: law is whatever is validly enacted, it says.
+- "With a supreme Constitution, judges need no philosophy or personal morality." || What judges need: E20.
+- "Contested moral questions are for Parliament, not the courts, in every case." || That is E36.
+Q: Why is reading "law" in Article 9 as "whatever is validly passed" a problem?
+* It is circular: any law passed would count. || Right: the right meant to limit laws would limit nothing.
+- It is far too strict on Parliament. || The problem is circularity.
+- Article 9 never uses the word "law". || It does: "in accordance with law".
+Q: What does a supreme written Constitution do to the debate?
+* Moves it into how to read "law" and "equal" || Right.
+- Ends it in favour of positivism || The statement's claim, which fails.
+- Ends it in favour of natural law || Neither wins by declaration.
+
+@card E36
+say: Contested moral questions are for Parliament, not the courts. Unelected judges must never strike down a law for injustice. The Constitution is legitimate because the people accepted it, so any properly passed amendment is valid.
+verdict: partly
+answer: Right about the usual forum: Parliament. Wrong about the limit: "never" goes too far. Courts may strike down only intolerable injustice shown by broad historical consensus. And "valid" is not the same as "legitimate".
+step: For Parliament: courts give "binary, zero sum" answers; Parliament can fine-tune (the 2022 repeal plus Article 156). The bar is met for genocide and slavery, not for ordinary contested rights.
+step: "Never": Radbruch's rule is a narrow check, not a veto. Natural law supports the separation of powers too (George).
+step: Legitimacy: acceptance alone cannot found it. Article 5(2) lets two-thirds amend most provisions, yet a properly passed amendment authorising genocide would still fall (TSH).
+remember: Parliament is the normal forum; "never" is too strong; valid isn't the same as legitimate.
+spot: Courts or Parliament; "unelected judges must never"; amendments and legitimacy.
+Q: Which statement is E36?
+* "Moral questions are for Parliament; judges must never strike laws down." || Right.
+- "Judges may read a right to abortion into the Constitution if equality needs it." || A particular challenge: E23.
+- "Article 4 makes us all positivists: law is whatever is validly enacted." || That is E35.
+Q: When may a court strike down a law for injustice, on E36's answer?
+* Only for intolerable injustice || Right: shown by broad historical consensus.
+- Whenever the judge thinks it unfair || That is usurpation.
+- Never, whatever the law says || "Never" is too strong.
+Q: "Every properly passed amendment is legitimate." What does E36 say?
+* Valid is not the same as legitimate. || Right: an amendment authorising genocide would still fall (TSH).
+- Agreed: passing it properly makes it legitimate. || Acceptance alone cannot found legitimacy.
+- No amendment to it is ever valid. || Article 5(2) allows amendments.

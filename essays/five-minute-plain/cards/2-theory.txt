@@ -1,0 +1,133 @@
+# Family 2: Testing a law-making theory (E14-E19)
+
+@card E14
+say: Using Hart's theory of what the criminal law may ban needs moral judgement. That is not fatal to it. Hart's theory is still the best way of keeping the law to the minimum.
+verdict: mostly
+answer: Mostly agree. Yes, it needs moral judgement. No, that is not fatal, because Hart never claimed otherwise. It is the best tool for limiting punishment, but it says little about encouraging or regulating.
+step: Hart's tests (harm to others, protecting people whose consent is weak, public decency) all need judgement. Example: consent is no defence to murder, which Hart explains as protecting people from themselves.
+step: Needing moral judgement is fatal only to a theory that promised to avoid it. Hart never did; he and Devlin simply use different moral principles.
+step: "The best way": compare the rivals at limiting punishment. Devlin sets no limit; Rawls tests reasons, not conduct; Finnis allows more. Hart wins here, but he is quiet on promotion (such as Article 156).
+remember: Not fatal: Hart never promised to avoid moral judgement. Best at limiting punishment, quiet on promotion.
+spot: Hart's theory, named and tested: "needs moral judgement... not fatal... still the best". Trap: "the minimum" is Devlin's phrase, not Hart's "minimum content of natural law".
+Q: Which statement is E14?
+* "Hart needs moral judgement, but that isn't fatal; he is still the best." || Right: Hart's theory under test.
+- "Society may punish breaches of its shared morality, as it punishes treason." || That is Devlin under test: E15.
+- "Judges should never bring any moral judgement into deciding their cases." || That is about judges: E21.
+Q: Why is needing moral judgement "not fatal" to Hart?
+* He never promised to avoid moral judgement. || Right.
+- Because his theory needs no moral judgement at all. || It does need it; that part of the statement is right.
+- Because Devlin agrees with him. || They disagree, about which moral principles to use.
+Q: Where is Hart's theory weakest?
+* It says little about encouraging and regulating. || Right. It is best at limiting punishment.
+- It cannot limit punishment at all, in any case. || Limiting punishment is what it does best.
+- It allows anything at all the majority wants. || That is closer to a criticism of Devlin.
+
+@card E15
+say: Society may use the criminal law to enforce its shared morality, just as it punishes treason, because without a shared morality society would fall apart.
+verdict: partly
+answer: Right that no law is morally neutral and that society may judge conduct. Wrong that "society will fall apart" justifies punishment: that claim is either trivial or unproven, and Devlin's test lets feeling decide.
+step: Devlin asks three questions: may society judge, may it use law, and in which cases? Hart replies that the treason comparison must be proved, not assumed.
+step: How Devlin finds the morality: the "reasonable man", like a jury of twelve after discussion; mere dislike is "not nearly enough". But a feeling can still be prejudice.
+step: "Fall apart" has four meanings: society is its morals (trivial); it will collapse (no evidence); bonds weaken (maybe no loss); a slippery slope (the only one that bites).
+remember: Devlin is slower and more careful than the people who quote him; only the slippery slope bites.
+spot: Devlin's ideas: shared morality, treason, society "disintegrating", the reasonable man's feeling.
+Q: Which statement is E15?
+* "Without a shared morality society falls apart, so it may punish vice." || Right: Devlin under test.
+- "Hart's theory needs moral judgement, but it is still the best way of limiting law." || That is E14.
+- "The majority may enforce its own morality against the private choices it condemns." || That is E5, the majority, not Devlin's theory.
+Q: How does Devlin find society's morality?
+* What twelve people would accept after discussion || Right: like a jury.
+- A national opinion poll of all adult citizens || Devlin does not count heads.
+- What the main religions of the society teach || Devlin says law cannot rest on doctrines citizens may disbelieve.
+Q: Which reading of "disintegrate" is the strongest for Devlin?
+* A slippery slope, one step leading to the next || Right. The others are trivial or unproven.
+- Society will collapse more or less overnight || There is no evidence of that.
+- Society simply is its morality, by definition || True by definition, so it proves nothing.
+
+@card E16
+say: State power may rightly be used only on grounds every citizen can share. (Or: Rawls's liberalism is neutral; or "freestanding yet overriding" is a contradiction; or it is just a truce.)
+verdict: partly
+answer: Right to ask for reasons every citizen could accept. But "share" means could reasonably accept, not actually accepts, and even permitting takes a side. A better test: are the reasons open to examination and sound?
+step: Legitimacy needs more than a majority and less than everyone agreeing. Finnis's problem: if "share" means actually accept, anyone gets a veto; if it means "should accept", you are judging merits.
+step: Who is bound: officials, candidates and voters on basic questions, not churches or everyday debate. The duty is moral, not legal.
+step: Not a truce: an "overlapping consensus" means each group supports the system for its own reasons, so it survives changes in power.
+remember: Reasons all may reasonably accept, from those who use power, on basic questions; a consensus, not a truce.
+spot: Rawls's ideas: grounds all citizens share, public reason, overlapping consensus, "freestanding", "modus vivendi".
+Q: Which statement is E16?
+* "State power may be used only on grounds every citizen can share." || Right: Rawls under test.
+- "Religious arguments have no place in law-making in a multi-faith state." || That is E11, though it uses Rawls.
+- "Law-makers should be as neutral as possible between views of the good." || A general neutrality claim is E8.
+Q: What does "share" mean for Rawls?
+* What citizens could reasonably accept || Right. Otherwise anyone would have a veto.
+- What every citizen actually agrees with || That gives everyone a veto.
+- Whatever the majority votes for in the end || Rawls wants more than a majority.
+Q: Who is bound by Rawls's public reason?
+* Those using state power, on basic questions || Right. Churches and everyday debate are free.
+- Every citizen, in every conversation they have || Too wide: the background culture is free.
+- Judges deciding cases, and nobody else at all || Judges are bound most strictly, but not only them.
+
+@card E17
+say: Finnis's natural law either dictates how citizens must live, or gives law-makers no guidance at all. (Or: it rests on taste.)
+verdict: disagree
+answer: Disagree: a false choice. Finnis gives a few firm limits and a direction, then leaves law-makers room to choose. Not a blueprint, and not nothing.
+step: Seven basic goods: life, knowledge, play, beauty, friendship, practical reasonableness, religion. They are clear on reflection, and none ranks above another.
+step: Practical reasonableness gives a few firm limits, for example never intend to kill. Acts are judged by what you intend.
+step: For law-makers: the state may favour the goods but keeps to peace and justice, and its reasons must be open to all. Liberal in means.
+remember: Seven goods, nine requirements, a few absolutes: limits and a direction, not a blueprint.
+spot: Finnis named: basic goods, practical reasonableness, "dictates" or "no guidance" (or "just taste").
+Q: Which statement is E17?
+* "Finnis either tells us how to live or gives no guidance." || Right: Finnis under test.
+- "Natural law is for the devout and lets judges strike down what they dislike." || Natural law in general: E42.
+- "Autonomy best serves the common good, so it demands legal euthanasia." || That is E18.
+Q: What is E17's answer to "dictates or no guidance"?
+* A third path: firm limits, a direction, room to choose || Right.
+- It dictates a whole way of life for every citizen || Finnis's state keeps to peace and justice.
+- It gives law-makers no real guidance at all || Its absolutes rule some laws out.
+Q: Which is one of Finnis's basic goods?
+* Friendship || Right. Others: life, knowledge, play, beauty, practical reasonableness, religion.
+- Pleasure || Finnis does not count pleasure as a basic good.
+- Wealth || Wealth is a means, not a basic good.
+
+@card E18
+say: Autonomy best serves the common good. So it demands legalising voluntary euthanasia. People should be free to choose how and when to end their lives.
+verdict: partly
+answer: Partly agree: autonomy deserves great weight. But it comes first for neither Rawls nor Finnis, and nothing "demands" this law. Rawls leaves it to a vote on public reasons; Finnis is against.
+step: Autonomy: for Finnis it is part of one of seven equal goods, and life is another. Rawls's "political autonomy" (standing as an equal citizen) differs from Mill's personal ideal, which many reject.
+step: "Therefore demands": Rawls says public reasons point both ways, so Parliament votes. Finnis says intending death goes against a basic good.
+step: "How and when" goes too far: it covers the healthy and the despairing too. Another person does the act. Protect those whose consent is least free.
+remember: Autonomy weighs heavily but doesn't come first; a framework needs inputs, so nothing "demands" this law.
+spot: Autonomy, the common good, euthanasia, "how and when", with Rawls and Finnis named.
+Q: Which statement is E18?
+* "Autonomy demands legal voluntary euthanasia." || Right.
+- "Nobody can say when life begins, so the law should take no side on abortion." || That is abortion: E19.
+- "I have a right to choose who to love, so the law must not enforce morality." || That is E1.
+Q: Where do Rawls and Finnis end up on euthanasia?
+* Rawls: a vote on public reasons; Finnis: against. || Right.
+- Both say autonomy demands that it be made legal. || Neither does.
+- Both forbid it absolutely, whatever the safeguards. || Only Finnis does.
+Q: Why does "how and when" go too far?
+* It would cover the healthy and the despairing too. || Right, not just people in pain.
+- Because doctors will never agree on who is dying. || Not the point.
+- Because the Constitution forbids it in every case. || The essay is about what Parliament should do.
+
+@card E19
+say: Since nobody can say when life begins, the law should take no side and leave the choice to each woman. (Or: public reason settles the question in favour of choice.)
+verdict: disagree
+answer: Disagree: allowing abortion is not "taking no side". It answers whether the unborn counts. Parliament cannot stand aside, so it must argue for its limits with reasons all can examine.
+step: Uncertainty calls for care, not a free pass. Chua (1969) said no one could know, then answered the question anyway. TSH's hunter: do not shoot if unsure what is behind the bush.
+step: Rawls: political values point both ways (respect for life; women's equality). Public reason narrows the reasons and leaves the outcome to a vote.
+step: Finnis gives an answer: life is a basic good and the unborn is a human being, so direct killing is barred.
+remember: Allowing is not neutral: it answers who counts. Rawls narrows the reasons; Finnis answers the question.
+spot: "Nobody can say when life begins", "take no side", abortion, with Rawls and Finnis.
+Q: Which statement is E19?
+* "Nobody can say when life begins, so take no side." || Right.
+- "Judges may read a right to abortion into the Constitution if equality needs it." || That is the judge's question: E23.
+- "Autonomy serves the common good, so it demands legal voluntary euthanasia." || That is E18.
+Q: Why isn't a permissive abortion law "taking no side"?
+* It answers whether the unborn counts. || Right.
+- Because most people oppose abortion. || Numbers are not the point.
+- Because the Constitution decides it. || The question is for Parliament.
+Q: What does TSH's hunter show?
+* If unsure what is behind the bush, don't shoot. || Right: uncertainty calls for care.
+- Hunting animals for sport should be banned by law. || It is an analogy.
+- Nobody can ever know anything for certain, so act freely. || The point is care, not giving up.

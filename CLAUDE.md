@@ -18,6 +18,14 @@ shows on the right, level with the text). It is separate from the course content
   and anchored by quoted text. Don't rename page ids (`<article class="page" id="...">`)
   without a reason: comments on a renamed page show under "All pages" with the old id.
 
+## LAW301 essays in five minutes: re-apply the plain-words layer after uploads
+
+The 30-second outlines, the easy quick checks and the harder quiz (hypos with a verdict
+step) on `essays/five-minute.html` come from `essays/five-minute-plain/`. If an upload
+replaces `five-minute.html` with a version without them (no "The idea in 30 seconds"
+box on the cards), run `python3 essays/five-minute-plain/apply.py` and then
+`python3 comments/attach.py`.
+
 ## LAW302 hypo quick checks and the section timer: re-apply after uploads
 
 The quick checks inside the LAW302 hypo pages of `practice.html` come from

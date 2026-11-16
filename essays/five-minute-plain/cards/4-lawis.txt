@@ -1,0 +1,217 @@
+# Family 4: What law is, and what we owe it (E37-E44), plus E45 and G1
+
+@card E37
+say: Laws are made by people. So in understanding law, and in debating what our laws should be, we are and should be concerned only with social fact: the positions and views people hold.
+verdict: partly
+answer: Agree that law's sources are social facts. Disagree with "only": what the law should be is not a fact, and opinion is evidence to weigh, never the answer.
+step: Social fact: for Hart, law exists when officials accept its rules, not when the public approves. Accepting is not the same as approving.
+step: Debating what law should be is a moral question. In 2007 the public feedback was "emotional, divided": counting it did not settle anything.
+step: "Are and should be" joins a fact to a "should", so the statement breaks its own "facts only" rule.
+remember: Sources are facts; naming law is a choice; opinion is evidence, never the answer.
+spot: "Made by human beings", "solely social fact", "the positions and views people hold".
+Q: Which statement is E37?
+* "Laws are made by people, so only social fact matters." || Right: what people think.
+- "Law is a fact made by will, and opinion settles it, so conscience has no claim." || That ends with conscience: E40.
+- "Law is the majority's will, so the legislator's only job is to record it." || That is the legislator's job: E10.
+Q: For Hart, when does law exist?
+* When officials accept its rules || Right. Not when the public approves.
+- When most citizens approve of it || Public approval is not the test.
+- When its content is morally right || That is a natural-law test.
+Q: How does E37 treat public opinion?
+* As evidence to weigh || Right, never the answer.
+- As the final answer || The statement's view, which fails.
+- As wholly irrelevant || Too far: it is evidence.
+
+@card E38
+say: It is absurd to think law is necessarily linked to morality. That view lets people disobey any law they think unjust, which is a recipe for disaster.
+verdict: disagree
+answer: Disagree: a narrow link (extreme injustice is not law) is serious, not absurd. And it is not what licenses disobedience: on every theory, whether to obey is a moral question, and refusal is only for grave injustice.
+step: Not absurd: Radbruch and Alexy say extreme injustice is not law; Finnis says an unjust law falls short of law's central case.
+step: Separate three questions: is there a legal duty to obey, a moral duty to obey, a moral duty to disobey? The pigeon feeder: fair play, not fear of a fine, is the reason to obey.
+step: Hart says it honestly: "this is law, but too evil to obey". The bar is high. The actor here is the citizen.
+remember: Validity never settles obedience on any theory; the link is narrow; refusal is only for grave injustice.
+spot: It is "absurd" to link law and morality; that "licenses disobedience"; "a recipe for disaster".
+Q: Which statement is E38?
+* "Linking law to morality is absurd: people would disobey." || Right.
+- "Law is what the majority wills; no legitimacy can be shown; so simply obey it." || That chain ends in "simply obey": E41.
+- "Once the highest court calls an unjust rule law, then it is law, and that is that." || That is E43.
+Q: What is the moral reason to obey, shown by the pigeon feeder?
+* Fair play: others obey, so I should || Right. Not fear of the fine.
+- Fear of being fined if caught || That is a prudential reason, not a moral one.
+- The law is always morally right || Not the point.
+Q: What does Hart say about an evil law?
+* "This is law, but too evil to obey." || Right. Valid, yet obedience is a separate moral question.
+- "An evil law is simply not law at all." || That is Radbruch's view.
+- "An evil law must still always be obeyed." || Hart separates validity from obedience.
+
+@card E39
+say: The line between law and force is hollow. Every attempt to justify law's legitimacy is either an unprovable moral claim or just a formula for getting obeyed.
+verdict: disagree
+answer: Disagree: the line is thin in a wicked system, but not hollow. Law binds the ruler too; effective is not the same as legitimate; and a reason that can't be proved can still be examined, which a gunman's order cannot.
+step: Law or force: Austin's theory would count a warlord's orders as law, so Hart replaced it. Fuller's King Rex: law needs rules that bind the ruler.
+step: Effective is not legitimate: Hart says when law exists, not that it is good; Finnis says the common good, not effectiveness, justifies authority.
+step: Unprovable is not arbitrary: reasons short of proof can still be challenged.
+remember: Unprovable isn't arbitrary; effective isn't legitimate; law argues, force never does.
+spot: Law against force is "hollow"; legitimacy is either "unprovable" or "effectiveness".
+Q: Which statement is E39?
+* "The line between law and force is hollow." || Right.
+- "Law is what the majority wills, so obey it." || That ends in "so obey": E41.
+- "The rule of law is mere efficiency." || That is E44.
+Q: What does Fuller's King Rex show?
+* Law needs rules that bind the ruler too. || Right. Rex kept changing his rules and made no law.
+- Kings make the best and clearest laws. || The opposite.
+- Force and law are really the same thing. || Rex shows the difference.
+Q: Why is "unprovable" not the same as "arbitrary"?
+* A reason short of proof can still be examined. || Right, and challenged.
+- Because everything can be proved in the end. || Not claimed.
+- Because judges decide what counts as provable. || Not the point.
+
+@card E40
+say: Law is a fact made by will, and opinion settles what it should be. So private conscience has no claim against it.
+verdict: disagree
+answer: Disagree: if law is just a fact, that fact says nothing about whether to obey. Conscience keeps its claim on every theory, to be used rarely and openly.
+step: A fact made by will: law exists when officials accept rules, and will makes law only through rules that bind it.
+step: Opinion settles nothing: consensus is perhaps the best gauge of what is right, not its basis.
+step: Conscience: Hart says validity never settles obedience; Finnis says follow your conscience (others may still punish you). Against a law like Nazi Ordinance 11, every theory supports refusing.
+remember: If law is only a fact, the fact settles nothing about obedience: conscience keeps its claim, rarely and openly.
+spot: Fact, will and opinion, then "so conscience has no claim".
+Q: Which statement is E40?
+* "Law is a fact made by will, so conscience has no claim." || Right: opinion settles what it should be, it adds.
+- "Laws are made by people, so we should care only about social fact." || No conscience step: E37.
+- "Law is the majority's will; no legitimacy can be shown; so simply obey." || That is E41.
+Q: Why can't "law is a fact" defeat conscience?
+* A fact about the law says nothing about obeying it. || Right.
+- Because facts are always uncertain. || Not the point.
+- Because conscience is also a fact. || Not the argument.
+Q: How should conscience be used against a law?
+* Rarely and openly, for grave injustice || Right.
+- Whenever you disagree, but quietly || Refusal is for grave injustice, and openly.
+- Never, on any theory of law at all || Every theory keeps conscience's claim.
+
+@card E41
+say: Law is what the majority wills. No further legitimacy can be shown. So valid law must simply be obeyed.
+verdict: disagree
+answer: Disagree: the chain undoes itself. If no legitimacy can be shown, nothing shows you must obey. Obedience is a strong moral default, not automatic.
+step: Majority will: Austin cannot tell Parliament from a warlord; Hart adds rules on who may make law.
+step: "No further legitimacy": legitimacy is argued (Finnis, TSH, Rawls), not proved. Unproven is not false.
+step: "Simply obey": separate the legal duty, the moral duty to obey, and the moral duty to disobey. Fair play (the pigeon feeder) is the reason to obey.
+remember: If no legitimacy can be shown, nothing shows you must obey; obedience is a strong default.
+spot: Majority will, then no legitimacy provable, then "so simply obey".
+Q: Why does E41's chain "undo itself"?
+* If no legitimacy can be shown, no duty to obey can be. || Right: its own premise undoes "must obey".
+- Because the majority never really wills anything. || Not the point.
+- Because law is not made by will at all. || Will makes law, through rules.
+Q: What is obedience, on E41's answer?
+* A strong default that grave injustice can defeat || Right.
+- An automatic duty with no exceptions at all || "Simply" is the trap.
+- Optional whenever you happen to disagree || Mere disagreement does not defeat it.
+Q: Which essay is closest but ends in "conscience has no claim"?
+* E40 || Right.
+- E38 || E38 is about the link between law and morality.
+- E39 || E39 has no "so obey".
+
+@card E42
+say: Positivists describe what law is; natural lawyers say what it ought to be, so they talk past each other. Positivism is neutral description; natural law is for the devout and lets judges strike down whatever they dislike.
+verdict: disagree
+answer: Disagree: both schools answer the same question (what is law?). Positivism's description involves a choice, and natural law (in its weak form) needs no faith and speaks only at the extreme.
+step: Same question, different answers: positivists call Nazi law "law" so that they can condemn it; Radbruch denies the name to its worst laws.
+step: Natural law is reason, not faith (Grotius made it secular). Weak natural law strips legal status only at extreme injustice, such as a law to execute all redheads.
+step: Fuller and Dworkin are allies of natural law, not natural lawyers.
+remember: Same question, different answers at the extreme; natural law is reason, not faith, and a threshold, not a licence.
+spot: "Cross purposes", positivism "neutral", natural law "for the devout", "licenses any judge".
+Q: Which statement is E42?
+* "Positivists describe and natural lawyers preach." || Right: so they talk past each other, it says.
+- "Finnis's natural law either dictates how to live or gives no guidance at all." || Finnis alone: E17.
+- "Article 4 settles the debate between natural law and positivism once and for all." || That is E35.
+Q: Is natural law "for the devout"?
+* No: it is grasped by reason, not faith. || Right (Grotius made it secular).
+- Yes: it needs belief in God to work. || Not on Finnis's or Grotius's account.
+- Only in a country with a state religion. || Not the point.
+Q: When does weak natural law deny something the name of law?
+* Only at extreme injustice || Right. A threshold, not a licence.
+- Whenever a judge dislikes it || That is the statement's fear, which is wrong.
+- Never, whatever the law says || Then it would not be natural law.
+
+@card E43
+say: Once the highest court holds an unjust rule to be law, it is law. Denying it the name is confused, useless, uncertain, undemocratic and dishonest. (Or: are there good reasons, from a participant's point of view, to support Radbruch?)
+verdict: partly
+answer: Partly agree: to an observer it is law, and Hart's honesty matters. But to a participant, such as a judge, extreme injustice is where the label matters, and the objections to Radbruch can be answered. The formula holds only in its narrow core.
+step: Two questions are mixed up: is it law, and must anyone apply or obey it? An observer and a participant answer differently.
+step: Answer the objections: the more extreme the injustice, the more certain we are of it (certainty); it threatens democracy no more than judicial review does.
+step: Candour is the strongest objection (the grudge informer case): Hart prefers an honest retroactive law. But the court voided no statute, and Radbruch also preferred a statute.
+remember: Observer or participant? A threshold, not a licence; candour is the strongest objection, not a fatal one.
+spot: Radbruch's formula: an unjust rule upheld by the highest court; "deny it the name"; confused, uncertain, dishonest.
+Q: Which statement is E43?
+* "If the top court calls it law, it is law." || Right: denying the name is dishonest, it says.
+- "In an immoral legal system, the only right course for a judge or lawyer is to resign." || While the regime lasts: E24.
+- "Positivists and natural lawyers debate at cross purposes and never really meet." || That is E42.
+Q: What is the strongest objection to Radbruch's formula?
+* Candour: it is more honest to admit it was law. || Right (Hart), and punish by a new law if at all.
+- It is too religious for a secular court. || It is not religious.
+- It makes judges far too weak to act. || Not the objection.
+Q: Who answers "is it law?" differently from an observer?
+* A participant, such as a judge || Right: someone who must apply it.
+- A historian writing about it || A historian is an observer.
+- A foreign journalist reporting it || Also an observer.
+
+@card E44
+say: The rule of law is mere efficiency, which any tyrant could follow. (Or: it guarantees justice; or: it is a ruling-class slogan.)
+verdict: disagree
+answer: Disagree with every form: the rule of law is more than efficiency and less than justice. It is a real but thin morality that binds rulers too.
+step: Fuller's eight requirements: laws must be general, public, forward-looking (not backdated), clear, consistent, possible to obey, stable, and applied as written. Fail one completely and there is no legal system.
+step: "Mere efficiency" (Hart: like a sharp knife): Fuller replies that law governs people, so its craft cannot be morally empty.
+step: "Guarantees justice": no. Clear, public rules can still be evil (Ordinance 11 had legal form). Legality is a condition of justice, not a guarantee.
+remember: More than efficiency, less than justice: a thin morality that binds the ruler too.
+spot: The rule of law: "mere efficiency", "a guarantee of justice", "a slogan", or Fuller's list.
+Q: Which statement is E44?
+* "The rule of law is mere efficiency." || Right: which any tyrant could follow, it says.
+- "The line between law and force is hollow, and legitimacy cannot be shown." || That is E39.
+- "Judging according to the law serves justice, so avoid lofty morality." || That is E27.
+Q: Which is one of Fuller's requirements?
+* Laws must not be backdated || Right: they must be prospective.
+- Laws must be popular with voters || Not on the list.
+- Laws must be morally perfect || Fuller's list is about form, not content.
+Q: E44's thesis in five words?
+* More than efficiency, less than justice || Right.
+- Mere efficiency, and nothing more || That is the statement's claim.
+- A full guarantee of justice for all || The reverse form, also wrong.
+
+@card E45
+say: A bill rests on three grounds, such as a faith, a health study and a poll (the Chief hypo: ban alcohol and tobacco with long prison terms). How would you vote as an MP? As a judge, would you enforce it if passed?
+verdict: other:MP: vote against · Judge: enforce
+answer: As an MP, vote against and propose milder measures: none of the grounds justifies prison. As a judge, enforce it if validly passed: harsh, but not intolerable. Different jobs, different questions, so no contradiction.
+step: Faith: a voice, not a ground. A faith cannot on its own justify forcing others (Rawls; even Devlin). Drinking is not banned just because some faiths call it a vice.
+step: Health: Hart allows protecting people only when their consent is weak (addiction). That supports licensing and limits on sale, not jail for users. Harm to others supports drink-driving laws, not a total ban.
+step: Poll: evidence, not a mandate; "somewhat support" fails Devlin's own tests. Then the judge's ladder: is it valid? how should it be read? does a constitutional challenge work? is it intolerable? If not, apply it, and say openly if you think it unjust.
+remember: Faith a voice, health a reason for controls, poll a gauge: vote no, offer milder measures; as judge, enforce unless intolerable.
+spot: A bill, its grounds (a faith, harm, a poll), "how would you vote", "as a judge".
+Q: How does E45 treat the faith ground?
+* A voice, not enough on its own || Right: it cannot alone justify forcing everyone.
+- A complete reason for the ban, since many believe it || It cannot alone justify coercing others.
+- Something an MP may never mention in Parliament || Faith may be spoken.
+Q: As a judge, would you enforce the alcohol and tobacco ban?
+* Yes, if validly passed: harsh, not intolerable || Right. Say openly if you think it unjust.
+- No: a judge must refuse to apply any unjust law || Refusal is only for intolerable injustice.
+- Only if the judge personally agrees with it || The judge's view of its wisdom is not the test.
+Q: Why is it not inconsistent to vote against the bill but enforce it as judge?
+* They answer different questions. || Right: the MP asks what the law should be; the judge, what loyalty to a valid law requires.
+- Judges must always obey the majority in the end. || Not the reason.
+- MPs may ignore the law whenever they like. || Not the point.
+
+@card G1
+say: Some statements match no essay on the sheet.
+verdict: other:Name the type
+answer: Don't force a wrong essay. Name the statement's type and use the ready plan for it.
+step: "Same result, so the theory doesn't matter": the reasons still decide the hard case, the next case, and what the loser is owed.
+step: "A label doing moral work" (for example "positivists must be amoral lawyers"): a theory of what law is settles only what counts as law; every further step needs a moral premise.
+step: "Who decides" or "the role excuses": deferring settles who answers a moral question, never whether the answer is right; a role never excuses intolerable wrongs.
+remember: No row fits? Name the type: same result, a label, who decides, the role.
+spot: Use it only when no Index row fits.
+Q: "Hart and Devlin reach the same result, so their quarrel makes no difference." What is the plan?
+* Grant it, then show the reasons still matter. || Right: they decide the hard case and the next case.
+- Agree: the same result means the same theory. || The reasons still matter.
+- Write out E14 and E15 in full, one after the other. || One theorist each; this is a G1 type.
+Q: "Whoever acts within a legitimate role is not responsible." What is the closing line?
+* A role covers ordinary outcomes, not intolerable ones. || Right: "the role" type.
+- The role always excuses whoever acts within it. || Not for intolerable wrongs.
+- Roles never matter to responsibility at all. || They matter for ordinary outcomes.
