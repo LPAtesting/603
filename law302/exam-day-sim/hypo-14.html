@@ -834,6 +834,10 @@ ul.extra { padding-left: 18px; font-size: 13.5px; }
 .off-s b { display: block; font: 700 13.5px var(--sans); color: var(--ink); margin-bottom: 2px; }
 .off-t { white-space: pre-wrap; font: 14.5px/1.55 var(--serif); color: var(--ink); }
 #top .paper { font: 700 12px var(--sans); background: var(--violet-soft); color: var(--violet); padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+
+/* timer hidden: the clocks keep counting out of sight */
+body.timer-off #clock, body.timer-off #pclock { display: none; }
+#thide { font-size: 12px; padding: 4px 9px; color: var(--muted); }
 </style></head>
 <body>
 <div id="app"></div>
@@ -939,7 +943,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
   $('#app').innerHTML = `
   <header id="top">
     <div class="ttl">Exam Day Sim <small>${esc(DATA.title)}</small></div>${DATA.paper ? `<span class="paper" title="A real past paper">${esc(DATA.paper)}</span>` : ''}<span id="part"></span>
-    <div class="timer" id="timer"><span id="clock"></span><span id="pclock"></span><button class="btn" id="tbtn">Start</button></div>
+    <div class="timer" id="timer"><span id="clock"></span><span id="pclock"></span><button class="btn" id="tbtn">Start</button><button class="btn" id="thide" title="Hide or show the clocks (they keep counting)">Hide timer</button></div>
     <span id="prog"></span><div class="grow"></div>
     <button class="btn" id="hint" title="Shows the next block of the model answer in the Menu">Hint: next block</button>
     <label class="chk" title="No ticks or crosses until you finish the part"><input type="checkbox" id="strict"> Exam mode</label>
@@ -996,12 +1000,25 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     running = on; clearInterval(tick);
     if (on) tick = setInterval(() => {
       const L = cur(); S.time++; S.pt[L.id] = (S.pt[L.id] || 0) + 1; clock();
-      if (S.pt[L.id] === L.min * 60 && !S.warned[L.id]) { S.warned[L.id] = 1; toast(`${partName(L)}: your ${L.min} minutes are up. Finish this part and move on.`); }
+      if (S.pt[L.id] === L.min * 60 && !S.warned[L.id] && !timerHidden) { S.warned[L.id] = 1; toast(`${partName(L)}: your ${L.min} minutes are up. Finish this part and move on.`); }
       if (S.time % 10 === 0) save();
     }, 1000);
     $('#tbtn').textContent = on ? 'Pause' : (S.time ? 'Resume' : 'Start');
   }
   $('#tbtn').onclick = () => setRun(!running);
+  // hide the clocks (one setting for every sim page; they keep counting, so the review still shows time used)
+  const HIDE = 'examsim:hideTimer';
+  let timerHidden = false;
+  try { timerHidden = localStorage.getItem(HIDE) === '1'; } catch (e) { /* storage may be off */ }
+  function paintHide() {
+    document.body.classList.toggle('timer-off', timerHidden);
+    $('#thide').textContent = timerHidden ? 'Show timer' : 'Hide timer';
+  }
+  $('#thide').onclick = () => {
+    timerHidden = !timerHidden; paintHide();
+    try { localStorage.setItem(HIDE, timerHidden ? '1' : '0'); } catch (e) { /* storage may be off */ }
+  };
+  paintHide();
 
   /* ---------- question pane ---------- */
   const paraText = {};
