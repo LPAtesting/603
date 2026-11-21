@@ -50,3 +50,5 @@ their state in localStorage under `examsim:<hypo id>`. They are not part of the 
 Archetypes booklet as printed (rebuild after `render_archetypes.sh` too) and a time budget per part from `src/timing.py`.
 `index.html` is written by `src/site_index.py <this checkout>/law302/exam-day-sim/index.html`; `primer.html` (the
 Archetype Primer, listed first) is `Exam Day Sim/Archetype Primer.html` from `src/primer/primer.py`.
+`pyp-N.html` are real past papers built by the same build.py from `src/pyp/<id>/bank.json` and `walk.json` plus
+`src/hypos/pyp_*.py` (numbering in its `PYP` table); copy each `Exam Day Sim - PYP N (...).html` over `pyp-N.html`.
