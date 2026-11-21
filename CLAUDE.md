@@ -46,4 +46,7 @@ mx-10 to mx-13 (added 21 November 2026) are Mixed hypos at the length of one que
 `law302/exam-day-sim/hypo-N.html` are single-file pages built by `Meta Game/Drill Prototypes/Exam Day Sim/src/build.py <hypo id>`
 (numbering in its `NUMBER` table); copy each `Exam Day Sim - Hypo N (...).html` over `hypo-N.html` after a rebuild, which is needed
 whenever the LAW302 Menu changes, because each page embeds the Menu as printed. `index.html` there is the list. The pages keep
-their state in localStorage under `examsim:<hypo id>`. They are not part of the course upload.
+their state in localStorage under `examsim:<hypo id>`. They are not part of the course upload. Each page also embeds the
+Archetypes booklet as printed (rebuild after `render_archetypes.sh` too) and a time budget per part from `src/timing.py`.
+`index.html` is written by `src/site_index.py <this checkout>/law302/exam-day-sim/index.html`; `primer.html` (the
+Archetype Primer, listed first) is `Exam Day Sim/Archetype Primer.html` from `src/primer/primer.py`.

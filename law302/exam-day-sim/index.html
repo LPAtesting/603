@@ -1,55 +1,114 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>LAW302 Exam Day Sim</title>
+<meta name="description" content="The LAW302 Exam Day Sim: an archetype primer, then 28 timed hypotheticals with the LAW302 Menu and the Archetypes booklet side by side.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-body{margin:0;background:#f3f1ec;color:#1f1d1a;font:16px/1.5 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
-main{max-width:980px;margin:0 auto;padding:28px 20px 60px}
-h1{font:700 30px/1.15 Georgia,serif;margin:0 0 8px}
-p{margin:0 0 10px;max-width:70ch}
-.back{font-size:14px}
-ol{padding-left:22px;margin:6px 0 18px} li{margin-bottom:4px}
-.list{display:grid;gap:8px;margin-top:14px}
-.card{display:grid;grid-template-columns:2.4em 1fr;gap:0 10px;align-items:baseline;background:#fffdf9;border:1px solid #ddd6c8;border-radius:10px;padding:10px 14px;text-decoration:none;color:inherit}
-.card:hover{border-color:#1f4e8c;box-shadow:0 0 0 2px #e4ecf7}
-.card .n{grid-row:span 2;font:700 20px Georgia,serif;color:#1f4e8c}
-.card .t{font-weight:700}
-.card .k{font-size:13px;color:#6f6a60}
+:root {
+  --bg: #faf6ee; --card: #ffffff; --ink: #2a2a2a; --ink2: #444; --muted: #77736b;
+  --line: #e7e0d2; --teal: #2e6f7e; --teal-soft: #e4f0f3; --amber: #b5761b; --amber-soft: #fbefd6;
+  --violet: #6a4c9c; --violet-soft: #efe9f8; --navy: #2d4a7a; --navy-soft: #e6ecf7;
+  --shadow: 0 1px 2px rgba(60,50,30,.06), 0 2px 8px rgba(60,50,30,.05);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1b1d1f; --card: #24272a; --ink: #ebe7df; --ink2: #d6d1c7; --muted: #a29d93; --line: #363a3e;
+    --teal: #6fb3c2; --teal-soft: #1f3338; --amber: #e0a849; --amber-soft: #3a3020;
+    --violet: #b9a2e0; --violet-soft: #2e2840; --navy: #9db6e4; --navy-soft: #232c3d; --shadow: none;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1b1d1f; --card: #24272a; --ink: #ebe7df; --ink2: #d6d1c7; --muted: #a29d93; --line: #363a3e;
+  --teal: #6fb3c2; --teal-soft: #1f3338; --amber: #e0a849; --amber-soft: #3a3020;
+  --violet: #b9a2e0; --violet-soft: #2e2840; --navy: #9db6e4; --navy-soft: #232c3d; --shadow: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 Nunito, system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 860px; margin: 0 auto; padding: 40px 16px 64px; }
+.back { margin: 0 0 18px; font-size: 14px; } .back a, footer a { color: var(--teal); }
+.eyebrow { margin: 0 0 6px; color: var(--muted); font-weight: 700; font-size: 13px; letter-spacing: .06em; text-transform: uppercase; }
+h1 { margin: 0 0 8px; font-size: 30px; line-height: 1.2; font-weight: 800; }
+header p { margin: 0 0 10px; color: var(--ink2); max-width: 68ch; }
+h2 { margin: 34px 0 12px; font-size: 14px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+ol.how { margin: 6px 0 0; padding-left: 22px; color: var(--ink2); } ol.how li { margin-bottom: 4px; }
+.list { display: grid; gap: 10px; }
+a.card { display: grid; grid-template-columns: 2.6em 1fr auto; gap: 2px 12px; align-items: baseline; padding: 13px 16px;
+  border: 1px solid var(--line); border-left: 5px solid var(--accent, var(--teal)); border-radius: 14px; background: var(--card);
+  box-shadow: var(--shadow); color: inherit; text-decoration: none; }
+a.card:hover, a.card:focus-visible { border-color: var(--accent, var(--teal)); outline: none; }
+.card .n { grid-row: span 2; font-weight: 800; font-size: 20px; color: var(--accent, var(--teal)); }
+.card .t { font-weight: 800; font-size: 17px; }
+.card .time { grid-row: span 2; text-align: right; font-weight: 800; font-size: 17px; color: var(--accent, var(--teal)); white-space: nowrap; }
+.card .time small { display: block; font-weight: 600; font-size: 12px; color: var(--muted); }
+.card .k { font-size: 13.5px; color: var(--muted); }
+.tag { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: var(--tag-bg, var(--teal-soft)); color: var(--accent, var(--teal)); margin-right: 6px; }
+.q1 { --accent: var(--teal); --tag-bg: var(--teal-soft); }
+.q2 { --accent: var(--amber); --tag-bg: var(--amber-soft); }
+.mx { --accent: var(--navy); --tag-bg: var(--navy-soft); }
+.primer { --accent: var(--violet); --tag-bg: var(--violet-soft); }
+a.card.primer { grid-template-columns: 2.6em 1fr auto; padding: 16px 18px; }
+.primer .t { font-size: 19px; }
+.primer p { margin: 4px 0 0; color: var(--ink2); grid-column: 2 / 4; }
+.note { margin-top: 10px; font-size: 14px; color: var(--muted); }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+@media (max-width: 560px) {
+  a.card { grid-template-columns: 2em 1fr; }
+  .card .time { grid-row: auto; grid-column: 2; text-align: left; font-size: 15px; }
+  .card .time small { display: inline; margin-left: 6px; }
+  .primer p { grid-column: 1 / 3; }
+  .card .k { grid-column: 2; }
+}
 </style></head><body><main>
 <p class="back"><a href="../">← LAW302 hub</a></p>
-<h1>LAW302 Exam Day Sim</h1>
-<p>Twenty-four hypotheticals, each on one page with three panes: the question, your answer, and the LAW302 Menu exactly as it prints. Built for a wide screen.</p>
-<ol>
+<header>
+<p class="eyebrow">LAW302 · Conflict of Laws</p>
+<h1>Exam Day Sim</h1>
+<p>Start with the primer, then work the hypos. Each hypo is one page with three panes: the question, your answer, and your references, the LAW302 Menu and the Archetypes booklet exactly as they print (a tab switches between them). Built for a wide screen.</p>
+<ol class="how">
 <li>Read the question and fill the order slip at the top of your answer by clicking each key field (C, D, FC, K1 …).</li>
-<li>Tick the slip in the Menu (Slip Q1 or Slip Q2): one click is a tick, a second click is a cross on a box with a cross line.</li>
-<li>Drag a Menu block into your answer (or double-click it), press its K1 / K2 / FS button to fill the slots, and type only the analysis.</li>
-<li>Finish the part to see the model answer, grouped by contract, with every change from the Menu marked.</li>
+<li>Find the archetype for each contract or claim in the Archetypes tab, or tick the Menu's slip (Slip Q1 or Slip Q2).</li>
+<li>Drag a block in from either tab (or double-click it), press its K1 / K2 / FS button to fill the slots, and type only the analysis.</li>
+<li>Watch the clock: one budget for the hypo, one for the part you are on. Finish the part to see the model answer.</li>
 </ol>
-<p>Each model answer was written from the reviewed drill answer and checked by an independent reviewer against the Menu and the pre-writes. Your work is saved in this browser, separately for each hypo.</p>
+</header>
+<h2>Step 1 · Before everything</h2>
 <div class="list">
-<a class="card" href="hypo-1.html"><span class="n">1</span><span class="t">Bramwell Bio v Kaldor Labs</span><span class="k">Question 1 · jurisdiction, injunctions, judgments · One of the three hardest</span></a>
-<a class="card" href="hypo-2.html"><span class="n">2</span><span class="t">Pandan Coldchain v Valen Compressors</span><span class="k">Mixed · both questions · One of the three hardest</span></a>
-<a class="card" href="hypo-3.html"><span class="n">3</span><span class="t">Mekar Seeds v Vantor Labs</span><span class="k">Mixed · both questions · One of the three hardest</span></a>
-<a class="card" href="hypo-4.html"><span class="n">4</span><span class="t">Banyan Logistics v Caspian ColdTech and Mr Novak</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-5.html"><span class="n">5</span><span class="t">Galen v Brask</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-6.html"><span class="n">6</span><span class="t">Sunmark v Brightline</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-7.html"><span class="n">7</span><span class="t">Fairhaven v Kestor</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-8.html"><span class="n">8</span><span class="t">Calder Grid v Mr Kadir and Dorset Bank</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-9.html"><span class="n">9</span><span class="t">Tidewell v Veldon, Cairn and Harbourline</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-10.html"><span class="n">10</span><span class="t">Yarrow v Dr Orrin</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-11.html"><span class="n">11</span><span class="t">Lakemont v Sora Dining</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-12.html"><span class="n">12</span><span class="t">Elmtree v Vanora and Sweetwell</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-13.html"><span class="n">13</span><span class="t">Hexa and Mr Imran v Zorin</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-14.html"><span class="n">14</span><span class="t">Northcliff v Seah Ceramics and Ms Seah</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-15.html"><span class="n">15</span><span class="t">Cascade v Kavala and Mr Varga</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-16.html"><span class="n">16</span><span class="t">Camden v Klavier and Lark</span><span class="k">Question 1 · jurisdiction, injunctions, judgments</span></a>
-<a class="card" href="hypo-17.html"><span class="n">17</span><span class="t">Wexford v Kessel</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-18.html"><span class="n">18</span><span class="t">Crestwood v Valmont; Crownline v Valmont</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-19.html"><span class="n">19</span><span class="t">Quillon v Dorval</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-20.html"><span class="n">20</span><span class="t">Xanthe v Norvik, Ibis and Mr Thorne</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-21.html"><span class="n">21</span><span class="t">Perrin v Granit; Mr Halim v Perrin</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-22.html"><span class="n">22</span><span class="t">Pascoe v Halvard</span><span class="k">Question 2 · choice of law</span></a>
-<a class="card" href="hypo-23.html"><span class="n">23</span><span class="t">Larchfield v Nordhaven</span><span class="k">Question 1 · jurisdiction, injunctions, judgments · Same pattern as Hypo 1 on new facts</span></a>
-<a class="card" href="hypo-24.html"><span class="n">24</span><span class="t">Rimbun Joinery v Korsak Forestry</span><span class="k">Mixed · both questions · Same pattern as Hypo 2 on new facts</span></a>
+<a class="card primer" href="primer.html"><span class="n">★</span><span class="t">Archetype Primer</span><span class="time">45 min<small>2 h with notes</small></span>
+<p>All 21 archetypes in one sitting: how to spot each one, its writing order by Menu code, the usual adjustments, which archetypes come together, and a quick self-check.</p></a>
 </div>
+<h2>Step 2 · 28 timed hypos</h2>
+<div class="list">
+<a class="card q1" href="hypo-1.html"><span class="n">1</span><span class="t">Bramwell Bio v Kaldor Labs</span><span class="time">50 min<small>Base: 29 · Twist 1: 8 · Twist 2: 13</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments · One of the three hardest</span></a>
+<a class="card mx" href="hypo-2.html"><span class="n">2</span><span class="t">Pandan Coldchain v Valen Compressors</span><span class="time">60 min<small>Base: 33 · Twist 1: 14 · Twist 2: 13</small></span><span class="k"><span class="tag">Mixed</span>both questions · One of the three hardest</span></a>
+<a class="card mx" href="hypo-3.html"><span class="n">3</span><span class="t">Mekar Seeds v Vantor Labs</span><span class="time">55 min<small>Base: 30 · Twist 1: 15 · Twist 2: 10</small></span><span class="k"><span class="tag">Mixed</span>both questions · One of the three hardest</span></a>
+<a class="card q1" href="hypo-4.html"><span class="n">4</span><span class="t">Banyan Logistics v Caspian ColdTech and Mr Novak</span><span class="time">55 min<small>Base: 28 · Twist 1: 12 · Twist 2: 15</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-5.html"><span class="n">5</span><span class="t">Galen v Brask</span><span class="time">45 min<small>Base: 25 · Twist 1: 9 · Twist 2: 11</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-6.html"><span class="n">6</span><span class="t">Sunmark v Brightline</span><span class="time">45 min<small>Base: 25 · Twist 1: 14 · Twist 2: 6</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-7.html"><span class="n">7</span><span class="t">Fairhaven v Kestor</span><span class="time">45 min<small>Base: 21 · Twist 1: 4 · Twist 2: 8 · Twist 3: 12</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q2" href="hypo-8.html"><span class="n">8</span><span class="t">Calder Grid v Mr Kadir and Dorset Bank</span><span class="time">40 min<small>Base: 29 · Twist 1: 6 · Twist 2: 3 · Twist 3: 2</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-9.html"><span class="n">9</span><span class="t">Tidewell v Veldon, Cairn and Harbourline</span><span class="time">40 min<small>Base: 31 · Twist 1: 5 · Twist 2: 4</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-10.html"><span class="n">10</span><span class="t">Yarrow v Dr Orrin</span><span class="time">35 min<small>Base: 17 · Twist 1: 4 · Twist 2: 4 · Twist 3: 10</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q1" href="hypo-11.html"><span class="n">11</span><span class="t">Lakemont v Sora Dining</span><span class="time">35 min<small>Base: 21 · Twist 1: 6 · Twist 2: 8</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-12.html"><span class="n">12</span><span class="t">Elmtree v Vanora and Sweetwell</span><span class="time">40 min<small>Base: 26 · Twist 1: 5 · Twist 2: 9</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-13.html"><span class="n">13</span><span class="t">Hexa and Mr Imran v Zorin</span><span class="time">40 min<small>Base: 23 · Twist 1: 7 · Twist 2: 5 · Twist 3: 5</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-14.html"><span class="n">14</span><span class="t">Northcliff v Seah Ceramics and Ms Seah</span><span class="time">35 min<small>Base: 20 · Twist 1: 6 · Twist 2: 9</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-15.html"><span class="n">15</span><span class="t">Cascade v Kavala and Mr Varga</span><span class="time">40 min<small>Base: 26 · Twist 1: 9 · Twist 2: 5</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q1" href="hypo-16.html"><span class="n">16</span><span class="t">Camden v Klavier and Lark</span><span class="time">40 min<small>Base: 21 · Twist 1: 6 · Twist 2: 6 · Twist 3: 7</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments</span></a>
+<a class="card q2" href="hypo-17.html"><span class="n">17</span><span class="t">Wexford v Kessel</span><span class="time">35 min<small>Base: 21 · Twist 1: 8 · Twist 2: 6</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-18.html"><span class="n">18</span><span class="t">Crestwood v Valmont; Crownline v Valmont</span><span class="time">35 min<small>Base: 25 · Twist 1: 4 · Twist 2: 4 · Twist 3: 2</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-19.html"><span class="n">19</span><span class="t">Quillon v Dorval</span><span class="time">35 min<small>Base: 21 · Twist 1: 4 · Twist 2: 6 · Twist 3: 4</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-20.html"><span class="n">20</span><span class="t">Xanthe v Norvik, Ibis and Mr Thorne</span><span class="time">35 min<small>Base: 16 · Twist 1: 9 · Twist 2: 6 · Twist 3: 4</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-21.html"><span class="n">21</span><span class="t">Perrin v Granit; Mr Halim v Perrin</span><span class="time">35 min<small>Base: 21 · Twist 1: 3 · Twist 2: 6 · Twist 3: 5</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q2" href="hypo-22.html"><span class="n">22</span><span class="t">Pascoe v Halvard</span><span class="time">25 min<small>Base: 16 · Twist 1: 5 · Twist 2: 4</small></span><span class="k"><span class="tag">Question 2</span>choice of law</span></a>
+<a class="card q1" href="hypo-23.html"><span class="n">23</span><span class="t">Larchfield v Nordhaven</span><span class="time">50 min<small>Base: 28 · Twist 1: 8 · Twist 2: 14</small></span><span class="k"><span class="tag">Question 1</span>jurisdiction, injunctions, judgments · Same pattern as Hypo 1 on new facts</span></a>
+<a class="card mx" href="hypo-24.html"><span class="n">24</span><span class="t">Rimbun Joinery v Korsak Forestry</span><span class="time">60 min<small>Base: 32 · Twist 1: 14 · Twist 2: 14</small></span><span class="k"><span class="tag">Mixed</span>both questions · Same pattern as Hypo 2 on new facts</span></a>
+<a class="card mx" href="hypo-25.html"><span class="n">25</span><span class="t">Seraya Diagnostics v Dravik Medical</span><span class="time">55 min<small>Base: 44 · Twist 1: 11</small></span><span class="k"><span class="tag">Mixed</span>both questions · Full exam length: one question of the final</span></a>
+<a class="card mx" href="hypo-26.html"><span class="n">26</span><span class="t">Tanglin Ferries v Varnholt Bank</span><span class="time">60 min<small>Base: 48 · Twist 1: 12</small></span><span class="k"><span class="tag">Mixed</span>both questions · Full exam length: one question of the final</span></a>
+<a class="card mx" href="hypo-27.html"><span class="n">27</span><span class="t">Senja Surveys v Zefira Optics</span><span class="time">50 min<small>Base: 44 · Twist 1: 6</small></span><span class="k"><span class="tag">Mixed</span>both questions · Full exam length: one question of the final</span></a>
+<a class="card mx" href="hypo-28.html"><span class="n">28</span><span class="t">Katong Vet v Solvane Biologics and Orlan AgriVet</span><span class="time">55 min<small>Base: 45 · Twist 1: 10</small></span><span class="k"><span class="tag">Mixed</span>both questions · Full exam length: one question of the final</span></a>
+</div>
+<p class="note">Times are your table of 2020-pace timings cut by 20%, because blocks are dragged and filled by clicking, not typed. The seven Mixed hypos in that table use its figures; the rest use the same yardstick (model blocks, words, boxes against an average AY19-20 question). Your work and your time are saved in this browser, separately for each hypo.</p>
+<footer>Model answers were written from the reviewed drill answers and checked by an independent reviewer against the Menu and the pre-writes.</footer>
 </main><script src="../../comments/comments.js" defer data-lpa-comments></script>
 </body></html>
