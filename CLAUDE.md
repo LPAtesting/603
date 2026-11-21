@@ -35,3 +35,10 @@ says "8 QUESTIONS", or there is no `data-lpa-timer` script line), run
 `plans` and `sources`. Don't rename them: reading comments are keyed by them. Its sidebar link in `index.html` and
 `practice.html` (after "Block test · Conflict") is added by `src/meta/site_patch.py`; re-run it after an upload of
 those two files if the link is gone.
+
+## LAW302 Exam Day Sim: built elsewhere
+
+`law302/exam-day-sim/hypo-N.html` are single-file pages built by `Meta Game/Drill Prototypes/Exam Day Sim/src/build.py <hypo id>`
+(numbering in its `NUMBER` table); copy each `Exam Day Sim - Hypo N (...).html` over `hypo-N.html` after a rebuild, which is needed
+whenever the LAW302 Menu changes, because each page embeds the Menu as printed. `index.html` there is the list. The pages keep
+their state in localStorage under `examsim:<hypo id>`. They are not part of the course upload.
