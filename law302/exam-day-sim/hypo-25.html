@@ -1901,16 +1901,15 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
   };
   /* One model block. Plain text is word for word from the Menu; everything else is marked:
      <mark> = a fact put into a slot, <mark class="keep"> = the Menu's own slot words kept, <del> = Menu words deleted,
-     and the analysis line is boxed because none of it is in the Menu. */
+     (the own-words analysis line is no longer shown: only Menu wording). */
   function modelBlock(m) {
-    return `<p>${m.html}</p>${m.subs.map(s => `<p class="msub">${s.html}${s.p3 ? ' <span class="p3">sub-line printed in Part 3, § ' + esc(DATA.blocks[m.id].sid) + '</span>' : ''}</p>`).join('')}<p class="ap"><b>Your analysis · not in the Menu</b>${esc(m.apply)}</p>`;
+    return `<p>${m.html}</p>${m.subs.map(s => `<p class="msub">${s.html}${s.p3 ? ' <span class="p3">sub-line printed in Part 3, § ' + esc(DATA.blocks[m.id].sid) + '</span>' : ''}</p>`).join('')}`;
   }
   const LEGEND = `<div class="legend"><b>What is changed from the Menu</b>
     <span>plain text</span> word for word from the Menu
     <span><mark>yellow</mark></span> a fact filled into a slot
     <span><mark class="keep">underlined</mark></span> the Menu's own slot words, kept or picked
-    <span><del>struck</del></span> Menu words to delete
-    <span class="lg-ap">blue box</span> your own analysis, to type</div>`;
+    <span><del>struck</del></span> Menu words to delete</div>`;
   function review(L) {
     // each of my blocks gets the model's version under it
     const seen = {};
