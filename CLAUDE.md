@@ -16,7 +16,8 @@ shows on the right, level with the text). It is separate from the course content
 - Comments are stored in the reader's browser (localStorage key `lpa-comments-v1`) and in
   a secret gist (`lpa-lessons-comments.json`), keyed by page id (e.g. `/603/#law302-j1`)
   and anchored by quoted text. Don't rename page ids (`<article class="page" id="...">`)
-  without a reason: comments on a renamed page show under "All pages" with the old id.
+  without a reason: comments on a renamed page stay under the old id and no longer show anywhere
+  (each page lists only its own comments; they are still in the backup file and the gist).
 
 ## LAW302 hypo quick checks and the section timer: re-apply after uploads
 

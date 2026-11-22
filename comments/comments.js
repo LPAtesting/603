@@ -58,19 +58,6 @@
   }
   function currentRoot() { return activePage() || $("main") || document.body; }
   function currentKey() { var p = activePage(); return pathKey() + (p ? "#" + p.id : ""); }
-  function pageLabel(key) {
-    var i = key.indexOf("#"), id = i >= 0 ? key.slice(i + 1) : "";
-    if (key.slice(0, i >= 0 ? i : key.length) === pathKey() && id) {
-      var nl = $('.nav a[href="#' + id + '"]');
-      if (nl) {
-        var parts = $$(":scope > span", nl).filter(function (x) { return !/nl-p|\bni\b/.test(x.className); }).map(function (x) { return x.textContent.trim(); }).filter(Boolean);
-        return (parts.length ? parts.join(" · ") : nl.textContent).replace(/\s+/g, " ").trim();
-      }
-      var el = document.getElementById(id), h = el && $("h1", el);
-      if (h) return h.textContent.trim();
-    }
-    return id || key.split("/").filter(Boolean).pop() || "Home";
-  }
   function pageHref(key) {
     var i = key.indexOf("#"), path = i >= 0 ? key.slice(0, i) : key, id = i >= 0 ? key.slice(i) : "";
     return path === pathKey() ? (id || "#") : path + id;
@@ -211,14 +198,10 @@
     ".cm-panel{position:fixed;top:var(--top-h,0px);right:0;bottom:0;width:min(400px,100vw);z-index:55;background:var(--bg,#faf6ee);border-left:1px solid var(--line2,#ddd);box-shadow:-10px 0 40px rgba(0,0,0,.14);display:flex;flex-direction:column}",
     ".cm-ph{display:flex;align-items:center;gap:8px;padding:12px 14px;border-bottom:1px solid var(--line,#eee)}",
     ".cm-ph b{flex:1;font-size:15px}",
-    ".cm-tabs{display:flex;gap:4px;padding:8px 14px 0}",
-    ".cm-tab{border:0;background:none;font:inherit;font-weight:700;font-size:13px;color:var(--muted,#888);padding:6px 10px;border-radius:8px;cursor:pointer}",
-    ".cm-tab.on{background:var(--grey-soft,#efebe3);color:var(--ink,#222)}",
+    ".cm-ph .cm-btn[data-act=clear-page]{white-space:nowrap}",
+    ".cm-btn[data-arm]{border-color:var(--red,#b83b2e);color:var(--red,#b83b2e)}",
     ".cm-pb{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:10px 14px 30px}",
     ".cm-pb .cm-card+.cm-card{margin-top:10px}",
-    ".cm-grp{margin:16px 0 8px;font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted,#888)}",
-    ".cm-grp:first-child{margin-top:4px}",
-    ".cm-grp a{color:inherit}",
     ".cm-empty{color:var(--muted,#888);font-size:13.5px;padding:14px 2px}",
     ".cm-set{border-top:1px solid var(--line,#eee);padding:10px 14px 14px;font-size:13px;display:grid;gap:8px}",
     ".cm-set label{display:flex;align-items:center;gap:8px;cursor:pointer}",
@@ -227,6 +210,7 @@
     ".cm-sync{color:var(--muted,#888);font-size:12.5px}",
     ".cm-sync.err{color:var(--red,#b83b2e)}",
     ".cm-toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);z-index:70;background:#2a2a2a;color:#fff;padding:9px 14px;border-radius:10px;font-size:13.5px;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:min(560px,92vw)}",
+    ".cm-undo{margin-left:12px;border:0;background:none;color:#8ec5ff;font:inherit;font-weight:800;cursor:pointer;padding:0}",
     "@media print{.cm-ui{display:none!important}.cm-on .main{margin-right:0!important}}"
   ].join("\n");
   var st = document.createElement("style"); st.id = "cm-style"; st.textContent = css; document.head.appendChild(st);
@@ -253,10 +237,15 @@
   tbtn.addEventListener("click", function () { openPanel(panel.hidden); });
 
   var toastT;
-  function toast(msg) {
+  function toast(msg, undo) {
     var t = $(".cm-toast") || document.body.appendChild(el("div", "cm-ui cm-toast"));
     t.textContent = msg; t.hidden = false; clearTimeout(toastT);
-    toastT = setTimeout(function () { t.hidden = true; }, 4200);
+    if (undo) {
+      var b = el("button", "cm-undo", "Undo"); b.type = "button";
+      b.addEventListener("click", function () { clearTimeout(toastT); t.hidden = true; undo(); });
+      t.appendChild(b);
+    }
+    toastT = setTimeout(function () { t.hidden = true; }, undo ? 9000 : 4200);
   }
 
   /* ------------------------------------------------------------ state of the visible page */
@@ -276,15 +265,22 @@
     return d.toLocaleDateString(undefined, { day: "numeric", month: "short", year: d.getFullYear() === now.getFullYear() ? undefined : "numeric" });
   }
 
-  function reanchor() {
-    var key = currentKey(), r = currentRoot();
+  /* soft = called because the page's own content changed (a clock ticking, a quiz
+     marking itself). Then the cards are only moved, not rebuilt, unless the comments
+     found on the page changed: rebuilding them every second took the focus out of a
+     comment being typed and threw the page back to the top. */
+  function reanchor(soft) {
+    var key = currentKey(), r = currentRoot(), same = key === view.key && r === view.root, oldSig = view.sig;
     if (key !== view.key) { active = null; editing = null; if (pending && pending.page !== key) pending = null; }
     view.key = key; view.root = r; view.ix = buildIndex(r); view.ranges = {}; view.orphans = [];
     threads(key).forEach(function (c) {
       var rg = locate(view.ix, c);
       if (rg) view.ranges[c.id] = rg; else view.orphans.push(c.id);
     });
-    paint(); render();
+    view.sig = Object.keys(view.ranges).sort().join(",") + "|" + view.orphans.slice().sort().join(",");
+    paint();
+    if (soft && same && view.sig === oldSig) { relayout(); return; }
+    render();
   }
 
   function paint() {
@@ -323,6 +319,28 @@
   function inClosed(rg) {
     var e = rg.startContainer.parentElement;
     return !!(e && (e.closest("details:not([open])") || e.closest(".archetype.collapsed")));
+  }
+  /* Where the commented text is on screen now, or null if it can't be seen: on a tab or
+     part that is hidden, or scrolled out of the pane it sits in (the Exam Day Sim's three
+     panes scroll on their own). Text inside a closed section still counts, so its card
+     can say "click to open". */
+  function shownRect(rg) {
+    var rects = rg.getClientRects(), r = null;
+    for (var i = 0; i < rects.length; i++) if (rects[i].height > 0) { r = rects[i]; break; }
+    var e = rg.startContainer.nodeType === 1 ? rg.startContainer : rg.startContainer.parentElement;
+    if (!r) {
+      if (!inClosed(rg)) return null;
+      while (e && !e.getClientRects().length) e = e.parentElement;
+      if (!e) return null;
+      r = e.getBoundingClientRect();
+    }
+    for (; e && e !== document.body && e !== root; e = e.parentElement) {
+      var cs = getComputedStyle(e);
+      if (cs.overflowY === "visible" && cs.overflowX === "visible") continue;
+      var b = e.getBoundingClientRect();
+      if (r.bottom <= b.top || r.top >= b.bottom) return null;
+    }
+    return r;
   }
 
   /* ------------------------------------------------------------ rendering */
@@ -371,6 +389,7 @@
       if (pending) h += '<div class="cm-card act" data-thread="new">' + composerHTML("new") + "</div>";
       vis.forEach(function (c) { if (view.ranges[c.id] || view.orphans.indexOf(c.id) >= 0) h += cardHTML(c, { closedNote: true }); });
       col.innerHTML = h;
+      layout(); // place the new cards before any focus, so the browser never scrolls to an unplaced card
       requestAnimationFrame(layout);
     } else col.innerHTML = "";
     if (keep) restoreFocus(col, keep);
@@ -383,8 +402,9 @@
     var t;
     if (k.edit) t = $('textarea[data-edit="' + k.edit + '"]', box);
     else if (k.thread) t = $('[data-thread="' + k.thread + '"] .cm-comp textarea', box);
-    if (t) { t.focus(); try { t.setSelectionRange(k.pos, k.pos); } catch (e) { /* ignore */ } }
+    if (t) { focusNoScroll(t); try { t.setSelectionRange(k.pos, k.pos); } catch (e) { /* ignore */ } }
   }
+  function focusNoScroll(t) { try { t.focus({ preventScroll: true }); } catch (e) { t.focus(); } }
   function updateCount() {
     var n = visibleThreads().length, b = $(".cm-n", tbtn);
     b.textContent = n; b.hidden = !n;
@@ -396,8 +416,9 @@
     var colTop = col.getBoundingClientRect().top + window.scrollY;
     cards.forEach(function (card) {
       var id = card.getAttribute("data-thread");
-      var rg = id === "new" ? pending && pending.range : view.ranges[id];
-      var y = rg ? anchorY(rg) : null;
+      var rg = id === "new" ? pending && pending.range : view.ranges[id], y = null;
+      if (rg && id === "new") y = anchorY(rg);
+      else if (rg) { var r = shownRect(rg); y = r ? r.top + window.scrollY : null; }
       if (y == null && view.root && view.orphans.indexOf(id) >= 0) y = view.root.getBoundingClientRect().top + window.scrollY + 24;
       if (y == null) { card.style.top = "-9999px"; return; }
       items.push({ el: card, y: y - colTop - 12, h: card.offsetHeight, act: card.classList.contains("act") });
@@ -416,8 +437,8 @@
     items.forEach(function (it, j) { it.el.style.top = Math.round(top[j]) + "px"; });
   }
 
-  /* ------------------------------------------------------------ the panel (all comments + settings) */
-  var tab = "page";
+  /* ------------------------------------------------------------ the panel (this page's comments + settings) */
+  /* Each page keeps its own comments: the panel lists only the page you are on. */
   function openPanel(show) {
     panel.hidden = !show;
     if (show) renderPanel();
@@ -427,23 +448,14 @@
     var focused = document.activeElement, keep = null;
     if (focused && panel.contains(focused) && focused.tagName === "TEXTAREA") keep = { thread: focused.closest("[data-thread]") && focused.closest("[data-thread]").getAttribute("data-thread"), edit: focused.getAttribute("data-edit"), pos: focused.selectionStart };
     var scroll = $(".cm-pb", panel) ? $(".cm-pb", panel).scrollTop : 0;
-    var h = '<div class="cm-ph"><span aria-hidden="true">💬</span><b>Comments</b><button type="button" class="cm-ib" data-act="close" title="Close (Esc)" aria-label="Close">✕</button></div>';
-    h += '<div class="cm-tabs"><button type="button" class="cm-tab' + (tab === "page" ? " on" : "") + '" data-tab="page">This page</button><button type="button" class="cm-tab' + (tab === "all" ? " on" : "") + '" data-tab="all">All pages</button></div><div class="cm-pb">';
-    if (tab === "page") {
-      if (pending) h += '<div class="cm-card act" data-thread="new"><div class="cm-quote">' + esc(pending.quote) + "</div>" + composerHTML("new") + "</div>";
-      var vis = visibleThreads().sort(function (a, b) { return (posKey(a) - posKey(b)); });
-      if (!vis.length && !pending) h += '<div class="cm-empty">No comments on this page yet. Select any text in the lesson and press <b>Comment</b>.</div>';
-      vis.forEach(function (c) { h += cardHTML(c, { quote: true, full: true }); });
-    } else {
-      var groups = {};
-      threads().forEach(function (c) { if (c.resolved && !prefs.showResolved) return; (groups[c.page] = groups[c.page] || []).push(c); });
-      var keys = Object.keys(groups).sort(function (a, b) { return a === view.key ? -1 : b === view.key ? 1 : a < b ? -1 : 1; });
-      if (!keys.length) h += '<div class="cm-empty">No comments yet.</div>';
-      keys.forEach(function (k) {
-        h += '<div class="cm-grp"><a href="' + esc(pageHref(k)) + '" data-page="' + esc(k) + '">' + esc(pageLabel(k)) + "</a> · " + groups[k].length + "</div>";
-        groups[k].sort(function (a, b) { return (a.pos || 0) - (b.pos || 0); }).forEach(function (c) { h += cardHTML(c, { quote: true, compact: k !== view.key, full: k === view.key }); });
-      });
-    }
+    var n = threads(view.key).length;
+    var h = '<div class="cm-ph"><span aria-hidden="true">💬</span><b>Comments on this page</b>' +
+      (n ? '<button type="button" class="cm-btn" data-act="clear-page" title="Delete every comment on this page (you can undo)">Clear this page</button>' : "") +
+      '<button type="button" class="cm-ib" data-act="close" title="Close (Esc)" aria-label="Close">✕</button></div><div class="cm-pb">';
+    if (pending) h += '<div class="cm-card act" data-thread="new"><div class="cm-quote">' + esc(pending.quote) + "</div>" + composerHTML("new") + "</div>";
+    var vis = visibleThreads().sort(function (a, b) { return (posKey(a) - posKey(b)); });
+    if (!vis.length && !pending) h += '<div class="cm-empty">' + (n ? "Only resolved comments on this page. Tick “Show resolved comments” below to see them." : "No comments on this page yet. Select any text in the lesson and press <b>Comment</b>.") + "</div>";
+    vis.forEach(function (c) { h += cardHTML(c, { quote: true, full: true }); });
     h += "</div>";
     var sy = syncInfo();
     h += '<div class="cm-set">' +
@@ -452,12 +464,13 @@
       '<div class="row">Your name <input type="text" data-pref="name" maxlength="40" value="' + esc(prefs.name || "") + '" placeholder="Shown on your comments"></div>' +
       '<div class="cm-sync' + (sy.err ? " err" : "") + '">' + esc(sy.text) + "</div>" +
       (sy.needToken ? '<div class="row"><input type="password" data-pref="token" placeholder="GitHub token with the gist scope" autocomplete="off"><button type="button" class="cm-btn" data-act="token">Connect</button></div>' : "") +
-      '<div class="row"><button type="button" class="cm-btn" data-act="export">Download backup</button><button type="button" class="cm-btn" data-act="import">Restore from file</button>' + (sy.on ? '<button type="button" class="cm-btn" data-act="syncnow">Sync now</button>' : "") + "</div></div>";
+      '<div class="row"><button type="button" class="cm-btn" data-act="export">Download backup</button><button type="button" class="cm-btn" data-act="import">Restore from file</button>' + (sy.on ? '<button type="button" class="cm-btn" data-act="syncnow">Sync now</button>' : "") + "</div>" +
+      (all().some(live) ? '<div class="row"><button type="button" class="cm-btn" data-act="clear-all" title="Delete the comments on every page of this site (you can undo)">Clear every page</button></div>' : "") + "</div>";
     panel.innerHTML = h;
+    autosizeAll(panel); // grow the boxes first, so the list's scroll position is not cut short
     $(".cm-pb", panel).scrollTop = scroll;
     if (keep) restoreFocus(panel, keep);
-    else if (pending && tab === "page") { var t = $('[data-thread="new"] textarea', panel); if (t) t.focus(); }
-    autosizeAll(panel);
+    else if (pending) { var t = $('[data-thread="new"] textarea', panel); if (t) focusNoScroll(t); }
   }
   function posKey(c) { var rg = view.ranges[c.id]; var y = rg ? anchorY(rg) : null; return y == null ? 1e9 : y; }
 
@@ -537,7 +550,7 @@
     if (act === "close") { openPanel(false); return; }
     if (act === "send") { send(b.closest(".cm-comp")); return; }
     if (act === "resolve") { var c = db.items[tid]; c.resolved = !c.resolved; touch(c); if (c.resolved && active === tid) active = null; persist(); paint(); render(); toast(c.resolved ? "Resolved. Turn on “Show resolved comments” in the Comments panel to see it again." : "Re-opened."); return; }
-    if (act === "edit") { editing = mid; render(); var t = $('textarea[data-edit="' + mid + '"]', box); if (t) { t.focus(); t.setSelectionRange(t.value.length, t.value.length); } return; }
+    if (act === "edit") { editing = mid; render(); var t = $('textarea[data-edit="' + mid + '"]', box); if (t) { focusNoScroll(t); t.setSelectionRange(t.value.length, t.value.length); } return; }
     if (act === "edit-cancel") { editing = null; render(); return; }
     if (act === "edit-save") { saveEdit(box); return; }
     if (act === "del") {
@@ -548,11 +561,36 @@
       if (active === mid) active = null;
       persist(); reanchor(); return;
     }
+    if (act === "clear-page") { clearComments(view.key); return; }
+    if (act === "clear-all") {
+      if (!b.getAttribute("data-arm")) {
+        b.setAttribute("data-arm", "1"); b.textContent = "Click again to clear every page";
+        setTimeout(function () { if (b.isConnected) { b.removeAttribute("data-arm"); b.textContent = "Clear every page"; } }, 4000);
+        return;
+      }
+      clearComments(null); return;
+    }
     if (act === "goto") { goTo(tid); return; }
     if (act === "export") { exportFile(); return; }
     if (act === "import") { importFile(); return; }
     if (act === "token") { var inp = $('[data-pref="token"]', panel), tk = inp && inp.value.trim(); if (tk) { var cs = lsGet(CSYNC, {}); cs.token = tk; cs.bad = false; cs.gist = ""; lsSet(CSYNC, cs); syncErr = ""; syncNow(); renderPanel(); } return; }
     if (act === "syncnow") { syncNow(); return; }
+  }
+  /* one click: delete every comment (and reply) on this page, or on every page when
+     pageKey is null. Deleted comments stay as tombstones, so the gist copy deletes them
+     too instead of bringing them back; Undo in the toast restores them. */
+  function clearComments(pageKey) {
+    var gone = all().filter(function (c) { return live(c) && (!pageKey || c.page === pageKey); });
+    if (!gone.length) return;
+    var saved = gone.map(function (c) { return { c: c, text: c.text }; });
+    var n = gone.filter(function (c) { return !c.parent; }).length;
+    gone.forEach(function (c) { c.deleted = true; c.text = ""; touch(c); });
+    active = null; editing = null;
+    persist(); reanchor();
+    toast("Cleared " + n + (n === 1 ? " comment" : " comments") + (pageKey ? " on this page." : " on every page."), function () {
+      saved.forEach(function (s) { s.c.deleted = false; s.c.text = s.text; touch(s.c); });
+      persist(); reanchor(); toast("Comments restored.");
+    });
   }
   function saveEdit(box) {
     var t = $("textarea[data-edit]", box); if (!t) return;
@@ -565,10 +603,6 @@
     box.addEventListener("click", function (e) {
       onAct(e, box);
       if (e.defaultPrevented) return;
-      var tabB = e.target.closest("[data-tab]");
-      if (tabB) { tab = tabB.getAttribute("data-tab"); renderPanel(); return; }
-      var pg = e.target.closest("a[data-page]");
-      if (pg) { var href = pageHref(pg.getAttribute("data-page")); if (href.charAt(0) === "#") { e.preventDefault(); location.hash = href; } return; }
       var card = e.target.closest("[data-thread]");
       if (card && box === col) {
         var id = card.getAttribute("data-thread");
@@ -681,9 +715,16 @@
     }
   }, true);
 
-  /* clicking highlighted text opens its comment */
+  /* clicking highlighted text opens its comment. A click on a card rebuilds the cards
+     before it reaches here, so ask the click's path, not the (now detached) target,
+     whether it was inside the comments UI; otherwise the card opened and shut at once. */
+  function inUI(e) {
+    var p = e.composedPath ? e.composedPath() : [];
+    for (var i = 0; i < p.length; i++) if (p[i].classList && p[i].classList.contains("cm-ui")) return true;
+    return !!(e.target.closest && e.target.closest(".cm-ui"));
+  }
   document.addEventListener("click", function (e) {
-    if (e.target.closest(".cm-ui") || e.button !== 0) return;
+    if (inUI(e) || e.button !== 0) return;
     var s = window.getSelection(); if (s && !s.isCollapsed) return;
     var hit = null;
     Object.keys(view.ranges).forEach(function (id) {
@@ -697,7 +738,7 @@
     });
     if (hit) {
       if (active !== hit) { active = hit; paint(); render(); }
-      if (col.hidden) { tab = "page"; openPanel(true); var card = $('[data-thread="' + hit + '"]', panel); if (card) card.scrollIntoView({ block: "center" }); }
+      if (col.hidden) { openPanel(true); var card = $('[data-thread="' + hit + '"]', panel); if (card) card.scrollIntoView({ block: "center" }); }
     } else if (active && !e.target.closest("a,button,input,textarea,select,summary,label")) {
       active = null; paint(); render();
     }
@@ -840,19 +881,21 @@
 
   /* ------------------------------------------------------------ keep in step with the page */
   var reT = null, layT = null;
-  function soon() { clearTimeout(reT); reT = setTimeout(reanchor, 200); }
+  function soon() { clearTimeout(reT); reT = setTimeout(function () { reanchor(true); }, 200); }
   function relayout() { cancelAnimationFrame(layT); layT = requestAnimationFrame(function () { var m = pickMode(); if (m !== mode) render(); else layout(); }); }
   var watchEl = $("main") || document.body;
   new MutationObserver(function (muts) {
-    var content = false, toggled = false;
+    var content = false, toggled = false, styled = false;
     for (var i = 0; i < muts.length; i++) {
       var m = muts[i], t = m.target.nodeType === 1 ? m.target : m.target.parentElement;
       if (t && t.closest && t.closest(".cm-ui")) continue;
-      if (m.type === "attributes") { if (m.attributeName === "hidden") content = true; else toggled = true; }
+      if (m.type === "attributes") { if (m.attributeName === "hidden") content = true; else if (m.attributeName === "open") toggled = true; else styled = true; }
       else content = true;
     }
-    if (content) soon(); else if (toggled) relayout();
-  }).observe(watchEl, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["hidden", "open"] });
+    // class/style: a tab or part shown or hidden moves the cards; skipped when no card is
+    // showing, so pages that animate (the games) pay nothing
+    if (content) soon(); else if (toggled || (styled && !col.hidden)) relayout();
+  }).observe(watchEl, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: ["hidden", "open", "class", "style"] });
   new MutationObserver(relayout).observe(root, { attributes: true, attributeFilter: ["class", "data-theme"] });
   if (window.ResizeObserver) new ResizeObserver(relayout).observe(watchEl);
   window.addEventListener("resize", function () { relayout(); if (!sel.hidden) showSel(); });
@@ -864,6 +907,11 @@
     }, 60);
   });
   document.addEventListener("toggle", relayout, true);
+  // a pane that scrolls on its own (the Exam Day Sim): keep the cards beside their text
+  document.addEventListener("scroll", function (e) {
+    var t = e.target;
+    if (!col.hidden && t && t.nodeType === 1 && t !== root && t !== document.body && !col.contains(t) && !panel.contains(t)) relayout();
+  }, { capture: true, passive: true });
   window.addEventListener("load", soon);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(relayout);
   setInterval(function () { if (document.visibilityState === "visible") $$(".cm-time").forEach(function (t) { var m = t.closest("[data-id]"), c = m && db.items[m.getAttribute("data-id")]; if (c) t.textContent = ago(c.created) + (c.edited ? " · edited" : ""); }); }, 60000);
