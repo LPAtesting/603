@@ -839,55 +839,50 @@ ul.extra { padding-left: 18px; font-size: 13.5px; }
 body.timer-off #clock, body.timer-off #pclock { display: none; }
 #thide { font-size: 12px; padding: 4px 9px; color: var(--muted); }
 
-/* Archetype first: the step that opens each part, then the bar of locked archetypes */
-#archstep { margin: 10px 22px 0; border: 2px solid var(--violet); border-radius: 10px; background: var(--violet-soft); padding: 8px 11px 9px; }
-#archstep.locked { border-width: 1px; padding: 6px 11px; }
-#archstep.pulse { animation: aspulse 1.4s ease-out 2; }
-@keyframes aspulse { 0% { box-shadow: 0 0 0 0 rgba(106,76,156,.6); } 100% { box-shadow: 0 0 0 12px rgba(106,76,156,0); } }
-.as-h { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; font-size: 13px; }
-.as-h > b, .as-bar > b { font: 800 14.5px var(--serif); color: var(--violet); }
+/* Archetype first: the instruction bar, the heads of issue in the answer, page-1 badges that drag */
+#archstep { margin: 10px 22px 0; border: 2px solid var(--violet); border-radius: 10px; background: var(--violet-soft); padding: 7px 11px 8px; }
+#archstep.locked { border-width: 1px; }
+#archstep .tip { color: var(--ink2); font-size: 12.5px; margin-top: 3px; }
+.as-h { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; }
+.as-h > b { font: 800 14.5px var(--serif); color: var(--violet); }
 .as-p { font: 700 11.5px var(--sans); background: var(--panel); color: var(--violet); border: 1px solid var(--violet); border-radius: 999px; padding: 0 8px; white-space: nowrap; }
-#archstep .tip { color: var(--muted); font-size: 12px; }
-.as-tools { display: flex; gap: 6px; margin: 7px 0 4px; flex-wrap: wrap; }
-.as-tools .btn { padding: 2px 9px; font-size: 12px; }
-.as-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0 10px; }
-.as-q { font: 800 10.5px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 6px 0 3px; }
-.ao { display: flex; align-items: flex-start; gap: 7px; width: 100%; text-align: left; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 4px 7px; margin: 0 0 4px; }
-.ao:hover { border-color: var(--violet); }
-.ao.on { border-color: var(--violet); box-shadow: inset 0 0 0 1.5px var(--violet); }
-.ao-n { flex: none; min-width: 1.9em; text-align: center; font: 800 12.5px var(--mono); border-radius: 5px; background: var(--violet-soft); color: var(--violet); padding: 1px 3px; margin-top: 1px; }
-.ao.on .ao-n { background: var(--violet); color: var(--on-accent); }
-.ao-t { flex: 1; min-width: 0; font: 700 13px var(--sans); line-height: 1.3; }
-.ao-t small { display: block; font: 400 11.5px/1.35 var(--sans); color: var(--muted); margin-top: 1px; }
-.ao-v { flex: none; font: 700 11px var(--sans); color: var(--accent); padding: 1px 5px; border-radius: 4px; }
-.ao-v:hover { background: var(--accent-soft); }
-.ao.none { margin-top: 6px; }
-.as-foot { display: flex; align-items: center; gap: 10px; margin-top: 7px; }
-.as-k { flex: 1; font-size: 12.5px; color: var(--ink2); }
-.as-bar { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 13px; }
-.as-bar .grow { flex: 1; }
-.as-bar .btn { padding: 2px 9px; font-size: 12px; }
-.ac { border: 1px solid var(--violet); background: var(--panel); color: var(--ink); border-radius: 999px; padding: 1px 10px; font: 700 12.5px var(--sans); }
-.ac:hover { background: var(--violet-soft); }
-.ac.ok { border-color: var(--good); background: var(--good-soft); }
-.ac.bad { border-color: var(--bad); background: var(--bad-soft); color: var(--bad-ink); }
-.ac.miss { border-style: dashed; border-color: var(--good); }
-.ac i { font-weight: 400; color: var(--muted); }
+.as-c { flex: 1; font: 700 12.5px var(--sans); color: var(--ink2); }
+.as-h .btn { padding: 2px 9px; font-size: 12px; }
+#answer .head-it { margin: 14px 0 8px; border: 2px solid var(--violet); border-radius: 10px; background: var(--violet-soft); padding: 7px 11px 8px; user-select: none; }
+#answer .head-it.ok { border-width: 1px 1px 1px 5px; border-color: var(--good); background: var(--panel2); }
+#answer .head-it.focus { box-shadow: 0 0 0 2px var(--accent-soft); }
+.hd-t { display: flex; align-items: baseline; gap: 8px; }
+.hd-n { font: 800 11px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--violet); white-space: nowrap; }
+.hd-t b { font: 800 15.5px var(--serif); color: var(--ink); }
+.hd-drop { margin-top: 6px; border: 2px dashed var(--violet); border-radius: 8px; padding: 9px 10px; display: flex; gap: 10px; align-items: center; font-size: 13px; color: var(--ink2); background: var(--panel); }
+.hd-drop span { flex: 1; }
+.hd-drop .btn { padding: 2px 9px; font-size: 12px; white-space: nowrap; }
+.hd-p1 { color: var(--accent); font-weight: 800; cursor: pointer; text-decoration: underline; }
+#answer.arch-drag .head-it:not(.ok) .hd-drop { background: var(--accent-soft); }
+#answer .head-it.over .hd-drop { border-style: solid; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.hd-bad { margin-top: 6px; font-size: 13px; background: var(--bad-soft); color: var(--bad-ink); border-radius: 6px; padding: 5px 8px; }
+.hd-lock { margin-top: 5px; font-size: 12px; color: var(--muted); }
+.hd-ok { margin-top: 4px; font-size: 13px; }
+.hd-ok .hd-v { color: var(--good); font-weight: 800; margin-right: 6px; }
+.hd-ok .btn { margin-left: 8px; padding: 1px 8px; font-size: 12px; }
+.hd-why { color: var(--ink2); margin-top: 3px; }
+.hd-go { color: var(--muted); font-size: 12px; margin-top: 2px; }
+.archflow .ab[draggable="true"] { cursor: grab; }
 .as-why { list-style: none; margin: 7px 0 0; padding: 0; }
 .as-why li { background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--violet); border-radius: 6px; padding: 5px 9px; margin-bottom: 5px; font-size: 13px; line-height: 1.45; }
 .as-why li.ok { border-left-color: var(--good); }
-.as-why li.miss, .as-why li.bad { border-left-color: var(--bad); }
+.as-why li.miss { border-left-color: var(--bad); }
 .as-why .st { font: 800 11px var(--sans); margin-right: 7px; color: var(--muted); }
 .as-why li.ok .st { color: var(--good); }
-.as-why li.miss .st, .as-why li.bad .st { color: var(--bad); }
+.as-why li.miss .st { color: var(--bad); }
 .as-why li i { color: var(--muted); }
+.as-why .hd-bad { margin-top: 4px; }
 .ar-n { cursor: pointer; color: var(--violet); }
 .ar-n:hover { text-decoration: underline; }
 .arch-rev { border: 1px solid var(--violet); background: var(--violet-soft); border-radius: 10px; padding: 8px 12px 6px; margin: 10px 0 12px; }
 .ar-h b { font: 800 15px var(--serif); color: var(--violet); }
 .ar-h i { color: var(--muted); font-size: 13px; }
 .arch-rev .sc-l sup.fs { color: var(--muted); }
-.arch-wrap section.af-off { display: none !important; }
 </style></head>
 <body>
 <div id="app"></div>
@@ -988,11 +983,11 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     return (box && all.find(l => l[0] === box)) || all.find(l => L.orderBoxes.includes(l[0])) || all.find(l => L.okBoxes.includes(l[0])) || all[0] || null;
   }
   const refName = (bid, box, L) => { const b = DATA.blocks[bid], l = menuLoc(bid, box, L); return (l ? l[1] : 'Part 3 § ' + b.sid) + ' · ' + b.label; };
-  /* "Archetype first": each part can open with one question, which archetype (one per contract or issue), before any block */
+  /* "Archetype first": each part gets its heads of issue; drag the archetype onto each from page 1 before any block */
   const AL = {}; (DATA.archList || []).forEach(a => AL[a.n] = a);
   const archKey = L => L.arch || [];
   const HAS_ARCH = LAYERS.some(L => archKey(L).length);
-  S.arch = S.arch || {}; S.archOn = !!S.archOn;
+  S.archOn = !!S.archOn;
 
   /* ---------- page skeleton ---------- */
   $('#app').innerHTML = `
@@ -1002,7 +997,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     <span id="prog"></span><div class="grow"></div>
     <button class="btn" id="hint" title="Shows the next block of the model answer in the Menu">Hint: next block</button>
     <label class="chk" title="No ticks or crosses until you finish the part"><input type="checkbox" id="strict"> Exam mode</label>${HAS_ARCH ? `
-    <label class="chk" title="Each part starts with one question: which archetype? Lock it in, then drag the blocks from that archetype"><input type="checkbox" id="archon"> Archetype first</label>` : ''}
+    <label class="chk" title="Each part shows its heads of issue: drag the archetype onto each head from page 1 of the Archetypes tab; its blocks unlock once the archetype is right"><input type="checkbox" id="archon"> Archetype first</label>` : ''}
     <button class="btn primary" id="finish"></button>
     <button class="btn" id="swap" title="Question on the right, pre-write on the left">Swap sides</button>
     <button class="btn" id="helpbtn">How it works</button><button class="btn" id="reset">Reset</button>
@@ -1024,7 +1019,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
       <li><b>Read the question (left).</b> Select any words with the mouse (a party, a date, a clause, a key fact) and they are saved under <i>My facts</i>. Nothing is marked for you.</li>
       <li><b>Build the answer (middle).</b> Find the block in the Menu (right, the same pages as your A4 print) and drag it in, or double-click it. Type a box code such as <kbd>E7</kbd> in the Box field to jump to it. Drag the <kbd>⋮⋮</kbd> handle to reorder.</li>
       <li><b>Or work from the Archetypes booklet.</b> The <i>Archetypes</i> tab on the right is your Archetypes print, page for page: flowchart, the two maps, all 21 archetypes in full, the one-offs. Its blocks drag in the same way. Click an archetype number or page pill to jump to it; click a box code to go to that box.</li>${HAS_ARCH ? `
-      <li><b>Archetype first (optional).</b> Tick <i>Archetype first</i>, or press <i>Start with the archetype</i> below. Each part then opens with one question: which archetype? Pick one per contract (Question 1) or per issue (Question 2), or <i>No archetype fits</i>, and lock it in. The Archetypes tab then shows only your archetypes: drag the blocks from there. If no archetype fits, start from scratch with the order slip and the Menu.</li>` : ''}
+      <li><b>Archetype first (optional).</b> Tick <i>Archetype first</i>, or press <i>Start with the archetype</i> below. Each part then shows its <b>heads of issue</b> (one per contract or issue). Drag an archetype from <b>page 1</b> of the Archetypes tab (the flowchart) onto each head; you are told at once if it is the right one. The closest archetype will do: you adjust it yourself. Click an archetype on page 1 to read it. If truly none is close, press <i>No fit · DIY</i> on the head and build it from the pre-writes. A head's blocks unlock only once it has the right archetype.</li>` : ''}
       <li><b>Time.</b> The clock counts down the whole hypo; the chip beside it counts down the part you are on (Base, then each twist). Budgets are your 2020-pace table cut by a fifth, because blocks are dragged, not typed. Hover over the clock for the split.</li>
       <li><b>Fill the slots without typing.</b> Click an orange <span class="slot">[slot]</span>, then pick an option, pick a saved fact, or select words in the question. The next slot opens by itself. Once you have filled <span class="slot">[defendant]</span> or <span class="slot">[clause X]</span>, later blocks fill it for you (dotted underline, click to change).</li>
       <li><b>Type only the analysis</b> on the line under each block. Click a saved fact to drop it in at the cursor.</li>
@@ -1350,10 +1345,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     return el;
   }
   function addBlock(bid, ref, before, box) {
-    if (archNeed(cur())) {
-      toast('Archetype first: pick the archetype for this part at the top of your answer and lock it in, then drag the blocks.');
-      $('#ans-scroll').scrollTop = 0; pulse($('#archstep')); return null;
-    }
+    if (gated(cur())) { const p = archPlace(ref, before); if (!p) return null; ref = p.ref; before = p.before; }
     const el = insert(blockItem(bid, box), ref, before);
     judge(el); refresh(); save();
     el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
@@ -1420,6 +1412,12 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     const t = e.target;
     const it = t.closest('.it');
     if (it && !it.classList.contains('div-it')) setFocus(it);
+    if (it && it.classList.contains('head-it')) {
+      if (t.closest('.hd-diy')) return judgeHead(it, 0);
+      if (t.closest('.hd-p1')) return ajump('ar-flow');
+      const o = t.closest('.hd-open, .ar-n'); if (o) return openArch(+o.dataset.n);
+      return;
+    }
     if (t.id === 'addtxt') { const el = insert(textItem(), null); $('.an', el).focus(); save(); return; }
     if (t.classList.contains('x') && it) {
       undo = { html: it.outerHTML, next: it.nextSibling };
@@ -1537,14 +1535,15 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
   let drag = null;
   document.addEventListener('dragstart', e => {
     const t = e.target.nodeType === 1 ? e.target : e.target.parentElement;
-    const grip = t.closest('.grip'), blk = t.closest('#pw-body [data-b], #arch-body [data-b]');
+    const grip = t.closest('.grip'), blk = t.closest('#pw-body [data-b], #arch-body [data-b]'), abg = HAS_ARCH && t.closest('#arch-body .archflow .ab[data-arch]');
     if (grip) { const it = grip.closest('.it'); drag = { type: 'item', el: it }; e.dataTransfer.setDragImage(it, 12, 12); }
+    else if (abg) { drag = { type: 'arch', n: +abg.dataset.arch, id: 'archetype ' + abg.dataset.arch }; answer.classList.add('arch-drag'); }
     else if (blk) drag = { type: 'block', id: blk.dataset.b, box: boxOfEl(blk) };
     else return;
     e.dataTransfer.effectAllowed = 'copyMove'; e.dataTransfer.setData('text/plain', drag.id || 'item');
     closePop();
   });
-  document.addEventListener('dragend', () => { drag = null; $('#ins').style.display = 'none'; answer.classList.remove('dragover'); });
+  document.addEventListener('dragend', () => { drag = null; $('#ins').style.display = 'none'; answer.classList.remove('dragover', 'arch-drag'); $$('.head-it.over', answer).forEach(x => x.classList.remove('over')); });
   let target = null;
   function locate(y) {
     const items = $$(':scope > .it', answer).filter(x => !(drag.type === 'item' && x === drag.el));
@@ -1555,16 +1554,28 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     return { ref, before };
   }
   $('#ans-scroll').addEventListener('dragover', e => {
-    if (!drag) return; e.preventDefault(); e.dataTransfer.dropEffect = drag.type === 'item' ? 'move' : 'copy';
+    if (!drag) return;
+    if (drag.type === 'arch') {      // an archetype from page 1 lands only on a head of issue that is still open
+      const h = e.target.closest && e.target.closest('.head-it');
+      $$('.head-it.over', answer).forEach(x => { if (x !== h) x.classList.remove('over'); });
+      if (h && !h.classList.contains('ok')) { e.preventDefault(); e.dataTransfer.dropEffect = 'copy'; h.classList.add('over'); }
+      return;
+    }
+    e.preventDefault(); e.dataTransfer.dropEffect = drag.type === 'item' ? 'move' : 'copy';
     target = locate(e.clientY); answer.classList.add('dragover');
     const ins = $('#ins'), ar = answer.getBoundingClientRect();
     if (target.ref) { const r = target.ref.getBoundingClientRect(); ins.style.top = ((target.before ? r.top - 5 : r.bottom + 4) - ar.top) + 'px'; ins.style.display = 'block'; }
   });
   $('#ans-scroll').addEventListener('drop', e => {
     if (!drag) return; e.preventDefault();
+    if (drag.type === 'arch') {
+      const h = e.target.closest('.head-it'); $$('.head-it.over', answer).forEach(x => x.classList.remove('over'));
+      if (h) judgeHead(h, drag.n);
+      drag = null; answer.classList.remove('arch-drag'); return;
+    }
     const { ref, before } = target || locate(e.clientY);
     if (drag.type === 'block') addBlock(drag.id, ref, before, drag.box);
-    else if (ref) { answer.insertBefore(drag.el, before ? ref : ref.nextSibling); save(); }
+    else if (ref && (!gated(cur()) || !drag.el.classList.contains('blk-it') || archPlace(ref, before))) { answer.insertBefore(drag.el, before ? ref : ref.nextSibling); save(); }
     drag = null; $('#ins').style.display = 'none'; answer.classList.remove('dragover');
   });
   // never let the browser drop raw text into an editable line
@@ -1668,8 +1679,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     <button class="fb-btn" data-ago="ao-Q1" title="One-off boxes no Question 1 archetype carries">One-offs Q1</button><button class="fb-btn" data-ago="ao-Q2" title="One-off boxes no Question 2 archetype carries">One-offs Q2</button>
     <input id="afind" placeholder="Find in the Archetypes (Enter = next)"><span id="afind-n"></span>
     <button class="fb-btn" id="azout" title="Smaller text">A−</button><button class="fb-btn" id="azin" title="Larger text">A+</button>`;
-  // jumping to an archetype the "only these" filter hides turns the filter off
-  const ajump = id => { const el = document.getElementById(id); if (el) { if (el.classList.contains('af-off')) { S.archOnly = false; applyArchFilter(); save(); } tab('arch'); el.scrollIntoView(); pulse(el); } };
+  const ajump = id => { const el = document.getElementById(id); if (el) { tab('arch'); el.scrollIntoView(); pulse(el); } };
   $('#arch-bar').addEventListener('click', e => { const b = e.target.closest('[data-ago]'); if (b) ajump(b.dataset.ago); });
   $('#archgo').onchange = e => { if (e.target.value) ajump('ar-' + e.target.value); e.target.value = ''; };
   $('#azin').onclick = () => { S.azoom = Math.min(1.8, (S.azoom || 1) + 0.1); afit(); save(); };
@@ -1720,112 +1730,130 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
   }
   $('.tabs').addEventListener('click', e => { const b = e.target.closest('button'); if (b && !b.disabled) tab(b.dataset.tab); });
 
-  /* ---------- Archetype first: pick the archetype(s), lock in, then drag blocks from them ---------- */
-  const archMarked = L => !S.strict || S.reviewed.includes(L.id);
-  const archSt = L => S.arch[L.id] || (S.arch[L.id] = { pick: [], locked: false });
-  function archNeed(L) { return HAS_ARCH && S.archOn && archKey(L).length > 0 && !S.reviewed.includes(L.id) && !(S.arch[L.id] && S.arch[L.id].locked); }
-  const archOk = (L, n) => archKey(L).some(u => u.n === n || u.alt.includes(n));
-  const unitHit = (u, pick) => pick.includes(u.n) || u.alt.some(a => pick.includes(a));
-  const archTitle = n => n ? n + ' · ' + (AL[n] ? AL[n].name : '') : 'No archetype fits';
-  // what to work from once locked: your picks; once marked, the right ones, so a wrong pick does not lead you astray
-  function archWork(L) {
-    const st = S.arch[L.id]; if (!st || !st.locked) return [];
-    return [...new Set((archMarked(L) ? archKey(L).map(u => u.n) : st.pick).filter(n => n > 0))];
-  }
-  function applyArchFilter() {
-    const w = HAS_ARCH && S.archOn ? archWork(cur()) : [], on = S.archOnly !== false && w.length > 0;
-    $$('section.arch-full', arch).forEach(x => x.classList.toggle('af-off', on && !w.includes(+x.dataset.arch)));
-    const cb = $('#as-only'); if (cb) cb.checked = on;
-  }
-  function archScore(L) {
-    const st = S.arch[L.id]; if (!st || !st.locked || !archKey(L).length) return null;
-    return { hit: archKey(L).filter(u => unitHit(u, st.pick)).length, total: archKey(L).length, wrong: st.pick.filter(n => !archOk(L, n)).length };
-  }
-  const aOpt = (a, on) => `<button class="ao${on ? ' on' : ''}" data-n="${a.n}"><b class="ao-n">${a.n}</b><span class="ao-t">${esc(a.name)}<small>${esc(a.desc)}</small></span><span class="ao-v" data-v="${a.n}" title="Open archetype ${a.n} in the Archetypes tab">view</span></button>`;
-  function renderArch() {
-    const box = $('#archstep'), L = cur(), key = archKey(L), st = S.arch[L.id];
-    if (!HAS_ARCH || !S.archOn || !key.length || (S.reviewed.includes(L.id) && !(st && st.locked))) { box.innerHTML = ''; box.style.display = 'none'; return; }
-    box.style.display = '';
-    const part = esc(partName(L));
-    if (!st || !st.locked) {
-      const pick = st ? st.pick : [];
-      const col = q => (DATA.archList || []).filter(a => a.q === q).map(a => aOpt(a, pick.includes(a.n))).join('');
-      box.className = 'open';
-      box.innerHTML = `<div class="as-h"><b>Step 1 · Which archetype?</b><span class="as-p">${part}</span><span class="tip">one per contract (Question 1) or per issue (Question 2). Pick every one this part needs, then lock in.</span></div>
-        <div class="as-tools"><button class="btn" data-ago="ar-flow">Archetype flowchart</button><button class="btn" data-ago="am-q1">Map Q1</button><button class="btn" data-ago="am-q2">Map Q2</button></div>
-        <div class="as-cols"><div><div class="as-q">Question 1 · jurisdiction and judgments</div>${col('Q1')}</div><div><div class="as-q">Question 2 · choice of law</div>${col('Q2')}</div></div>
-        <button class="ao none${pick.includes(0) ? ' on' : ''}" data-n="0"><b class="ao-n">✕</b><span class="ao-t">No archetype fits<small>Start from scratch: the order slip and the Menu boxes</small></span></button>
-        <div class="as-foot"><span class="as-k">${pick.length ? 'Picked: ' + pick.map(n => esc(archTitle(n))).join(' · ') : 'Nothing picked yet'}</span><button class="btn primary" id="as-lock"${pick.length ? '' : ' disabled'}>Lock in</button></div>`;
-      return;
+  /* ---------- Archetype first: one head of issue per contract or issue. Drag the closest archetype onto each head from
+     page 1 of the Archetypes tab (the flowchart); a head's blocks unlock only once it has the right archetype. ---------- */
+  S.heads = S.heads || {};
+  const hState = (L, i) => S.heads[L.id + ':' + i] || (S.heads[L.id + ':' + i] = { tries: [], ok: false, hint: false });
+  const archTitle = n => n ? 'Archetype ' + n + ' · ' + (AL[n] ? AL[n].name : '') : 'No fit · DIY';
+  const fits = (u, n) => u.n === n || u.alt.includes(n);
+  const isHead = x => !!(x && x.classList && x.classList.contains('head-it'));
+  const headsOf = L => $$('.head-it', answer).filter(h => h.dataset.layer === L.id);
+  const headOk = h => { const L = byId(h.dataset.layer); return !!(L && hState(L, +h.dataset.u).ok); };
+  // heads gate the blocks of a part that has an archetype key and is not finished yet
+  const gated = L => HAS_ARCH && S.archOn && archKey(L).length > 0 && !S.reviewed.includes(L.id);
+  function archNeed(L) { return gated(L) && archKey(L).some((u, i) => !hState(L, i).ok); }
+  function headInner(L, i) {
+    const u = archKey(L)[i], st = hState(L, i), last = st.tries[st.tries.length - 1];
+    let h = `<div class="hd-t"><span class="hd-n">Head ${i + 1}</span><b>${esc(u.unit)}</b></div>`;
+    if (st.ok) {
+      h += `<div class="hd-ok"><span class="hd-v">✓</span><b class="ar-n" data-n="${st.n}" title="${st.n ? 'Open archetype ' + st.n : 'Open the order slip in the Menu'}">${esc(archTitle(st.n))}</b><button class="btn hd-open" data-n="${st.n}">${st.n ? 'Open archetype ' + st.n : 'Open the order slip'}</button>
+        <div class="hd-why">${esc(u.why)}</div>
+        <div class="hd-go">${st.n ? 'Blocks unlocked: drag them under this head from archetype ' + st.n + ' (or the Menu) and adjust them to the facts.' : 'Blocks unlocked: build this head from scratch from the pre-writes (the order slip and the Menu boxes).'}</div></div>`;
+    } else {
+      h += `<div class="hd-drop"><span>Drag the archetype for this head here from <a class="hd-p1">page 1</a> of the Archetypes tab. The closest one will do: you adjust it yourself.</span><button class="btn hd-diy" title="Only if truly no archetype is close">No fit · DIY</button></div>`;
+      if (last != null) h += `<div class="hd-bad"><b>✗ ${esc(archTitle(last))}</b>: ${esc(last === 0 ? 'An archetype is close enough for this head. Find the closest one on page 1 and adjust it.' : ((L.archTrap || {})[last] || 'Not the closest archetype for this head. Try again.'))}</div>`;
+      h += '<div class="hd-lock">Locked: the blocks for this head unlock once it has the right archetype.</div>';
     }
-    const mk = archMarked(L), pick = st.pick, shown = new Set(pick);
-    const chip = (n, cls) => `<button class="ac ${cls}" data-n="${n}" title="${n ? 'Open archetype ' + n + ' in the Archetypes tab' : 'Open the order slip in the Menu'}">${cls === 'ok' ? '✓ ' : cls === 'bad' ? '✗ ' : ''}${esc(archTitle(n))}${cls === 'miss' ? ' <i>missed</i>' : ''}</button>`;
-    let h = `<div class="as-bar"><b>Archetypes</b><span class="as-p">${part}</span>${pick.map(n => chip(n, mk ? (archOk(L, n) ? 'ok' : 'bad') : 'set')).join('')}`;
-    if (mk) key.filter(u => !unitHit(u, pick) && !shown.has(u.n)).forEach(u => { shown.add(u.n); h += chip(u.n, 'miss'); });
-    h += `<span class="grow"></span>${archWork(L).length ? '<label class="chk" title="Hide the other archetypes in the Archetypes tab"><input type="checkbox" id="as-only"> only these in the tab</label>' : ''}`;
-    if (mk) h += `<button class="btn" id="as-why">${S.archWhy ? 'Hide why' : 'Why'}</button>`;
-    else if (!S.reviewed.includes(L.id)) h += '<button class="btn" id="as-change" title="Exam mode: you can change your pick until you finish the part">Change</button>';
-    h += '</div>';
-    if (mk && S.archWhy) h += `<ul class="as-why">${archUnitsHTML(L, pick)}</ul>`;
-    box.className = 'locked';
-    box.innerHTML = h; applyArchFilter();
-  }
-  // each contract or issue of the answer, and each wrong pick, with the reason
-  function archUnitsHTML(L, pick) {
-    let h = '';
-    archKey(L).forEach(u => {
-      const hit = pick && unitHit(u, pick);
-      h += `<li class="${pick ? (hit ? 'ok' : 'miss') : ''}">${pick ? `<span class="st">${hit ? '✓ picked' : '✗ missed'}</span>` : ''}<b class="ar-n" data-n="${u.n}">${esc(archTitle(u.n))}</b>${u.alt.length ? ` <i>(also accepted: ${u.alt.map(n => esc(archTitle(n))).join('; ')})</i>` : ''}<div><b>${esc(u.unit)}.</b> ${esc(u.why)}</div></li>`;
-    });
-    (pick || []).filter(n => !archOk(L, n)).forEach(n => {
-      h += `<li class="bad"><span class="st">✗ not needed</span><b class="ar-n" data-n="${n}">${esc(archTitle(n))}</b><div>${esc((L.archTrap || {})[n] || (n ? 'These facts do not call for this archetype.' : 'An archetype does fit here.'))}</div></li>`;
-    });
     return h;
+  }
+  function paintHeads() {
+    $$('.head-it', answer).forEach(h => {
+      const L = byId(h.dataset.layer), i = +h.dataset.u;
+      if (!L || !archKey(L)[i]) return;
+      h.innerHTML = headInner(L, i); h.classList.toggle('ok', hState(L, i).ok);
+    });
+  }
+  // the heads go straight under the part's divider, in the order of the answer
+  function addHeads(L) {
+    if (!gated(L) || headsOf(L).length) return;
+    const hint = $('.empty-hint', answer); if (hint) hint.remove();
+    let after = $$('.div-it', answer).find(d => d.dataset.layer === L.id) || null;
+    archKey(L).forEach((u, i) => {
+      const t = document.createElement('template');
+      t.innerHTML = `<div class="it head-it" contenteditable="false" data-layer="${L.id}" data-u="${i}"></div>`;
+      const el = t.content.firstElementChild;
+      answer.insertBefore(el, after ? after.nextSibling : answer.firstChild); after = el;
+    });
+    paintHeads(); save();
+  }
+  function dropHeads(L) { headsOf(L).forEach(h => h.remove()); save(); }
+  function headAbove(x) { while (x && (x = x.previousElementSibling)) { if (isHead(x)) return x; if (x.classList.contains('div-it')) return null; } return null; }
+  function sectionEnd(h) { let x = h; while (x.nextElementSibling && x.nextElementSibling.classList.contains('it') && !isHead(x.nextElementSibling) && !x.nextElementSibling.classList.contains('div-it')) x = x.nextElementSibling; return x; }
+  // where a block may go in a part with heads: only under a head that has its right archetype. Returns {ref, before} or null.
+  function archPlace(ref, before) {
+    const L = cur(), lastDiv = $$('.div-it', answer).pop();
+    if (ref && ref.isConnected && ref.parentNode === answer) {
+      const inCur = !lastDiv || (ref === lastDiv ? !before : !!(lastDiv.compareDocumentPosition(ref) & Node.DOCUMENT_POSITION_FOLLOWING));
+      if (!inCur) return { ref, before };            // a spot in an earlier, finished part
+      const h = !before && isHead(ref) ? ref : (ref.classList.contains('div-it') ? null : headAbove(ref));
+      if (!h) { toast('Put it under a head of issue.'); return null; }
+      if (!headOk(h)) { toast(`Head ${+h.dataset.u + 1} needs its right archetype first: drag one onto it from page 1 of the Archetypes tab.`); pulse(h); return null; }
+      return { ref, before };
+    }
+    // a double-click: under the head you are working in, else at the end of the first head that is open
+    const fh = focusEl && focusEl.isConnected ? (isHead(focusEl) ? focusEl : headAbove(focusEl)) : null;
+    if (fh && fh.dataset.layer === L.id && headOk(fh)) return { ref: focusEl, before: false };
+    const open = headsOf(L).find(headOk);
+    if (!open) { toast('No head has its archetype yet: drag an archetype from page 1 of the Archetypes tab onto a head of issue first.'); $('#ans-scroll').scrollTop = 0; return null; }
+    return { ref: sectionEnd(open), before: false };
+  }
+  // an archetype dropped on a head (n 0 = the No fit · DIY button)
+  function judgeHead(h, n) {
+    const L = byId(h.dataset.layer), i = +h.dataset.u, u = archKey(L)[i], st = hState(L, i);
+    if (!gated(L)) return toast('This part is finished.');
+    if (st.ok) return toast(`Head ${i + 1} already has its archetype.`);
+    st.tries.push(n);
+    if (fits(u, n)) {
+      st.ok = true; st.n = n;
+      toast(n ? `Right: archetype ${n} for head ${i + 1}. Its blocks are unlocked. Click archetype ${n} on page 1 (or Open on the head) to drag them.` : `Right: no archetype fits head ${i + 1}. Build it from scratch from the pre-writes.`);
+    } else toast(`Not ${n ? 'archetype ' + n : 'DIY'} for head ${i + 1}: the reason is on the head. Try again.`);
+    paintHeads(); setFocus(h); renderArch(); save();
+  }
+  function renderArch() {
+    const box = $('#archstep'), L = cur();
+    if (!gated(L)) { box.innerHTML = ''; box.style.display = 'none'; return; }
+    const k = archKey(L), done = k.filter((u, i) => hState(L, i).ok).length;
+    box.style.display = ''; box.className = done === k.length ? 'locked' : 'open';
+    box.innerHTML = `<div class="as-h"><b>Archetype first</b><span class="as-p">${esc(partName(L))}</span><span class="as-c">${done} / ${k.length} head${k.length > 1 ? 's' : ''} with the right archetype</span><button class="btn" data-ago="ar-flow">Page 1 · archetype flowchart</button></div>
+      <div class="tip">${done === k.length ? 'Every head has its archetype. Drag the blocks under each head, from its archetype (click its name) or the Menu, and adjust them to the facts.' : 'Drag an archetype from page 1 of the Archetypes tab onto each head of issue below. Click an archetype on page 1 to read it first. The closest one will do. A head’s blocks unlock once it has the right archetype.'}</div>`;
   }
   function openArch(n) {
     if (n) return ajump('ar-' + n);
     const sl = document.getElementById(/^q2-/.test(DATA.id) ? 'nav-slip1' : 'nav-slip0') || document.getElementById('nav-slip0');
     tab('pw'); if (sl) sl.scrollIntoView();
   }
-  function lockArch() {
-    const L = cur(), st = archSt(L); if (!st.pick.length) return;
-    st.locked = true; S.archOnly = true; S.archWhy = true;
-    renderArch(); save();
-    const w = archWork(L);
-    openArch(w.length ? w[0] : 0);
-    const tabNote = w.length ? ` The Archetypes tab now shows only ${w.length > 1 ? 'these archetypes' : 'this archetype'}: drag the blocks from there.` : ' Start from scratch: tick the order slip in the Menu, then drag blocks from the boxes.';
-    if (!archMarked(L)) return toast('Locked.' + tabNote);
-    const right = archKey(L).every(u => unitHit(u, st.pick)) && st.pick.every(n => archOk(L, n));
-    toast((right ? 'Right.' : 'Not quite: the reasons are under the archetype bar.') + tabNote);
-  }
-  $('#archstep').addEventListener('click', e => {
-    const L = cur(), st = archSt(L), t = e.target;
-    const v = t.closest('.ao-v'); if (v) return ajump('ar-' + v.dataset.v);
-    const g = t.closest('[data-ago]'); if (g) return ajump(g.dataset.ago);
-    const o = t.closest('.ao');
-    if (o && !st.locked) {
-      const n = +o.dataset.n, i = st.pick.indexOf(n);
-      if (i >= 0) st.pick.splice(i, 1); else st.pick.push(n);
-      st.pick.sort((a, b) => (a || 99) - (b || 99)); renderArch(); save(); return;
-    }
-    if (t.id === 'as-lock') return lockArch();
-    if (t.id === 'as-change') { st.locked = false; renderArch(); applyArchFilter(); ajump('ar-flow'); save(); return; }
-    if (t.id === 'as-why') { S.archWhy = !S.archWhy; renderArch(); save(); return; }
-    if (t.id === 'as-only') { S.archOnly = t.checked; applyArchFilter(); save(); return; }
-    const c = t.closest('.ac, .ar-n'); if (c) openArch(+c.dataset.n);
-  });
+  $('#archstep').addEventListener('click', e => { const g = e.target.closest('[data-ago]'); if (g) ajump(g.dataset.ago); });
   if (HAS_ARCH) {
-    const startArch = () => { renderArch(); applyArchFilter(); if (archNeed(cur())) { $('#ans-scroll').scrollTop = 0; ajump('ar-flow'); } refresh(); save(); };
+    // page 1 (the archetype flowchart): every archetype badge drags; a click still opens that archetype
+    $$('.ab[data-arch]', aflow).forEach(b => { b.draggable = true; b.title = 'Click: open archetype ' + b.dataset.arch + ' · Drag: onto a head of issue'; });
+    const startArch = on => {
+      S.archOn = on; $('#archon').checked = on;
+      if (on) addHeads(cur()); else if (!S.reviewed.includes(cur().id)) dropHeads(cur());
+      renderArch(); refresh();
+      if (archNeed(cur())) { $('#ans-scroll').scrollTop = 0; ajump('ar-flow'); }
+      save();
+    };
     $('#archon').checked = S.archOn;
-    $('#archon').onchange = e => { S.archOn = e.target.checked; startArch(); };
-    $('#helparch').onclick = () => { $('#help').style.display = 'none'; S.helped = true; S.archOn = true; $('#archon').checked = true; startArch(); };
+    $('#archon').onchange = e => startArch(e.target.checked);
+    $('#helparch').onclick = () => { $('#help').style.display = 'none'; S.helped = true; startArch(true); };
   }
-  // the review: your picks against the answer, then what following the archetype gives you and what you adjust
+  function archScore(L) {
+    const k = archKey(L); if (!k.length) return null;
+    const sts = k.map((u, i) => hState(L, i)); if (!sts.some(s => s.tries.length)) return null;
+    return { first: sts.filter(s => s.ok && s.tries.length === 1 && !s.hint).length, total: k.length, wrong: sts.reduce((n, s) => n + s.tries.filter(t => t !== s.n || !s.ok).length, 0) };
+  }
+  // the review: each head, the archetype that fits it and your tries; then what following the archetypes gives you
   function archReviewHTML(L) {
     const key = archKey(L); if (!key.length) return '';
-    const st = S.arch[L.id], pick = st && st.locked ? st.pick : null;
+    const used = key.some((u, i) => hState(L, i).tries.length);
     const go = b => `<span class="oc-go" title="Go to ${b}">${b}</span>`;
-    let h = `<div class="arch-rev"><div class="ar-h"><b>Archetype check</b>${pick ? '' : ' <i>you did not pick an archetype for this part</i>'}</div><ul class="as-why">${archUnitsHTML(L, pick)}</ul>`;
+    let h = `<div class="arch-rev"><div class="ar-h"><b>Archetype check</b>${used ? '' : ' <i>you did not use Archetype first in this part</i>'}</div><ul class="as-why">`;
+    key.forEach((u, i) => {
+      const st = hState(L, i), wrong = st.tries.filter(n => !fits(u, n));
+      const tag = !used ? '' : !st.ok ? '✗ not found' : st.hint ? '✓ with a hint' : wrong.length ? `✓ after ${wrong.length} wrong` : '✓ first try';
+      h += `<li class="${!used ? '' : st.ok && !wrong.length && !st.hint ? 'ok' : 'miss'}">${tag ? `<span class="st">${tag}</span>` : ''}<span class="hd-n">Head ${i + 1}</span> <b>${esc(u.unit)}</b>: <b class="ar-n" data-n="${u.n}">${esc(archTitle(u.n))}</b>${u.alt.length ? ` <i>(also accepted: ${u.alt.map(n => esc(archTitle(n))).join('; ')})</i>` : ''}<div>${esc(u.why)}</div>${wrong.map(n => `<div class="hd-bad"><b>✗ ${esc(archTitle(n))}</b>: ${esc(n === 0 ? 'An archetype is close enough for this head.' : ((L.archTrap || {})[n] || 'Not the closest archetype for this head.'))}</div>`).join('')}</li>`;
+    });
+    h += '</ul>';
     const nums = [...new Set(key.map(u => u.n).filter(n => n > 0))];
     if (nums.length) {
       const line = new Set(), adj = new Set(), model = [], why = {};
@@ -1859,10 +1887,10 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
 
   /* ---------- hint, finish, next part ---------- */
   $('#hint').onclick = () => {
-    if (archNeed(cur())) {
-      const k = archKey(cur()), n = new Set(k.filter(u => u.n).map(u => u.n)).size, none = k.some(u => !u.n);
-      S.hints++; save();
-      return toast(n ? `This part needs ${n} archetype${n > 1 ? 's' : ''}${none ? ', and one point that no archetype carries' : ''}.` : 'No archetype fits this part: start from scratch.');
+    if (archNeed(cur())) {     // the first head still without its archetype
+      const L = cur(), i = archKey(L).findIndex((u, j) => !hState(L, j).ok), u = archKey(L)[i];
+      hState(L, i).hint = true; S.hints++; save();
+      return toast(`Head ${i + 1} (${u.unit}): ${u.n ? 'archetype ' + u.n + ' · ' + AL[u.n].name : 'no archetype is close, so No fit · DIY'}.`);
     }
     const m = nextMust(cur());
     if (!m) return toast('You have placed every model block for this part.');
@@ -1907,7 +1935,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
       const planted = LAYERS.slice(0, LAYERS.indexOf(L) + 1).flatMap(M => [...M.paras, ...(M.ask ? [M.ask] : []), ...M.assume])
         .flatMap(p => p.sp.filter(sp => L.facts[sp.id] || (own.has(p.k) && !elsewhere(sp.id))).map(sp => ({ p, sp, hit: caught(p.k, sp) })));
       h += `<h2>${esc(L.part)}${L.id === 'base' ? '' : ' · ' + esc(L.label)} · model answer</h2>
-        <div class="score"><div><b>${got} / ${L.must.length}</b>model blocks placed</div><div><b>${traps}</b>wrong blocks</div><div><b>${extra.length - traps}</b>fair extras</div><div><b>${planted.filter(x => x.hit).length} / ${planted.length}</b>planted facts saved</div><div class="${(S.pt[L.id] || 0) > L.min * 60 ? 'late' : ''}"><b>${mmss(S.pt[L.id] || 0)}</b>time used of ${L.min} min</div>${(sc => sc ? `<div><b>${sc.hit} / ${sc.total}</b>archetypes right${sc.wrong ? ` · ${sc.wrong} wrong` : ''}</div>` : '')(archScore(L))}</div>`;
+        <div class="score"><div><b>${got} / ${L.must.length}</b>model blocks placed</div><div><b>${traps}</b>wrong blocks</div><div><b>${extra.length - traps}</b>fair extras</div><div><b>${planted.filter(x => x.hit).length} / ${planted.length}</b>planted facts saved</div><div class="${(S.pt[L.id] || 0) > L.min * 60 ? 'late' : ''}"><b>${mmss(S.pt[L.id] || 0)}</b>time used of ${L.min} min</div>${(sc => sc ? `<div><b>${sc.first} / ${sc.total}</b>heads: archetype right first try${sc.wrong ? ` · ${sc.wrong} wrong tr${sc.wrong > 1 ? 'ies' : 'y'}` : ''}</div>` : '')(archScore(L))}</div>`;
       h += LEGEND;
       h += archReviewHTML(L);
       if (L.shift) h += `<p class="big"><b>What changes:</b> ${esc(L.shift)}</p>`;
@@ -1957,8 +1985,8 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
       S.layer++;
       const t = document.createElement('template'); t.innerHTML = dividerHTML(cur());
       answer.insertBefore(t.content.firstElementChild, $('#ins')); setFocus(null);
-      renderHypo(); renderSlip(); renderArch(); applyArchFilter(); refresh();
-      if (archNeed(cur())) { ajump('ar-flow'); $('#ans-scroll').scrollTop = 0; } else tab('pw');
+      addHeads(cur()); renderHypo(); renderSlip(); renderArch(); refresh();
+      if (archNeed(cur())) ajump('ar-flow'); else tab('pw');
       saveNow();
       $('#h-' + cur().id).scrollIntoView({ behavior: 'smooth' });
       $$('.div-it', answer).pop().scrollIntoView({ behavior: 'smooth' });
@@ -1974,7 +2002,7 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
     clearTimeout(toastT); toastT = setTimeout(() => t.style.display = 'none', btn ? 7000 : 4500);
   }
   $('#strict').checked = S.strict; document.body.classList.toggle('strict', S.strict);
-  $('#strict').onchange = e => { S.strict = e.target.checked; document.body.classList.toggle('strict', S.strict); refresh(); renderSlip(); renderArch(); applyArchFilter(); save(); };
+  $('#strict').onchange = e => { S.strict = e.target.checked; document.body.classList.toggle('strict', S.strict); refresh(); renderSlip(); save(); };
   $('#grid').classList.toggle('swap', S.swap);
   $('#swap').onclick = () => { S.swap = !S.swap; $('#grid').classList.toggle('swap', S.swap); save(); };
   $('#helpbtn').onclick = () => $('#help').style.display = 'flex';
@@ -1988,7 +2016,9 @@ K1: codes     K2: codes     T1: codes</pre></div><table class="sl"><colgroup><co
   };
   window.addEventListener('beforeunload', () => { if (S) saveNow(); });
 
-  paintTicks(); renderHypo(); renderFacts(); renderModel(); renderSlip(); renderArch(); applyArchFilter(); refresh(); clock(); setRun(false);
+  if (HAS_ARCH && S.archOn) addHeads(cur());
+  paintHeads();
+  paintTicks(); renderHypo(); renderFacts(); renderModel(); renderSlip(); renderArch(); refresh(); clock(); setRun(false);
   if (archNeed(cur())) ajump('ar-flow'); else if (S.ref === 'arch') tab('arch');
   if (!S.helped) $('#help').style.display = 'flex';
 })();
