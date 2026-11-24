@@ -62,7 +62,8 @@ main{min-width:0;max-width:800px}
 .rail-off .showrail{display:block}
 .rail-off .rail{display:none}
 .rail-off .wrap{grid-template-columns:minmax(0,1fr);max-width:832px}
-.clock{position:fixed;right:14px;bottom:14px;z-index:50;padding:9px 14px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:14px;font-weight:800;box-shadow:0 2px 12px rgba(0,0,0,.14);cursor:pointer;font-variant-numeric:tabular-nums}
+/* sits above the site's Comments button, which owns the bottom right corner */
+.clock{position:fixed;right:14px;bottom:66px;z-index:50;padding:9px 14px;border:1px solid var(--rule);border-radius:999px;background:var(--sheet);color:var(--ink);font:inherit;font-size:14px;font-weight:800;box-shadow:0 2px 12px rgba(0,0,0,.14);cursor:pointer;font-variant-numeric:tabular-nums}
 .clock.paused{color:var(--soft)}
 
 .eyebrow{margin:0;color:var(--teal);font-size:12.5px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
